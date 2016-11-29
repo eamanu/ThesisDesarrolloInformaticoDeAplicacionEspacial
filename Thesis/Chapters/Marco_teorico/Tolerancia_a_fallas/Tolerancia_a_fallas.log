@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.30)  21 JUL 2016 15:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.2)  29 NOV 2016 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Tolerancia_a_fallas.tex
 (./Tolerancia_a_fallas.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 5 languages loaded.
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 ! Undefined control sequence.
 l.2 \section
             {Tolerancia a falla}\label{chap:FaultTolerance}
@@ -14478,7 +14478,7 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.248   \node
+l.247   \node
              [circulo, right of=modulo] (circ){};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14518,7 +14518,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.249   \node
+l.248   \node
              [cuadro, below of=circ] (detector){Test de aceptación};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14576,7 +14576,7 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.250   \node
+l.249   \node
              [vacio, right of = circ] (salida){Salida};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14620,7 +14620,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.252   \draw
+l.251   \draw
              [->] (checkMemo.-30)--(modulo.30);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14662,7 +14662,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.253   \draw
+l.252   \draw
              [->] (modulo.150) -- (checkMemo.-150);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14706,7 +14706,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.254   \draw
+l.253   \draw
              [->] (modulo)--(circ);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14736,7 +14736,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.255   \draw
+l.254   \draw
              [->] (circ)--(salida);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14766,7 +14766,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.256   \draw
+l.255   \draw
              [->] (circ)--(detector);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14798,7 +14798,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.257   \draw
+l.256   \draw
              [->] (detector)-|(modulo) node[near end, left] {retry};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14861,7 +14861,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258   \end{tikzpicture}
+l.257   \end{tikzpicture}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -14874,7 +14874,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259   \caption
+l.258   \caption
                 {Representación de checkpoint y restart}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -14921,7 +14921,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 \end{figure}
+l.260 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -15074,7 +15074,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.264 ...a antes de comenzar la ejecución del \ac
+l.263 ...a antes de comenzar la ejecución del \ac
                                                   {SW} y lo guarda en
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15103,7 +15103,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.265 memoria \citep
+l.264 memoria \citep
                     {FTDesign}. Si se detecta una falla, el sistema regresa ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15195,7 +15195,7 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.266 comienza de nuevo su ejecución \citep
+l.265 comienza de nuevo su ejecución \citep
                                             {FTDesign}. Los checkpoints est�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15286,7 +15286,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
-l.267 módulo a un estado predeterminado \citep
+l.266 módulo a un estado predeterminado \citep
                                                {SoftwareFaultToleranceATutor...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15389,7 +15389,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.268 ... un set de estados predeterminados \citep
+l.267 ... un set de estados predeterminados \citep
                                                   {SoftwareFaultToleranceATu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15430,7 +15430,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 263--269
+Overfull \hbox (20.0pt too wide) in paragraph at lines 262--268
 []
  []
 
@@ -15594,7 +15594,7 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.272 \citep
+l.271 \citep
             {SoftwareFaultToleranceATutorial}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15635,7 +15635,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 270--273
+Overfull \hbox (20.0pt too wide) in paragraph at lines 269--272
 []
  []
 
@@ -15689,7 +15689,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 274--275
+Overfull \hbox (20.0pt too wide) in paragraph at lines 273--274
 []
  []
 
@@ -15821,7 +15821,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.277 ...eniendo en cuenta el rate de falla \citep
+l.276 ...eniendo en cuenta el rate de falla \citep
                                                   {FTDesign}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15974,7 +15974,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.283 \subsubsection
+l.282 \subsubsection
                     {Procesos pares}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16053,7 +16053,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.284 ... versiones identicas de un proceso de \ac
+l.283 ... versiones identicas de un proceso de \ac
                                                   {SW} que corre en
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16095,7 +16095,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.285 procesadores separados \citep
+l.284 procesadores separados \citep
                                    {FTDesign} \citep{SoftwareFaultToleranceA...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16112,7 +16112,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.285 ...sadores separados \citep{FTDesign} \citep
+l.284 ...sadores separados \citep{FTDesign} \citep
                                                   {SoftwareFaultToleranceATu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16215,7 +16215,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.286 ...liza es el de checkpoint y restart \citep
+l.285 ...liza es el de checkpoint y restart \citep
                                                   {SoftwareFaultToleranceATu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16256,7 +16256,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 283--287
+Overfull \hbox (20.0pt too wide) in paragraph at lines 282--286
 []
  []
 
@@ -16292,7 +16292,7 @@ Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
 <write> ...erence `fig:repPares' on page \thepage 
                                                   \space undefined\on@line .
-l.288 ... observar en la figura~\ref{fig:repPares}
+l.287 ... observar en la figura~\ref{fig:repPares}
                                                   \footnote{Basada en \cite{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16301,12 +16301,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:repPares' on page  undefined on input line 288.
+LaTeX Warning: Reference `fig:repPares' on page  undefined on input line 287.
 
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.289 \cite{SoftwareFaultToleranceATutorial}}
+l.288 \cite{SoftwareFaultToleranceATutorial}}
                                               el primer procesador se encuen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16317,7 +16317,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.289 \cite{SoftwareFaultToleranceATutorial}}
+l.288 \cite{SoftwareFaultToleranceATutorial}}
                                               el primer procesador se encuen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16329,7 +16329,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.289 \cite{SoftwareFaultToleranceATutorial}}
+l.288 \cite{SoftwareFaultToleranceATutorial}}
                                               el primer procesador se encuen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16338,13 +16338,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `FTDesign' on page  undefined on input line 289.
+LaTeX Warning: Citation `FTDesign' on page  undefined on input line 288.
 
 \citation{SoftwareFaultToleranceATutorial}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.289 \cite{SoftwareFaultToleranceATutorial}}
+l.288 \cite{SoftwareFaultToleranceATutorial}}
                                               el primer procesador se encuen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16354,30 +16354,30 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `SoftwareFaultToleranceATutorial' on page  undefined on
- input line 289.
+ input line 288.
 
 
-Overfull \hbox (31.58342pt too wide) in paragraph at lines 289--289
+Overfull \hbox (31.58342pt too wide) in paragraph at lines 288--288
 [][]\/cmr/m/n/10 Basada
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 289--289
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 288--288
 \/cmr/m/n/10 en
  []
 
 
-Overfull \hbox (10.9861pt too wide) in paragraph at lines 289--289
+Overfull \hbox (10.9861pt too wide) in paragraph at lines 288--288
 \/cmr/m/n/10 [[]]
  []
 
 
-Overfull \hbox (5.2778pt too wide) in paragraph at lines 289--289
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 288--288
 \/cmr/m/n/10 y
  []
 
 
-Overfull \hbox (10.9861pt too wide) in paragraph at lines 289--289
+Overfull \hbox (10.9861pt too wide) in paragraph at lines 288--288
 \/cmr/m/n/10 [[]]| 
  []
 
@@ -16623,7 +16623,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.292 rol del primer procesador \citep
+l.291 rol del primer procesador \citep
                                       {SoftwareFaultToleranceATutorial}. Lue...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16833,7 +16833,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.295 \citep
+l.294 \citep
             {FTDesign}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16851,12 +16851,12 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 288--296
+Overfull \hbox (20.0pt too wide) in paragraph at lines 287--295
 []
  []
 
 
-Overfull \hbox (15.34718pt too wide) in paragraph at lines 288--296
+Overfull \hbox (15.34718pt too wide) in paragraph at lines 287--295
 [][]
  []
 
@@ -16911,7 +16911,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.297 ...nda este mecanismo según \cite{FTDesign}
+l.296 ...nda este mecanismo según \cite{FTDesign}
                                                    es que permite entregar el
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16920,7 +16920,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `FTDesign' on page  undefined on input line 297.
+LaTeX Warning: Citation `FTDesign' on page  undefined on input line 296.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -16974,12 +16974,12 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 297--299
+Overfull \hbox (20.0pt too wide) in paragraph at lines 296--298
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 297--299
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 296--298
 []
  []
 
@@ -16990,7 +16990,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.300 \begin{figure}
+l.299 \begin{figure}
                     [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -17006,7 +17006,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.302  \begin{tikzpicture}
+l.301  \begin{tikzpicture}
                           [node distance=1cm, auto,]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -17037,7 +17037,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.305    \tikzset
+l.304    \tikzset
                  {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17176,7 +17176,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.319   \tikzstyle
+l.318   \tikzstyle
                   {circulo} = [draw, fill=black, circle, node distance=1cm, ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17263,12 +17263,12 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 300--321
+Overfull \hbox (20.0pt too wide) in paragraph at lines 299--320
  [] 
  []
 
 ! Undefined control sequence.
-l.323   \node
+l.322   \node
              [inner sep=5pt] (entrada) {Entrada};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17308,7 +17308,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.324   \node
+l.323   \node
              [cuadro, right=0.5cm of entrada] (prim) {Procesador Primario};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17371,7 +17371,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.325   \node
+l.324   \node
              [cuadro, inner sep=5pt,below=0.5cm of prim] (secu) {Procesador ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17446,7 +17446,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.326   \node
+l.325   \node
              [cuadro, inner sep=10pt, right=1cm of prim] (selec) {Switch};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17507,7 +17507,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.327   \node
+l.326   \node
              [inner sep=0pt, right=2cm of selec](ghost1){};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17556,7 +17556,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.328   \node
+l.327   \node
              [cuadro, below=0.5cm of ghost1](detector) {Detector de error};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17619,7 +17619,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.329   \node
+l.328   \node
              [inner sep=0pt, right=0.5cm of ghost1] (salida) {Salida};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17677,7 +17677,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.331   \draw
+l.330   \draw
              [arrow] (entrada)--(prim);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17711,7 +17711,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.332   \draw
+l.331   \draw
              [arrow] (entrada)|-(secu);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17745,7 +17745,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.333   \draw
+l.332   \draw
              [arrow, dashed] (prim.-30) -- (secu.30);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17790,7 +17790,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.334   \draw
+l.333   \draw
              [arrow, dashed] (secu.150) -- (prim.-150);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17837,7 +17837,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.335   \draw
+l.334   \draw
              [arrow] (prim)--(selec);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17869,7 +17869,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.336   \draw
+l.335   \draw
              [arrow] (secu)-|(selec.-150);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17906,7 +17906,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.337   \draw
+l.336   \draw
              [arrow] (detector)-|(selec);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17942,7 +17942,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.338   \draw
+l.337   \draw
              [arrow] (selec)--(salida);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17976,7 +17976,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.339   \draw
+l.338   \draw
              [arrow] (ghost1)--(detector);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18019,7 +18019,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.340  \end{tikzpicture}
+l.339  \end{tikzpicture}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -18032,7 +18032,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.341  \caption
+l.340  \caption
                {Representación del proceso pares}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -18074,14 +18074,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.343 \end{figure}
+l.342 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.345 \subsubsection
+l.344 \subsubsection
                     {Diversidad de datos}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18227,7 +18227,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
-l.347 ...erentes entradas por cada reinicio \citep
+l.346 ...erentes entradas por cada reinicio \citep
                                                   {FTDesign}. Esto se basa e...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18273,7 +18273,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.348 \ac
+l.347 \ac
          {SW} son dependientes de las entradas \citep{FTDesign}. Es poco pro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18312,7 +18312,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.348 ...} son dependientes de las entradas \citep
+l.347 ...} son dependientes de las entradas \citep
                                                   {FTDesign}. Es poco probab...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18391,7 +18391,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.349 de con la misma secuencia de entrada \citep
+l.348 de con la misma secuencia de entrada \citep
                                                  {FTDesign}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18409,12 +18409,12 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 345--350
+Overfull \hbox (20.0pt too wide) in paragraph at lines 344--349
 []
  []
 
 ! Undefined control sequence.
-l.351 \subsubsection
+l.350 \subsubsection
                     {Bloques de recuperación}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18445,7 +18445,7 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 351--352
+Overfull \hbox (20.0pt too wide) in paragraph at lines 350--351
 []
  []
 
@@ -18556,7 +18556,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.354 versiones de un componente de \ac
+l.353 versiones de un componente de \ac
                                        {SW} en el sentido de que una versió...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18596,7 +18596,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.354 ... en el sentido de que una versión de \ac
+l.353 ... en el sentido de que una versión de \ac
                                                   {SW} diferente es
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18654,7 +18654,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.355 ...ada vez que se encuentra una falla \citep
+l.354 ...ada vez que se encuentra una falla \citep
                                                   {SoftwareFaultToleranceATu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18742,7 +18742,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.356 ... creados antes de que una versión de \ac
+l.355 ... creados antes de que una versión de \ac
                                                   {SW} se ejecuta
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18762,7 +18762,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.357 \citep
+l.356 \citep
             {SoftwareFaultToleranceATutorial}. La ejecución de las múltipl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18945,7 +18945,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.359 perfomance requerida \citep
+l.358 perfomance requerida \citep
                                  {SoftwareFaultToleranceATutorial}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18986,7 +18986,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 353--360
+Overfull \hbox (20.0pt too wide) in paragraph at lines 352--359
 []
  []
 
@@ -19290,7 +19290,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.364 ... y se vuelve a ejecutar el módulo de \ac
+l.363 ... y se vuelve a ejecutar el módulo de \ac
                                                   {SW} pero con una
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19356,7 +19356,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.365 ... a la que se ejecutó anteriomente \citep
+l.364 ... a la que se ejecutó anteriomente \citep
                                                   {FTDesign}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19374,7 +19374,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 361--366
+Overfull \hbox (20.0pt too wide) in paragraph at lines 360--365
 []
  []
 
@@ -19467,7 +19467,7 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.368 ejecución \citep
+l.367 ejecución \citep
                        {FTDesign}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19485,7 +19485,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 367--369
+Overfull \hbox (20.0pt too wide) in paragraph at lines 366--368
 []
  []
 
@@ -19496,7 +19496,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.370 \begin{figure}
+l.369 \begin{figure}
                     [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -19512,7 +19512,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372  \begin{tikzpicture}
+l.371  \begin{tikzpicture}
                           [node distance=1cm, auto,]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -19543,7 +19543,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.375    \tikzset
+l.374    \tikzset
                  {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19682,12 +19682,12 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no , in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 370--389
+Overfull \hbox (20.0pt too wide) in paragraph at lines 369--388
  [] 
  []
 
 ! Undefined control sequence.
-l.390   \tikzstyle
+l.389   \tikzstyle
                   {circulo} = [draw, fill=black, circle, node distance=1cm, ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19774,7 +19774,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.394   \node
+l.393   \node
              [inner, sep=5pt] (input1){Entrada 1};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19815,7 +19815,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.395   \node
+l.394   \node
              [inner, sep=5pt, below=0.5cm of input1] (input2){Entrada 2};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19876,7 +19876,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.396   \node
+l.395   \node
              [inner, sep=5pt, below=0.5cm of input2] (puntos1){...};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19933,7 +19933,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.397   \node
+l.396   \node
              [inner, sep=5pt, below=0.5cm of puntos1] (inputn){Entrada n};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19995,7 +19995,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.398   \node
+l.397   \node
              [cuadro, right=0.5cm of input1] (version1){Versión 1};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20052,7 +20052,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.399   \node
+l.398   \node
              [cuadro, right=0.5cm of input2] (version2){Versión 2};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20109,7 +20109,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.400   \node
+l.399   \node
              [inner, sep=5pt, right=2cm of puntos1](puntos2){...};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20165,7 +20165,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.401   \node
+l.400   \node
              [cuadro, right=0.5cm of inputn] (versionn){Version n};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20221,7 +20221,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.403   \node
+l.402   \node
              [cuadro, above=1cm of version1] (check) {Memoria Checkpoint};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20283,7 +20283,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.404   \node
+l.403   \node
              [cuadro, right=1cm of version2] (switch) {Swith n a 1};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20337,7 +20337,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.405   \node
+l.404   \node
              [inner, sep=0pt, right=1cm of switch](ghost1){};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20388,7 +20388,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.406   \node
+l.405   \node
              [cuadro, below=0.5cm of ghost1](test){Test de aceptación};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20449,7 +20449,7 @@ Missing character: There is no � in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.408   \node
+l.407   \node
              [inner, sep=0pt, right=0.5cm of ghost1](output){Salida};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20508,7 +20508,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.411   \draw
+l.410   \draw
              [arrow] (input1)--(version1);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20545,7 +20545,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.412   \draw
+l.411   \draw
              [arrow] (input2)--(version2);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20582,7 +20582,7 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.413   \draw
+l.412   \draw
              [arrow] (inputn)--(versionn);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20619,7 +20619,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.414   \draw
+l.413   \draw
              [arrow] (version1)-|(switch.west);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20661,7 +20661,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.415   \draw
+l.414   \draw
              [arrow] (version2)--(switch);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20698,7 +20698,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.416   \draw
+l.415   \draw
              [arrow] (versionn)-|(switch.west);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20740,7 +20740,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.417   \draw
+l.416   \draw
              [arrow] (ghost1)--(test);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20773,7 +20773,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.418   \draw
+l.417   \draw
              [arrow] (switch)--(output);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20808,7 +20808,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.420   \draw
+l.419   \draw
              [arrow, dashed] (check.-40) -- (version1.30);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20858,7 +20858,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.421   \draw
+l.420   \draw
              [arrow, dashed] (version1.150) -- (check.-145);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20916,7 +20916,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.426  \end{tikzpicture}
+l.425  \end{tikzpicture}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -20929,7 +20929,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.427  \caption
+l.426  \caption
                {Configuración de bloques de recuperación}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -20979,14 +20979,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.429 \end{figure}
+l.428 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.431 \subsubsection
+l.430 \subsubsection
                     {Programación N-version}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -21017,12 +21017,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 431--432
+Overfull \hbox (20.0pt too wide) in paragraph at lines 430--431
 []
  []
 
 ! Undefined control sequence.
-l.433 \subsubsection
+l.432 \subsubsection
                     {Programación N-Auto Checking}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -21058,7 +21058,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 433--434
+Overfull \hbox (20.0pt too wide) in paragraph at lines 432--433
 []
  []
 
@@ -21070,11 +21070,11 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 433--434
 
  
 Here is how much of TeX's memory you used:
- 36 strings out of 494938
- 527 string characters out of 6179231
- 56345 words of memory out of 5000000
- 3376 multiletter control sequences out of 15000+600000
+ 36 strings out of 493304
+ 526 string characters out of 6139872
+ 61880 words of memory out of 5000000
+ 3592 multiletter control sequences out of 15000+600000
  4294 words of font info for 16 fonts, out of 8000000 for 9000
- 40 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  24i,5n,26p,159b,116s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,7 @@
+PWD /home/earias/Documentos/MDIAE/UnidadDesarrollo/Thesis/Thesis-GitLab/Thesis/Acronimos
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/earias/Documentos/MDIAE/UnidadDesarrollo/Thesis/Thesis-GitLab/Thesis/Acronimos/Acronimos.tex
+OUTPUT /home/earias/Documentos/MDIAE/UnidadDesarrollo/Thesis/Thesis-GitLab/Thesis/Acronimos/Acronimos.log

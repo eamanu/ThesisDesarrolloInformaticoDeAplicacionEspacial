@@ -243,8 +243,7 @@ producirse el error. Este estado anterior se encuentra almacenado en una memoria
   
   % cuadros
   \node[cuadro] (checkMemo){Memoria de Checkpoint};
-  \node[cuadro , below of=checkMemo, pin={[->] left:Entrada}] (modulo){Módulo en 
-  ejecución};
+  \node[cuadro , below of=checkMemo, pin={[->] left:Entrada}] (modulo){Módulo en ejecución};
   \node[circulo, right of=modulo] (circ){};
   \node[cuadro, below of=circ] (detector){Test de aceptación};
   \node[vacio, right of = circ] (salida){Salida};

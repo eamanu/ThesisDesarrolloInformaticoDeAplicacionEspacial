@@ -1,2 +1,134 @@
-\chapter{Introducci\'on}\label{cap.introduccion}
+\chapter{Introducción}\label{chap:intro}
+% TODO: Introuducción, extraída desde el plan de tesis,
+En el marco del Plan Espacial Nacional, desarrollado por la \ac{COANE} de Argentina, y con el propósito de llevar a cabo actividades de investigación y 
+aplicación, provenientes de la \ac{UNLAM} se presenta este plan de tesis con el fin de ampliar los 
+conocimientos y la participación de la \ac{CONAE} y \ac{UNLAM}, en el campo del Desarrollo Informático y 
+Ciencias de la Computación.
 
+Las actividades desarrolladas para este trabajo de tesis son realizadas, en su mayor proporción, en 
+la Unidad de Desarrollo \ac{INVAP}, ubicada en San Carlos de Bariloche, Provincia de Río Negro. Este 
+trabajo se encuentra orientado a brindar un nuevo conocimiento, que ayude en cierta medida, en el 
+desarrollo de los diferentes proyectos con los que cuenta actualmente esta empresa, agregando un 
+grado de innovación en el resultado que se obtenga.
+
+\ac{INVAP} tiene como visión ser un referente en proyectos tecnológicos a nivel mundial \cite{invapWEB}, 
+por lo tanto, debe asegurarse que cada uno de los productos que se lleven a cabo sean competitivos. 
+Para lograr cumplir con esto, es necesario que tales proyectos se encuentren a la vanguardia 
+tecnológica y científica.  
+
+El desarrollo de proyectos satelitales conlleva costos de importante magnitud, y 
+dependen de cada misión. Una parte importante de los costos está conformado por el 
+desarrollo\footnote{\textit{Nota: entiéndase por desarrollo al proceso de planificación, análisis, 
+diseño e implementación.}} y sobre todo los materiales que se utilizan para su fabricación. Esto 
+es debido a que se utilizan componentes que son exclusivos para el ámbito espacial, en otras 
+palabras que se encuentran ``calificados para volar''. Estos componentes son fabricados especialmente para soportar el ambiente hostil del espacio.
+
+Si se considera al ámbito espacial como una industria, algo que ha sido demostrado en los últimos 
+años; y si se tiene en cuenta las intenciones de crecimiento y competitividad de la empresa INVAP,  de permitir el ingreso de nuestro pais en el mercado satelital \cite{invapWEB}, resulta de gran 
+importancia lograr reducir los costos en fabricación y desarrollo de vehículos satelitales.
+
+La\ac{NASA} tiene un enfoque de desarrollo bajo el lema 
+``faster, cheaper, better'' \cite{Forsberg99}, lo cual busca desarrollar sus proyectos y misiones 
+de foma rápida, barata y mejor. Bajo este enfoque se han realizado diversos estudios e 
+investigaciones dando resultados sumamente positivos \cite{Tai99}, \cite{Chau99}, 
+\cite{Schneidewind98}, \cite{Forsberg99}. En estos trabajos se utilizan componentes que no se 
+encuentran ``calificados para volar'',  los cuales también son llamados componentes \ac{COTS}, o de estantería. Debe mencionarse, que también hubo algunos 
+fracasos en su aplicación. 
+
+A simple vista, la utilización de estos componentes ayudaría a reducir costos. Sin embargo, esto 
+no es tan directo. Los componentes \ac{COTS} al no estar calificados, se les deben realizar tareas 
+de calificación adicional. Además deben ser aplicados a un ambiente, que asegure 
+que no fallarán durante la misión; o si fallan, no será motivo de pérdida de la misma. 
+
+Los componentes \ac{COTS} suelen tener un costo de compra entre 100 y 1000 veces menores que aquellos 
+que está califcados para volar. Por lo que el aumento en la utilización de estos componentes, 
+aplicados al desarrollo de diferentes tipos de satélite, \textbf{permitiría reducir los costos y 
+ahorrar algunos millones de dólares del proyecto satelital.} Esto facilitaría el ingreso de 
+Argentina en un mercado altamente competitivo.
+
+El desafío de este trabajo de tesis es analizar y estudiar arquitecturas que sean tolerantes a 
+fallas, que permitan una correcta comunicación entre los diferentes subsistemas de un vehículo 
+espacial de nueva generación, y que tenga como característica principal un cierto grado de confiabilidad, de modo tal que pueda ser aplicado con componentes \ac{COTS}.
+
+\section{Motivación}\label{chap:motivacion}
+Los costos de un proyecto satelital se pueden clasificar, a grandes rasgos, en 5 grupos:
+\begin{itemize}
+ \item Desarrollo
+ \item Materiales
+ \item Ensamblado, integración, y tests
+ \item Lanzamiento
+ \item Operaciones
+\end{itemize}
+
+Este trabajo de tesis se centrará principalmente en el desarrollo (proceso de planificación, 
+análisis, diseño e implementación.), y en los materiales utilizados en la fabricación de vehículos satelitales.
+
+No se puede mencionar a ciencia cierta cuál es el costo “verdadero” de desarrollar un satélite. Este 
+depende exclusivamente del tipo de satélite y de la misión. Lo que si se debe tener en claro es que 
+las tareas de desarrollo representan una parte muy importante del costo total del proyecto.
+
+Desarrollar un vehículo espacial con componente \ac{COTS}, en un principio podría representar costos 
+adicionales, ya que se le deben realizar tareas de calificación adicional, debido a que no están 
+“preparados” para resistir las condiciones hostiles del espacio. 
+
+Uno de los puntos positivos, y que motivan la aplicación de componentes COTS, es que a la hora de 
+desarrollar varios satélites en base a la misma ingeniería, se puede ahorrar en gran medida en los 
+materiales que se utilizan. Los componentes COTS suelen tener un costo de compra entre 100 y 1000 
+veces menores que aquellos que están calificados para volar. \textbf{Esto ayudaría a ahorrar 
+algunos millones de dólares de los proyectos satelitales.}
+
+Otra de las ventajas de utilizar componentes COTS, es que la mayoría cuentan con una tecnología más 
+avanzada que aquellos que son calificados para volar. Esta tecnología permite:
+\begin{itemize}
+ \item Aumentar prestaciones, mediante el incremento de las capacidades de procesamiento, memoria, 
+velocidades de 
+procesamiento, etc.
+ \item Implementar funciones que son imposibles de aplicar en tecnologías viejas.
+ \item Reducir tiempos de desarrollo.
+ \item Reducir volumen, masa y consumo
+\end{itemize}
+
+El último punto mencionado anteriormente es de especial interés, ya que al reducir volúmen y masa, 
+permite reducir costos adicionales como el de lanzamiento.
+
+Lograr reducir costos de proyectos satélitales tienen ventajas directas a la hora de introducir a 
+Argentina en un mercado altamente competitivo, donde la mínima reducción de costos, representa 
+ganancias económicas importantes. 
+ 
+Uno de los puntos en contra de la utilización de componentes COTS es que al no ser calificados para 
+volar, es necesario llevar a cabo tareas y estrategías inteligentes, con el fin de hacer frente a 
+esa “deficiencia”. Por ello es necesario realizar una investigación y análisis de diferentes 
+arquitecturas de aviónica, que pueden ser utilizadas para lograr que el sistema sea tolerante a 
+fallas, y así, cumplir con los requerimientos de una misión satelital. 
+
+El estudio de arquitecturas tolerantes a fallas, no solamente tiene aplicación en el ámbito 
+espacial, si no que también puede ser extendido a cualquier sistema crítico, los cuales necesitan 
+ser robustos y tolerantes a fallas, como es el caso de aviones comerciales, plantas nucleares, 
+automóviles, etc.
+
+\section*{Contribución esperada}
+Como resultado de este trabajo de tesis se obtendrá un diseño de arquitectura de aviónica 
+basada en componentes COTS. Esto comprende la topología de comunicación de la aviónica, protocolos 
+de alto nivel con respecto al modelo de OSI (desde el nivel de red hasta el nivel de aplicación). 
+Además algoritmos de ruteo, dependiendo de la topología y disposición de los componentes de la 
+aviónica. Se debe destacar, que la idea del trabajo es el diseño de una arquitectura redundante y 
+automáticamente reconfigurable.
+
+Esta arquitectura debe tener la capacidad de tolerancia a fallas, lo cual incluye el diseño de 
+algoritmos de autotest y de ruteo para el caso de surgimiento de fallas. Esto forma parte de 
+la detección, aislación y recuperación ante fallas (FDIR), que incluye la reconfiguración del 
+sistema para mantener la operabilidad.
+
+Por último se espera realizar simulación de la arquitectura para validar su funcionamiento. Se 
+espera llevar a cabo pruebas en prototipos de hardware. 
+
+Como producto secundario, y no menos importante, surge la realización de una metodología de 
+medición de tolerancia a fallas, la cual permite realizar una comparativa entre diferentes 
+arquitecturas tolerantes a fallas. 
+
+\section{Objetivo del trabajo y preguntas de investigación}
+El objetivo de este trabjo es tal tal y tal
+
+Y se busca reponder las siguientes preguntas
+
+bla bla bla
