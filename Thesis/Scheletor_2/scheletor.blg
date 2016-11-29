@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: scheletor.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../Bibliography/biblio.bib
+Repeated entry---line 48 of file ../Bibliography/biblio.bib
+ : @phdthesis{FTFligthControlUnmannedAerialVehicle
+ :                                                ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "SysMLWeb" isn't style-file defined
+--line 55 of file ../Bibliography/biblio.bib
+Warning--entry type for "MARTEWeb" isn't style-file defined
+--line 61 of file ../Bibliography/biblio.bib
+Warning--entry type for "PapyrusWeb" isn't style-file defined
+--line 67 of file ../Bibliography/biblio.bib
+Warning--entry type for "MarsClimateOrbiterFailureWeb" isn't style-file defined
+--line 135 of file ../Bibliography/biblio.bib
+Warning--I'm ignoring MarsClimateOrbiterFailureWeb's extra "title" field
+--line 138 of file ../Bibliography/biblio.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 16 entries,
+            6951 wiz_defined-function locations,
+            1370 strings with 12960 characters,
+and the built_in function-call counts, 27238 in all, are:
+= -- 3653
+> -- 214
+< -- 1067
++ -- 1048
+- -- 40
+* -- 1454
+:= -- 4507
+add.period$ -- 68
+call.type$ -- 16
+change.case$ -- 275
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 666
+empty$ -- 1154
+format.name$ -- 296
+if$ -- 5580
+int.to.chr$ -- 0
+int.to.str$ -- 48
+missing$ -- 0
+newline$ -- 368
+num.names$ -- 132
+pop$ -- 553
+preamble$ -- 1
+purify$ -- 66
+quote$ -- 0
+skip$ -- 2126
+stack$ -- 0
+substring$ -- 1218
+swap$ -- 366
+text.length$ -- 60
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1696
+warning$ -- 0
+while$ -- 108
+width$ -- 0
+write$ -- 425
+(There was 1 error message)

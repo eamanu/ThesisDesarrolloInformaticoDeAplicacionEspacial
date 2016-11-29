@@ -1,0 +1,101 @@
+\textwidth 6in
+\topmargin -1.0cm
+\textheight = 9in
+\oddsidemargin 1cm
+\evensidemargin 0cm
+\parskip 7.2pt
+
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{latexsym}
+\usepackage{t1enc}
+\usepackage{times}
+\usepackage{mathptmx}
+\usepackage{multirow}
+\usepackage{lscape}
+\ExecuteOptions{dvips}
+\usepackage{pstricks}
+\usepackage{textcomp}
+
+%para pegar figuras y tablas en lugares fijo con el comando [H]
+\usepackage{float}
+
+\usepackage{amsmath}
+%\usepackage[pdftex, colorlinks=true]{hyperref}\mu
+\usepackage{upgreek}
+
+%Usar el paquete Natbib para un mejor manejo de las citas de bibliografia
+%\usepackage{natbib}
+
+%solo para agregar el simbolito de grados: Â°
+\usepackage{gensymb}
+
+%\usepackage{latexsym}
+%\usepackage{clrscode} % Pseudocodigo
+%\usepackage[Bjornstrup]{Sonny} % Encabezados de capitulos. %Sonny  %Lenny %Bjarne % Glenn %Conny %Rejne %Bjornstrup
+\usepackage{titling} % Manejo del titulo.
+
+% paquete fancyhdr para los encabezados y pie de página
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+
+%\DeclareGraphicsExtensions{.png,.jpg,.pdf}
+\usepackage{subfigure} %poner dos figuras en al lado
+\usepackage[final]{pdfpages} %agregar pdf's al documento
+
+
+%\usepackage{calc}
+%\fancyheadoffset[R]{\marginparsep+\marginparwidth}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter \: \textsc{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markboth{\thesection \: \textsc{#1}}{}}
+\renewcommand{\subsectionmark}[1]{\markright{\textit{#1}}}
+%\fancyhf{}
+%\fancyhead[L]{\leftmark}
+%\fancyhead[R]{\rightmark}
+%\fancyfoot[R]{\thepage}
+%\fancypagestyle{plain}{%
+%   \fancyhead{} % get rid of headers
+%   \renewcommand{\headrulewidth}{0pt} % and the line
+%}
+
+
+%\usepackage{graphics}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{ucs}
+\usepackage[spanish]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[amsmath,thmmarks]{ntheorem}
+%\usepackage{proof}
+
+% paquete para incluir imÃ¡genes altas y poder tener texto al lado...
+\usepackage{wrapfig}
+
+% paquete para colorear tablas
+\usepackage{tabularx,colortbl}
+\usepackage{xcolor}
+% %   Renombra algunos elementos
+%\renewcommand{\contentsname}{Índice}
+%\addto\captionsspanish{\renewcommand\contentsname{Indice}}
+\renewcommand{\partname}{Parte}
+%\addto\captionsspanish{\renewcommand\partname{Parte}}
+\renewcommand{\chaptername}{Capítulo}
+%\addto\captionsspanish{\renewcommand\chaptername{Capitulo}}
+\renewcommand{\appendixname}{Apéndice}
+%\addto\captionsspanish{\renewcommand\appendixname{Ap\'ndice}}
+\renewcommand{\bibname}{Bibliografía}
+%\addto\captionsspanish{\renewcommand\bibname{Referencias}}
+\renewcommand{\figurename}{Figura}
+%\addto\captionsspanish{\renewcommand\figurename{Figura}}
+\renewcommand{\listfigurename}{Índice de figuras}
+%\addto\captionsspanish{\renewcommand\listfigurename{\'Indice de figuras}}
+\renewcommand{\tablename}{Tabla}
+%\addto\captionsspanish{\renewcommand\tablename{Tabla}}
+\renewcommand{\listtablename}{Índice de tablas}
+%\addto\captionsspanish{\renewcommand\listtablename{\'Indice de Tablas}}
+\renewcommand{\contentsname}{Tabla de Contenidos}
+%\addto\captionsspanish{\renewcommand\contentsname{Tabla de Contenidos}}
+%{\renewcommand\contentsname{Table of Contents}}

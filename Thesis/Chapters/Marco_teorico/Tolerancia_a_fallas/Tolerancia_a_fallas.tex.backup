@@ -1,0 +1,430 @@
+%\chapter{Software tolerante a fallas}
+\section{Tolerancia a falla}\label{chap:FaultTolerance}
+En sistemas críticos, como el de una planta nuclear, sistema médico, el sistema de vuelo 
+de un avión, o el de un satélite, el \ac{SW} (ni el hardware) deben fallar, ya que esto daría 
+como resultado la pérdida de muchas vidas. Para el caso particular, del vehículo espacial 
+(satélite, transbordador, lanzador), la falla del \ac{SW} podría tener como consecuencia la 
+pérdida de una misión, y/o una gran cantidad de dinero, y hasta vidas en algunos casos (vuelos 
+tripulados). La principal diferencia entre el \ac{SW} de una misión satelital, con la de un avión 
+o una planta nuclear, o un sistéma médico, es que ante alguna falla o error, se torna complicado 
+llegar hasta el satélite para realizar una actualización o cargar un parche de \ac{SW}.
+
+La \cite{IEEE610.12} define como \ac{SW} crítico a ``aquel cuyo fracaso puede tener un impacto en 
+la seguridad, o puede causar grandes pérdidas financieras o sociales''. El \ac{SW} de estos 
+sistemas críticos deben tener la capacidad de seguir funcionando, aún en la presencia de fallas, o 
+errores. Imaginese el caso, de un avión comercial, con pasajeros a bordo, y de repente ocurre un 
+problema debido al mal diseño del \ac{SW} (por ejemplo un overflow de memoria). En esta situación 
+es impensable que el \ac{SW} se congele y que el piloto reinicie el sistema, esperar que se 
+reestablezca al estado en el cual se encontraba antes del problema, para seguir funcionando. Lo 
+mismo ocurre con el \ac{SW} de naves espaciales, hay situaciones en la que no se puede esperar y es 
+preferible que el sistema siga funcionando aún en la presencia de fallas.
+
+Tal lo como indica \cite{pressman01} las fallas de \ac{SW} implica problemas cualitativos que son 
+descubiertos después de que el \ac{SW} es llevado a los usuarios y probados por ellos. Una 
+gran cantidad de estudios indican que en las actividades de diseño se introducen entre un 50 y 65 
+porciento de errores del total de errores que se dan durante el proceso del \ac{SW} 
+\citep{pressman01}. Esto no debe ocurrir en el ámbito espacial, ya que una vez que el sistema es 
+utilizado, es muy dificil corregir los errores que surgen 
+
+Cabe aclarar que el \ac{SW} al no ser un componente físico, no puede ser tratado de la misma 
+manera que un componenete hardware. Como ejemplifica \cite{SoftwareFaultToleranceATutorial}, las 
+fallas que surgen a nivel de bit, como por ejemplo en un disco duro, son fallas del dispositivo de 
+almacenamiento y pueden ser mitigadas con la aplicación de técnicas de redundancias. Esto no es así 
+para el \ac{SW}. Por lo tanto evitar los errores en el a nivel de \ac{SW} no es tan trivial como 
+en el hardware.
+
+A nivel de \ac{SW} las fallas son llamadas ``bugs'' (tal como se indica en la
+sección~\ref{sec:terminologia} en la página~\pageref{sec:terminologia}), y existe 
+un solo tipo de fallas que es introducido durante el desarrollo del \ac{SW} 
+\citep{SoftwareFaultToleranceATutorial}. Las fallas en el \ac{SW} son el principal motivo de que 
+todo un sistema fracase. 
+
+La \ac{FT}, puede ser utilizada como una capa más de protección 
+\citep{SoftwareFaultToleranceATutorial}. Esta aplicada al \ac{SW} se refiere al uso de técnicas que 
+permiten seguir brindando el servicio en un nivel aceptable de perfomance y seguridad después que 
+una falla de diseño ocurra. 
+
+Debe hacerse una diferencia entre \ac{FT} y calidad. \cite{Hanmer07} lo define de la 
+siguiente manera: ``\ac{FT} es la capacidad del sistema a ejecutarse apropiadamente a 
+pesar de la presencia de fallas. \ac{FT} ocurre en tiempo de ejecución''. Cuando se 
+habla que un sistema es tolerante a fallas, signfica que fue diseñado de tal manera, que 
+puede seguir funcionando correctamente aún en la presencia de errores de sistemas \citep{Hanmer07}. 
+
+En cambio calidad, tal como lo define \cite{Hanmer07}, ``se refiere a cuán libre de fallas está el 
+sistema. Técnicas de calidad que indican cómo el \ac{SW} es creado. Si el sistema fue testeado.'' 
+
+Un sistema de alta calidad tendrá menor número de fallas, que esto representa menor número de 
+fallas en tiempo de ejecución. La reducción del número de fallas no implica que los resultados de 
+los defectos son menos severos \citep{Hanmer07}. El sistema debe tomar medidas para reducir el 
+impacto de los errores y fallas, y es allí donde surge la \ac{FT}.	
+
+Un sistema tolerante a fallas provee una continua y segura operación, aún durante la presencia 
+de fallas. Un sistema tolerante a fallas, es un elemento crítico para una arquitectura de vuelo, lo 
+cual incluye hardware, \ac{SW}, timing, sensores y sus interfaces, actuadores, elementos y datos 
+de comunicación con los diferenes elementos \citep{FTAvionics}. 
+
+Este tipo de sistemas debería detectar los errores causados por fallas, evaluar los daños 
+producidos por la falla, aislar a la misma y por último recueperarse, en ese caso se habla de 
+aquitectura o sistemas \acs{FDIR}\footnote{FDIR, del inglés: Failure detect, isolate and recover}.
+
+\ac{FT} es la capacidad de un sistema a continuar funcionando a pesar de la ocurrencia 
+de fallas \citep{FTDesign}. Un sistema tolerante a fallas debe ser capaz de manejar fallas tanto de 
+hardware como de \ac{SW}. La \ac{FT} es necesaria debido a que es imposible construir 
+un sistema perfecto.
+
+El objetivo de la \ac{FT} es el desarrollo de sistemas los cuales funcionen correctamente en 
+presencia de fallas \citep{FTDesign}. La \ac{FT} es alcanzada mediate la utilización de algunos 
+tipos de redundancias \citep{FTDesign}. \textit{Redundancia} es la provisión de capacidades 
+funcionales que sería innecesario para enternos libres de fallos \citep{FTDesign}. Esto significa 
+tener hardware adicionales, check bits en una cadena de datos, o algunas l\'ineas de c\'odigo que 
+verifica el correcto resultado del \ac{SW}. La redundancia permite enmascarar una falla, o 
+detectarla, para luego localizarla, contenerla y recuperarse de esta \citep{FTDesign}. Las 
+técnicas de tolerancia de fallas se emplean durante la adquisición, o desarrollo del \ac{SW}. 
+Permite al \ac{SW} tolerar fallas después que este haya sido desarrollado \citep{Pullum01}. Cuando 
+una falla se da, las técnicas de \ac{FT} proveen mecanismos al sistema de \ac{SW} para prevenir el 
+fracaso del sistema \citep{Pullum01}.
+
+\section{Clasificación de un sistema de control tolerante a fallas}
+
+\section{Redundancia en el software}
+A pesar de lo comentado anteriormente, sobre la importancia del \ac{SW}, todavía existe una 
+creencia, de que el \ac{SW} aparece por arte de magia, y que los programadores no son nunca, lo 
+suficientemente capaces, de hacer un \ac{SW} libre de errores. Salvo aquellas empresas u 
+organizaciones que tienen un proceso maduro de desarrollo de \ac{SW}, el resto cae en el error de 
+pensamiento mencionado anteriomente. 
+
+\cite{FTDesign} explica que la \ac{FT} aplicado en el \ac{SW} no está tan entendido, ni maduro, 
+como es en el caso de la \ac{FT} aplicada en hardware. Si una falla exisitiera en el \ac{SW}, esta 
+se haría ``visible'', solo cuando las condiciones relevantes ocurran \citep{FTDesign}. Y muchas 
+veces por tiempo o costo, no se realizan los tests cubriendo todos los posibles ambientes reales, 
+lo cual tiene consecuencias desastrosas, tal como se expone en la sección~\ref{chap:motivacion} 
+(página~\pageref{chap:motivacion}).
+
+Para sistemas complejos o grandes, donde existe una gran cantidad de estados, implica que solo una 
+pequeña porción del \ac{SW} puede ser verifcada correctamente \citep{FTDesign}. Los tests 
+tradicionales y métodos de depuración actuales, no alcanzan para grandes sistemas \citep{FTDesign}. 
+La utilización de métodos formales para describir las característica requeridas por el 
+comportamiento del \ac{SW}, exigen gran complejidad computacional, y solo son aplicables en 
+ciertas situaciones \citep{FTDesign}.
+
+Las técnicas de \ac{FT} pueden dividir en dos grupos:
+\begin{itemize}
+ \item técnicas de una sola versión, se utilizan cuando existe una sola versión del \ac{SW} en el 
+sistema.
+ \item técnicas multi-versión, se utilizan cuando se desarrollan varias versiones de una misma 
+función. 
+\end{itemize}
+
+Estas se explican en las siguientes secciones.
+
+\subsection{Técnicas single version}
+Estas técnicas son utilizadas para tolerar parcialmente las fallas del diseño de \ac{SW} 
+\citep{Pullum01}. Técnicas single-version de \ac{FT} se basa en el uso de redundancia aplicada a 
+una única versión de una pieza de \ac{SW} para detectar y recuperarse de fallas 
+\citep{SoftwareFaultToleranceATutorial}. 
+
+Estas técnicas a los software que cuentan con una sola versión, un número capacidades funcionales 
+que no serían necesarias dentro de un ambiente libre de fallas \citep{FTDesign}. 
+
+\subsubsection{Estructuras de software}
+En \cite{SoftwareFaultToleranceATutorial} se mencionan dos técnicas de estructuración del \ac{SW}
+que son muy buenas a la hora de mantener \ac{FT} en el \ac{SW}.
+
+La definción de una arquitectura en el software es de suma importancia ya que proveen las bases para 
+la implementación de \ac{FT} \citep{SoftwareFaultToleranceATutorial}. Una de las técnicas utilizadas 
+en el desarollo del software es la modularización. Esta consiste en descomponer el problema en 
+componentes manejables. Esto tiene como resultado que sea más eficiente la aplicación de la \ac{FT} 
+en el diseño de un sistema \citep{SoftwareFaultToleranceATutorial}. 
+
+El particionado es otra técnica mencionada en \cite{SoftwareFaultToleranceATutorial}, lo cual 
+provee aislación entre módulos independentes del sistema. Esta técnica permite descomponer al 
+problema en partes separadas \citep{pressman01}. El particionado puede ser horizontal u 
+vertical. En el primero se descomponen el problema moviendose en forma horizontal en la jerarquía, 
+mientras que el segundo se parte de lo más general hasta llegar a lo detallado, moviendose 
+verticalmente en la jerarquía \citep{pressman01}. 
+
+Sistema de cierre es un principio de \ac{FT}, en el cual ninguna acción es permitible sin una 
+autorización expresa \citep{SoftwareFaultToleranceATutorial}. Siguiendo este principio ninguna de 
+las funciones que componen al sistema deberían tener más capacidad de la necesaria 
+\citep{SoftwareFaultToleranceATutorial}. Las ventajas de desarrollar un sistema bajo este pricipio, 
+es que es sencillo el manejo de errores, y evitar la propagación de fallas si ocurriesen. 
+
+\subsection{Técnicas multi-version}
+Las técnicas de multi-version utilizan dos o más versiones diferentes del mismo módulo de \ac{SW} 
+\citep{FTDesign} \citep{SoftwareFaultToleranceATutorial}, lo cual satisface el requerimiento de 
+diversidad. 
+
+El objetivo de utilizar diferentes versiones de \ac{SW} es que es construido de diferentes 
+maneras, por lo tanto fallarían de diferente maneras \citep{SoftwareFaultToleranceATutorial}.
+
+\subsection{Técnicas de detección de fallas}
+Para los \ac{SW} tolerantes a fallas, de una sola versión, se suelen utilizar varios tests de 
+``aceptación'' para detectar fallas \citep{FTDesign}. Es necesario que estos \ac{SW} cuenten con 
+dos propiedades: auto protección\footnote{En inglés, self-protection} y auto check\footnote{En 
+inglés, self-checking} \citep{SoftwareFaultToleranceATutorial}. La auto protección significa que  
+los componentes de sistema tienen la capacidad de protegerse así mismo mediante la detección de 
+errores \citep{SoftwareFaultToleranceATutorial}. La propiedad de auto check significa que los 
+componente son capaces de detectar fallas internas y tomar las acciones necesarias para evitar la 
+propagación del error. 
+
+El resultado del sistema depende del resultado de los tests. Si el resultado pasa exitosamente el 
+test, este es el correcto, caso contrario significa la presencia de fallas \citep{FTDesign}. Un test 
+es más efectivo si se puede calcular de una manera simple \citep{FTDesign}. 
+
+Las técnicas utilizadas son las siguientes:
+\begin{itemize}
+ \item \textit{Timing checks:} se agrega a los sistemas una restricción de tiempo. Basado en esa 
+restricción se puede deducir si el comportamiento del sistema se desvió \citep{FTDesign}. Los más 
+utilizado es el \textit{watchdog timer}, este es un contador, actualizado con un \textit{timer} que 
+detecta si un módulo de \ac{SW} se bloqueó o congeló, entonces se reincia ese módulo o el sistema. 
+ \item \textit{Coding checks:} se utiliza en los sistemas donde los datos se codifican usando 
+técnicas de redundancia de datos \citep{FTDesign}. 
+ \item \textit{Reversal checks:} son aquellos donde se toma los valores de salida, y con ellos se 
+busca encontrar cuáles fueron los datos de entrada. Si los datos de entrada reales coinciden con 
+los calculados (para una misma salida), este se encuentra libre de fallas \citep{FTDesign}. 
+ \item \textit{Reasonableness checks:} usa propiedades semánticas en los datos para detectar 
+fallas \citep{FTDesign}. 
+ \item \textit{Structural checks:} se basa en el conocimiento de las propiedades de la estructura 
+de datos \citep{FTDesign}. 
+ \item \textit{Replication checks: } se basa en la comparación de resultados de varios componentes 
+\citep{SoftwareFaultToleranceATutorial}. 
+\end{itemize}
+
+Se suelen utilizar árboles de fallas, como una técnica auxiliar en el desarrollo de sistemas para 
+la detección de fallas \citep{SoftwareFaultToleranceATutorial}. El árbol de falla permite obtener 
+un enfoque top-down de las diferentes fallas que se pueden dar. El árbol no cubre todas las fallas 
+que puedan darse, pero si ayudan en un alto grado en el desarrollo de \ac{SW} tolerante a fallas 
+\citep{SoftwareFaultToleranceATutorial}. 
+
+\subsection{Técnicas de recuperación de fallas}
+Una vez que la falla es detectada, el sistema debe proceder a recuperarse de aquella, y volver a 
+un estado operacional normal \citep{FTDesign}. Si los mecanismos de deteccíón y contención de 
+fallas fueron desarrollados correctamente, esta es contenida dentro de un set de módulos en el 
+momento de la detección \citep{FTDesign}. 
+
+\subsubsection{Manejo de excepciones}
+En muchos \ac{SW} y lenguajes de programación, se logra recuperarse mediante el manejo de 
+excepciones. El manejo de excepciones es la interrupción del funcionamiento normal para responder a 
+un funcionamiento anormal del sistema \citep{SoftwareFaultToleranceATutorial}. Los posibles eventos 
+que pueden lanzar una excepción son:
+\begin{enumerate}
+ \item Excepciones de interfaces, son lanzadas por un módulo cuando se da una solicitud inválida de 
+algún servicio \citep{FTDesign}.
+ \item Excepciones locales, son lanzadas por algún módulo cuando sus propios mecanismos de 
+detección de fallas encuentran un problema interno \citep{FTDesign}.
+ \item Excepciones de fracaso, son lanzadas cuando un mecanismos de detección encuentra una falla, 
+per es imposible recueperarse de esa falta \citep{FTDesign}.
+\end{enumerate}
+
+\subsubsection{Checkpoint y Restart}
+Para los software de una sola versión existen pocos mecanismos de recuperación. Checkpoin y restart 
+es uno de ellos. También es conocido como \textit{backward error recovery} \citep{FTDesign}. La 
+mayoría de las fallas que se dan en los \ac{SW} son debido a fallas que provienen del diseño, tal 
+como se mencionó anteriomente. Estas fallas son activadas por entradas al sistema \citep{FTDesign}. 
+
+Este mecanismo cuenta con el módulo principal que se encuentra en ejecución combinado con un bloque 
+que realiza tests de aceptación. Si se detecta una falla, en el bloque de testeo, se envía una 
+señal de ``reincio'', para que el módulo principal vuelva al estado anterior, es decir, antes de 
+producirse el error. Este estado anterior se encuentra almacenado en una memoria checkpoint 
+\citep{FTDesign}. En la figura \ref{fig:checkAndRestart}\footnote{Basado en \cite{FTDesign} y 
+\cite{SoftwareFaultToleranceATutorial}}, se muestra la representación de este mecanismo.
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}
+  % definicion de estilos
+  \tikzstyle{cuadro} = [draw, sep=5,rectangle,minimum height=3em, minimum width=6em, node 
+  distance=2cm] 
+
+  \tikzstyle{vacio} = [inner, sep=5,rectangle,minimum height=3em, minimum width=6em, node 
+  distance=3cm] 
+
+  \tikzstyle{circulo} = [fill, shape=circle, minimum size=5pt, inner sep=3pt, node distance=4cm ]
+  
+  % cuadros
+  \node[cuadro] (checkMemo){Memoria de Checkpoint};
+  \node[cuadro , below of=checkMemo, pin={[->] left:Entrada}] (modulo){Módulo en 
+  ejecución};
+  \node[circulo, right of=modulo] (circ){};
+  \node[cuadro, below of=circ] (detector){Test de aceptación};
+  \node[vacio, right of = circ] (salida){Salida};
+
+  \draw[->] (checkMemo.-30)--(modulo.30);
+  \draw[->] (modulo.150) -- (checkMemo.-150);
+  \draw[->] (modulo)--(circ);
+  \draw[->] (circ)--(salida);
+  \draw[->] (circ)--(detector);
+  \draw[->] (detector)-|(modulo) node[near end, left] {retry};
+  \end{tikzpicture}
+  \caption{Representación de checkpoint y restart}
+  \label{fig:checkAndRestart}
+\end{figure}
+ 
+Existe dos tipos de checkpoints, estáticos y dinámicos. Los checkpoints dinámicos toman una 
+``fotografía'' del estado del sistema antes de comenzar la ejecución del \ac{SW} y lo guarda en 
+memoria \citep{FTDesign}. Si se detecta una falla, el sistema regresa a ese estado y 
+comienza de nuevo su ejecución \citep{FTDesign}. Los checkpoints estáticos se basan en regresar el 
+módulo a un estado predeterminado \citep{SoftwareFaultToleranceATutorial}. Se puede regresar a un 
+estado inicial o a un set de estados predeterminados \citep{SoftwareFaultToleranceATutorial}.
+
+Por otro lado se encuentran los checkpoints dinámicos. Estos usan checkpoints creados 
+dinámicamente. Estas son imágenes del estado del sistema en varios puntos durante la ejecución 
+\citep{SoftwareFaultToleranceATutorial}.
+
+Hay tres formas de crear los checkpoints dinámicamente:
+\begin{enumerate}
+ \item Equidistantes, en el cual los intervalos que se crean los checkpoints son siempre iguales, 
+los intervalos se elijen teniendo en cuenta el rate de falla \citep{FTDesign}. 
+ \item Modular, en el cual los checkpoints se crean al principio o al final de la ejecución de un 
+módulo. 
+ \item Random, los checkpoints se crean aleatoriamente en el tiempo. 
+\end{enumerate}
+
+\subsubsection{Procesos pares}
+Los procesos pare utilizan dos versiones identicas de un proceso de \ac{SW} que corre en 
+procesadores separados \citep{FTDesign} \citep{SoftwareFaultToleranceATutorial}. El mecanismo de 
+recuperación que se utiliza es el de checkpoint y restart \citep{SoftwareFaultToleranceATutorial}.  
+
+Como se puede observar en la figura~\ref{fig:repPares}\footnote{Basada en \cite{FTDesign} y 
+\cite{SoftwareFaultToleranceATutorial}} el primer procesador se encuentra activo. Este envía un 
+checkpoint al segundo procesador. Si una falla se detecta, el primer procesador se apaga y se cambia 
+al segundo procesador. El segundo procesador carga el checkpoint y continua con la operación.Toma el 
+rol del primer procesador \citep{SoftwareFaultToleranceATutorial}. Luego el 
+primer procesador realiza un auto test para verificar si el problema continua. Si se encuentra que 
+este procesador sigue teniendo problema, se continúa trabajando con el segundo procesador 
+\citep{FTDesign}.
+
+La principal ventaja que brinda este mecanismo según \cite{FTDesign} es que permite entregar el 
+servicio ininterrumpidamente.
+
+\begin{figure}[h]
+ \centering
+ \begin{tikzpicture}[node distance=1cm, auto,]
+  % definicion de estilos
+  %Define style for boxes
+   \tikzset{
+   cuadro/.style={
+           rectangle,
+           draw=black,
+           text width=6.5em,
+           minimum height=2em,
+           text centered},
+    % Define arrow style
+    arrow/.style={
+           ->,
+           thick,
+           shorten <=2pt,
+           shorten >=2pt,}	
+    }
+  \tikzstyle{circulo} = [draw, fill=black, circle, node distance=1cm, minimum size=5pt, inner 
+sep=3pt]
+    
+  % Gráfico
+  \node[inner sep=5pt] (entrada) {Entrada};
+  \node[cuadro, right=0.5cm of entrada] (prim) {Procesador Primario};
+  \node[cuadro, inner sep=5pt,below=0.5cm of prim] (secu) {Procesador Secundario};
+  \node[cuadro, inner sep=10pt, right=1cm of prim] (selec) {Switch};
+  \node[inner sep=0pt, right=2cm of selec](ghost1){};
+  \node[cuadro, below=0.5cm of ghost1](detector) {Detector de error};
+  \node[inner sep=0pt, right=0.5cm of ghost1] (salida) {Salida};
+  
+  \draw[arrow] (entrada)--(prim);
+  \draw[arrow] (entrada)|-(secu);
+  \draw[arrow, dashed] (prim.-30) -- (secu.30);
+  \draw[arrow, dashed] (secu.150) -- (prim.-150);
+  \draw[arrow] (prim)--(selec);
+  \draw[arrow] (secu)-|(selec.-150);
+  \draw[arrow] (detector)-|(selec);
+  \draw[arrow] (selec)--(salida);
+  \draw[arrow] (ghost1)--(detector);
+ \end{tikzpicture}
+ \caption{Representación del proceso pares}
+ \label{fig:repPares}
+\end{figure}
+
+\subsubsection{Diversidad de datos}
+La diversidad es una técnica utilizada para mejorar la eficiencia en los checkpoint y restart, 
+usando diferentes entradas por cada reinicio \citep{FTDesign}. Esto se basa en que las fallas en el 
+\ac{SW} son dependientes de las entradas \citep{FTDesign}. Es poco probable que la misma falla se 
+de con la misma secuencia de entrada \citep{FTDesign}.
+
+\subsubsection{Bloques de recuperación}
+
+Esta técnica combina las bases de la técnica de checkpoints y restart enfocada con múltiples 
+versiones de un componente de \ac{SW} en el sentido de que una versión de \ac{SW} diferente es 
+lanzada cada vez que se encuentra una falla \citep{SoftwareFaultToleranceATutorial}. Los 
+checkpoints son creados antes de que una versión de \ac{SW} se ejecuta 
+\citep{SoftwareFaultToleranceATutorial}. La ejecución de las múltiples versiones pueden ser 
+secuencial o paralelas dependiendo de la disponibilidad de la capacidad de procesamiento y 
+perfomance requerida \citep{SoftwareFaultToleranceATutorial}.
+
+La representación de esta técnica se puede observar en el figura~[AGREGAR IMAGEN]. Las 
+versiones son diferentes implementaciones de un mimo programa. Solo uno de estas versiones provee 
+la salida del sistema. Si un error es detectador por el test de aceptación, se vuelve hacia atrás, 
+se retoma el último checkpoint, y se vuelve a ejecutar el módulo de \ac{SW} pero con una 
+versión diferente a la que se ejecutó anteriomente \citep{FTDesign}.  	
+
+Los checks del test de aceptación deben mantenerse simples para mantener la velocidad de la 
+ejecución \citep{FTDesign}.
+
+\begin{figure}[h]
+ \centering
+ \begin{tikzpicture}[node distance=1cm, auto,]
+  % definicion de estilos
+  %Define style for boxes
+   \tikzset{
+   cuadro/.style={
+           rectangle,
+           draw=black,
+           text width=6.5em,
+           minimum height=2em,
+           text centered},
+    % Define arrow style
+    arrow/.style={
+           ->,
+           thick,
+           shorten <=2pt,
+           shorten >=2pt,}	
+    }
+       
+  \tikzstyle{circulo} = [draw, fill=black, circle, node distance=1cm, minimum size=5pt, inner 
+sep=3pt]
+    
+  % Gráfico
+  \node[inner, sep=5pt] (input1){Entrada 1};
+  \node[inner, sep=5pt, below=0.5cm of input1] (input2){Entrada 2};
+  \node[inner, sep=5pt, below=0.5cm of input2] (puntos1){...};
+  \node[inner, sep=5pt, below=0.5cm of puntos1] (inputn){Entrada n};
+  \node[cuadro, right=0.5cm of input1] (version1){Versión 1};
+  \node[cuadro, right=0.5cm of input2] (version2){Versión 2};
+  \node[inner, sep=5pt, right=2cm of puntos1](puntos2){...};
+  \node[cuadro, right=0.5cm of inputn] (versionn){Version n};
+  
+  \node[cuadro, above=1cm of version1] (check) {Memoria Checkpoint};
+  \node[cuadro, right=1cm of version2] (switch) {Swith n a 1};
+  \node[inner, sep=0pt, right=1cm of switch](ghost1){};
+  \node[cuadro, below=0.5cm of ghost1](test){Test de aceptación};
+  
+  \node[inner, sep=0pt, right=0.5cm of ghost1](output){Salida};
+ 
+  %Arrows
+  \draw[arrow] (input1)--(version1);
+  \draw[arrow] (input2)--(version2);
+  \draw[arrow] (inputn)--(versionn);
+  \draw[arrow] (version1)-|(switch.west);
+  \draw[arrow] (version2)--(switch);
+  \draw[arrow] (versionn)-|(switch.west);
+  \draw[arrow] (ghost1)--(test);
+  \draw[arrow] (switch)--(output);
+  
+  
+  
+ \end{tikzpicture}
+ \caption{Configuración de bloques de recuperación}
+ \label{fig:repPares}
+\end{figure}
+
+\subsubsection{Programación N-version}
+
+\subsubsection{Programación N-Auto Checking}
+

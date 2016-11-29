@@ -1,0 +1,7 @@
+\section{Atributos de la fiablidad}
+El objetivo final de la \ac{FT} es desarrollar un sistema que sea fiable. Fiabilidad tiene muchas 
+definciones, pero comúnmente es expresado como la probabilidad de \textbf{no fallar} 
+\citep{FTAvionics}. ``La fiabilidad es la probabilidad de que un sistema continúe funcionando 
+correctamente durante un intervalo de tiempo particular'' \citep{SoftwareFaultToleranceATutorial}.
+
+\input{../Chapters/Marco_teorico/Conceptos/Conceptos.tex}

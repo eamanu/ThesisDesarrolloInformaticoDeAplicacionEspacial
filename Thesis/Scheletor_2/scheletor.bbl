@@ -1,0 +1,390 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Anderson%
+\ \BBA {} Knight%
+}{%
+Anderson%
+\ \BBA {} Knight%
+}{%
+{\protect \APACyear {1983}}%
+}]{%
+Anderson83}
+\APACinsertmetastar {%
+Anderson83}%
+\begin{APACrefauthors}%
+Anderson, T.%
+\BCBT {}\ \BBA {} Knight, J\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1983}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A Framework for Software Fault Tolerance in Real-Time
+  Systems.}} {{A Framework for Software Fault Tolerance in Real-Time
+  Systems.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Trans. Software Eng.}{}{3}{355--364}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+David M.~Harland%
+}{%
+David M.~Harland%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+SpaceSystemFailures}
+\APACinsertmetastar {%
+SpaceSystemFailures}%
+\begin{APACrefauthors}%
+David M.~Harland, D\BPBI R\BPBI D\BPBI L\BPBI a.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\newblock
+\APACrefbtitle {Space Systems Failures: Disasters and Rescues of Satellites,
+  Rockets and Space Probes} {Space systems failures: Disasters and rescues of
+  satellites, rockets and space probes}\ (\PrintOrdinal{1}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Praxis}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Douglas Isbell and Don Savage}%
+}{%
+{Douglas Isbell and Don Savage}%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+MarsClimateOrbiterFailureWeb}
+\APACinsertmetastar {%
+MarsClimateOrbiterFailureWeb}%
+\begin{APACrefauthors}%
+{Douglas Isbell and Don Savage}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+\APACrefbtitle {{Mars Climate Orbiter Failure Report - NASA}.} {{Mars Climate
+  Orbiter Failure Report - NASA}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dubrova%
+}{%
+Dubrova%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+FTDesign}
+\APACinsertmetastar {%
+FTDesign}%
+\begin{APACrefauthors}%
+Dubrova, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {{Fault-Tolerant Design: an introduce}} {{Fault-Tolerant Design:
+  an introduce}}\ (\PrintOrdinal{1}\ \BEd; C\BPBI R.~Spitzer, \BED{}).
+\newblock
+\APACaddressPublisher{New York, U.S.A.}{Springer-Verlag New York}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ducard%
+}{%
+Ducard%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+FTFligthControlUnmannedAerialVehicle}
+\APACinsertmetastar {%
+FTFligthControlUnmannedAerialVehicle}%
+\begin{APACrefauthors}%
+Ducard, G\BPBI J\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\unskip\
+\newblock
+\APACrefbtitle {{Fault-Tolerant Flight Control and Guidance Systems for a Small
+  Unmanned Aerial Vehicle}} {{Fault-Tolerant Flight Control and Guidance
+  Systems for a Small Unmanned Aerial Vehicle}}\ \APACtypeAddressSchool
+  {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Swiss Federal Institue of Technology Zurich}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Edwards%
+, Lobaerts%
+\BCBL {}\ \BBA {} Smaili%
+}{%
+Edwards%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+FaultTolerantFlightControl}
+\APACinsertmetastar {%
+FaultTolerantFlightControl}%
+\begin{APACrefauthors}%
+Edwards, C.%
+, Lobaerts, T.%
+\BCBL {}\ \BBA {} Smaili, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {{Fault Tolerant Flight Control. A benchmarck challenge}}
+  {{Fault Tolerant Flight Control. A benchmarck challenge}}.
+\newblock
+\APACaddressPublisher{}{Springer-Verlag}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Friedenthal%
+, Moore%
+\BCBL {}\ \BBA {} Steiner%
+}{%
+Friedenthal%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Friedenthal2008}
+\APACinsertmetastar {%
+Friedenthal2008}%
+\begin{APACrefauthors}%
+Friedenthal, S.%
+, Moore, A.%
+\BCBL {}\ \BBA {} Steiner, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {{A Practical Guide to SysML: Systems Modeling Language}} {{A
+  Practical Guide to SysML: Systems Modeling Language}}.
+\newblock
+\APACaddressPublisher{San Francisco, CA, USA}{Morgan Kaufmann Publishers Inc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hanmer%
+}{%
+Hanmer%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Hanmer07}
+\APACinsertmetastar {%
+Hanmer07}%
+\begin{APACrefauthors}%
+Hanmer, R\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {{Patterns for Fault Tolerant Software}} {{Patterns for Fault
+  Tolerant Software}}.
+\newblock
+\APACaddressPublisher{England}{John Wiley and Sons Ltd}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hitt%
+\ \BBA {} Mulcare%
+}{%
+Hitt%
+\ \BBA {} Mulcare%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+FTAvionics}
+\APACinsertmetastar {%
+FTAvionics}%
+\begin{APACrefauthors}%
+Hitt, E\BPBI F.%
+\BCBT {}\ \BBA {} Mulcare, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Fault-Tolerant Avionics}} {{Fault-Tolerant
+  Avionics}}.{\BBCQ}
+\newblock
+\BIn{} C\BPBI R.~Spitzer\ (\BED), \APACrefbtitle {{Avionics Development and
+  Implementation Second Edition}} {{Avionics Development and Implementation
+  Second Edition}}\ (\BCHAP~8).
+\newblock
+\APACaddressPublisher{Williamsburg, Virginia, U.S.A.}{CRC Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Holt%
+\ \BBA {} Perry%
+}{%
+Holt%
+\ \BBA {} Perry%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+HoltPery}
+\APACinsertmetastar {%
+HoltPery}%
+\begin{APACrefauthors}%
+Holt, J.%
+\BCBT {}\ \BBA {} Perry, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {{SysML for systems engineering.}} {{SysML for systems
+  engineering.}}
+\newblock
+\APACaddressPublisher{London, United Kingdom}{The Institution of Engineering
+  and Technology}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lyu%
+}{%
+Lyu%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+Lyu95}
+\APACinsertmetastar {%
+Lyu95}%
+\begin{APACrefauthors}%
+Lyu, M\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1995}.
+\newblock
+\APACrefbtitle {{Software Fault Tolerance}} {{Software Fault Tolerance}}.
+\newblock
+\APACaddressPublisher{Chichester, New York, USA}{John Wiley and Sons Ltd}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{MARTE}%
+}{%
+{MARTE}%
+}{%
+{\protect \APACyear {3 de {J}unio de 2016}}%
+}]{%
+MARTEWeb}
+\APACinsertmetastar {%
+MARTEWeb}%
+\begin{APACrefauthors}%
+{MARTE}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{3 de {J}unio de 2016}{}{}.
+\newblock
+\APACrefbtitle {{\texttt{http://www.omgmarte.org/}}.}
+  {{\texttt{http://www.omgmarte.org/}}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Papyrus}%
+}{%
+{Papyrus}%
+}{%
+{\protect \APACyear {3 de {J}unio de 2016}}%
+}]{%
+PapyrusWeb}
+\APACinsertmetastar {%
+PapyrusWeb}%
+\begin{APACrefauthors}%
+{Papyrus}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{3 de {J}unio de 2016}{}{}.
+\newblock
+\APACrefbtitle {{\texttt{http://eclipse.org/papyrus/}}.}
+  {{\texttt{http://eclipse.org/papyrus/}}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pressman%
+}{%
+Pressman%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+pressman01}
+\APACinsertmetastar {%
+pressman01}%
+\begin{APACrefauthors}%
+Pressman, R\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2001}.
+\newblock
+\APACrefbtitle {{Software Engineering, A Practioner's Approach}} {{Software
+  Engineering, A Practioner's Approach}}\ (\PrintOrdinal{fifth edition}\ \BEd).
+\newblock
+\APACaddressPublisher{}{McGraw-Hill}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{SysML}%
+}{%
+{SysML}%
+}{%
+{\protect \APACyear {2 de {J}unio de 2016}}%
+}]{%
+SysMLWeb}
+\APACinsertmetastar {%
+SysMLWeb}%
+\begin{APACrefauthors}%
+{SysML}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2 de {J}unio de 2016}{}{}.
+\newblock
+\APACrefbtitle {{\texttt{http://sysml.org/}}.} {{\texttt{http://sysml.org/}}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Torres-Pomales%
+}{%
+Torres-Pomales%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+SoftwareFaultToleranceATutorial}
+\APACinsertmetastar {%
+SoftwareFaultToleranceATutorial}%
+\begin{APACrefauthors}%
+Torres-Pomales, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{October}{}.
+\newblock
+\APACrefbtitle {{Software Fault Tolerance: A tutorial}} {{Software Fault
+  Tolerance: A tutorial}}\ \APACbVolEdTR{}{\BTR{}\ \BNUM\ NASA/TM-2000-210616}.
+\newblock
+\APACaddressInstitution{Hampton, Virginia}{National Aeronautics and Space
+  Administration Langley Research Center}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

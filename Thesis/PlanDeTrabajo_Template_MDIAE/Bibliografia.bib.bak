@@ -1,0 +1,198 @@
+% This file was created with JabRef 2.7b.
+% Encoding: Cp1252
+
+@ARTICLE{Barrett2009,
+  author = {Brian Barrett and Edward Dwyer and Padraig Whelan},
+  title = {Soil Moisture Retrieval from Active Spaceborne Microwave Observations:
+	An evaluation of current techniques},
+  journal = {Remote Sensing},
+  year = {2009},
+  volume = {1},
+  pages = {210-242},
+  owner = {Romina},
+  timestamp = {2011.12.15}
+}
+
+@BOOK{Behari2005,
+  title = {Microwave Dielectric Behavior of Wet Soils},
+  publisher = {Anamaya Publishers},
+  year = {2005},
+  author = {Jitendra Behari},
+  address = {New Delhi, India},
+  owner = {Romina},
+  timestamp = {2012.02.07}
+}
+
+@MISC{saocom,
+  author = {CONAE},
+  howpublished = {http://www.conae.gov.ar/satelites/saocom.html},
+  owner = {Romina},
+  timestamp = {2012.02.07}
+}
+
+@MISC{sarat,
+  author = {CONAE},
+  howpublished = {http://www.conae.gov.ar/satelites/saocom/sarat.html},
+  owner = {Romina},
+  timestamp = {2012.02.07}
+}
+
+@INBOOK{DyU1998Chapter8,
+  chapter = {8},
+  pages = {407-433},
+  title = {Mapping Soil Moisture Distribution With Imaging Radar},
+  publisher = {John Wiley and Sons Inc.},
+  year = {1998},
+  editor = {Floyd Henderson and Anthony Lewis},
+  author = {M. Craig Dobson and Fawwaz T. Ulaby},
+  owner = {Romina},
+  timestamp = {2011.12.15}
+}
+
+@ARTICLE{Dubois1995,
+  author = {Pascale Dubois and Jakob van Zyl and Ted Engman},
+  title = {Measuring Soil Moisture with Imaging Radars},
+  journal = {IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING},
+  year = {1995},
+  volume = {33-4},
+  pages = {915-926},
+  owner = {Romina},
+  timestamp = {2011.12.15}
+}
+
+@MISC{cosmo,
+  author = {eGeos},
+  title = {{COSMO SkyMed Image Calibration}},
+  howpublished = {http://www.e-geos.it/products/pdf/COSMO-SkyMed-Image\_Calibration.pdf},
+  note = {eGeos (An ASI-Telespazio Company)},
+  owner = {mirko},
+  timestamp = {2011.12.15}
+}
+
+@BOOK{lanari,
+  title = {Synthetic Aperture Radar Processing},
+  publisher = {CRC Press LLC},
+  year = {1999},
+  author = {Giorgio Franceschetti and Riccardo Lanari},
+  owner = {Romina},
+  timestamp = {2011.12.10}
+}
+
+@ARTICLE{Fung1992,
+  author = {Adrian Fung and Zongqian Li and Chen K.},
+  title = {Backscattering from a Randomly Rough Dielectric Surface},
+  journal = {IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING},
+  year = {1992},
+  volume = {30},
+  pages = {356-369},
+  owner = {Romina},
+  timestamp = {2011.12.15}
+}
+
+@MANUAL{haydee2011,
+  title = {{Aplicación de Imágenes de Radar de Apertura Sintética - Guía de
+	Trabajos Prácticos}},
+  author = {Haydee Karszenbaum and Mercedes Salvia},
+  organization = {IAFE - CONICET},
+  year = {2011},
+  owner = {romina},
+  timestamp = {2011.12.15}
+}
+
+@ARTICLE{Navarra2010,
+  author = {A. Larrañaga and L. Albizua and J. Alvarez-Mozos},
+  title = {Clasificación de cultivos en la zona media de Navarra mediante imágenes
+	radar polarimétricas},
+  journal = {Revista de Teledetección},
+  year = {2010},
+  volume = {34},
+  pages = {77-88},
+  owner = {Romina},
+  timestamp = {2011.12.18}
+}
+
+@ARTICLE{crop,
+  author = {H. McNairn and C. Duguay and B. Briscoc and T.J. Pultza},
+  title = {The effect of soil and crop residue characteristics on polarimetric
+	radar response},
+  journal = {Remote Sensing of Environment},
+  year = {2002},
+  volume = {80-2},
+  pages = {308-320},
+  owner = {Romina},
+  timestamp = {2011.12.18}
+}
+
+@ARTICLE{Notarnicola2008,
+  author = {Claudia Notarnicola and Mariella Angiulli and Francesco Posa},
+  title = {Soil Moisture Retrieval From Remotely Sensed Data: Neural Network
+	Approach Versus Bayesian Method},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  year = {2008},
+  volume = {46-2},
+  pages = {547-557},
+  owner = {Romina},
+  timestamp = {2011.12.15}
+}
+
+@ARTICLE{Notarnicola2006,
+  author = {Notarnicola, C. and Angiulli, M. and Posa, F.},
+  title = {Use of radar and optical remotely sensed data for soil moisture retrieval
+	over vegetated areas},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  year = {2006},
+  volume = {44},
+  pages = {925--935},
+  number = {4},
+  __markedentry = {[Romina:6]},
+  doi = {10.1109/TGRS.2006.872287},
+  owner = {Romina},
+  timestamp = {2012.02.07}
+}
+
+@ARTICLE{Notarnicola2004,
+  author = {Notarnicola, C. and Posa, F.},
+  title = {Bayesian algorithm for the estimation of the dielectric constant
+	from active and passive remotely sensed data},
+  journal = {IEEE Geoscience and Remote Sensing Letters},
+  year = {2004},
+  volume = {1},
+  pages = {179--183},
+  number = {3},
+  __markedentry = {[Romina:]},
+  doi = {10.1109/LGRS.2004.827461},
+  owner = {Romina},
+  timestamp = {2012.02.07}
+}
+
+@ARTICLE{oh,
+  author = {Yisok Oh and Kamal Sarabandi and Fawwaz Ulaby},
+  title = {An Empirical Model and an Inversion Technique for Radar Scattering
+	from Bare Soil Surfaces},
+  journal = {IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING},
+  year = {1992},
+  volume = {30-2},
+  pages = {370-381},
+  owner = {Romina},
+  timestamp = {2011.12.15}
+}
+
+@BOOK{richards,
+  title = {Remote sensing digital image analysis: an introduction},
+  publisher = {Springer},
+  year = {2006},
+  author = {John Richards and Xiuping Jia},
+  owner = {Romina},
+  timestamp = {2011.12.19}
+}
+
+@PHDTHESIS{salvia,
+  author = {Maria Mercedes Salvia},
+  title = {Aporte de la teledetección al estudio del funcionamiento del macrosistema
+	Delta del Paraná: análisis de series de tiempo y eventos extremos.},
+  school = {Universidad de Buenos Aires},
+  year = {2010},
+  owner = {Romina},
+  timestamp = {2011.12.19}
+}
+

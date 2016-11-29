@@ -1,0 +1,118 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anderson y Knight(1983)]{Anderson83}
+Thomas Anderson y John~C. Knight.
+\newblock {A Framework for Software Fault Tolerance in Real-Time Systems.}
+\newblock \emph{IEEE Trans. Software Eng.}, \penalty0 (3):\penalty0 355--364,
+  1983.
+
+\bibitem[David M.~Harland(2005)]{SpaceSystemFailures}
+Dr~Ralph D. Lorenz~(auth.) David M.~Harland.
+\newblock \emph{Space Systems Failures: Disasters and Rescues of Satellites,
+  Rockets and Space Probes}.
+\newblock Springer Praxis Books. Praxis, 1 edition, 2005.
+\newblock ISBN 978-0-387-21519-8,978-0-387-27961-9.
+
+\bibitem[{Douglas Isbell and Don Savage}(1999)]{MarsClimateOrbiterFailureWeb}
+{Douglas Isbell and Don Savage}.
+\newblock {Mars Climate Orbiter Failure Report - NASA}, 1999.
+
+\bibitem[Dubrova(2013)]{FTDesign}
+Elena Dubrova.
+\newblock \emph{{Fault-Tolerant Design: an introduce}}.
+\newblock Springer-Verlag New York, New York, U.S.A., 1 edition, 2013.
+
+\bibitem[Ducard(2007)]{FTFligthControlUnmannedAerialVehicle}
+Guillaume Jacques~Joseph Ducard.
+\newblock \emph{{Fault-Tolerant Flight Control and Guidance Systems for a Small
+  Unmanned Aerial Vehicle}}.
+\newblock Tesis de Doctorado, Swiss Federal Institue of Technology Zurich,
+  2007.
+
+\bibitem[Edwards et~al.(2010)Edwards, Lobaerts, y
+  Smaili]{FaultTolerantFlightControl}
+Cristopher Edwards, Thomas Lobaerts, y Hafid Smaili.
+\newblock \emph{{Fault Tolerant Flight Control. A benchmarck challenge}}.
+\newblock Springer-Verlag, 2010.
+\newblock ISBN 978-3-642-11689-6.
+
+\bibitem[Friedenthal et~al.(2008)Friedenthal, Moore, y
+  Steiner]{Friedenthal2008}
+Sanford Friedenthal, Alan Moore, y Rick Steiner.
+\newblock \emph{{A Practical Guide to SysML: Systems Modeling Language}}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 2008.
+
+\bibitem[Gangloff(1975)]{Gangloff75}
+W.~C. Gangloff.
+\newblock Common mode failure analysis.
+\newblock \emph{IEEE Transactions on Power Apparatus and Systems}, 94\penalty0
+  (1):\penalty0 27--30, Jan 1975.
+\newblock ISSN 0018-9510.
+\newblock \doi{10.1109/T-PAS.1975.31820}.
+
+\bibitem[Hanmer(2007)]{Hanmer07}
+Robert~S. Hanmer.
+\newblock \emph{{Patterns for Fault Tolerant Software}}.
+\newblock John Wiley and Sons Ltd, England, 2007.
+\newblock ISBN 978-0-470-31979-6.
+
+\bibitem[Hitt y Mulcare(2007)]{FTAvionics}
+Ellis~F. Hitt y Dennis Mulcare.
+\newblock {Fault-Tolerant Avionics}.
+\newblock En Cary~R. Spitzer, editor, \emph{{Avionics Development and
+  Implementation Second Edition}}, capítulo~8. CRC Press, Williamsburg,
+  Virginia, U.S.A., 2007.
+
+\bibitem[Holt y Perry(2008)]{HoltPery}
+Jon Holt y Simon Perry.
+\newblock \emph{{SysML for systems engineering.}}
+\newblock The Institution of Engineering and Technology, London, United
+  Kingdom, 2008.
+\newblock ISBN 978086341825.
+
+\bibitem[IEEE(1990)]{IEEE610.12}
+IEEE.
+\newblock {IEEE Standard Glossary of Software Engineering Terminology}.
+\newblock {Std.} {610.12-1990}, {IEEE}, 1990.
+
+\bibitem[Lyu(1995)]{Lyu95}
+Michael~R. Lyu.
+\newblock \emph{{Software Fault Tolerance}}.
+\newblock John Wiley and Sons Ltd, Chichester, New York, USA, 1995.
+\newblock ISBN 9780471950684.
+
+\bibitem[{MARTE}(3 de {J}unio de 2016)]{MARTEWeb}
+{MARTE}.
+\newblock {\texttt{http://www.omgmarte.org/}}, 3 de {J}unio de 2016.
+
+\bibitem[{Papyrus}(3 de {J}unio de 2016)]{PapyrusWeb}
+{Papyrus}.
+\newblock {\texttt{http://eclipse.org/papyrus/}}, 3 de {J}unio de 2016.
+
+\bibitem[Pressman(2001)]{pressman01}
+Roger~S. Pressman.
+\newblock \emph{{Software Engineering, A Practioner's Approach}}.
+\newblock McGraw-Hill, fifth edition edition, 2001.
+
+\bibitem[Pullum(2001)]{Pullum01}
+Laura~L. Pullum.
+\newblock \emph{{Software fault tolerance techniques and implementation}}.
+\newblock Artech House, USA, 2001.
+\newblock ISBN 1-58053-137-7.
+
+\bibitem[{SysML}(2 de {J}unio de 2016)]{SysMLWeb}
+{SysML}.
+\newblock {\texttt{http://sysml.org/}}, 2 de {J}unio de 2016.
+
+\bibitem[Torres-Pomales(2000)]{SoftwareFaultToleranceATutorial}
+Wilfredo Torres-Pomales.
+\newblock {Software Fault Tolerance: A tutorial}.
+\newblock Technical Report NASA/TM-2000-210616, National Aeronautics and Space
+  Administration Langley Research Center, Hampton, Virginia, October 2000.
+
+\end{thebibliography}

@@ -1,0 +1,14 @@
+\chapter*{Lista de acrónimos}
+\label{chap:acronimos}
+\begin{acronym}[TESIS]
+\acro{SW}{Software}
+\acro{FT}{Tolerancia a Fallas}
+\acro{FA}{Evitación de Fallas}
+\acro{FR}{Eliminación de Fallas}
+\acro{FF}{Predicción de Fallas}
+\acro{MTBF}{Media de Tiempo Entre Fallas}
+\acro{MTTF}{Media de Tiepo a Fallar}
+\end{acronym}
+
+
+

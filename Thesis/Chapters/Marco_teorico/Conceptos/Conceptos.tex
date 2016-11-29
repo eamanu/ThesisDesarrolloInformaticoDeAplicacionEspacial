@@ -1,0 +1,82 @@
+% esta seccion habla sobre los términos importantes a utilizar a lo largo de la tesis
+\section{Terminología}\label{sec:terminologia}
+Existe una importante diferencia entre los signficados de las palabras falla, error y 
+avería\footnote{En inglés: fault, error y failure.}, que es importante destacar antes de comenzar 
+con el desarrollo de este trabajo.
+
+Un \textbf{avería} de sistema ocurre cuando el servicio prestado por el sistema ya no coincide con 
+las especificaciones del mismo \citep{Hanmer07}. Esto quiere decir que existe un problema que tiene 
+una consecuencia negativa en el sistema completa, logrando que este ya no logre cumplir con sus 
+especificaciones. Cuando el sistema no se comporta de la manera que es especificada, este ha 
+fracasado. Esto signfica que lo que se espera de un sistema se encuentra descripto, comúnmente en 
+especificaciones o requerimientos \citep{Pullum01}.
+
+Para la \cite{IEEE610.12} avería es ``la inhabilitación de una sistema o componente a llevar a 
+cabo las funciones requeridas en los requerimientos específicos de perfomance del mismo''.
+
+\cite{Hanmer07} ejemplifica averías de sistemas cuando: el sistema se bloquea y se para cuando no 
+debería hacerlo, el sistema calcula un resultado incorrecto, el sistema no está disponible, el 
+sistema es incapaz de responder a la interacción con el usuario. Cuando el sistema no hace lo que 
+debe hacer, el sistema a fracasado. Los averías son detectados por los usuarios mientras usan el 
+sistema.
+
+Los averías son causados por los errores. Un \textbf{error} es una parte del estado del sistema 
+que es susceptible de provocar un avería en el sistema, un error que afecta al servicio es una 
+indicación que un avería se ha producido \citep{Hanmer07}. Un error se puede propagar, es decir 
+dar a lugar otros errores \citep{Pullum01}.
+
+\cite{IEEE610.12} define error como ``la diferencia entre un valor computado, observado o medido, 
+con el valor verdadero, especificado o el teóricamente verdadero''.
+
+Los errores se pueden clasificar en dos tipos: errores de tiempo y valores \citep{Hanmer07}. Los 
+errores de valores son aquellos que se manifiestan como valores discretos incorrectos o estados del 
+sistema incorrecto. En cambio, los errores de tiempo pueden incluir errores de no cumplimiento de 
+total las tareas. 
+
+\cite{Hanmer07} especifica los siguiente casos más comunes de errores:
+\begin{itemize}
+ \item Timing: existe una falta de sincronización en la comunicación de los procesos.
+ \item Bucles infinitos: ejecución de un bucle sin detenerse, esto consume memoria, y el 
+avería del sistema.
+ \item Error de protocolo: errores en el flujo de comunicación ya que no coinciden los 
+protocolos. Mensajes enviados en formato diferente, en tiempos diferentes, a lugares de sistemas 
+incorrectos.
+ \item Inconsistencia de datos: errores son diferentes en diferentes lugares.
+ \item Sobrecarga de sistema: el sistema es incapaz de hacer frente a la sobrecarga de 
+actividades a la que es expuesta.
+\end{itemize}
+
+La causa adjudicada o la hipótesis de un error es una \textbf{falla}, también llamado ``bugs''. Una 
+falla activa es aquella que produce un error \citep{Pullum01}. Una falla es un defecto que está 
+presente en el sistema y que puede causar un error \citep{Hanmer07}. Es la desviación actual de lo 
+correcto \cite{Hanmer07}.
+
+Según \cite{IEEE610.12} una falla es ``un defecto en un dispositivo de hardware o componente; como 
+por ejemplo un corto circuito o un cable cortado''. También realiza una segunda definción diciendo 
+que falla es ``un paso incorrecto, proceso, o definción de dato en un programa de computadora'' 
+\cite{IEEE610.12}. Esta última definción es la que se usa en el ámbito de este trabajo.
+
+Algunas fallas introducidas en el \ac{SW} se detallan en \cite{Hanmer07}, lo cual señala que 
+pueden incluir:
+\begin{itemize}
+ \item Especificaciones incorrecta de requerimientos
+ \item Diseño incorrecto
+ \item Errores de programación
+\end{itemize}
+
+Entonces, como lo indica \cite{Pullum01} con la tolerancia a fallas, lo que se busca es prevenir el 
+avería mediante la ``tolerancia'' de fallas, las cuales son detectables cuando un error aparece. 
+Las fallas son el motivo de errores y los errores son motivos de avería \citep{FTDesign}.
+
+También se suele utilizar el término anomalía en las operaciones de vehículos espaciales para 
+referirse a comportamientos anómalos o no esperados del sistema \citep{SpaceSystemFailures}
+
+En \cite{FTDesign} describe un ejemplo para diferenciar correctamente estos conceptos. Se considera 
+el \ac{SW} de una planta nuclear, en la cual existe una computadora que es responsable de controlar 
+la temperatura, la presión y demás variables de interés para la seguridad del sistema. Se da el 
+caso de que uno de los sensores detecta que la turbina principal se encuentra girando a una 
+velocidad menor a la correcta. Esta falla hace que el sistema envíe una señal para aumentar su 
+velocidad (error). Esto produce un exceso de velocidad en la turbina, lo cual tiene como 
+consecuencia que la seguridad mecánica apague la turbina. En esta situación el sistema no está 
+generando energía. Esto se considera un avería, porque el sistema no está entregando el servicio 
+según lo establecido por los requerimientos. Pero es un avería salvable. 

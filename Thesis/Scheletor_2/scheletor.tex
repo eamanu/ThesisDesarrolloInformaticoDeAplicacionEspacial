@@ -1,0 +1,79 @@
+\documentclass[11pt, a4paper, twoside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+%\usepackage{natbib}
+\usepackage{apacite}
+% Indice de palabras
+\usepackage{makeidx}
+\usepackage{acronym}
+
+% ------- FIN usepackage -------------------------
+
+% Here put the configuration of the document ------
+% TODO: configuration of document
+\usepackage{vmargin}
+\setpapersize{A4}
+\setmargins{2.5cm}		% margen izquierdo
+{1.5cm}				% margen superior
+{16.5cm}			% anchura del texto
+{23.42cm}			% altura del texto
+{10pt}				% altura de los encabezados
+{1cm}				% espacio entre el texto y los encabezados
+{0pt}				% altura del pie de página
+{2cm}				% espacio entre el texto y el pie de página
+
+% Interlineado
+\renewcommand{\baselinestretch}{1.5}
+% -------------------------------------------------
+  
+% Para que cree el indice de palabras
+\makeindex % (pero aun no decimos donde)
+% Tex con los acronimos
+\input{../Chapters/Acronimos/Acronimos.tex}
+
+\makeatletter
+\@addtoreset{chapter}{part}
+\makeatother
+
+\begin{document}
+\frontmatter
+\pagenumbering{Roman}
+% Dedicatoria
+\input{../Dedicatoria/Dedicatoria.tex}
+\pagestyle{empty}
+
+% Agradecimientos
+\input{../Agradecimientos/Agradecimientos.tex}
+\pagestyle{empty}
+
+% Resumen
+\input{../Resumen/Resumen.tex}
+\pagestyle{empty}
+
+% Indices
+\input{../Index/Index.tex}
+
+% Acronimos
+
+
+\mainmatter	
+%------------------------------------------------------------
+% Introduccion
+\pagenumbering{arabic}
+\input{../Chapters/Introduction/Introduction.tex}
+
+% Tolerancia a fallas
+\input{../Chapters/Tolerancia_a_fallas/Tolerancia_a_fallas.tex}
+
+% ----------------------------------------------------------------------------------------------
+\backmatter
+\newpage
+\nocite{*}
+\bibliography{../Bibliography/biblio}
+%\bibliographystyle{apalike}
+\bibliographystyle{apacite}
+\addcontentsline{toc}{chapter}{Bibliograf\'ia}
+
+\end{document}
+  
+  

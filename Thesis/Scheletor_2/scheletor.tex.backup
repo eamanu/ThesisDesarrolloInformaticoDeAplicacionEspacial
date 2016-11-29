@@ -1,0 +1,68 @@
+\documentclass[a4paper,10pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{natbib}
+% \usepackage{apacite}
+% Indice de palabras
+\usepackage{makeidx}
+% ------- FIN usepackage -------------------------
+
+% Here put the configuration of the document ------
+% TODO: configuration of document
+
+% Interlineado
+\renewcommand{\baselinestretch}{1.5}
+% -------------------------------------------------
+
+% Para que cree el indice de palabras
+\makeindex % (pero aun no decimos donde)
+
+\makeatletter
+\@addtoreset{chapter}{part}
+\makeatother
+
+\begin{document}
+\pagenumbering{Roman}
+% Dedicatoria
+\input{../Dedicatoria/Dedicatoria.tex}
+\pagestyle{empty}
+
+% Agradecimientos
+\input{../Agradecimientos/Agradecimientos.tex}
+\pagestyle{empty}
+
+% Resumen
+\input{../Resumen/Resumen.tex}
+\pagestyle{empty}
+
+% Indices
+\tableofcontents % indice de contenidos
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
+\listoffigures % indice de figuras
+\pagestyle{empty}
+% Indice de palabra
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Indice alfabético} % para que lo añada al índice de contenidos
+\printindex % para que ponga el índice aquí
+\pagestyle{empty}
+
+
+% ------------------------------------------------------------
+
+% Introduccion
+\input{../Chapters/Introduction/Introduction.tex}
+\pagenumbering{arabic}
+% ----------------------------------------------------------------------------------------------
+
+
+\newpage
+\nocite{*}
+\bibliography{../Bibliography/biblio}
+\bibliographystyle{apalike}
+\end{document}
+  
+  
