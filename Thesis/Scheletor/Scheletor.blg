@@ -3,61 +3,69 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Scheletor.aux
 The style file: plainnatesp.bst.bst
 Database file #1: biblio.bib.bib
-Repeated entry---line 48 of file biblio.bib.bib
+Repeated entry---line 50 of file biblio.bib.bib
  : @phdthesis{FTFligthControlUnmannedAerialVehicle
  :                                                ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "SysMLWeb" isn't style-file defined
---line 55 of file biblio.bib.bib
+--line 57 of file biblio.bib.bib
 Warning--entry type for "MARTEWeb" isn't style-file defined
---line 61 of file biblio.bib.bib
+--line 63 of file biblio.bib.bib
 Warning--entry type for "PapyrusWeb" isn't style-file defined
---line 67 of file biblio.bib.bib
+--line 69 of file biblio.bib.bib
 Warning--entry type for "MarsClimateOrbiterFailureWeb" isn't style-file defined
---line 135 of file biblio.bib.bib
-Warning--I'm ignoring MarsClimateOrbiterFailureWeb's extra "title" field
---line 138 of file biblio.bib.bib
+--line 136 of file biblio.bib.bib
+Warning--entry type for "invapWEB" isn't style-file defined
+--line 258 of file biblio.bib.bib
 Warning--there's a number but no volume in Anderson83
+Warning--can't use both author and editor fields in Becker2016
+Warning--empty chapter and pages in Becker2016
+Warning--empty journal in Crawley04
 Warning--can't use both autor y editor fields in FTDesign
-You've used 19 entries,
+Warning--can't use both author and editor fields in Mayo2016
+Warning--empty chapter and pages in Mayo2016
+Warning--there's a number but no volume in Raghavendra84
+Warning--empty journal in Schneidewind98
+Warning--empty journal in Woerner00
+You've used 47 entries,
             2773 wiz_defined-function locations,
-            741 strings with 7823 characters,
-and the built_in function-call counts, 6378 in all, are:
-= -- 550
-> -- 267
-< -- 20
-+ -- 98
-- -- 79
-* -- 409
-:= -- 1037
-add.period$ -- 63
-call.type$ -- 19
-change.case$ -- 76
-chr.to.int$ -- 19
-cite$ -- 40
-duplicate$ -- 355
-empty$ -- 607
-format.name$ -- 104
-if$ -- 1331
+            918 strings with 13031 characters,
+and the built_in function-call counts, 19374 in all, are:
+= -- 1670
+> -- 999
+< -- 45
++ -- 348
+- -- 301
+* -- 1395
+:= -- 2995
+add.period$ -- 150
+call.type$ -- 47
+change.case$ -- 230
+chr.to.int$ -- 47
+cite$ -- 104
+duplicate$ -- 998
+empty$ -- 1723
+format.name$ -- 370
+if$ -- 4110
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 21
-newline$ -- 107
-num.names$ -- 78
-pop$ -- 192
+missing$ -- 51
+newline$ -- 250
+num.names$ -- 190
+pop$ -- 554
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 194
 quote$ -- 0
-skip$ -- 246
+skip$ -- 736
 stack$ -- 0
-substring$ -- 78
-swap$ -- 23
-text.length$ -- 3
+substring$ -- 486
+swap$ -- 112
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 164
-warning$ -- 2
-while$ -- 61
+type$ -- 452
+warning$ -- 10
+while$ -- 174
 width$ -- 0
-write$ -- 262
+write$ -- 619
 (There was 1 error message)
