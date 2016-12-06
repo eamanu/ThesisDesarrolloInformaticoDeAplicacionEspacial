@@ -89,6 +89,9 @@ función en cuestión \citep{FTDesign}. Esto se puede lograr variando los algori
 diferentes equipos de trabajo realicen las mismas partes del sistema, de manera tal de tener 
 redundancia en código, etc. 
 
+%TODO: Fallas en el Software
+\subsection{Fallas en el Software}
+
 % TODO: medios de fiabilidad
 \section{Medios de fiabilidad}
 Los medios de confiabilidad son métodos y técnicas que permiten el desarrollo de un sistema 
@@ -156,6 +159,11 @@ consecuencia de fracasos \citep{Pullum01}
 
 % TODO: atributos de la fiabilidad
 \section{Atributos de la fiabilidad}
+El objetivo final de la \ac{FT} es desarrollar un sistema que sea fiable. Fiabilidad tiene muchas 
+definciones, pero comúnmente es expresado como la probabilidad de \textbf{no fallar} 
+\citep{FTAvionics}. ``La fiabilidad es la probabilidad de que un sistema continúe funcionando 
+correctamente durante un intervalo de tiempo particular'' \citep{SoftwareFaultToleranceATutorial}.
+
 La fiabilidad de un sistema \ac{SW} puede ser descrita por una serie de atributos, los cuales son 
 mencionados a continuación.
 

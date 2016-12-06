@@ -4,27 +4,32 @@
 \BOOKMARK [1][-]{section.1.3}{Objetivo del trabajo y preguntas de investigaci\363n}{chapter.1}% 4
 \BOOKMARK [2][-]{subsection.1.3.1}{Objetivo}{section.1.3}% 5
 \BOOKMARK [2][-]{subsection.1.3.2}{Objetivos Espec\355ficos}{section.1.3}% 6
-\BOOKMARK [2][-]{subsection.1.3.3}{Preguntas de investigaci\363n }{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.3}{Preguntas de investigaci\363n}{section.1.3}% 7
 \BOOKMARK [0][-]{chapter.2}{Marco Te\363rico}{}% 8
 \BOOKMARK [1][-]{section.2.1}{Terminolog\355a}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.2}{La fiabilidad en el software}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.3}{Impedimentos de la confiabilidad}{chapter.2}% 11
 \BOOKMARK [2][-]{subsection.2.3.1}{Or\355genes de la falla}{section.2.3}% 12
 \BOOKMARK [2][-]{subsection.2.3.2}{Modos com\372nes de fallas}{section.2.3}% 13
-\BOOKMARK [1][-]{section.2.4}{Medios de fiabilidad}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.4.1}{Evitaci\363n de Fallas}{section.2.4}% 15
-\BOOKMARK [2][-]{subsection.2.4.2}{Tolerancia a Fallas}{section.2.4}% 16
-\BOOKMARK [2][-]{subsection.2.4.3}{Eliminaci\363n de Fallas}{section.2.4}% 17
-\BOOKMARK [2][-]{subsection.2.4.4}{Predicci\363n de Fallas}{section.2.4}% 18
-\BOOKMARK [1][-]{section.2.5}{Atributos de la fiabilidad}{chapter.2}% 19
-\BOOKMARK [2][-]{subsection.2.5.1}{Confiabilidad}{section.2.5}% 20
-\BOOKMARK [2][-]{subsection.2.5.2}{Disponibilidad}{section.2.5}% 21
-\BOOKMARK [2][-]{subsection.2.5.3}{Seguridad}{section.2.5}% 22
-\BOOKMARK [1][-]{section.2.6}{Tolerancia a falla}{chapter.2}% 23
-\BOOKMARK [1][-]{section.2.7}{Clasificaci\363n de un sistema de control tolerante a fallas}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.8}{Redundancia en el software}{chapter.2}% 25
-\BOOKMARK [2][-]{subsection.2.8.1}{T\351cnicas single version}{section.2.8}% 26
-\BOOKMARK [2][-]{subsection.2.8.2}{T\351cnicas multi-version}{section.2.8}% 27
-\BOOKMARK [2][-]{subsection.2.8.3}{T\351cnicas de detecci\363n de fallas}{section.2.8}% 28
-\BOOKMARK [2][-]{subsection.2.8.4}{T\351cnicas de recuperaci\363n de fallas}{section.2.8}% 29
-\BOOKMARK [0][-]{chapter*.29}{Bibliograf\355a}{}% 30
+\BOOKMARK [2][-]{subsection.2.3.3}{Fallas en el Software}{section.2.3}% 14
+\BOOKMARK [1][-]{section.2.4}{Medios de fiabilidad}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.4.1}{Evitaci\363n de Fallas}{section.2.4}% 16
+\BOOKMARK [2][-]{subsection.2.4.2}{Tolerancia a Fallas}{section.2.4}% 17
+\BOOKMARK [2][-]{subsection.2.4.3}{Eliminaci\363n de Fallas}{section.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.4.4}{Predicci\363n de Fallas}{section.2.4}% 19
+\BOOKMARK [1][-]{section.2.5}{Atributos de la fiabilidad}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.5.1}{Confiabilidad}{section.2.5}% 21
+\BOOKMARK [2][-]{subsection.2.5.2}{Disponibilidad}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.3}{Seguridad}{section.2.5}% 23
+\BOOKMARK [1][-]{section.2.6}{Tolerancia a falla}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.7}{Clasificaci\363n de un sistema de control tolerante a fallas}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.8}{Redundancia en el software}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.8.1}{T\351cnicas single version}{section.2.8}% 27
+\BOOKMARK [2][-]{subsection.2.8.2}{T\351cnicas multi-version}{section.2.8}% 28
+\BOOKMARK [2][-]{subsection.2.8.3}{T\351cnicas de detecci\363n de fallas}{section.2.8}% 29
+\BOOKMARK [2][-]{subsection.2.8.4}{T\351cnicas de recuperaci\363n de fallas}{section.2.8}% 30
+\BOOKMARK [1][-]{section.2.9}{T\351cnica de evaluaci\363n de confiabilidad}{chapter.2}% 31
+\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 32
+\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 34
+\BOOKMARK [0][-]{chapter*.34}{Bibliograf\355a}{}% 35

@@ -1,7 +1,9 @@
 \select@language {spanish}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Fiabilidad \citep {FTAvionics}\relax }}{4}{figure.caption.17}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Representaci\IeC {\'o}n de checkpoint y restart\relax }}{13}{figure.caption.26}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Representaci\IeC {\'o}n del proceso pares\relax }}{14}{figure.caption.27}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Configuraci\IeC {\'o}n de bloques de recuperaci\IeC {\'o}n\relax }}{15}{figure.caption.28}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Fiabilidad \citep {FTAvionics}\relax }}{4}{figure.caption.19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Representaci\IeC {\'o}n de checkpoint y restart\relax }}{13}{figure.caption.29}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Representaci\IeC {\'o}n del proceso pares\relax }}{14}{figure.caption.30}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Configuraci\IeC {\'o}n de bloques de recuperaci\IeC {\'o}n\relax }}{15}{figure.caption.31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \IeC {\'A}rbol binario de 4 niveles\relax }}{17}{figure.caption.33}

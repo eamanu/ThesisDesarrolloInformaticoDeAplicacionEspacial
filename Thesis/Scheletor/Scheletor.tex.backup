@@ -33,7 +33,7 @@
 \usetikzlibrary{shapes,snakes}
 \usetikzlibrary{arrows,positioning} 
 \usetikzlibrary{babel}
-  
+
 %Para agregar notas
 \usepackage{todonotes}
 

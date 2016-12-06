@@ -1,6 +1,6 @@
 \chapter{Introducción}\label{chap:intro}
 % TODO: Introuducción, extraída desde el plan de tesis,
-En el marco del Plan Espacial Nacional, desarrollado por la \ac{COANE} de Argentina, y con el propósito de llevar a cabo actividades de investigación y 
+En el marco del Plan Espacial Nacional, desarrollado por la \ac{CONAE} de Argentina, y con el propósito de llevar a cabo actividades de investigación y 
 aplicación, provenientes de la \ac{UNLAM} se presenta este plan de tesis con el fin de ampliar los 
 conocimientos y la participación de la \ac{CONAE} y \ac{UNLAM}, en el campo del Desarrollo Informático y 
 Ciencias de la Computación.
@@ -27,7 +27,7 @@ Si se considera al ámbito espacial como una industria, algo que ha sido demostr
 años; y si se tiene en cuenta las intenciones de crecimiento y competitividad de la empresa INVAP,  de permitir el ingreso de nuestro pais en el mercado satelital \cite{invapWEB}, resulta de gran 
 importancia lograr reducir los costos en fabricación y desarrollo de vehículos satelitales.
 
-La\ac{NASA} tiene un enfoque de desarrollo bajo el lema 
+La \ac{NASA} tiene un enfoque de desarrollo bajo el lema 
 ``faster, cheaper, better'' \cite{Forsberg99}, lo cual busca desarrollar sus proyectos y misiones 
 de foma rápida, barata y mejor. Bajo este enfoque se han realizado diversos estudios e 
 investigaciones dando resultados sumamente positivos \cite{Tai99}, \cite{Chau99}, 
@@ -73,11 +73,11 @@ adicionales, ya que se le deben realizar tareas de calificación adicional, debi
 
 Uno de los puntos positivos, y que motivan la aplicación de componentes COTS, es que a la hora de 
 desarrollar varios satélites en base a la misma ingeniería, se puede ahorrar en gran medida en los 
-materiales que se utilizan. Los componentes COTS suelen tener un costo de compra entre 100 y 1000 
+materiales que se utilizan. Los componentes \ac{COTS} suelen tener un costo de compra entre 100 y 1000 
 veces menores que aquellos que están calificados para volar. \textbf{Esto ayudaría a ahorrar 
 algunos millones de dólares de los proyectos satelitales.}
-
-Otra de las ventajas de utilizar componentes COTS, es que la mayoría cuentan con una tecnología más 
+  
+Otra de las ventajas de utilizar componentes \ac{COTS}, es que la mayoría cuentan con una tecnología más 
 avanzada que aquellos que son calificados para volar. Esta tecnología permite:
 \begin{itemize}
  \item Aumentar prestaciones, mediante el incremento de las capacidades de procesamiento, memoria, 
@@ -88,17 +88,17 @@ procesamiento, etc.
  \item Reducir volumen, masa y consumo
 \end{itemize}
 
-El último punto mencionado anteriormente es de especial interés, ya que al reducir volúmen y masa, 
+El último punto mencionado anteriormente es de especial interés, ya que al reducir volumen y masa, 
 permite reducir costos adicionales como el de lanzamiento.
 
-Lograr reducir costos de proyectos satélitales tienen ventajas directas a la hora de introducir a 
-Argentina en un mercado altamente competitivo, donde la mínima reducción de costos, representa 
+Esta reducción de costos de proyectos satelitales tienen ventajas directas a la hora de introducir a 
+Argentina en un mercado altamente competitivo, donde la mínima reducción de estos, representa 
 ganancias económicas importantes. 
  
-Uno de los puntos en contra de la utilización de componentes COTS es que al no ser calificados para 
-volar, es necesario llevar a cabo tareas y estrategías inteligentes, con el fin de hacer frente a 
-esa “deficiencia”. Por ello es necesario realizar una investigación y análisis de diferentes 
-arquitecturas de aviónica, que pueden ser utilizadas para lograr que el sistema sea tolerante a 
+Uno de los puntos en contra de la utilización de componentes \ac{COTS} es que al no ser calificados para 
+volar, es necesario llevar a cabo tareas y estrategias inteligentes, con el fin de hacer frente a 
+esa “deficiencia”. Por ello, se exige realizar una investigación y análisis de diferentes 
+arquitecturas de aviónica, que puedan ser utilizadas para lograr que el sistema sea tolerante a 
 fallas, y así, cumplir con los requerimientos de una misión satelital. 
 
 El estudio de arquitecturas tolerantes a fallas, no solamente tiene aplicación en el ámbito 
@@ -106,29 +106,45 @@ espacial, si no que también puede ser extendido a cualquier sistema crítico, l
 ser robustos y tolerantes a fallas, como es el caso de aviones comerciales, plantas nucleares, 
 automóviles, etc.
 
-\section*{Contribución esperada}
-Como resultado de este trabajo de tesis se obtendrá un diseño de arquitectura de aviónica 
-basada en componentes COTS. Esto comprende la topología de comunicación de la aviónica, protocolos 
-de alto nivel con respecto al modelo de OSI (desde el nivel de red hasta el nivel de aplicación). 
-Además algoritmos de ruteo, dependiendo de la topología y disposición de los componentes de la 
-aviónica. Se debe destacar, que la idea del trabajo es el diseño de una arquitectura redundante y 
-automáticamente reconfigurable.
-
-Esta arquitectura debe tener la capacidad de tolerancia a fallas, lo cual incluye el diseño de 
-algoritmos de autotest y de ruteo para el caso de surgimiento de fallas. Esto forma parte de 
-la detección, aislación y recuperación ante fallas (FDIR), que incluye la reconfiguración del 
-sistema para mantener la operabilidad.
-
-Por último se espera realizar simulación de la arquitectura para validar su funcionamiento. Se 
-espera llevar a cabo pruebas en prototipos de hardware. 
-
-Como producto secundario, y no menos importante, surge la realización de una metodología de 
-medición de tolerancia a fallas, la cual permite realizar una comparativa entre diferentes 
-arquitecturas tolerantes a fallas. 
+% --------------------- %
+% TODO: Hipótesis
+% --------------------- %
+\section{Hipótesis}
+La hipótesis de esta tesis es la siguiente: ``Una arquitectura de aviónica  basadas en componentes 
+\ac{COTS}, robusta y tolerante a fallas, es totalmente aplicable y utilizable en vehículos espaciales, 
+con un alto nivel de confiabilidad, lo cual permite disminuir la complejidad de los sistemas actuales de aviónica''.
 
 \section{Objetivo del trabajo y preguntas de investigación}
-El objetivo de este trabjo es tal tal y tal
 
-Y se busca reponder las siguientes preguntas
+\subsection{Objetivo}
+El objetivo de este trabajo es investigar y analizar arquitecturas de comunicación de los 
+subsistemas de aviónica tolerante a fallas basada en componentes \ac{COTS} para vehículos 
+satelitales de nueva generación.
 
-bla bla bla
+% secondary objectives
+\subsection{Objetivos Específicos}
+\begin{enumerate}
+ \item Realizar un estudio del estado de la cuestión sobre arquitecturas tolerantes a fallas para 
+sistemas críticos.
+ \item Investigar y analizar arquitecturas tolerantes a fallas que aseguren la confiabilidad del 
+sistema y que sean aplicables en la industria satelital.
+ \item Investigar y analizar protocolos de comunicación, para las capas superiores del modelo de 
+OSI (modelo de interconexión de sistemas abiertos - ISO/IEC 7498-1), orientados a la tolerancia a 
+fallas y confiabilidad de los sistemas. Realizar un estudio comparativo de los diferentes 
+protocolos estudiados.
+ \item Investigar una metodología para lograr una medición de la tolerancia a fallas en 
+arquitecturas de aviónica.
+ \item Desarrollar un estudio comparativo de arquitecturas tolerantes a fallas con el fin de obtener 
+ventajas y desventajas de cada una de ellas.
+ \item Diseñar modelos alternativos de arquitecturas tolerantes a fallas, que tenga un grado de 
+confiabilidad tal que permita la aplicación de componentes \ac{COTS}.
+ \item Evaluar la confiabilidad de los modelos de arquitecturas (mediante métrica desarrollada en 
+este trabajo o siguiendo otras estrategias). 
+ \item Proponer el diseño de una nueva arquitectura tolerante a fallas, con un 
+grado de confiabilidad suficiente para la aplicación de componentes \ac{COTS} en aviónicas de vehículos 
+satelitales.
+\item Simular la arquitectura planteada para medir su grado de tolerancia a fallas y perfomance.
+\end{enumerate}
+
+\subsection{Preguntas de investigación}
+Para este trabajo de tesis se plantearon las siguientes preguntas de investigación, que se fueron respondiendo a lo largo de este trabajo:
