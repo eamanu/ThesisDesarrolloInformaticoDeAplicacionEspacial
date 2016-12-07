@@ -1,5 +1,5 @@
 SHELL=/bin/sh
-THESIS=template_tesis_maie
+THESIS=Scheletor
 
 .SUFFIXES:
 .SUFFIXES: .bib .pdf .tex
@@ -7,9 +7,12 @@ THESIS=template_tesis_maie
 
 run: $(THESIS).pdf
 
-$(THESIS).pdf: ../Bibliography/biblio.bbl $(THESIS).tex
+$(THESIS).pdf: biblio.bib $(THESIS).tex
+	pdflatex $(THESIS).tex
+	bibtex $(THESIS).aux
 	pdflatex $(THESIS).tex -draftmode
-	pdflatex $(THESIS).tex 
+	pdflatex $(THESIS).tex
+
 
 $(THESIS).bbl: $(THESIS).aux
 	bibtex $(THESIS).aux
@@ -28,7 +31,7 @@ cleanall: clean
 
 open: $(THESIS).pdf
 
-	okular $(THESIS)).pdf &
+	evince $(THESIS).pdf &
 
 package: $(THESIS).pdf 
 	(find . -name "*.tex" && find . -name "makefile" && find . -name "maiedoc.sty" && find . -name "*.bib" && find . -name "*.bst" && find ./imagenes -name "*" && find ./secciones -name "*.pdf") | zip $(THESIS).zip -@ \

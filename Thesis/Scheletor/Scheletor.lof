@@ -5,6 +5,8 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Representaci\IeC {\'o}n de checkpoint y restart\relax }}{13}{figure.caption.29}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Representaci\IeC {\'o}n del proceso pares\relax }}{14}{figure.caption.30}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Configuraci\IeC {\'o}n de bloques de recuperaci\IeC {\'o}n\relax }}{15}{figure.caption.31}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Failure rate de HW vs tiempo \relax }}{16}{figure.caption.32}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Failure rate SW vs tiempo \relax }}{17}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \IeC {\'A}rbol binario de 4 niveles\relax }}{18}{figure.caption.33}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Confiabilidad con respecto al tiempo de una arquitectura de \IeC {\'a}rbol binario de 4 niveles\relax }}{19}{figure.caption.34}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \IeC {\'A}rbol binario de 4 niveles\relax }}{19}{figure.caption.35}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Confiabilidad con respecto al tiempo de una arquitectura de \IeC {\'a}rbol binario de 4 niveles\relax }}{20}{figure.caption.36}
