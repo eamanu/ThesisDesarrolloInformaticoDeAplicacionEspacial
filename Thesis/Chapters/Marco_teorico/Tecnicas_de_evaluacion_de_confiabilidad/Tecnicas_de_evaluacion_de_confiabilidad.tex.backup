@@ -1,1 +1,28 @@
-\section{Técnica de evaluación de confiabilidad}
+\section{Técnica de evaluación de fiabilidad}
+La evaluación de la fiabilidad es de suma importancia para el desarrollo de sistemas críticos, ya 
+que permite identificar que aspectos del comportamiento del sistema juega un papel importante 
+\citep{FTDesign}.
+
+Como lo indica \cite{FTDesign} existen dos enfoques convencionales para evaluar fiabilidad:
+\begin{enumerate}
+ \item Modelado de un sistema en la fase de diseño. 
+ \item Aseguramiento del sistema en la fases finales de desarrollo (testing).
+\end{enumerate}
+
+La evaulación de la fiabilidad tiene dos aspectos. En primer lugar se tiene una \textit{evaluación 
+cualitativa} que permite identificar, clasificar y medir modos de fallas, o eventos combinacionales 
+que puedan provocar una falla. El otro aspecto es la \textit{evaluación cuantitativa}, la cual 
+permite evaluar en términos de probabilidad los atributos de la fiabilidad 
+(Sección \ref{sec:atributos_de_la_fiabilidad}), disponibilidad, seguridad.
+
+\section{Medidas comunes de fiabilidad}
+Las medidas de fiabilidad más comunes son las siguientes: failure rate, tiempo medio a la falla, 
+tiempo medio de reparación y tiempo medio entre fallas.
+
+\subsection{Failure rate}
+Failure rate $\lambda$ es el número esperardo de fallas por unidad de tiemp \citep{FTDesign}. Es 
+usual utilizar la dimensión \textit{fallas/horas}.
+
+Generalmente, $\lambda$ se encuentra a nivel de componente. Para conocer el failure rate del 
+sistema completo, se puede realizar (a groso modo) una sumatoria de los $\lambda$ de los 
+componentes que integran el sistema. $$\lambda=\sum_{i=1}^{n} \lambda_i$$

@@ -28,8 +28,11 @@
 \BOOKMARK [2][-]{subsection.2.8.2}{T\351cnicas multi-version}{section.2.8}% 28
 \BOOKMARK [2][-]{subsection.2.8.3}{T\351cnicas de detecci\363n de fallas}{section.2.8}% 29
 \BOOKMARK [2][-]{subsection.2.8.4}{T\351cnicas de recuperaci\363n de fallas}{section.2.8}% 30
-\BOOKMARK [1][-]{section.2.9}{T\351cnica de evaluaci\363n de confiabilidad}{chapter.2}% 31
-\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 32
-\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 33
-\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 34
-\BOOKMARK [0][-]{chapter*.34}{Bibliograf\355a}{}% 35
+\BOOKMARK [1][-]{section.2.9}{T\351cnica de evaluaci\363n de fiabilidad}{chapter.2}% 31
+\BOOKMARK [1][-]{section.2.10}{Medidas comunes de fiabilidad}{chapter.2}% 32
+\BOOKMARK [2][-]{subsection.2.10.1}{Failure rate}{section.2.10}% 33
+\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 34
+\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 36
+\BOOKMARK [2][-]{subsection.3.1.2}{Esquema de \341rbol binario con degradaci\363n de perfomance}{section.3.1}% 37
+\BOOKMARK [0][-]{chapter*.35}{Bibliograf\355a}{}% 38

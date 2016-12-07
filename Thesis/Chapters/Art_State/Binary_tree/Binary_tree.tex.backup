@@ -68,7 +68,7 @@ conocer los nuevos caminos que intercomunican nodos, para mantener la operabilid
 Se asume que la probabilidad de fallas de los links es muy baja en comparación con la de los nodos. 
 Teniendo que el rate de falla es de $\lambda$, la confiabilidad  de un nodo es $R = e^{-\lambda 
 t}$. También se sabe que un árbol binario con n niveles, se tiene $2^n - 1$ nodos en total. 
-Entonces la confiabilidad de todo el sistema es: $$R_{nr} = R^{2*n - 1}$$.
+Entonces la confiabilidad de todo el sistema es: $$R_{nr} = R^{2*n - 1}$$
 
 \cite{Raghavendra84} incluye en sus cálculos un factor $c$, el cual es la probabilidad condicional 
 de que se lleve a cabo una recuperación exitosa, luego de que una falla se haya detectado. Entonces 
@@ -78,3 +78,17 @@ backup por nivel) es el siguiente: $$R_{sys} = \prod_{k=0}^{n-1}{[R^{2k +1} + R^
 
 Simplificando: $$R_{sys} = R^{2n +1} \prod_{k=0}^{n-1}{[(2^kc+1) - 2^kcR]}$$
 
+En la Figura \ref{fig:Reliability_binary_tree_4_levels}, se observa la confiabilidad de una 
+arquitectura de árbol bianrio de 4 niveles. En color negro se grafica una arquitectura sin 
+redundancia, mientras que en color rojo, azul y cyan, se muestra arquitecturas redundadas con 
+diferentes $c$ (0.98, 0.99, 1, respectivamente). 
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=1]{images/Marco_teorico/Reliability_binary_tree_4_levels.jpg}
+  \caption{Árbol binario de 4 niveles}  
+\label{fig:Reliability_binary_tree_4_levels} 
+\end{figure}
+
+Con esto podemos indicar, como es de esperarase que una arquitectura de árbol binario redundanda 
+aumenta considerablemente la confiabilidad del sistema completo. 
