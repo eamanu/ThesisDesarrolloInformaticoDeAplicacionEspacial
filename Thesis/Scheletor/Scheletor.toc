@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {2.1}Terminolog\IeC {\'\i }a}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}La fiabilidad en el software}{3}{section.2.2}
 \contentsline {section}{\numberline {2.3}Impedimentos de la confiabilidad}{4}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Or\IeC {\'\i }genes de la falla}{4}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Or\IeC {\'\i }genes de la falla}{5}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Modos com\IeC {\'u}nes de fallas}{5}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Fallas en el Software}{5}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Medios de fiabilidad}{6}{section.2.4}
@@ -23,8 +23,8 @@
 \contentsline {subsection}{\numberline {2.5.2}Disponibilidad}{8}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Seguridad}{9}{subsection.2.5.3}
 \contentsline {section}{\numberline {2.6}Tolerancia a falla}{9}{section.2.6}
-\contentsline {section}{\numberline {2.7}Clasificaci\IeC {\'o}n de un sistema de control tolerante a fallas}{10}{section.2.7}
-\contentsline {section}{\numberline {2.8}Redundancia en el software}{10}{section.2.8}
+\contentsline {section}{\numberline {2.7}Clasificaci\IeC {\'o}n de un sistema de control tolerante a fallas}{11}{section.2.7}
+\contentsline {section}{\numberline {2.8}Redundancia en el software}{11}{section.2.8}
 \contentsline {subsection}{\numberline {2.8.1}T\IeC {\'e}cnicas single version}{11}{subsection.2.8.1}
 \contentsline {subsubsection}{\numberline {2.8.1.1}Estructuras de software}{11}{subsubsection.2.8.1.1}
 \contentsline {subsection}{\numberline {2.8.2}T\IeC {\'e}cnicas multi-version}{12}{subsection.2.8.2}
@@ -35,19 +35,24 @@
 \contentsline {subsubsection}{\numberline {2.8.4.3}Procesos pares}{14}{subsubsection.2.8.4.3}
 \contentsline {subsubsection}{\numberline {2.8.4.4}Diversidad de datos}{14}{subsubsection.2.8.4.4}
 \contentsline {subsubsection}{\numberline {2.8.4.5}Bloques de recuperaci\IeC {\'o}n}{15}{subsubsection.2.8.4.5}
-\contentsline {subsubsection}{\numberline {2.8.4.6}Programaci\IeC {\'o}n N-version}{15}{subsubsection.2.8.4.6}
-\contentsline {subsubsection}{\numberline {2.8.4.7}Programaci\IeC {\'o}n N-Auto Checking}{15}{subsubsection.2.8.4.7}
-\contentsline {section}{\numberline {2.9}T\IeC {\'e}cnica de evaluaci\IeC {\'o}n de fiabilidad}{15}{section.2.9}
+\contentsline {subsubsection}{\numberline {2.8.4.6}Programaci\IeC {\'o}n N-version}{16}{subsubsection.2.8.4.6}
+\contentsline {subsubsection}{\numberline {2.8.4.7}Programaci\IeC {\'o}n N-Auto Checking}{16}{subsubsection.2.8.4.7}
+\contentsline {section}{\numberline {2.9}T\IeC {\'e}cnica de evaluaci\IeC {\'o}n de fiabilidad}{16}{section.2.9}
 \contentsline {section}{\numberline {2.10}Medidas comunes de fiabilidad}{16}{section.2.10}
 \contentsline {subsection}{\numberline {2.10.1}Failure rate}{16}{subsection.2.10.1}
-\contentsline {subsection}{\numberline {2.10.2}Tiempo medio medio de falla}{17}{subsection.2.10.2}
-\contentsline {subsection}{\numberline {2.10.3}Tiempo medio de reparaci\IeC {\'o}n}{17}{subsection.2.10.3}
-\contentsline {subsection}{\numberline {2.10.4}Tiempo medio entre fallas}{17}{subsection.2.10.4}
+\contentsline {subsection}{\numberline {2.10.2}Tiempo medio medio de falla}{18}{subsection.2.10.2}
+\contentsline {subsection}{\numberline {2.10.3}Tiempo medio de reparaci\IeC {\'o}n}{18}{subsection.2.10.3}
+\contentsline {subsection}{\numberline {2.10.4}Tiempo medio entre fallas}{18}{subsection.2.10.4}
 \contentsline {subsection}{\numberline {2.10.5}Cobertura de fallas}{18}{subsection.2.10.5}
-\contentsline {chapter}{\numberline {3}Estado del arte}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{19}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{20}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{20}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Extensi\IeC {\'o}n de la arquitectura con backup}{21}{subsubsection.3.1.1.2}
-\contentsline {subsection}{\numberline {3.1.2}Esquema de \IeC {\'a}rbol binario con degradaci\IeC {\'o}n de perfomance}{21}{subsection.3.1.2}
-\contentsline {chapter}{Bibliograf\'ia}{24}{chapter*.38}
+\contentsline {section}{\numberline {2.11}M\IeC {\'e}todos de c\IeC {\'a}lculos de fiabilidad}{18}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}Diagramas de bloques de confiabilidad}{19}{subsection.2.11.1}
+\contentsline {subsubsection}{\numberline {2.11.1.1}C\IeC {\'a}lculo de confiabilidad}{19}{subsubsection.2.11.1.1}
+\contentsline {subsubsection}{\numberline {2.11.1.2}C\IeC {\'a}lculo de disponibilidad}{19}{subsubsection.2.11.1.2}
+\contentsline {subsection}{\numberline {2.11.2}Utilizaci\IeC {\'o}n de procesos de Markov}{19}{subsection.2.11.2}
+\contentsline {chapter}{\numberline {3}Estado del arte}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{20}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{21}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{21}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Extensi\IeC {\'o}n de la arquitectura con backup}{22}{subsubsection.3.1.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Esquema de \IeC {\'a}rbol binario con degradaci\IeC {\'o}n de perfomance}{22}{subsection.3.1.2}
+\contentsline {chapter}{Bibliograf\'ia}{25}{chapter*.38}

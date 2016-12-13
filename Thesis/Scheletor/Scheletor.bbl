@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{50}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -231,6 +231,12 @@ C.~S. Raghavendra, AVIvizienis A., y M.~D. Ercegovac.
 \newblock Fault tolerance in binary tree architectures.
 \newblock \emph{IEEE Transactions on Computers}, \penalty0 (6):\penalty0
   568--572, 1984.
+
+\bibitem[Rausand y Hoyland(2004)]{Rausand04}
+M.~Rausand y A.~Hoyland.
+\newblock \emph{{System Reliability Theory. Models, statistical methods, and
+  applications}}.
+\newblock John Wiley & Sons, Inc., Hoboken, New Jersey, USA, 2 edition, 2004.
 
 \bibitem[RTI(2015)]{Rti15}
 RTI.
