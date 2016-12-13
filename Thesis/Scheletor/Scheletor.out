@@ -31,8 +31,12 @@
 \BOOKMARK [1][-]{section.2.9}{T\351cnica de evaluaci\363n de fiabilidad}{chapter.2}% 31
 \BOOKMARK [1][-]{section.2.10}{Medidas comunes de fiabilidad}{chapter.2}% 32
 \BOOKMARK [2][-]{subsection.2.10.1}{Failure rate}{section.2.10}% 33
-\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 34
-\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 35
-\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 36
-\BOOKMARK [2][-]{subsection.3.1.2}{Esquema de \341rbol binario con degradaci\363n de perfomance}{section.3.1}% 37
-\BOOKMARK [0][-]{chapter*.37}{Bibliograf\355a}{}% 38
+\BOOKMARK [2][-]{subsection.2.10.2}{Tiempo medio medio de falla}{section.2.10}% 34
+\BOOKMARK [2][-]{subsection.2.10.3}{Tiempo medio de reparaci\363n}{section.2.10}% 35
+\BOOKMARK [2][-]{subsection.2.10.4}{Tiempo medio entre fallas}{section.2.10}% 36
+\BOOKMARK [2][-]{subsection.2.10.5}{Cobertura de fallas}{section.2.10}% 37
+\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 38
+\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 40
+\BOOKMARK [2][-]{subsection.3.1.2}{Esquema de \341rbol binario con degradaci\363n de perfomance}{section.3.1}% 41
+\BOOKMARK [0][-]{chapter*.38}{Bibliograf\355a}{}% 42
