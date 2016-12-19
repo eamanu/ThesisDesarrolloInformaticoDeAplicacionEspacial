@@ -1,0 +1,53 @@
+\section{Modelos de falla}
+En esta sección se explica con un poco más de detalle algunos conceptos que se presentaron en secciones anteriores. Los conceptos que se detallarán son los siguientes:
+
+\begin{itemize}
+  \item Función de confiabilidad $R(t)$
+  \item Función de tasa de falla $\lambda$
+  \item Tiempo medio hasta la falla (MTTF)
+  \item Vida residual media (MRL)
+\end{itemize}
+
+También existen varias distribuciones de probabilidad que son utilizados para modelar el tiempo de vida de componentes de sistemas. Algunos de estos modelos de distribución del tiempo de vida son los siguientes:
+
+\begin{itemize}
+  \item Distribución exponencial
+  \item Distribución gamma
+  \item Distribución Weibull
+  \item Distribución normal
+  \item Distribución Birnbaum-Saunders
+  \item Distribución inversa de Gauss
+\end{itemize}
+
+\subsection{Tiempo hasta la falla}
+El tiempo hasta la falla (T) de un componente del sistema, es el lapso de tiempo desde que el componente empieza a operar hasta la primera falla que se produzca \citep{Rausand04}.
+
+\textbf{Nota: } Se asume que el componente que falla, no puede ser recuperado. Por otro lado, si un sistema falla, puede recuperarse (a través de tecnicas de reconfiguración, componentes back-up).
+
+$T$ no significa que es solo una medida de tiempo. $T$ puede significar \citep{Rausand04}:
+\begin{itemize}
+  \item Cantidad de kilómetros de un automóvil
+  \item Número de rotación de un motor
+  \item Número de ciclos de trabajo
+\end{itemize}
+
+Debe destacarse que esta no solo es una variable discreta. Una variable discreta puede ser aproximada a una variable continua. Suponiendo que $T$ es una distribución continua con densidad de probabilidad $f(t)$ y una función de distribución: $$F(t) = P(T\leqt) = \int_0^t f(u)du \text{para t > 0}$$
+
+$F(t)$ demuestra la probabilidad de que un componente falle dentro de un intervalo de tiempo $(0,t]$ \citep{Rausand04}.
+
+La función de densidad de probabilidad $f(t)$ se define como sigue \citep{Rausand04}: $$f(t) = \frac{d}{dt}F(t) = \lim_{\Delta t->0}\frac{F(t+\Delta t) - F(t)}{\Delta t} = \lim_{\Delta t ->0} \frac{P(t<T\leq t + \Delta t)}{\Delta t}$$
+
+Esto indica que para un $\Delta t$ pequeño, $$P(t < T \leq t + \Delta t) \approx f(t)\Delta t$$
+
+\subsection{Función de confiabilidad}
+La función de confiabilidad se define como sigue: $$R(t) =  1 - F(t) = P(T>t)$$ para $t>0$.
+
+\subsection{Tasa de falla}
+La probabilidad de que un componente falle en un intervalo de tiempo $(t, t+\Delta t]$ dado que el componente ha funcionando hasta t, se tiene: $$P(t < T \leq t + \Delta t | T > t) = \frac{P(t< T \leq t+\Delta)}{P(T>t)} = \frac{F(t+\Delta t) - F(t)}{R(t)}$$
+
+Si se divide esta probabilidad por un intervalo de tiempo $\Delta t$, y haciendo $\Delta t -> 0$, se obtiene la función de tasa de falla.
+
+\subsection{Tiempo medio hasta la falla}
+El \ac{MTTF} de un componente está definido por \citep{FTDesign} \cite{Rausand04}: $$MTTF = E(T) = \int_0^\infty tf(t)dt$$
+
+Se demuestra en \cite{Rausand04} que $$MTTF = \int_0^\infty R(t)dt$$

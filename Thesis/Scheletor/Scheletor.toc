@@ -49,10 +49,12 @@
 \contentsline {subsubsection}{\numberline {2.11.1.1}C\IeC {\'a}lculo de confiabilidad}{19}{subsubsection.2.11.1.1}
 \contentsline {subsubsection}{\numberline {2.11.1.2}C\IeC {\'a}lculo de disponibilidad}{19}{subsubsection.2.11.1.2}
 \contentsline {subsection}{\numberline {2.11.2}Utilizaci\IeC {\'o}n de procesos de Markov}{19}{subsection.2.11.2}
-\contentsline {chapter}{\numberline {3}Estado del arte}{20}{chapter.3}
-\contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{20}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{21}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{21}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Extensi\IeC {\'o}n de la arquitectura con backup}{22}{subsubsection.3.1.1.2}
-\contentsline {subsection}{\numberline {3.1.2}Esquema de \IeC {\'a}rbol binario con degradaci\IeC {\'o}n de perfomance}{22}{subsection.3.1.2}
-\contentsline {chapter}{Bibliograf\'ia}{25}{chapter*.38}
+\contentsline {section}{\numberline {2.12}Modelos de falla}{20}{section.2.12}
+\contentsline {subsection}{\numberline {2.12.1}Tiempo hasta la falla}{20}{subsection.2.12.1}
+\contentsline {chapter}{\numberline {3}Estado del arte}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{22}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{23}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{23}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Extensi\IeC {\'o}n de la arquitectura con backup}{24}{subsubsection.3.1.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Esquema de \IeC {\'a}rbol binario con degradaci\IeC {\'o}n de perfomance}{24}{subsection.3.1.2}
+\contentsline {chapter}{Bibliograf\'ia}{27}{chapter*.38}
