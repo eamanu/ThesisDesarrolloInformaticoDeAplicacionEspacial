@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -175,6 +175,15 @@ Jim Krodel y George Romanski.
 \newblock {Techn. Rep.} {DOT/FAA/AR-07/48}, {U.S. Department of
   Transportation}, 2008.
 
+\bibitem[{Loveless, Andrew T.}(2015)]{Loveless15}
+{Loveless, Andrew T.}
+\newblock capítulo {On TTEthernet for Integrated Fault-Tolerant Spacecraft
+  Network}.
+\newblock {AIAA SPACE Forum}. {American Institute of Aeronautics and
+  Astronautics}, Aug 2015.
+\newblock \doi{10.2514/6.2015-4526}.
+\newblock 0.
+
 \bibitem[Lyu(1995)]{Lyu95}
 Michael~R. Lyu.
 \newblock \emph{{Software Fault Tolerance}}.
@@ -208,7 +217,7 @@ Victor~P. Nelson.
 \newblock {\texttt{http://eclipse.org/papyrus/}}, 3 de {J}unio de 2016.
 
 \bibitem[Pradhan y Reddy(1982)]{Pradhan82}
-D.~K. Pradhan y S.~M. Reddy.
+Dhiraj~K. Pradhan y Sudhakar~M. Reddy.
 \newblock {A Fault-Tolerant Communication Architecture for Distributed
   Systems}.
 \newblock \emph{IEEE Transactions on Computers}, C-31\penalty0 (9):\penalty0
@@ -256,8 +265,8 @@ Adit~D. Singh y Hee~Y. Youn.
 \newblock A modular fault-tolerant binary tree architecture with short links.
 \newblock \emph{IEEE Transactions on Computers}, 1991.
 
-\bibitem[Stivaros(1992)]{227620}
-C.~Stivaros.
+\bibitem[Stivaros(1992)]{Stivaros92}
+Constantine Stivaros.
 \newblock A measure of fault-tolerance for distributed networks.
 \newblock En \emph{Computing and Information, 1992. Proceedings. ICCI '92.,
   Fourth International Conference on}, páginas 426--429, 1992.
@@ -277,6 +286,11 @@ A.~T. Tai, S.~N. Chau, y L.~Alkalai.
   quantitative analyses of a bus network architecture.
 \newblock En \emph{High-Assurance Systems Engineering, 1999. Proceedings. 4th
   IEEE International Symposium on}, páginas 97--104, 1999.
+
+\bibitem[Tanenbaum y Wetherall(2012)]{Tanenbaum12}
+Andrew~S. Tanenbaum y David~J. Wetherall.
+\newblock \emph{{Redes de computadora}}.
+\newblock Pearson Educación, Mexico, quinta edition, 2012.
 
 \bibitem[Torres-Pomales(2000)]{SoftwareFaultToleranceATutorial}
 Wilfredo Torres-Pomales.

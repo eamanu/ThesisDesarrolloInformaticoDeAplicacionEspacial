@@ -40,8 +40,17 @@
 \BOOKMARK [2][-]{subsection.2.11.2}{Utilizaci\363n de procesos de Markov}{section.2.11}% 40
 \BOOKMARK [1][-]{section.2.12}{Modelos de falla}{chapter.2}% 41
 \BOOKMARK [2][-]{subsection.2.12.1}{Tiempo hasta la falla}{section.2.12}% 42
-\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 43
-\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 44
-\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 45
-\BOOKMARK [2][-]{subsection.3.1.2}{Esquema de \341rbol binario con degradaci\363n de perfomance}{section.3.1}% 46
-\BOOKMARK [0][-]{chapter*.38}{Bibliograf\355a}{}% 47
+\BOOKMARK [2][-]{subsection.2.12.2}{Funci\363n de confiabilidad}{section.2.12}% 43
+\BOOKMARK [2][-]{subsection.2.12.3}{Tasa de falla}{section.2.12}% 44
+\BOOKMARK [2][-]{subsection.2.12.4}{Tiempo medio hasta la falla}{section.2.12}% 45
+\BOOKMARK [2][-]{subsection.2.12.5}{Vida restante media}{section.2.12}% 46
+\BOOKMARK [2][-]{subsection.2.12.6}{Distribuci\363n binomial}{section.2.12}% 47
+\BOOKMARK [2][-]{subsection.2.12.7}{Distribuci\363n exponencial}{section.2.12}% 48
+\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 49
+\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 50
+\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 51
+\BOOKMARK [2][-]{subsection.3.1.2}{Esquema de \341rbol binario con degradaci\363n de perfomance}{section.3.1}% 52
+\BOOKMARK [1][-]{section.3.2}{Redes distribu\355das}{chapter.3}% 53
+\BOOKMARK [2][-]{subsection.3.2.1}{Algoritmo de ruteo}{section.3.2}% 54
+\BOOKMARK [1][-]{section.3.3}{Redes Ethernet}{chapter.3}% 55
+\BOOKMARK [0][-]{chapter*.38}{Bibliograf\355a}{}% 56

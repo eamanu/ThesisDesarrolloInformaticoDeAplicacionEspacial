@@ -11,6 +11,7 @@ En esta sección se explica con un poco más de detalle algunos conceptos que se
 También existen varias distribuciones de probabilidad que son utilizados para modelar el tiempo de vida de componentes de sistemas. Algunos de estos modelos de distribución del tiempo de vida son los siguientes:
 
 \begin{itemize}
+  \item Distribución binomial
   \item Distribución exponencial
   \item Distribución gamma
   \item Distribución Weibull
@@ -51,3 +52,48 @@ Si se divide esta probabilidad por un intervalo de tiempo $\Delta t$, y haciendo
 El \ac{MTTF} de un componente está definido por \citep{FTDesign} \cite{Rausand04}: $$MTTF = E(T) = \int_0^\infty tf(t)dt$$
 
 Se demuestra en \cite{Rausand04} que $$MTTF = \int_0^\infty R(t)dt$$
+
+\subsection{Vida restante media}
+Considerando un comoponente con tiempo hasta la falla T, que es colocado en opración en el tiempo $t = 0$ y continúa funcionando en el instante t. La probabilidad de que el componente en de edad t sobrevive en un intervalo $x$, entonces se tiene \citep{Rausand04}: $$R(x|t) = P(T>x+t | T>t) = \frac{P(T>x+t)}{P(T>t)} = \frac{R(x+t)}{R(t)}$$
+
+Entonces: $$MRL(t) = \frac{1}{R(t)}\int_t^\infty R(x)dx$$
+
+Nótese que cuando t = 0, el componente es nuevo, y entonces $\mu(0) = \mu = MTTF$.
+
+\subsection{Distribución binomial}
+La distribución binomial es uno de lo más utilizados \citep{Rausand04}. Esta distribución es utilizada en los siguientes casos:
+\begin{itemize}
+  \item Cuando se tienen n ensayos independientes
+  \item Cada ensayo tiene dos posibles resultaods
+  \item La P(A) = p es la misma en todos los ensayos
+\end{itemize}
+
+Entonces $$P(X=x) = {{n}\choose{x}} \cdot p^x (1-p)^{n-x}$$ Donde ${n}\choose{x}$ es el coeficiente binomial y X es el número de n ensayos para alcanzar un resultado A \citep{Rausand04}.
+
+\subsection{Distribución exponencial}
+Considerando un componente que entra en operación en el instante $t=0$. El tiempo hasta la falla T del componente tiene una función de densidad de probabilidad de la siguiente forma \cite{Rausand04}:
+$$ f(t) =\left \{
+\begin{matrix}
+  \lambda e^{\lambda t } & \text{para t > 0, } \lambda \text{ > 0}\\
+  0                      & \text{para cualquier otro caso}
+\end{matrix}
+$$
+
+Esta distribución es la que se denomina distribución exponencial con parámetro $\lambda$.
+
+La confiabilidad de esta función  es: $$R(t) = P (T>t) = \int_t^\infty f(u) du  = e^{\lambda t} \text{para t>0} $$
+
+El \ac{MTTF} es: $$MTTF = \int_0^\infty R(t) dt = \int_0^\infty e^{\lambda t} dt  = \frac{1}{\lambda}$$
+
+La tasa de falla de esta distribución es \lambda
+
+La distribución exponencial es lo que se utiliza más comúnmente en los análisis de confiabilidad.
+
+El \ac{MTTF} es: $$MTTF = \int_0^\infty R(t)dt = \int_0^\infty e^{-\lamda t} = \frac{1}{\lambda}$$
+
+Si hacemos: $$R(MTTF) = R(\frac{1}{\lambda}) = e^{-1}\approx 0.3679$$  se puede calcular la probabilidad de que un componente sobreviva durante el
+tiempo medio hasta la falla \citep{Rausand04}.
+
+Mientras que la tasa de falla es: $$z(t) = \frac{f(t)}{R(t)} = \frac{\lambda e^{-\lambda t}}{e^{-\lambda t}} = \lambda $$
+
+\textbf{NOTA IMPORTANTE:} Como se mencionó anteriormente, existen numerosas distribuciones de probabilidad para medir el tiempo de vida de los componentes. En este trabajo de tesis, se trabaja únicamente con la distribución exponencial, debido a que es una de las más sencillas,y la más utilizada en la bibliografía.

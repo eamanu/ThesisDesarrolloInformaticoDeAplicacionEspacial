@@ -51,10 +51,19 @@
 \contentsline {subsection}{\numberline {2.11.2}Utilizaci\IeC {\'o}n de procesos de Markov}{19}{subsection.2.11.2}
 \contentsline {section}{\numberline {2.12}Modelos de falla}{20}{section.2.12}
 \contentsline {subsection}{\numberline {2.12.1}Tiempo hasta la falla}{20}{subsection.2.12.1}
-\contentsline {chapter}{\numberline {3}Estado del arte}{22}{chapter.3}
-\contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{22}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{23}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{23}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Extensi\IeC {\'o}n de la arquitectura con backup}{24}{subsubsection.3.1.1.2}
-\contentsline {subsection}{\numberline {3.1.2}Esquema de \IeC {\'a}rbol binario con degradaci\IeC {\'o}n de perfomance}{24}{subsection.3.1.2}
-\contentsline {chapter}{Bibliograf\'ia}{27}{chapter*.38}
+\contentsline {subsection}{\numberline {2.12.2}Funci\IeC {\'o}n de confiabilidad}{21}{subsection.2.12.2}
+\contentsline {subsection}{\numberline {2.12.3}Tasa de falla}{21}{subsection.2.12.3}
+\contentsline {subsection}{\numberline {2.12.4}Tiempo medio hasta la falla}{21}{subsection.2.12.4}
+\contentsline {subsection}{\numberline {2.12.5}Vida restante media}{21}{subsection.2.12.5}
+\contentsline {subsection}{\numberline {2.12.6}Distribuci\IeC {\'o}n binomial}{22}{subsection.2.12.6}
+\contentsline {subsection}{\numberline {2.12.7}Distribuci\IeC {\'o}n exponencial}{22}{subsection.2.12.7}
+\contentsline {chapter}{\numberline {3}Estado del arte}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{24}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{25}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{25}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Extensi\IeC {\'o}n de la arquitectura con backup}{26}{subsubsection.3.1.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Esquema de \IeC {\'a}rbol binario con degradaci\IeC {\'o}n de perfomance}{26}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Redes distribu\IeC {\'\i }das}{26}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Algoritmo de ruteo}{27}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Redes Ethernet}{27}{section.3.3}
+\contentsline {chapter}{Bibliograf\'ia}{30}{chapter*.38}

@@ -1,0 +1,12 @@
+\section{Redes Ethernet en aviónica}
+TTEthernet es una tecnología de red de computadoras comercializada por TTTech Computertechnik AG para el desarrollo de aplicaciones seguras. SAE Internation\footnote{http://www.sae.org} estandarizó esta red como SAE AS6802. TTEthernet se basa en el Ethernet clásico, en el cual se pone énfasis en las características principales que deben respetarse en sistemas críticos, tales como latencias de mensajes determinísticos, presición de tiempo real, tolerancia a fallas \citep{Loveless15}.
+
+El Ethernet clásico presenta ventajas, tales como su alta velocidad de transmisión de datos, flexibilidad, y su disponibilidad y bajo costo (ya que se trata de un componente COTS)\citep{Loveless15}, hacen deseable su aplicación en el área espacial.  fue utilizado en diferentes proyectos aeroespaciales y en misiones importantes tales como el Space Shuttler y la Estación Espacial Internacional (ISS) \citep{Loveless15}. A pesar de esto, el Ethernet no cumple con el determinismo requerido por las aplicaciones de tiempo real de un vehículo espacial. Por tal motivo, se desarrolla el sistema TTEthernet, el cual introduce un reloj de sincronización descentralizado, permitiendo la transmisión mensajes \ac{TT}. En este tipo de red, existe una herramienta de planning que asigna a cada dispositivo un intervalo de tiempo, en el cual puede utilizar para transmitir frames.
+
+TTEtheret puede actuar en dos clases de tráfico, con el obejtivo de soportar diferentes niveles de cricticidad de mensajes.
+\begin{itemize}
+  \item Rate-Constrained (RC), en el cual se llevan algunas restricciones de tamaño y rate de transmisión de frames,
+  \item Best-Effort (BE), el cual se comporta de manera similar que el Ethernet
+\end{itemize}
+
+Esta tecnología toma tanto interés que el Sistema de Exploración Avanzada (AES)\footnote{Del ingles, Advanced Exploration Systems} de la \ac{NASA}, lleva a cabo un proyecto denominado Avionics and Software (A&S)
