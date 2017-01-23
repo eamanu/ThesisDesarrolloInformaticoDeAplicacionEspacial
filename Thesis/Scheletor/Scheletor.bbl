@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -265,6 +265,11 @@ Adit~D. Singh y Hee~Y. Youn.
 \newblock A modular fault-tolerant binary tree architecture with short links.
 \newblock \emph{IEEE Transactions on Computers}, 1991.
 
+\bibitem[{Steiner, Willfried}(2013)]{Steiner13}
+{Steiner, Willfried}.
+\newblock {An Introdution to TTEthernet}.
+\newblock {TTTech Computertechnik AG}, Apr 2013.
+
 \bibitem[Stivaros(1992)]{Stivaros92}
 Constantine Stivaros.
 \newblock A measure of fault-tolerance for distributed networks.
@@ -297,6 +302,14 @@ Wilfredo Torres-Pomales.
 \newblock {Software Fault Tolerance: A tutorial}.
 \newblock Technical Report NASA/TM-2000-210616, National Aeronautics and Space
   Administration Langley Research Center, Hampton, Virginia, 2000.
+
+\bibitem[TTTech()]{TTTechOrion}
+TTTech.
+\newblock Technical report, TTTech Computertechnik AG, {Vienna, Austria}.
+
+\bibitem[{TTTech}(20 de {E}nero del 2017)]{TTTechWeb}
+{TTTech}.
+\newblock {\texttt{http://tttech.com/}}, 20 de {E}nero del 2017.
 
 \bibitem[Watkins y Walter(2007)]{Watkins07}
 Christopher~B. Watkins y Randy Walter.

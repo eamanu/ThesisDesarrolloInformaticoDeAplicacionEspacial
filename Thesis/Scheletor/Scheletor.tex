@@ -6,10 +6,10 @@
 %% donde:
 %% 	* escala: es un valor numérico. Preferentemente usar valores entre 0 y 1.
 %%		(ejemplo: 0.2)
-%% 	* path: imagen es el directorio relativo donde se encuentra la imagengit 
+%% 	* path: imagen es el directorio relativo donde se encuentra la imagengit
 %%		(ejemplo: Figures/Logos/conae-logo.png)
 %%	* caption: texto de pie de figura.
-%%	* referencia: texto que sirve para citar la figura. 
+%%	* referencia: texto que sirve para citar la figura.
 %%		(ejemplo: fig:conaelogo) luego se podrá hacer referencia \ref{fig:conaelogo}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -31,9 +31,9 @@
 % Para gráficos
 \usepackage{tikz}
 \usetikzlibrary{shapes,snakes}
-\usetikzlibrary{arrows,positioning} 
+\usetikzlibrary{arrows,positioning}
 \usetikzlibrary{babel}
-  
+
 %Para agregar notas
 \usepackage{todonotes}
 
@@ -56,11 +56,11 @@
 %------------------------------------------------------------------------------
 % PORTADA
 \portadatesis{Diseño de una arquitectura de aviónica tolerante a fallas basada en componentes COTS para vehículos
-satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DEL CÓRDOBA}{Mayo, 
+satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DEL CÓRDOBA}{Mayo,
 2017}{2017}{Gustavo Wiman}{INVAP, Bariloche, Provincia de Rio Negro}
 
 %------------------------------------------------------------------------------
-% EN CASO DE TENER UN ASESOR CIENTIFICO, DESCOMENTAR LO SIGUIENTE 
+% EN CASO DE TENER UN ASESOR CIENTIFICO, DESCOMENTAR LO SIGUIENTE
 % \begin{center}
 % \normalsize ASESOR CIENTÍFICO:\\
 % \normalsize \textit{\textbf{Nombre del asesor}}\\
@@ -106,6 +106,15 @@ satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DEL CÓRD
 \input{../Chapters/Marco_teorico/Marco_Teorico.tex}
 \chapter{Estado del arte}\label{chap:estado_del_arte}
 \input{../Chapters/Art_State/Art_State.tex}
+\chapter{Análisis y desarrollo de arquitectura tolerante a fallas}
+\input{../Chapters/Analisis_Diseno_de_la_Arq/Analisis_Diseno_de_la_Arq.tex}
+\chapter{Arquitectura propuesta}
+%\input
+\chapter{Análisis y resultados}
+%\input
+\chapter{Conclusión}
+%\input$
+
 %\include{secciones/AreaDeEstudio}
 %\include{secciones/Datos}
 %\include{secciones/Metodologia}
@@ -117,7 +126,7 @@ satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DEL CÓRD
 \newpage
 \nocite{*}
 \bibliography{biblio.bib}
-%\bibliographystyle{apalike}	
+%\bibliographystyle{apalike}
 \bibliographystyle{plainnatesp.bst}
 \addcontentsline{toc}{chapter}{Bibliograf\'ia}
 
@@ -132,6 +141,5 @@ $\ $
 \newpage
 $\ $
 \thispagestyle{empty}
- 
-\end{document}
 
+\end{document}

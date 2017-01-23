@@ -17,6 +17,13 @@ Warning--entry type for "MarsClimateOrbiterFailureWeb" isn't style-file defined
 --line 136 of file biblio.bib.bib
 Warning--entry type for "invapWEB" isn't style-file defined
 --line 258 of file biblio.bib.bib
+I was expecting an "="---line 490 of file biblio.bib.bib
+ :  
+ :  title = "{Nasa's Orion Multi-Purpose Cre Vehicle}",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "TTTEchWeb" isn't style-file defined
+--line 493 of file biblio.bib.bib
 Warning--there's a number but no volume in Anderson83
 Warning--can't use both author and editor fields in Becker2016
 Warning--empty chapter and pages in Becker2016
@@ -27,46 +34,50 @@ Warning--can't use both author and editor fields in Mayo2016
 Warning--empty chapter and pages in Mayo2016
 Warning--there's a number but no volume in Raghavendra84
 Warning--empty journal in Schneidewind98
+Warning--empty booktitle in Steiner13
+Warning--empty título in TTTechOrion
+Warning--empty year in TTTechOrion
+Warning--empty año in TTTechOrion
 Warning--empty journal in Woerner00
-You've used 52 entries,
+You've used 55 entries,
             2773 wiz_defined-function locations,
-            950 strings with 13742 characters,
-and the built_in function-call counts, 21124 in all, are:
-= -- 1821
-> -- 1082
-< -- 51
-+ -- 377
-- -- 325
-* -- 1508
-:= -- 3277
-add.period$ -- 168
-call.type$ -- 52
-change.case$ -- 252
-chr.to.int$ -- 52
-cite$ -- 115
-duplicate$ -- 1098
-empty$ -- 1883
-format.name$ -- 405
-if$ -- 4479
+            966 strings with 13987 characters,
+and the built_in function-call counts, 22014 in all, are:
+= -- 1896
+> -- 1112
+< -- 54
++ -- 389
+- -- 334
+* -- 1560
+:= -- 3416
+add.period$ -- 175
+call.type$ -- 55
+change.case$ -- 264
+chr.to.int$ -- 55
+cite$ -- 125
+duplicate$ -- 1150
+empty$ -- 1976
+format.name$ -- 417
+if$ -- 4664
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 59
-newline$ -- 277
-num.names$ -- 210
-pop$ -- 608
+missing$ -- 60
+newline$ -- 290
+num.names$ -- 222
+pop$ -- 645
 preamble$ -- 1
-purify$ -- 212
+purify$ -- 221
 quote$ -- 0
-skip$ -- 804
+skip$ -- 837
 stack$ -- 0
-substring$ -- 496
-swap$ -- 118
+substring$ -- 502
+swap$ -- 121
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 492
-warning$ -- 11
-while$ -- 189
+type$ -- 525
+warning$ -- 15
+while$ -- 198
 width$ -- 0
-write$ -- 688
-(There was 1 error message)
+write$ -- 721
+(There were 2 error messages)

@@ -53,7 +53,7 @@
 
 %------------------------------------------------------------------------------
 % Pseudocodigo
-%\usepackage{clrscode} 
+%\usepackage{clrscode}
 
 %------------------------------------------------------------------------------
 % Manejo del titulo.
@@ -90,19 +90,19 @@
 %------------------------------------------------------------------------------
 %------------------------------------------------------------------------------
 %Paquete para el manejo de acrónimos
-% Generación de acrónimos:	
-%	\acro{label}[acronym]{written out form}  o 
+% Generación de acrónimos:
+%	\acro{label}[acronym]{written out form}  o
 %	\acro{label}{written out form} si el acrónimo es igual al label usado
 % Uso de los acrónimos:		\ac{label}
 % Otro usos del paquete:
 %	\usepackage{acronym}
-%	\usepackage[printonlyused,withpage]{acronym}  %igual que el 
-%	\usepackage[printonlyused]{acronym} pero además muestra 
+%	\usepackage[printonlyused,withpage]{acronym}  %igual que el
+%	\usepackage[printonlyused]{acronym} pero además muestra
 %	la página en la que aparece por primera vez
 %------------------------------------------------------------------------------
 %------------------------------------------------------------------------------
-\usepackage[printonlyused]{acronym}   %hace que en la lista de acrónimos se muestren solo los utilizados
-
+%\usepackage[printonlyused]{acronym}   %hace que en la lista de acrónimos se muestren solo los utilizados
+\usepackage{acronym}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Espacio entre párrafos
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -175,7 +175,7 @@
     colorlinks=true,
     linkcolor=black,
     citecolor=black,
-    filecolor=magenta,      
+    filecolor=magenta,
     urlcolor=black,
     bookmarks=true,
 }
@@ -191,7 +191,7 @@
  \subfigure{
   \includegraphics[height=1.6cm,keepaspectratio=true,clip=true]
   {images/Logos/logo-unlam.jpg}}
-  \hspace{2.5cm} 
+  \hspace{2.5cm}
  \subfigure{
   \includegraphics[height=1.8cm,keepaspectratio=true,clip=true]
   {images/Logos/logo-conae.png}}
@@ -202,7 +202,7 @@
   \end{figure}
 
 %------------------------------------------------------------------------------
-% Definición del parámetro #1: Título de la tesis 
+% Definición del parámetro #1: Título de la tesis
 %------------------------------------------------------------------------------
 \vspace*{0.3cm}
 \begin{center}
@@ -224,7 +224,7 @@ Por
 \end{center}
 
 %------------------------------------------------------------------------------
-% Presentado ante... 
+% Presentado ante...
 %------------------------------------------------------------------------------
 \begin{center}
 \begin{normalsize}Presentado ante la Universidad Nacional de La Matanza y la Unidad de Formación Superior de la CONAE como parte de los requerimientos para la obtención del grado de\end{normalsize}\\
@@ -234,7 +234,7 @@ Por
 \end{center}
 
 %------------------------------------------------------------------------------
-% Definición del parámetro #3: UNIVERSIDAD 
+% Definición del parámetro #3: UNIVERSIDAD
 %------------------------------------------------------------------------------
 \begin{center}
  \vspace*{0.5cm}
@@ -243,7 +243,7 @@ Por
 \end{center}
 
 %------------------------------------------------------------------------------
-% Definición del parámetro #4: Mes, Año 
+% Definición del parámetro #4: Mes, Año
 %------------------------------------------------------------------------------
 \begin{center}
  \vspace*{0.5cm}
@@ -261,7 +261,7 @@ Por
 \end{center}
 
 %------------------------------------------------------------------------------
-% Definición del parámetro #6: Director 
+% Definición del parámetro #6: Director
 %------------------------------------------------------------------------------
 \begin{center}
 \vspace*{0.5cm}
@@ -270,7 +270,7 @@ Por
 \end{center}
 
 %------------------------------------------------------------------------------
-% Definición del parámetro #7: Pertenencia Director 
+% Definición del parámetro #7: Pertenencia Director
 %------------------------------------------------------------------------------
 \begin{center}
 \vspace*{-0.5cm}
@@ -303,20 +303,20 @@ Por
 \bibliographystyle{plainnatesp.bst}
 
 %------------------------------------------------------------------------------
-%	bibliografia al estilo publicaciones de IEEE. Para usar, comentar la linea 
+%	bibliografia al estilo publicaciones de IEEE. Para usar, comentar la linea
 %	\usepackage{natbib} y todas las citas
 %	se debern realizar con \cite en lugar de \citep
-%\bibliographystyle{ieeetr} 
+%\bibliographystyle{ieeetr}
 }
 
 %------------------------------------------------------------------------------
-%	Paquete para un mejor manejo de las citas de bibliografia 
+%	Paquete para un mejor manejo de las citas de bibliografia
 %	(tiene algunos problemas utilizando \bibliographystyle{natbib})
 %\usepackage[sort,authoryear]{natbib}
 %\usepackage{multibib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% FUNCIÓN PARA AGREGAR IMÁGENES  
+% FUNCIÓN PARA AGREGAR IMÁGENES
 %	\imagen{escala}{path imagen}{caption}{referencia (fig:"algo") }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\imagen}[4]{
