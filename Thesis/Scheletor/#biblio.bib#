@@ -1,0 +1,502 @@
+@comment{x-kbibtex-personnameformatting=<%l><, %f>}
+
+@incollection{FTAvionics,
+	address = "Williamsburg, Virginia, U.S.A.",
+	author = "Hitt, Ellis F. and Mulcare, Dennis",
+	booktitle = "{Avionics Development and Implementation Second Edition}",
+	chapter = 8,
+	editor = "Spitzer, Cary R.",
+	publisher = "CRC Press",
+	title = "{Fault-Tolerant Avionics}",
+	year = 2007
+}
+
+@book{FTDesign,
+	address = "New York, U.S.A.",
+	author = "Dubrova, Elena",
+	edition = 1,
+	editor = "Spitzer, Cary R.",
+	publisher = "Springer-Verlag New York",
+	title = "{Fault-Tolerant Design: an introduce}",
+	year = 2013
+}
+
+@phdthesis{FTFligthControlUnmannedAerialVehicle,
+	author = "Ducard, Guillaume Jacques Joseph",
+	school = "Swiss Federal Institue of Technology Zurich",
+	title = "{Fault-Tolerant Flight Control and Guidance Systems for a Small Unmanned Aerial Vehicle}",
+	year = "2007"
+}
+
+@article{Anderson83,
+	author = "Anderson, Thomas and Knight, John C.",
+	journal = "IEEE Trans. Software Eng.",
+	number = 3,
+	pages = "355--364",
+	title = "{A Framework for Software Fault Tolerance in Real-Time Systems.}",
+	year = 1983
+}
+
+@book{FaultTolerantFlightControl,
+	author = "Edwards, Cristopher and Lobaerts, Thomas and Smaili, Hafid",
+	isbn = "978-3-642-11689-6",
+	issn = "0170-8643",
+	location = "Berlin",
+	publisher = "Springer-Verlag",
+	title = "{Fault Tolerant Flight Control. A benchmarck challenge}",
+	year = "2010"
+}
+
+@phdthesis{FTFligthControlUnmannedAerialVehicle,
+	author = "Ducard, Guillaume Jacques Joseph",
+	school = "Swiss Federal Institue of Technology Zurich",
+	title = "{Fault-Tolerant Flight Control and Guidance Systems for a Small Unmanned Aerial Vehicle}",
+	year = "2007"
+}
+
+@electronic{SysMLWeb,
+	author = "{SysML}",
+	title = "{\texttt{http://sysml.org/}}",
+	year = "2 de {J}unio de 2016"
+}
+
+@electronic{MARTEWeb,
+	author = "{MARTE}",
+	title = "{\texttt{http://www.omgmarte.org/}}",
+	year = "3 de {J}unio de 2016"
+}
+
+@electronic{PapyrusWeb,
+	author = "{Papyrus}",
+	title = "{\texttt{http://eclipse.org/papyrus/}}",
+	year = "3 de {J}unio de 2016"
+}
+
+@book{Friedenthal2008,
+	address = "San Francisco, CA, USA",
+	author = "Friedenthal, Sanford and Moore, Alan and Steiner, Rick",
+	publisher = "Morgan Kaufmann Publishers Inc.",
+	title = "{A Practical Guide to SysML: Systems Modeling Language}",
+	year = 2008
+}
+
+@book{HoltPery,
+	address = "London, United Kingdom",
+	author = "Holt, Jon and Perry, Simon",
+	isbn = "978086341825",
+	publisher = "The Institution of Engineering and Technology",
+	title = "{SysML for systems engineering.}",
+	year = 2008
+}
+
+@techreport{SoftwareFaultToleranceATutorial,
+	address = "Hampton, Virginia",
+	author = "Torres-Pomales, Wilfredo",
+	institution = "National Aeronautics and Space Administration Langley Research Center",
+	number = "NASA/TM-2000-210616",
+	pages = "66",
+	title = "{Software Fault Tolerance: A tutorial}",
+	year = "2000"
+}
+
+@book{Lyu95,
+	address = "Chichester, New York, USA",
+	author = "Lyu, Michael R.",
+	isbn = "9780471950684",
+	publisher = "John Wiley and Sons Ltd",
+	title = "{Software Fault Tolerance}",
+	year = "1995"
+}
+
+@book{pressman01,
+	added-at = "2008-04-30T12:59:47.000+0200",
+	author = "Pressman, Roger S.",
+	edition = "fifth edition",
+	groupsearch = "0",
+	interhash = "c32db69172329ec99701021b271bbca7",
+	intrahash = "2afb966cc085de321d86d9db9e58fea8",
+	keywords = "imported",
+	publisher = "McGraw-Hill",
+	timestamp = "2008-04-30T13:00:24.000+0200",
+	title = "{Software Engineering, A Practioner's Approach}",
+	x-fetchedfrom = "Bibsonomy",
+	year = "2001"
+}
+
+@book{SpaceSystemFailures,
+	author = "{David M. Harland}, Dr Ralph D. Lorenz (auth.)",
+	edition = "1",
+	isbn = "978-0-387-21519-8,978-0-387-27961-9",
+	publisher = "Praxis",
+	series = "{Springer Praxis Books}",
+	title = "{Space Systems Failures: Disasters and Rescues of Satellites, Rockets and Space Probes}",
+	year = "2005"
+}
+
+@electronic{MarsClimateOrbiterFailureWeb,
+	author = "{Douglas Isbell and Don Savage}",
+	title = "{Mars Climate Orbiter Failure Report - NASA}",
+	title2 = "{\texttt{http://eclipse.org/papyrus/}}",
+	year = "1999"
+}
+
+@book{Hanmer07,
+	address = "England",
+	author = "Hanmer, Robert S.",
+	isbn = "978-0-470-31979-6",
+	publisher = "John Wiley and Sons Ltd",
+	title = "{Patterns for Fault Tolerant Software}",
+	year = "2007"
+}
+
+@book{Pullum01,
+	address = "England",
+	author = "Pullum, Laura",
+	isbn = "1-58053-137-7",
+	publisher = "Artech House",
+	title = "{Software fault tolerance techniques and implementation}",
+	year = "2001"
+}
+
+@article{Pradhan82,
+	author = "Pradhan, Dhiraj K. and Reddy, Sudhakar M.",
+	issn = "0018-9340",
+	journal = "IEEE Transactions on Computers",
+	keywords = "Distributed architecture; distributed fault diagnosis; fault-tolerant communication networks; graph connectivity; interconnection network graph diameters; self-diagnosis; store and forward networks; Computer architecture; Delay; Fault diagnosis; Fault tolerance; Fault tolerant systems; Notice of Violation; Routing; Supercomputers; Timing; Topology; Distributed architecture; distributed fault diagnosis; fault-tolerant communication networks; graph connectivity; interconnection network graph diameters; self-diagnosis; store and forward networks",
+	month = "Sept",
+	number = "9",
+	pages = "863--870",
+	title = "{A Fault-Tolerant Communication Architecture for Distributed Systems}",
+	volume = "C-31",
+	year = "1982"
+}
+
+@INPROCEEDINGS{Tai99,
+	author={A. T. Tai and S. N. Chau and L. Alkalai},
+	booktitle={High-Assurance Systems Engineering, 1999. Proceedings. 4th IEEE International Symposium on},
+	title={COTS-based fault tolerance in deep space: Qualitative and quantitative analyses of a bus network architecture},
+	year={1999},
+	pages={97-104},
+	keywords={IEEE standards;fault tolerant computing;system buses;COTS-based fault tolerance;IEEE 1394 compliant;X2000 architecture;bus network architecture;commercial bus standards;deep-space missions;highly-reliable long-term survivable system;mission-critical applications;qualitative analyses;quantitative analyses;Computer architecture;Costs;Fault tolerance;Intelligent networks;Laboratories;Mission critical systems;Propulsion;Space missions;Space technology;Standards development},
+	month={},}
+
+@article{Chau99,
+	author = "Chau, Savio. N. and Alkalai, L. and Tai, Ann T. and Burt, J. B.",
+	issn = "0018-9529",
+	journal = "IEEE Transactions on Reliability",
+	keywords = "avionics; fault tolerant computing; software fault tolerance; system buses; Europa Orbiter missions; Jet Propulsion Laboratory; X2000 program; avionics bus architecture; commercial-off-the-shelf products; design trade-offs; fault-tolerant COTS-based bus architecture design; hardware design; highly reliable systems; multilevel fault-protection; software design; Aerospace electronics; Computer architecture; Costs; Fault tolerance; Fault tolerant systems; Hardware; Laboratories; Propulsion; Read-write memory; Space missions",
+	number = "4",
+	pages = "351--359",
+	title = "{Design of a fault-tolerant COTS-based bus ar
+
+
+
+
+chitecture}",
+	volume = "48",
+	year = "1999"
+}
+
+@ARTICLE{Schneidewind98,
+	author={Schneidewind, Norman F. and Nikora, Allen P.},
+	title={Issues and Methods for Assessing COTS Reliability, Maintainability, and Availability},
+	year={1998},}
+
+@inproceedings{Alena11,
+	author = "Alena, R. and Gilstrap, R. and Baldwin, J. and Stone, T. and Wilson, P.",
+	booktitle = "{Aerospace Conference, 2011 IEEE}",
+	pages = "1--15",
+	title = "{Fault tolerance in ZigBee wireless sensor networks}",
+	year = "2011"
+}
+
+@article{Forsberg99,
+	author = "Forsberg, Kevin and Harold, Mooz",
+	issn = "2334-5837",
+	journal = "INCOSE International Symposium",
+	number = "1",
+	pages = "924--932",
+	title = "{4 System Engineering for Faster, Cheaper, Better}",
+	volume = "9",
+	year = "1999"
+}
+
+@techreport{IEEE610.12,
+	author = "IEEE",
+	howpublished = "Internet Requests for Comments",
+	institution = "{IEEE}",
+	number = "{610.12-1990}",
+	pages = "1--84",
+	publisher = "{The Institute of Electrical and Electronics Engineers}",
+	title = "{IEEE Standard Glossary of Software Engineering Terminology}",
+	type = "{Std.}",
+	year = "1990"
+}
+
+@article{Gangloff75,
+	author = "Gangloff, W. C.",
+	issn = "0018-9510",
+	journal = "IEEE Transactions on Power Apparatus and Systems",
+	keywords = "Control equipment; Control systems; Failure analysis; Fires; Floods; Humans; Inductors; Protection; Redundancy; Tornadoes",
+	number = "1",
+	pages = "27--30",
+	title = "{Common mode failure analysis}",
+	volume = "94",
+	year = "1975"
+}
+
+@book{Rti15,
+	address = "3040 East Cornwallis Road, Research Triangle Park, USA",
+	author = "RTI",
+	publisher = "RTI International",
+	title = "{RTI Purchase Order Terms and Conditions v1.12. Spanish Translation}",
+	year = 2015
+}
+
+@article{Woerner00,
+	author = "Woerner, Dave and Deutsch, Les and Salvo, Chris",
+	publisher = "NASA",
+	title = "{The X2000 Program: An Institutional Approach to Enabling Smaller Spacecraft}",
+	year = "2000"
+}
+
+@electronic{invapWEB,
+	author = "{INVAP}",
+	title = "{INVAP Sociedad del Estado}",
+	url = "{http://www.invap.com.ar/es/}",
+	urldate = "11 de Agosto del 2016",
+	year = 2016
+}
+
+@article{Crawley04,
+	author = "Crawley, Edward and de Weck, Olivier and Eppinger, Steven and Magee, Christopher and Moses, Joel and Seering, Warren and Schindall, Joel and Wallace, David and Whitney, Daniel",
+	publisher = "The ESD Architecture Committee",
+	title = "{Engineering Systems Monograph, The influence of architecture in engineering systems}",
+	year = "2004"
+}
+
+jabref-meta: selector_publisher:
+
+jabref-meta: selector_author:
+
+jabref-meta: selector_journal:
+
+jabref-meta: selector_keywords:
+
+@article{ZhangJ08,
+	author = "Zhang, Youmin and Jiang, Jin",
+	journal = "Annual Reviews in Control",
+	number = 2,
+	pages = "229--252",
+	title = "{Bibliographical review on reconfigurable fault-tolerant control systems.}",
+	volume = 32,
+	year = 2008
+}
+@INPROCEEDINGS{Eterno85,
+	author={J. S. Eterno and J. L. Weiss and D. P. Looze and A. Willsky},
+	booktitle={Decision and Control, 1985 24th IEEE Conference on},
+	title={Design issues for fault tolerant-restructurable aircraft control},
+	year={1985},
+	pages={900-905},
+}
+
+@book{Eickhoff12,
+	address = "Alemania",
+	author = "Eickhoff, Jens",
+	isbn = "978-3-642-25169-6",
+	publisher = "Springer-Verlag Berlin Heidelberg",
+	title = "{Onboard Computers, Onboard Software and Satellite Operations}",
+	year = 2012
+}
+
+@INPROCEEDINGS{Watkins07,
+author={Watkins,  Christopher B. and Walter, Randy},
+booktitle={2007 IEEE/AIAA 26th Digital Avionics Systems Conference},
+title={Transitioning from federated avionics architectures to Integrated Modular Avionics},
+year={2007},
+}
+
+@techreport{DOT07-48,
+	author = "Krodel, Jim and Romanski, George",
+	institution = "{U.S. Department of Transportation}",
+	number = "{DOT/FAA/AR-07/48}",
+	pages = "1--83",
+	publisher = "{U.S. Department of Transportation}",
+	title = "{Handbook for real-timte operating systems integration and component integration considerations in integrated modular avionics systems}",
+	type = "{Techn. Rep.}",
+	year = "2008"
+}
+
+@ARTICLE{Nelson90,
+author={Nelson, Victor P.},
+journal={Computer},
+title={Fault-tolerant computing: fundamental concepts},
+year={1990},
+volume={23},
+number={7},
+pages={19-25},
+}
+
+@INPROCEEDINGS{Chau01,
+author="{Chau, Savio N. and Smith, Joseph and Tai, Ann T.}",
+booktitle={Dependable Computing, 2001. Proceedings. 2001 Pacific Rim International Symposium on},
+title={A design-diversity based fault-tolerant COTS avionics bus network},
+year={2001},
+pages={35-42},
+}
+
+@INPROCEEDINGS{Stone12,
+author={Stone, T. and Alena, R. and Baldwin, J. and Wilson, P.},
+booktitle={Aerospace Conference, 2012 IEEE},
+title={A viable COTS based wireless architecture for spacecraft avionics},
+year={2012},
+pages={1-11},
+}
+
+@Article{Izadi2004,
+author="Izadi, Baback A. and {\"O}zg{\"u}ner, F{\"u}sun",
+title="An Augmented k-ary Tree Multiprocessor with Real-Time Fault-Tolerant Capability",
+journal="{The Journal of Supercomputing}",
+year="2004",
+volume="27",
+number="1",
+pages="5--17",
+}
+
+@ARTICLE{Esposito15,
+author={Esposito, S. and Albanese, C. and Alderighi, M. and Casini, F. and Giganti L. and Esposti, M. L. and Monteleone, C. and Violante, M.},
+journal={IEEE Transactions on Nuclear Science},
+title={COTS-Based High-Performance Computing for Space Applications},
+year={2015},
+volume={62},
+number={6},
+pages={2687-2694},
+}
+
+@INPROCEEDINGS{Hess05,
+author="{Hess, Ronald and Vetter, T. K. and Wells, S. R.}",
+booktitle="{Institution of Mechanical Engineers Part G Journal of Aerospace Engineering}",
+title={Design and Evaluation of a Damage-Tolerant Flight Control System},
+year={2005},
+}
+
+@INPROCEEDINGS{Pignol06,
+author={Pignol M.},
+booktitle={12th IEEE International On-Line Testing Symposium (IOLTS'06)},
+title={DMT and DT2: two fault-tolerant architectures developed by CNES for COTS-based spacecraft supercomputers},
+year={2006},}
+
+@ARTICLE{Raghavendra84,
+author={Raghavendra, C. S. and AVIvizienis A. and Ercegovac, M. D. },
+journal={IEEE Transactions on Computers},
+title={Fault Tolerance in Binary Tree Architectures},
+year={1984},
+number={6},
+pages={568-572},
+}
+
+@ARTICLE{Hamilton99,
+author="{Hamilton, Deirdre L. and Walker, Ian D. and Bennett, John K.}",
+journal="{Reliability Engineering \& System Safety}",
+title="{Fault tolerance versus performance metrics for robot systems}",
+year={1999},
+}
+
+@Inbook{Becker2016,
+author="Becker, Klaus and Voss, Sebastian",
+editor="Artho, Cyrille and {\"O}lveczky, Csaba Peter",
+title="A Formal Model and Analysis of Feature Degradation in Fault-Tolerant Systems",
+bookTitle="Formal Techniques for Safety-Critical Systems: 4th International Workshop, FTSCS 2015, Paris, France, November 6-7, 2015. Revised Selected Papers",
+year="2016",
+publisher="Springer International Publishing",
+}
+
+@Inbook{Mayo2016,
+author="Mayo, Jackson R. and Armstrong, Robert C. and Hulette, Geoffrey C.",
+editor="Artho, Cyrille and {\"O}lveczky, Csaba Peter",
+title="Leveraging Abstraction to Establish Out-of-Nominal Safety Properties",
+bookTitle="Formal Techniques for Safety-Critical Systems: 4th International Workshop, FTSCS 2015, Paris, France, November 6-7, 2015. Revised Selected Papers",
+year="2016",
+publisher="Springer International Publishing",
+}
+
+@INPROCEEDINGS{7526861,
+author={Cong Zhang and I. M. Jaimoukha and F. R. S. Sevilla},
+booktitle={2016 American Control Conference (ACC)},
+title={Fault-tolerant observer design with a tolerance measure for systems with sensor failures},
+year={2016},
+pages={7523-7528},
+}
+
+@INPROCEEDINGS{Stivaros92,
+author={Stivaros, Constantine},
+booktitle={Computing and Information, 1992. Proceedings. ICCI '92., Fourth International Conference on},
+title={A measure of fault-tolerance for distributed networks},
+year={1992},
+pages={426-429},
+}
+@ARTICLE{Singh91,
+author={Singh, Adit D. and Youn, Hee Y.},
+journal={IEEE Transactions on Computers},
+title={A modular fault-tolerant binary tree architecture with short links},
+year={1991}
+}
+
+@ARTICLE{Hayes76,
+author={Hayes, John P.},
+journal={IEEE Transactions on Computers},
+title={A Graph Model for Fault-Tolerant Computer Systems},
+year={1976}
+}
+
+@book{Rausand04,
+	address = "Hoboken, New Jersey, USA",
+	author = "Rausand, M. and Hoyland, A.",
+	publisher = "John Wiley & Sons, Inc.",
+	title = "{System Reliability Theory. Models, statistical methods, and applications}",
+	edition = 2,
+	year = 2004
+}
+
+@book{Tanenbaum12,
+	address = "Mexico",
+	author = "Tanenbaum, Andrew S. and Wetherall, David J.",
+	publisher = "Pearson Educación",
+	title = "{Redes de computadora}",
+	edition="quinta",
+	year = 2012
+}
+
+@Inbook{Loveless15,
+author="{Loveless, Andrew T.}",
+chapter="{On TTEthernet for Integrated Fault-Tolerant Spacecraft Network}",
+series="{AIAA SPACE Forum}",
+year={2015},
+month={Aug},
+day={28},
+publisher="{American Institute of Aeronautics and Astronautics}",
+note={0},
+doi={10.2514/6.2015-4526},
+}
+
+@conference{Steiner13,
+author="{Steiner, Willfried}",
+title="{An Introdution to TTEthernet}",
+year={2013},
+month={Apr},
+day={26},
+organization="{TTTech Computertechnik AG}",
+}
+
+@techreport{TTTechOrion,
+  address="{Vienna, Austria}",
+	author = "TTTech",
+	institution = "TTTech Computertechnik AG",n
+	title = "{Nasa's Orion Multi-Purpose Cre Vehicle}",
+}
+
+@electronic{TTTEchWeb,
+	author = "{TTTech}",
+	title = "{\texttt{http://tttech.com/}}",
+	year = "20 de {E}nero del 2017"
+}
