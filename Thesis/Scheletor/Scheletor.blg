@@ -29,6 +29,8 @@ Warning--can't use both author and editor fields in Becker2016
 Warning--empty chapter and pages in Becker2016
 Warning--empty journal in Crawley04
 Warning--can't use both autor y editor fields in FTDesign
+Warning--empty booktitle in Hoque15
+Warning--empty booktitle in Liu14
 Warning--empty title in Loveless15
 Warning--can't use both author and editor fields in Mayo2016
 Warning--empty chapter and pages in Mayo2016
@@ -39,45 +41,45 @@ Warning--empty título in TTTechOrion
 Warning--empty year in TTTechOrion
 Warning--empty año in TTTechOrion
 Warning--empty journal in Woerner00
-You've used 55 entries,
+You've used 58 entries,
             2773 wiz_defined-function locations,
-            966 strings with 13987 characters,
-and the built_in function-call counts, 22014 in all, are:
-= -- 1896
-> -- 1112
-< -- 54
-+ -- 389
-- -- 334
-* -- 1560
-:= -- 3416
-add.period$ -- 175
-call.type$ -- 55
-change.case$ -- 264
-chr.to.int$ -- 55
-cite$ -- 125
-duplicate$ -- 1150
-empty$ -- 1976
-format.name$ -- 417
-if$ -- 4664
+            989 strings with 14689 characters,
+and the built_in function-call counts, 23648 in all, are:
+= -- 2046
+> -- 1182
+< -- 58
++ -- 413
+- -- 355
+* -- 1681
+:= -- 3641
+add.period$ -- 185
+call.type$ -- 58
+change.case$ -- 280
+chr.to.int$ -- 58
+cite$ -- 133
+duplicate$ -- 1236
+empty$ -- 2121
+format.name$ -- 441
+if$ -- 5033
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 60
-newline$ -- 290
-num.names$ -- 222
-pop$ -- 645
+missing$ -- 63
+newline$ -- 306
+num.names$ -- 234
+pop$ -- 682
 preamble$ -- 1
-purify$ -- 221
+purify$ -- 234
 quote$ -- 0
-skip$ -- 837
+skip$ -- 910
 stack$ -- 0
-substring$ -- 502
-swap$ -- 121
-text.length$ -- 12
+substring$ -- 587
+swap$ -- 145
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 525
-warning$ -- 15
-while$ -- 198
+type$ -- 558
+warning$ -- 17
+while$ -- 212
 width$ -- 0
-write$ -- 721
+write$ -- 761
 (There were 2 error messages)

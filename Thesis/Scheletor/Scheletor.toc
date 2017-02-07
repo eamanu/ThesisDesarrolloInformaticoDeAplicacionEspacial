@@ -69,9 +69,11 @@
 \contentsline {subsection}{\numberline {3.3.1}Experiencia de vuelo}{29}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Arquitectura de red basada en BUS}{29}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Evaluaci\IeC {\'o}n de la confiabilidad de arquitecturas basadas en BUS}{29}{subsection.3.4.1}
-\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis y desarrollo de arquitectura tolerante a fallas}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{31}{section.4.1}
-\contentsline {chapter}{\numberline {5}Arquitectura propuesta}{32}{chapter.5}
-\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis y resultados}{33}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusi\IeC {\'o}n}{34}{chapter.7}
-\contentsline {chapter}{Bibliograf\'ia}{37}{chapter*.44}
+\contentsline {section}{\numberline {3.5}Arquitectura de red basada en BUS}{30}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Evaluaci\IeC {\'o}n de la confiabilidad de arquitecturas basadas en BUS}{31}{subsection.3.5.1}
+\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis y desarrollo de arquitectura tolerante a fallas}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{32}{section.4.1}
+\contentsline {chapter}{\numberline {5}Arquitectura propuesta}{33}{chapter.5}
+\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis y resultados}{34}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusi\IeC {\'o}n}{35}{chapter.7}
+\contentsline {chapter}{Bibliograf\'ia}{39}{chapter*.46}

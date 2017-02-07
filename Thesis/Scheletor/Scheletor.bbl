@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -137,12 +137,12 @@ John~P. Hayes.
 \newblock En \emph{{Institution of Mechanical Engineers Part G Journal of
   Aerospace Engineering}}, 2005.
 
-\bibitem[Hitt y Mulcare(2007)]{FTAvionics}
+\bibitem[Hitt y Mulcare(2070)]{FTAvionics}
 Ellis~F. Hitt y Dennis Mulcare.
 \newblock {Fault-Tolerant Avionics}.
 \newblock En Cary~R. Spitzer, editor, \emph{{Avionics Development and
   Implementation Second Edition}}, capítulo~8. CRC Press, Williamsburg,
-  Virginia, U.S.A., 2007.
+  Virginia, U.S.A., 2070.
 
 \bibitem[Holt y Perry(2008)]{HoltPery}
 Jon Holt y Simon Perry.
@@ -150,6 +150,13 @@ Jon Holt y Simon Perry.
 \newblock The Institution of Engineering and Technology, London, United
   Kingdom, 2008.
 \newblock ISBN 978086341825.
+
+\bibitem[Hoque et~al.(2015)Hoque, Mohamed, y Savaria]{Hoque15}
+K.A. Hoque, O.A. Mohamed, y Y.~Savaria.
+\newblock Towards an accurate reliability, availability and maintainability
+  analysis approach for satellite systems based on probabilistic model
+  checking.
+\newblock volumen 2015-April, páginas 1635--1640, 2015.
 
 \bibitem[IEEE(1990)]{IEEE610.12}
 IEEE.
@@ -174,6 +181,13 @@ Jim Krodel y George Romanski.
   integration considerations in integrated modular avionics systems}.
 \newblock {Techn. Rep.} {DOT/FAA/AR-07/48}, {U.S. Department of
   Transportation}, 2008.
+
+\bibitem[Liu et~al.(2014)Liu, Li, y Guo]{Liu14}
+Yu~Liu, Duo Li, y Chao Guo.
+\newblock Software reliability modeling with fault detection data when knowing
+  fault severity.
+\newblock páginas 558--562, 2014.
+\newblock \doi{10.1109/ICRMS.2014.7107257}.
 
 \bibitem[{Loveless, Andrew T.}(2015)]{Loveless15}
 {Loveless, Andrew T.}
@@ -253,6 +267,12 @@ RTI.
   Translation}}.
 \newblock RTI International, 3040 East Cornwallis Road, Research Triangle Park,
   USA, 2015.
+
+\bibitem[Schneidewind(1997)]{Schneidewind97}
+Norman~F. Schneidewind.
+\newblock Reliability modeling for safety-critical software.
+\newblock \emph{IEEE Transactions on Reliability}, 46\penalty0 (1):\penalty0
+  88--98, 1997.
 
 \bibitem[Schneidewind y Nikora(1998)]{Schneidewind98}
 Norman~F. Schneidewind y Allen~P. Nikora.
