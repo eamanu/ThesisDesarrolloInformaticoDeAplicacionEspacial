@@ -29,11 +29,13 @@ Warning--can't use both author and editor fields in Becker2016
 Warning--empty chapter and pages in Becker2016
 Warning--empty journal in Crawley04
 Warning--can't use both autor y editor fields in FTDesign
+Warning--empty booktitle in Esteve12
 Warning--empty booktitle in Hoque15
 Warning--empty booktitle in Liu14
 Warning--empty title in Loveless15
 Warning--can't use both author and editor fields in Mayo2016
 Warning--empty chapter and pages in Mayo2016
+Warning--empty booktitle in Peng13
 Warning--there's a number but no volume in Raghavendra84
 Warning--empty journal in Schneidewind98
 Warning--empty booktitle in Steiner13
@@ -41,45 +43,45 @@ Warning--empty título in TTTechOrion
 Warning--empty year in TTTechOrion
 Warning--empty año in TTTechOrion
 Warning--empty journal in Woerner00
-You've used 58 entries,
+You've used 60 entries,
             2773 wiz_defined-function locations,
-            989 strings with 14689 characters,
-and the built_in function-call counts, 23648 in all, are:
-= -- 2046
-> -- 1182
-< -- 58
-+ -- 413
-- -- 355
-* -- 1681
-:= -- 3641
-add.period$ -- 185
-call.type$ -- 58
-change.case$ -- 280
-chr.to.int$ -- 58
-cite$ -- 133
-duplicate$ -- 1236
-empty$ -- 2121
-format.name$ -- 441
-if$ -- 5033
+            1003 strings with 15333 characters,
+and the built_in function-call counts, 25122 in all, are:
+= -- 2177
+> -- 1278
+< -- 60
++ -- 445
+- -- 385
+* -- 1799
+:= -- 3848
+add.period$ -- 193
+call.type$ -- 60
+change.case$ -- 296
+chr.to.int$ -- 60
+cite$ -- 139
+duplicate$ -- 1302
+empty$ -- 2228
+format.name$ -- 473
+if$ -- 5361
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 63
-newline$ -- 306
-num.names$ -- 234
-pop$ -- 682
+missing$ -- 65
+newline$ -- 318
+num.names$ -- 242
+pop$ -- 720
 preamble$ -- 1
-purify$ -- 234
+purify$ -- 248
 quote$ -- 0
-skip$ -- 910
+skip$ -- 973
 stack$ -- 0
-substring$ -- 587
-swap$ -- 145
-text.length$ -- 15
+substring$ -- 655
+swap$ -- 167
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 558
-warning$ -- 17
-while$ -- 212
+type$ -- 580
+warning$ -- 19
+while$ -- 222
 width$ -- 0
-write$ -- 761
+write$ -- 789
 (There were 2 error messages)
