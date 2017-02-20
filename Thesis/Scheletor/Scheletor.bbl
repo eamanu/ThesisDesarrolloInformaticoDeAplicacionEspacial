@@ -1,4 +1,4 @@
-\begin{thebibliography}{60}
+\begin{thebibliography}{62}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -109,6 +109,17 @@ Kevin Forsberg y Mooz Harold.
 \newblock \emph{INCOSE International Symposium}, 9\penalty0 (1):\penalty0
   924--932, 1999.
 \newblock ISSN 2334-5837.
+
+\bibitem[Fortescue et~al.(2003)Fortescue, Stark, y Swinerd]{Fontescue03}
+Peter Fortescue, John Stark, y Graham Swinerd.
+\newblock \emph{Space Systems Engineering}.
+\newblock Wiley, West Sussex, England, 3 edition, 2003.
+\newblock ISBN 0171619515.
+
+\bibitem[Fortescue et~al.(2016)Fortescue, Stark, y Swinerd]{Fortescue}
+Peter Fortescue, John Stark, y Graham Swinerd.
+\newblock \emph{Space Systems Engineering}.
+\newblock Springer International Publishing, 2016.
 
 \bibitem[Friedenthal et~al.(2008)Friedenthal, Moore, y
   Steiner]{Friedenthal2008}

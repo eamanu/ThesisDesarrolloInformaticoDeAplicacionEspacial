@@ -1,0 +1,17 @@
+\section{Requerimientos para el análisis}
+En esta sección no se pretende realizar una lista de requerimientos formales para el desarrollo de una arquitectura, esto se hace el capítulo siguiente. El objetivo de esta sección, es llevar a cabo una guía sencilla de las partes principales de un sistema satelital. Con esto en mente se podrá desarrollar diferentes topologías de comunicación, y luego analizar su tolerancia a falla.
+
+Se supondrá una misión de 15 años (sin carga útil para simplificar el análisis) cuyo sistema estará compuesto por los siguientes subsistemas (en inglés para mantener correspondencia con la literatura) basado en \cite{Fontescue03}:
+\begin{itemize}
+\item Power Subsystem
+\item Atitude and Orbit control Subsystem
+\item Telemetry and Subsystem
+\item Thermal Subsystem
+\item Propulsion Subsystem
+\item Data Handlig Subsystem
+\end{itemize}
+
+El sistema, entonces, está compuesto por 6 nodos. Los nodos se suponen computadoras con capacidad de procesamiento suficiente para cada subsistema. Cada una de estas computadoras/nodos es un componente COTS con un cierto grado de confiabilidad (se suponen lo suficientemente bajo como para no ser utilizado en forma directa en el desarrollo de satélites). A nivel de \ac{HW} estos nodos cuenta con tolerancia a fallas, lo que aumenta su confiabilidad. El subsistema de Data Handling tiene que tener comunicación con todos los subsistemas, ya que será la encargada de controlar el correcto funcionamiento del sistema, enviar comandos, y empaquetar telemetría de los sensores.
+
+
+
