@@ -9,7 +9,7 @@ function[R_nr] = reliabilityCalc(lambda, c, n)
     //calc of reliability
     R = %e^(lambda*-t);
     //calc of reliability without redundancy
-    R_nr = R ^ ((2^n)-1);
+    R_nr = R .^ ((2^n)-1);
     
     //write file
     sR = size(R_nr);
@@ -24,8 +24,36 @@ function[R_nr] = reliabilityCalc(lambda, c, n)
     xlabel("time");
     ylabel("Reliability");
     
-    plot(t, R_nr, "black");
+    //plot(t, R_nr, "black");
     
+    R_sys = null;
+    r_int = 1;
+    
+    for j = 0:(n-1)
+        k = j;
+        r_int = r_int .* ((2^k * c + 1) - 2^k * c * R);        
+    end
+    
+    R_sys = R_nr .* r_int;
+    
+    //size of R_sys
+    sR = size(R_sys);
+    mfprintf(fid, "%d\n", -255);
+    
+    for k = 1 : sR(2)
+        mfprintf(fid, "%f", R_sys(k));
+    end
+    
+    plot (t, R_sys, "r-");
+    
+    f=get("current_figure") 
+    f.background = 8;
+    legend(['R(sys) con c = 1']);
+    mclose(fid)
+    
+    return;
+    
+    //////////////////////////////////////////////////////////////////////
     l = size(c);    
     for i = 1:l(2)
       
