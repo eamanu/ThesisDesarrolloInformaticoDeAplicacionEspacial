@@ -1,4 +1,4 @@
-function[R_nr] = reliabilityCalc(lambda, c, n)
+function [R_sys] = reliabilityCalc(lambda, c, n)
     //open a file
     fid = mopen("data.txt", "w");
     if (fid==-1) then
@@ -19,10 +19,10 @@ function[R_nr] = reliabilityCalc(lambda, c, n)
     end
     //calc Reliability of system with redundance for different c
 
-    figure();
-    set(gca(),"auto_clear","off");
-    xlabel("time");
-    ylabel("Reliability");
+//    figure();
+  //  set(gca(),"auto_clear","off");
+    //xlabel("time");
+//    ylabel("Reliability");
     
     //plot(t, R_nr, "black");
     
@@ -44,14 +44,14 @@ function[R_nr] = reliabilityCalc(lambda, c, n)
         mfprintf(fid, "%f", R_sys(k));
     end
     
-    plot (t, R_sys, "r-");
+    //plot (t, R_sys, "r-");
     
-    f=get("current_figure") 
-    f.background = 8;
-    legend(['R(sys) con c = 1']);
+    //f=get("current_figure") 
+    //f.background = 8;
+    //legend(['R(sys) con c = 1']);
     mclose(fid)
     
-    return;
+    return R_sys;
     
     //////////////////////////////////////////////////////////////////////
     l = size(c);    
