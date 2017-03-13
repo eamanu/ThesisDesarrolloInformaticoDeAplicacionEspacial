@@ -1,0 +1,326 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Paquetes y configuración del archivo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[conference,compsoc,12pt]{IEEEtran}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}	
+\usepackage{mathtools}
+\usepackage{subfig} 	
+\usepackage{color}
+\usepackage{natbib} 
+
+\usepackage{enumitem}
+
+\bibpunct{[}{]}{,}{n}{,}{;}
+\usepackage{secdot}
+\sectionpunct{section}{.- }
+\sectionpunct{subsection}{.- }
+\usepackage[top=2.5cm, left=2cm, right=2cm, bottom=2.5cm]{geometry}	
+\usepackage{fancyhdr} % activamos el paquete
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\pagestyle{fancy} % seleccionamos un estilo
+
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage[none]{hyphenat}
+\usepackage{anyfontsize}
+
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+\renewcommand{\figurename}{\bf Fig.} 
+\renewcommand{\tablename}{\bf Tabla}
+\renewcommand{\refname}{{\fontsize{12}{15}\selectfont \uppercase {Referencias}}}
+\renewcommand{\abstractname}{{\fontsize{12}{15}\selectfont \uppercase {Resumen}}}
+
+%\renewcommand{\section}{\fontsize{12}{15} \bfseries \uppercase}
+
+\renewenvironment{abstract}
+  {\normalsize%\quotation
+  {\bfseries\noindent{\large\abstractname}\par\nobreak\smallskip}}
+  {\endquotation \vspace{1cm}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Encabezado
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\rhead{\small \textcolor{gray}{IX Congreso Argentino de Tecnología Espacial. Abril 26-28, 2017. Córdoba, Argentina.}} 
+\cfoot{} 
+\rfoot{\thepage}
+
+\title{\huge {\fontsize{14}{15}\selectfont \uppercase{Diseño de control térmico para sensor óptico refrigerado con un módulo Peltier}}}
+
+\author{\IEEEauthorblockN{Alberto, Nicolás A.$^{(1)}$ - Salibe, Martín $^{(2)}$- García, Leandro M.$^{(2)}$ - Patricio E. Fluxa$^{(1,3)}$} 
+
+\vspace{0.5cm}
+\IEEEauthorblockN{
+$^{(1)}$ Maestría en Instrumentos Satelitales, UFS - CONAE, Centro Espacial Teófilo Tabanera\\ Ruta C45 Km 8, Falda del Carmen (5187), Córdoba, Argentina \\ nico.asf@gmail.com
+}
+\vspace{0.5cm}
+\IEEEauthorblockN{
+$^{(2)}$ Instituto Argentino de Radioastronomía (IAR)
+}
+\vspace{0.5cm}
+\IEEEauthorblockN{
+$^{(3)}$ VENG S.A.
+}
+}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resumen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\twocolumn[
+\begin{@twocolumnfalse}
+\maketitle
+\thispagestyle{fancy}
+\begin{abstract} \normalsize \normalfont
+Este trabajo presenta y analiza una propuesta para el diseño del control térmico de los sensores de un instrumento óptico infrarrojo satelital para la determinación de la temperatura superficial del mar (SST). Dicho instrumento consta de múltiples sensores basados en microbolómetros de óxido de vanadio (VOx) denominados IRL512.
+Para su correcto funcionamiento, estos sensores deben ser estabilizados térmicamente con un error menor a 10mK. Para ello, cada IRL512 cuenta con un módulo Peltier para direccionar el flujo de calor en la zona sensible, y un termistor para medir la temperatura y realimentar el circuito de control que maneja el flujo de calor del Peltier.
+Como parte del diseño se desarrolla un simulador para elaborar los requerimientos del hardware a diseñar. Una vez diseñado el hardware se lo modela y se actualiza el simulador. Por último se analiza si el control térmico propuesto cumple con los requerimientos planteados
+\end{abstract}
+\end{@twocolumnfalse}
+]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Instroducción
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{INTRODUCCIÓN}
+\section{{\fontsize{12}{15}\selectfont \uppercase {Introducción}}}
+\textcolor{red}{
+Este trabajo se plantea para un instrumento óptico infrarrojo satelital para la determinación de la temperatura superficial del mar (SST). Este instrumento está formado por 6 sensores basados en microbolómetros de óxido de vanadio (VOx) denominados IRL512. Los IRL512 han demostrado poseer robustez para su uso en el ambiente espacial durante su utilización en el instrumento NIRST de la misión SAC-D.
+Para su correcto funcionamiento, estos sensores deben ser estabilizados térmicamente con un error menor a 10mK. Para ello, cada IRL512 cuenta con un módulo Peltier para direccionar el flujo de calor en la zona sensible, y un termistor para medir la temperatura y realimentar el circuito de control que maneja el flujo de calor del Peltier. Los circuitos de estabilización térmica utilizados en el instrumento NISRT exceden el consumo eléctrico disponible, por lo que es necesario utilizar un nuevo sistema.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Metodología
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{METODOLOGÍA}
+\section{{\fontsize{12}{15}\selectfont \uppercase {Metodología}}}
+\textcolor{red}{
+Teniendo en cuenta los requerimientos del sistema se plantea la arquitectura del sistema propuesto. Para determinar los requerimientos específicos de cada circuito se desarrolla un simulador. En éste se pueden variar los parámetros de diseño de los diferentes circuitos y ver el impacto que tienen sobre el sistema. Para el desarrollo del simulador es necesario modelar la dinámica del circuito térmico y el termistor. Una vez definidos los requerimientos de cada circuito se procede al diseño de éstos. Posteriormente se los modela y se acutaliza el simulador para realizar una evaluación de desempeño.
+}
+
+\section{{\fontsize{12}{15}\selectfont \uppercase {Requerimientos del sistema}}}
+A continuación se describen los requerimientos del sistema de estabilización térmico de los sensores del instrumento TIR.
+\\
+
+\begin{enumerate}[label=\textbf{R\arabic*}]
+\item El control térmico deberá estabilizar la temperatura de los 6 sensores que componen al instrumento TIR.
+\item El control térmico deberá estabilizar la temperatura de los sensores con un error de 10[mK] o menor.
+\item El control térmico deberá poder de estabilizar la temperatura de 10[°C] a 16[°C] en intervalos de 1[°C].
+\item El control térmico deberá lograr el establecimiento de los 6 sensores en un tiempo de  4[min].
+\item El control térmico debe estar formado por partes EEE de calidad espacial.
+\item El control térmico deberá entregar el valor de temperatura más actualizado de los sensores en forma digital.
+\end{enumerate}
+
+
+\section{{\fontsize{12}{15}\selectfont \uppercase {Arquitectura propuesta}}}
+Para cumplir con los requerimientos se plantea un sistema basado en una FPGA y ....
+En la figura \textbf{XX} se observa la arquiectura del sistema propuesto.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{PaperImages/ArquitecturaPropuesta.png}
+\caption{Arquitectura del sistema propuesto}
+\label{fig_Modelo_Peltier}
+\end{figure}
+
+
+
+\section{{\fontsize{12}{15}\selectfont \uppercase {Modelado térmo-eléctrico}}}
+Tomando como referencia \citep{PaperBazzo} y \citep{PaperGarciaBlanco}.
+
+
+\begin{itemize}
+\item PLanteo de interpretación del circuito térmico completo.
+\item Análisis y modelado del Pletier citando referencia del paper Bazzo.
+\item Análisis y modelado del cirucito térmico del sensor (cita paper INO)
+\item Análisis y modelado del circuito térmico del sumidero (cita paper INO)
+\item Analisis y modelado del termistor
+\end{itemize}
+
+% IMAGEN DEL CIRCUITO COMPLETO EN BLOQUES
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm]{PaperImages/ModeloBloques.png}
+\caption{Esquema del modelado térmico.}
+\label{fig_Modelo_Bloques}
+\end{figure}
+
+
+%% IMEGEN DEL MODELADO DEL PELTIER
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{PaperImages/ModeloPeltier.png}
+\caption{Modelado del Peltier}
+\label{fig_Modelo_Peltier}
+\end{figure}
+
+%% IMAGEN DEL MODELADO DEL SENSOR
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{PaperImages/ParametrosSensor.jpg}
+\caption{Identificación de parámetros del sensor}
+\label{fig_Parametros_Sensor}
+\end{figure}
+
+Tomando como referencia \citep{PaperGarciaBlanco}
+
+%% IMAGEN DEL MODELADO DEL CHIP_uBOL
+\begin{figure}[H]
+\centering
+\includegraphics[width=4cm]{PaperImages/Chip.png}
+\caption{Identificación de parámetros del sensor}
+\label{fig_Parametros_Sensor}
+\end{figure}
+
+
+%% IMAGEN DEL MODELADO DEL SUMIDERO
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{PaperImages/ParametrosSink.jpg}
+\caption{Identificación de parámetros del sumidero}
+\label{fig_Parametros_Sumidero}
+\end{figure}
+
+%% IMAGEN DEL MODELO SIMPLIFICADO
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{PaperImages/ModeloSimplificado.png}
+\caption{Modelo equivalente}
+\label{fig_Parametros_Sumidero}
+\end{figure}
+
+Se determinaron condiciones de contorno habituales para un instrumento que tiene un control térmico externo del tipo ON/OFF con histéresis con heaters. Las condiciones: Tsink=13°C min, Tsink=18°C max, DeltaTsinkmax=10mg x seg.
+
+\section{{\fontsize{12}{15}\selectfont \uppercase {Desarrollo del simulador}}}
+El simulador se desarrolla bajo la herramienta MATLAB/SIMULINK. A  partir de del modelado termo-eléctrico se construyen las equaciones de transferencia utilizando el principio de superposición de las fuentes. Luego se...
+
+\begin{itemize}
+\item Sintonización del sistema utilizando la herramienta SISOTOOL. Fué necesario obtener una ecuación de transferencia de dinámica del modelo termoeléctrico. Para ello se linealización el modelo utilizando la herramienta de linealización de simulink. Las constantes que resultaron de la sintonización son Kp, Ki, Kd, y Nf.
+\item Cabe aclarar que para que la sintonizacións es válida las respuestas en frecuencia de todo el hardware que se incorpore debe ser lo suficientemente rápido como para que se considere desacoplado del sistema sintonizado. Se toma como criterio que debe ser XXX o mayor.
+\end{itemize}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{PaperImages/LazoVariablesFisicas.png}
+\caption{Lazo con variables fisicas}
+\label{fig_Parametros_Sumidero}
+\end{figure}
+
+
+\section{{\fontsize{12}{15}\selectfont \uppercase {Requerimientos de los circuitos a diseñar}}}
+Se intrducen diferentes elementos en el simulador que representan los efectos del hardware. Estos elementos son:
+\begin{itemize}
+\item Quantizador en el driver para determinar la resolución del ADC
+\item Quantizador en Acondicionamiento para determinar la resolución de la edición de temperatura
+\item Sample and hold para determinar la frecuencia del acualización del lazo de control.
+\item Controlador PID de tiempo discreto
+\end{itemize}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{PaperImages/LazoQuantizadores.png}
+\caption{Lazo con variables fisicas}
+\label{fig_LazoQuantizadores}
+\end{figure}
+
+
+Requerimientos para el driver
+\begin{enumerate}[label=\textbf{Rdr\arabic*}]
+\item El driver debe
+\item El driver debe
+\item El driver debe
+\end{enumerate}
+
+Requerimientos para circuito de acondionamiento
+\begin{enumerate}[label=\textbf{Rac\arabic*}]
+\item El acndicionamiento debe
+\item El acondicionamiento debe
+\end{enumerate}
+
+Requerimientos para circuito de digitalizacion
+\begin{enumerate}[label=\textbf{Rdi\arabic*}]
+\item El circuito de digitalizacion debe
+\item El circuito de digitalizacion debe
+\end{enumerate}
+
+Requerimientos para circuito monitor
+\begin{enumerate}[label=\textbf{Rmo\arabic*}]
+\item El circuito monitor debe....
+\end{enumerate}
+
+Requerimientos para circuito digital
+\begin{enumerate}[label=\textbf{Rdg\arabic*}]
+\item Los circuitos digitales deben.....
+\end{enumerate}
+
+\section{{\fontsize{12}{15}\selectfont \uppercase {Circuitos propuestos}}}
+Para satisfacer los requerimientos se proponen los siguientes circuitos:
+Decripcion driver y pwm
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5cm]{PaperImages/CircuitoExcitacion.png}
+\caption{Circuito de excitacion del termistor}
+\label{fig_Circuito_Exctacion}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{PaperImages/CircuitoAmpliFiltro.png}
+\caption{Circuito ampli y filtro}
+\label{fig_Circuito_Exctacion}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{PaperImages/CircuitoDriver.png}
+\caption{Circuito driver}
+\label{fig_Circuito_Exctacion}
+\end{figure}
+
+Ecuacion de acondicnionamiento. Descripción del filtro.
+
+
+\section{{\fontsize{12}{15}\selectfont \uppercase {Modelado de los circuitos y actualización del simulador}}}
+La respuesta en frecuecia de los circuitos se desprecia por ser mucho mayor que la dinámica del circuito y el termistor.
+\\
+Ecuación de modelado del driver. Curva de ajuste.
+\\
+Resolucion segun la temp
+
+Recalculado del las constantes del PID para Ref con DN del ADC.
+
+
+\section{{\fontsize{12}{15}\selectfont \uppercase {Evaluación de desempeño}}}
+Imagenes de la simulación en lso escenarios.
+Consumo de potencia.
+
+\section{{\fontsize{12}{15}\selectfont \uppercase {Conclusiones}}}
+El diseño propuesto cumple con los requerimientos planteados. Se ha desarrollado una herramienta versátil la cual se puede adaptar a cambios de requerimientos y además se adapta a distintos escenarios de operación.
+
+
+\bibliographystyle{ieeetr}
+\bibliography{referencias}
+
+
+
+
+\end{document}
+
+
