@@ -1,0 +1,217 @@
+libreoffice(1)                   User Commands                  libreoffice(1)
+
+NNaammee
+       libreoffice - LibreOffice office suite
+
+SSYYNNOOPPSSIISS
+       lliibbrreeooffffiiccee  [----aacccceepptt==_a_c_c_e_p_t_-_s_t_r_i_n_g]  [----bbaassee]  [----ccaallcc] [----ccoonnvveerrtt--ttoo
+       output_file_extension[:output_filter_name]    [--outdir     output_dir]
+       _f_i_l_e]...    [----ddiissppllaayy   _d_i_s_p_l_a_y]   [----ddrraaww]   [----gglloobbaall]  [----hheeaaddlleessss]
+       [----hheellpp|--hh|--??]   [----iimmpprreessss]   [----iinnvviissiibbllee]    [----iinnffiilltteerr==""<<ffiilltteerr>>""]
+       [----mmaatthh]   [----mmiinniimmiizzeedd]  [--nn  _f_i_l_e]...  [----nnooddeeffaauulltt]  [----nnoolloocckkcchheecckk]
+       [----nnoollooggoo] [----nnoorreessttoorree] [--oo _f_i_l_e]...  [--pp  _f_i_l_e...]   [----pprriinntt--ttoo--ffiillee
+       [[----pprriinntteerr--nnaammee  pprriinntteerr__nnaammee]]  [[----oouuttddiirr  oouuttppuutt__ddiirr]]  ffiillee]]......  [[----pptt
+       _p_r_i_n_t_e_r_n_a_m_e    _f_i_l_e...]     [----sshhooww    _I_m_p_r_e_s_s    _f_i_l_e]...     [----uunnaacc‐‐
+       cceepptt==_a_c_c_e_p_t_-_s_t_r_i_n_g]  [----tteerrmmiinnaattee__aafftteerr__iinniitt]  [----vviieeww _f_i_l_e]... [----wweebb]
+       [----wwrriitteerr]  [_f_i_l_e...]
+       lloobbaassee
+       llooccaallcc
+       llooddrraaww
+       llooffrroommtteemmppllaattee
+       llooiimmpprreessss
+       lloommaatthh
+       lloowweebb
+       lloowwrriitteerr
+
+DDEESSCCRRIIPPTTIIOONN
+       LibreOffice (LO for short)  is  a  multi-platform  office  productivity
+       suite.   It  was  derived from OpenOffice.org 3.3 Beta on September 28,
+       2010.
+
+       lliibbrreeooffffiiccee is a shell script that sets up the environment  and  passes
+       the command line arguments to the ssooffffiiccee..bbiinn binary.
+
+       Alternatively,  the  following helper scripts start the respective mod‐
+       ule:
+
+       sbase, scalc, sdraw, simpress, smath, sofficerc, swriter
+
+OOPPTTIIOONNSS
+       ----aacccceepptt==_a_c_c_e_p_t_-_s_t_r_i_n_g
+              Specify a UNO connect-string to create a  UNO  acceptor  through
+              which other programs can connect to access the API.
+
+       ----bbaassee Starts the wizard for a new Base document.
+
+       ----ccaallcc Starts with a new Calc document.
+
+       ----ccoonnvveerrtt--ttoo  output_file_extension[:output_filter_name] [--outdir out‐
+       put_dir] _f_i_l_e...
+              Batch converts files.  If _-_-_o_u_t_d_i_r is  not  specified  then  the
+              current  working  directory  is used as the output directory for
+              the converted files. It implies _-_-_h_e_a_d_l_e_s_s.
+
+              Examples:
+
+              ----ccoonnvveerrtt--ttoo pdf *.doc
+
+              Converts all .doc files to PDFs.
+
+              ----ccoonnvveerrtt--ttoo pdf:writer_pdf_Export --outdir /home/user *.doc
+
+              Converts all .doc files to PDFs using the settings in the Writer
+              PDF export dialog and saving them in /home/user.
+
+       ----ddiissppllaayy _d_i_s_p_l_a_y
+              This option specifies the X server to use; see XX(7)
+
+       ----ddrraaww Starts with a new Draw document.
+
+       ----gglloobbaall
+              Starts with a new Global document.
+
+       ----hheeaaddlleessss
+              Starts  in  "headless  mode", which allows using the application
+              without user a interface.
+
+              This special mode can be used when the application is controlled
+              by external clients via the API.
+
+              It implies --invisible and strictly ignores any GUI environment.
+              --quickstart does not work with this parameter.
+
+       ----hheellpp|--hh|--??
+              Lists LibreOffice command line parameters.
+
+       ----iimmpprreessss
+              Starts with a new Impress document.
+
+       ----iinnvviissiibbllee
+              Starts in invisible mode.
+
+              Neither the start-up logo nor the initial program window will be
+              visible.   LO can be controlled and documents and dialogs can be
+              opened via the API.
+
+              When started with this parameter, it can only be quit using  the
+              taskmanager (Windows) or the kill command (UNIX based systems).
+
+              --quickstart does not work with this parameter.
+
+       ----iinnffiilltteerr==""<<ffiilltteerr>>""
+              Force  an  input  filter type if possible.  For example --infil‐
+              ter="Calc Office Open XML" only
+
+       ----mmaatthh Starts with a new Math document.
+
+       ----mmiinniimmiizzeedd
+              Keeps the splash screen minimized.
+
+       --nn _t_e_m_p_l_a_t_e...
+              Creates the a new document from the given templates.
+
+       ----nnooddeeffaauulltt
+              Starts LO without creating a new document.  The  next  time  you
+              start LO, the welcome screen is shown.
+
+              It's  used  together  with ----nnoollooggoo by quick starters. Note that
+              ----qquuiicckkssttaarrtt has no longer been supported  since  OpenOffice.org
+              2.0.0.
+
+       ----nnoolloocckkcchheecckk
+              Disables the check for remote instances using the installation.
+
+       ----nnoollooggoo
+              Disables the splash screen at program start.
+
+       ----nnoorreessttoorree
+              Disables  restart  and file recovery after a system crash. It is
+              possible that LO will try to restore a file  it  keeps  crashing
+              on, if that happens ----nnoorreessttoorree is the only way to start LO.
+
+       ----nnoossppllaasshh
+              Disables the splash screen at program start.
+
+       --oo _f_i_l_e...
+              Opens the given files for editing, even templates.
+
+              Without  --oo  a template file would create a new document derived
+              from that template.
+
+       --pp _f_i_l_e...
+              Prints the given files to the  default  printer  and  ends.  The
+              splash screen does not appear.
+
+              If  the  file  name contains spaces, then it must be enclosed in
+              quotation marks.
+
+       ----pprriinntt--ttoo--ffiillee  [[----pprriinntteerr--nnaammee  pprriinntteerr__nnaammee]]  [[----oouuttddiirr  oouuttppuutt__ddiirr]]
+       ffiillee......
+              Batch  print  files to file.  If --printer-name is not specified
+              the default printer is used.  If --outdir is not specified  then
+              the  current  working  directory is used as the output directory
+              for the converted files.
+
+              Examples:
+
+              --print-to-file *.doc
+
+              Prints all .doc files to the current working directory using the
+              default printer.
+
+              --print-to-file   --printer-name  nasty_lowres_printer  --outdir
+              /home/user *.doc
+
+              Prints  all  .doc  files  to  /home/user  directory  using   the
+              nasty_lowres_printer.
+
+       ----pptt _p_r_i_n_t_e_r_n_a_m_e _f_i_l_e...
+              Prints  the given files to the printer _p_r_i_n_t_e_r_n_a_m_e and ends. The
+              splash screen does not appear.
+
+              If a file name contains spaces, then it must be enclosed in quo‐
+              tation marks.
+
+       ----qquuiicckkssttaarrtt ----qquuiicckkssttaarrtt==nnoo
+              Starts  LO  with  it's  quick starter.  ----qquuiicckkssttaarrtt ddiissaabbllee tthhee
+              qquuiicckk ssttaarrtteerr..
+
+              DDooeess nnoott wwoorrkk wwiitthh ----iinnvviissiibbllee oorr ----hheeaaddlleessss..
+
+       ----sshhooww _I_m_p_r_e_s_s _f_i_l_e...
+              Opens the given Impress files, starts the presentation and quits
+              after they have finished.
+
+       ----uunnaacccceepptt==_a_c_c_e_p_t_-_s_t_r_i_n_g
+              Closes an acceptor that was created with ----aacccceepptt option.
+
+              Use ----uunnaacccceepptt=_a_l_l to close all open acceptors.
+
+       ----tteerrmmiinnaattee__aafftteerr__iinniitt
+              Starts  LO  and terminates after it registers some UNO services.
+              Doesn't show the splash during startup.
+
+       ----vviieeww _f_i_l_e...
+              Opens the given files read-only creating  a  temporary  copy  of
+              them at $TMPDIR.
+
+       ----wweebb  Starts with a new HTML document.
+
+       ----wwrriitteerr
+              Starts with a new Writer document.
+
+TTRROOUUBBLLEESSHHOOOOTTIINNGG PPRROOBBLLEEMMSS
+       See  hhttttpp::////wwiikkii..ddooccuummeennttffoouunnddaattiioonn..oorrgg//BBuuggRReeppoorrtt  for  more details on
+       how to report bugs in LibreOffice.
+
+SSEEEE AALLSSOO
+       hhttttpp::////wwwwww..ddooccuummeennttffoouunnddaattiioonn..oorrgg//
+
+AAUUTTHHOORR
+       This manual page was created by Rene  Engelhard  <rene@debian.org>  for
+       the  Debian  GNU/Linux  Distribution, because the original package does
+       not  have  one.  It   was   updated   for   Novell   by   Petr   Mladek
+       <petr.mladek@novell.com>  and  adapted for LibreOffice by Philipp Weis‐
+       senbacher <philipp.weissenbacher@gmail.com>.
+
+LibreOffice                       2010-12-18                    libreoffice(1)
