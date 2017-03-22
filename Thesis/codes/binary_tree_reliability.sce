@@ -24,7 +24,7 @@ function [R_sys] = reliabilityCalc(lambda, c, n)
     //xlabel("time");
 //    ylabel("Reliability");
     
-    //plot(t, R_nr, "black");
+   //plot(t, R_nr, "black");
     
     R_sys = null;
     r_int = 1;
@@ -44,11 +44,13 @@ function [R_sys] = reliabilityCalc(lambda, c, n)
         mfprintf(fid, "%f", R_sys(k));
     end
     
-    //plot (t, R_sys, "r-");
+    plot (t, R_sys, "r-");
     
-    //f=get("current_figure") 
-    //f.background = 8;
-    //legend(['R(sys) con c = 1']);
+    xlabel("Tiempo adimensional") 
+    ylabel("Confiabilidad")
+    f=get("current_figure") 
+    f.background = 8;
+    legend(['R(sys) con c = 1']);
     mclose(fid)
     
     return R_sys;

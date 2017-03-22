@@ -30,16 +30,17 @@ function [R_sys] = calcRDistNet(lambda, c, v)
 
     R_sys_total = R_sys + R_sys1 + R_sys2 + R_sys3 + R_sys4
     
-   // plot (t, R_sys, "b-");
+    plot (t, R_sys, "b-");
 
-   // xlabel("time")
-   // ylabel("reliability")
-   // f=get("current_figure") 
-   // f.background = 8;
-   // legend(['R(Distributed Net)'; 'R(Distributed Net) with 4 fail nodes']);
+
+    xlabel("Tiempo adimensional")
+    ylabel("Confiabilidad")
+    f=get("current_figure") 
+    f.background = 8;
+    legend(['R(Red Distr)'; 'R(Red Distr) con 4 nodos fallados']);
     
      //write file
-    sR = size(R_sys);
+    sR = size(R_sys_total);
     mfprintf(fid, "%ld\n",-255) ;
     for i = 1:sR(2)
         mfprintf(fid, "%f ", R_sys(i));
