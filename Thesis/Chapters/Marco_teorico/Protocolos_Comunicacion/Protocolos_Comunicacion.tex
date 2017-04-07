@@ -1,0 +1,60 @@
+\section{Protocolos de comunicación de tiempo real}
+\subsection{Sistemas de tiempo real}
+Un sistema de tiempo real es un sistema de computadora que depende del correcto comportamiento funcional con respecto al dominio del tiempo, esto signfica que el sistema debe llevar a cabo sus funciones y obtener como resultados (correctos) dentro de las restricciones de tiempo \citep{Lisner07}.
+
+Los sistemas de tiempo real se dividen en \textit{sistemas de tiempo real "soft"} y \textit{sistemas de tiempo real "hard"}. En los soft real-time systems es importante cumplir con los tiempos del planificador, pero el no cumplimiento no tiene un impacto en la seguridad del sistema. Por otro lado, en los hard real-time systems, el no cumplimiento de las restricciones del tiempo, tiene como consecuencia un impacto catastrófico en el sistema.
+
+Existen numerosos protocolos de comunicación, la mayoría abocados en  la implementación de la capa 1 y 2 del modelo de ISO/OSI. Estos protocolos especifican las restricciones de hardware, la topología de red, la arquitectura del nodo, acceso al medio, los mecanismos de detección  de error, etc. \citep{Lisner07}. En los sistemas críticos como en el caso de los vehículos satelitales, es necesario la aplicación de sistemas de tiempo real, que garantice una máxima latencia y un comportamiento determinístico.
+
+La tolerancia a fallas aplicadas en protocolos de comunicación de tiempo real, permiten que la red continúe funcionando aún cuando algunos de sus componentes fallaron. Los sistemas tolerantes a fallas son diseñados a partir de un modelo de falla dado \citep{Lisner07}. El modelo de falla describe la estrucutra del sistema y los tipos de fallas que pueden ocurrir \citep{Lisner07}.
+
+Otro aspecto importante de los protocolos de comunicación tolerantes a fallas de tiempo real, es conocer el momento en el que un nodo está disponible para enviar mensajes. Esto es llevado a cabo por las estrategias de acceso al medio. Los métodos de acceso al medio pueden ser clasificados como event-triggered y time-triggered. En el primero, un mensaje es enviado, si algún nodo requiere ese mensaje. Este no es una buena opción para los sistemas de tiemp real, ya que no asegura los límites de tiempo \citep{Lisner07}.
+
+Los métodos time-triggered es hecho en ciclos. Los nodos tiene acceso al medio a través de intervalos periódicos de tiempo \citep{Lisner07}. Una de las principales ventajas de este enfoque, es que es predecible, los intervalos son pre configurados. Como desventaja se puede mencionar que se hace un uso deficiente del medio, cuando algún nodo no tiene nada para enviar en su ventana de tiempo.
+
+\section{Estrategia de acceso al medio}
+\subsection{CSMA}
+El esquema CSMA (Acceso Múltiple por Detección de Portadora\footnote{Del inglés, Carrier Sense Multiple Access}) proviene de ideas del Ethernet alámbrico. En esta técnica los nodos esperan durante un intervalo corto de tiempo y aleatorio antes de transmitir \citep{Tanenbaum03}. Este método es utilizado comúnmente en redes inalámbricas. Al protocolo CSMA se la puede dividir en:
+\begin{itemize}
+ \item CSMA con Detección de Pportadora
+ \item CSMA con Detección de Colisiones
+\end{itemize}
+
+En la primera, el nodo intenta enviar un mensaje cuando el canal está inactivo. Si otro nodo lo está usando espera hasta que se desocupa y luego transmite. En el caso de una colisión de mensajes, espera un tiempo aleatorio antes de enviar el mensaje nuevamente. Esta tiene algunas desventajas, que no la hacen apropiadas para su aplicación en sistemas críticos. Para hacer frente a las desventajas del CSMA con detección de portadora, se utiliza CSMA/CD (CSMA con Detección).
+
+Por otro lado, también existe otro método denominado CSMA/CA (CSMA con Evitación de Colisiones), utilizado en el 802.11. Este protocolo que es similar al CSMA/CD de Ethernet, con detección de canal antes de enviar y retroceso exponencial desopués de las colisiones \citep{Tanenbaum03}. Esta estrategia además de ser utilizada en el Wireless, se utiliza en CAN.
+
+\subsection{TDMA}
+TDMA (time division multiple acccess) es una técnica de multiplexación del tiempo que es utilizada en redes inalámbricas, comunicación de satélites y en diferentes protocolos de tiempo real \citep{Lisner07}.
+
+Los accesos al medio se realiza mediante ciclos, en el cual se subdivide dentro de slots de tiempo de ancho estático. Solo un nodo está permitido enviar en un solo slot.
+
+\subsection{Minislotting}
+El uso de slots de tiempo con un ancho fijo y estático del tiempo, como es el que se utiliza en TDMA, puede convertirse en un problema. En el TDMA los nodos tiene que esperar todo un ciclo para poder enviar un mensaje. Además, el nodo debe enviar mensajes vacios (\textit{null}} durante su slots, cuando no tiene nada que enviar. Solución de este problema es el minislotting, ya que permite la utilización de slots con ancho variable. Esto logra recortar los tiempos de espera cuando no se está utilizando el medio \citep{Lisner07}. Este método permite un uso más eficiente de los ciclos. La transmisión puede tener diferntes anchos, y no hay necesidad de enviar mensajes null. Este método se basa en la prioridad y para evitar la monopolización del medio, algunos protocolos como el ARIN 629, utiliza timeouts para denegar el acceso al medio después de un determinado tiempo \citep{Lisner07}.
+
+
+\section{Revisión de protocolos}
+\subsection{CAN}
+CAN es un protocolo de comunicación desarrollado por Bosch para ser utilizado en automóviles. Existe un estándar de ISO para CAN. CAN es un protocolo del tipo event-triggered y utiliza CSMA/CA.
+
+CAN utiliza diferentes mecanismos de detección de errores. Utiliza un CRC de 15 bits. Cada nodo puede enviar un mensaje de diagnóstico de errores, además de que lleva un contador de errores propios. Si este número de errores de grande, el mismo nodo entra en modo \textit{error activo} (envía flags de ``error activo''), \textit{error pasivo}(envía flags de ``error pasivo'' y espera 8 bit times antes de repetir el envío del mensaje) y \textit{bus off}(el nodo se apaga) \citep{Lisner07}
+
+\subsection{byteflight}
+Este se basa en el protocolo Minislotting y utilizado por BMW en automóviles. Este utiliza un clock  master de alta presición para la sincronización.
+
+Tanto CAN como byteflight, no poseen un mecanismo o técnica para proteger el canal de alguna falla de los nodos \citep{Lisner07}. 
+
+\subsection{ARINC 659 o SAFEbus}
+SAFEbus es una implementación del estandar ARINC 659 para su utilización en aviones comerciales. También se suele utilizar en vehículos espaciales. SAFEBus es una arquitectura que es altamente redundante.
+
+\subsection{TTP/C}
+TTP/C proviene de la familia TTP. Este protocolo utiliza el esquema TDMA en una arquitectura de doble canal. La configuración se encuentra pre definida. Esto permite al sistema ser prdecible, lo cual facilita la tolerancia a fallas. Su alto grado de tolerancia a fallas, permite desarrollar aplicaciones más confiables que otros protocolos \citep{Lisner07}.
+
+\section{Posibles fallas en una red}
+Las principalles fallas que se pueden producir en una red son debidas al canal de comunicación y los nodos/controladores, esto se debe a que son los componentes más importantes de toda red \citep{Lisner07}.
+
+Las fallas en el nodo pueden ser múltiples tipos. El nodo puede codificar erroneamente un mensaje; se pueden dar errores en el timing, es decir actúan en tiempo equivocado; el nodo puede tener un comportamiento inusual y se bloquea el servicio que está brindando.
+
+Asimismo, las fallas en el canal de comunicación pueden ser de diferentes tipos. El canal puede generar ruido, este ruido puede modificar un mensaje (hasta el momento un mensaje correcto); el mensaje no llega a los destinatarios.
+
+También se pueden observar que tanto errores en el nodo como en el canal se produzcan simultaneamente \citep{Lisner07}.

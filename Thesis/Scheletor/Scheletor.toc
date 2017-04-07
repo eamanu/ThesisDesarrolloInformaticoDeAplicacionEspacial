@@ -57,24 +57,54 @@
 \contentsline {subsection}{\numberline {2.12.5}Vida restante media}{21}{subsection.2.12.5}
 \contentsline {subsection}{\numberline {2.12.6}Distribuci\IeC {\'o}n binomial}{22}{subsection.2.12.6}
 \contentsline {subsection}{\numberline {2.12.7}Distribuci\IeC {\'o}n exponencial}{22}{subsection.2.12.7}
-\contentsline {chapter}{\numberline {3}Estado del arte}{24}{chapter.3}
-\contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{24}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{25}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{25}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Extensi\IeC {\'o}n de la arquitectura con backup}{26}{subsubsection.3.1.1.2}
-\contentsline {subsection}{\numberline {3.1.2}Esquema de \IeC {\'a}rbol binario con degradaci\IeC {\'o}n de perfomance}{26}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Redes distribu\IeC {\'\i }das}{26}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Algoritmo de ruteo}{27}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Redes Ethernet en avi\IeC {\'o}nica}{28}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Experiencia de vuelo}{29}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Arquitectura de red basada en BUS}{29}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Evaluaci\IeC {\'o}n de la confiabilidad de arquitecturas basadas en BUS}{29}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}M\IeC {\'e}trica y modelado de la confiabilidad de sistemas}{30}{section.3.5}
-\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis y desarrollo de arquitectura tolerante a fallas}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}Requerimientos para el an\IeC {\'a}lisis}{33}{section.4.2}
-\contentsline {section}{\numberline {4.3}Nomenclatura}{34}{section.4.3}
-\contentsline {chapter}{\numberline {5}Arquitectura propuesta}{35}{chapter.5}
-\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis y resultados}{36}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusi\IeC {\'o}n}{37}{chapter.7}
-\contentsline {chapter}{Bibliograf\'ia}{41}{chapter*.45}
+\contentsline {section}{\numberline {2.13}Protocolos de comunicaci\IeC {\'o}n de tiempo real}{23}{section.2.13}
+\contentsline {subsection}{\numberline {2.13.1}Sistemas de tiempo real}{23}{subsection.2.13.1}
+\contentsline {section}{\numberline {2.14}Estrategia de acceso al medio}{24}{section.2.14}
+\contentsline {subsection}{\numberline {2.14.1}CSMA}{24}{subsection.2.14.1}
+\contentsline {subsection}{\numberline {2.14.2}TDMA}{24}{subsection.2.14.2}
+\contentsline {subsection}{\numberline {2.14.3}Minislotting}{24}{subsection.2.14.3}
+\contentsline {section}{\numberline {2.15}Revisi\IeC {\'o}n de protocolos}{25}{section.2.15}
+\contentsline {subsection}{\numberline {2.15.1}CAN}{25}{subsection.2.15.1}
+\contentsline {subsection}{\numberline {2.15.2}byteflight}{25}{subsection.2.15.2}
+\contentsline {subsection}{\numberline {2.15.3}ARINC 659 o SAFEbus}{25}{subsection.2.15.3}
+\contentsline {subsection}{\numberline {2.15.4}TTP/C}{25}{subsection.2.15.4}
+\contentsline {section}{\numberline {2.16}Posibles fallas en una red}{25}{section.2.16}
+\contentsline {section}{\numberline {2.17}Protocolo CAN}{26}{section.2.17}
+\contentsline {subsection}{\numberline {2.17.1}Consideraciones previas}{26}{subsection.2.17.1}
+\contentsline {subsection}{\numberline {2.17.2}Introducci\IeC {\'o}n}{26}{subsection.2.17.2}
+\contentsline {subsection}{\numberline {2.17.3}Elementos necesarios}{27}{subsection.2.17.3}
+\contentsline {subsection}{\numberline {2.17.4}Capa f\IeC {\'\i }sica}{27}{subsection.2.17.4}
+\contentsline {subsubsection}{\numberline {2.17.4.1}Bus de comunicaci\IeC {\'o}n}{27}{subsubsection.2.17.4.1}
+\contentsline {subsubsection}{\numberline {2.17.4.2}Bit timing}{28}{subsubsection.2.17.4.2}
+\contentsline {subsubsection}{\numberline {2.17.4.3}Asignaci\IeC {\'o}n eficiente del bus}{28}{subsubsection.2.17.4.3}
+\contentsline {subsection}{\numberline {2.17.5}Capa de Enlace}{29}{subsection.2.17.5}
+\contentsline {subsection}{\numberline {2.17.6}Formato del mensaje}{29}{subsection.2.17.6}
+\contentsline {chapter}{\numberline {3}Estado del arte}{30}{chapter.3}
+\contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{30}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{31}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{31}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Extensi\IeC {\'o}n de la arquitectura con backup}{32}{subsubsection.3.1.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Esquema de \IeC {\'a}rbol binario con degradaci\IeC {\'o}n de perfomance}{32}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Sistemas Hypercube}{32}{section.3.2}
+\contentsline {section}{\numberline {3.3}Redes distribu\IeC {\'\i }das}{32}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Algoritmo de ruteo}{33}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Redes Ethernet en avi\IeC {\'o}nica}{34}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Experiencia de vuelo}{35}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Arquitectura de red basada en BUS}{35}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Evaluaci\IeC {\'o}n de la confiabilidad de arquitecturas basadas en BUS}{35}{subsection.3.5.1}
+\contentsline {section}{\numberline {3.6}M\IeC {\'e}trica y modelado de la confiabilidad de sistemas}{36}{section.3.6}
+\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis y desarrollo de arquitectura tolerante a fallas}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Requerimientos para el an\IeC {\'a}lisis}{39}{section.4.2}
+\contentsline {section}{\numberline {4.3}Nomenclatura}{40}{section.4.3}
+\contentsline {section}{\numberline {4.4}Estudio de topolog\IeC {\'\i }as de arquitecturas}{40}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}\IeC {\'A}rbol binario}{41}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Red distribuida}{42}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Red hypercube}{43}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Topolog\IeC {\'\i }a utilizada en la arquitectura a dise\IeC {\~n}ar}{44}{section.4.5}
+\contentsline {section}{\numberline {4.6}Topolog\IeC {\'\i }a propuesta}{46}{section.4.6}
+\contentsline {section}{\numberline {4.7}Protocolo de comunicaci\IeC {\'o}n}{47}{section.4.7}
+\contentsline {chapter}{\numberline {5}Arquitectura propuesta}{48}{chapter.5}
+\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis y resultados}{49}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusi\IeC {\'o}n}{50}{chapter.7}
+\contentsline {chapter}{Bibliograf\'ia}{54}{chapter*.59}

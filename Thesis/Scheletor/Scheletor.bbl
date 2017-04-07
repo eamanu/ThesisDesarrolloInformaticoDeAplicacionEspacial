@@ -1,9 +1,15 @@
-\begin{thebibliography}{62}
+\begin{thebibliography}{70}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abd-El-Barr y Gebali(2014)]{Mostafa14}
+Mostafa Abd-El-Barr y Fayez Gebali.
+\newblock Reliability analysis and fault tolerance for hypercube multi-computer
+  networks.
+\newblock \emph{Information Sciences}, 276:\penalty0 295 -- 318, 2014.
 
 \bibitem[Alena et~al.(2011)Alena, Gilstrap, Baldwin, Stone, y Wilson]{Alena11}
 R.~Alena, R.~Gilstrap, J.~Baldwin, T.~Stone, y P.~Wilson.
@@ -15,6 +21,13 @@ Thomas Anderson y John~C. Knight.
 \newblock {A Framework for Software Fault Tolerance in Real-Time Systems.}
 \newblock \emph{IEEE Trans. Software Eng.}, \penalty0 (3):\penalty0 355--364,
   1983.
+
+\bibitem[Arias y Wiman(2017)]{Arias17}
+Emmanuel Arias y Gustavo Wiman.
+\newblock Estudio de la confiabilidad de arquitecturas tolerantes a fallas
+  basada en componentes cots para aviónicas de vehículos espaciales.
+\newblock Asociación Argentina de Tecnología Espacial - Instituto
+  Universitario Aeronautico, Apr 2017.
 
 \bibitem[Becker y Voss(2016)]{Becker2016}
 Klaus Becker y Sebastian Voss.
@@ -34,6 +47,17 @@ Savio.~N. Chau, L.~Alkalai, Ann~T. Tai, y J.~B. Burt.
 \newblock A design-diversity based fault-tolerant cots avionics bus network.
 \newblock En \emph{Dependable Computing, 2001. Proceedings. 2001 Pacific Rim
   International Symposium on}, páginas 35--42, 2001.
+
+\bibitem[Corrigan(2002)]{texasCAN}
+Steve Corrigan.
+\newblock {Introduction to the Controller Area Network (CAN)}.
+\newblock Technical Report SLOA101A, Texas Instruments, 2002.
+
+\bibitem[Corrigan(2008)]{texasFISICACAN}
+Steve Corrigan.
+\newblock {Controller Area Network Physicalnn Layer Requeriments - ICP,
+  Industrial Interface}.
+\newblock Technical Report SLLA270, Texas Instruments, 2008.
 
 \bibitem[Crawley et~al.(2004)Crawley, de~Weck, Eppinger, Magee, Moses, Seering,
   Schindall, Wallace, y Whitney]{Crawley04}
@@ -79,6 +103,12 @@ Jens Eickhoff.
   Operations}}.
 \newblock Springer-Verlag Berlin Heidelberg, Alemania, 2012.
 \newblock ISBN 978-3-642-25169-6.
+
+\bibitem[{ESD Electronics}(2017)]{esdWEB}
+{ESD Electronics}.
+\newblock {ESD Electronics}, 2017.
+\newblock URL
+  \url{{http://www.esd-electronics-usa.com/Controller-Area-Network-CAN-Introduction.html}}.
 
 \bibitem[Esposito et~al.(2015)Esposito, Albanese, Alderighi, Casini, L.,
   Esposti, Monteleone, y Violante]{Esposito15}
@@ -201,6 +231,15 @@ Jim Krodel y George Romanski.
   integration considerations in integrated modular avionics systems}.
 \newblock {Techn. Rep.} {DOT/FAA/AR-07/48}, {U.S. Department of
   Transportation}, 2008.
+
+\bibitem[{Kvaser}()]{kvaserWEB}
+{Kvaser}.
+
+\bibitem[Lisner(2007)]{Lisner07}
+Jens~C. Lisner.
+\newblock \emph{A Fault-tolerant Dynamic Time-trigged Protocol}.
+\newblock Tesis de Doctorado, Dependability of Computing Systems - University
+  of Duisburg-Essen, 4 2007.
 
 \bibitem[Liu et~al.(2014)Liu, Li, y Guo]{Liu14}
 Yu~Liu, Duo Li, y Chao Guo.
@@ -343,6 +382,12 @@ A.~T. Tai, S.~N. Chau, y L.~Alkalai.
 Andrew~S. Tanenbaum y David~J. Wetherall.
 \newblock \emph{{Redes de computadora}}.
 \newblock Pearson Educación, Mexico, quinta edition, 2012.
+
+\bibitem[Tanenbaum(2003)]{Tanenbaum03}
+A.S. Tanenbaum.
+\newblock \emph{Redes de computadoras}.
+\newblock Editorial Alhambra S. A. (SP), 2003.
+\newblock ISBN 9789702601623.
 
 \bibitem[Torres-Pomales(2000)]{SoftwareFaultToleranceATutorial}
 Wilfredo Torres-Pomales.

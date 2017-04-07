@@ -1,0 +1,33 @@
+\subsection{Formato del mensaje}
+CAN utiliza un formato de mensajes cortos (94 bits) En el mensaje no está explícito ninguna dirección, por este motivo el mensaje puede ser escuchado por todos los nodos de la red \citep{kvaserWEB}.
+
+Los tipos de mensajes son los siguientes:
+\begin{itemize}
+    \item Frame de datos (Data Frame)
+    \item Frame remoto (Remote Framte)
+    \item Frame de error (Error Frame)
+    \item Frame de sobrecarga (Overload Frame)
+\end{itemize}
+
+\subsubsection{Data Frame}
+Este es el frame más común. Las partes más importantes son:
+
+\begin{itemize}
+\item Campo de arbitraje, el cual determina la prioridad del mensaje
+\item El campo de datos, que contiene desde cero hasta ocho bytes de datos
+\item El CRC, que está conformado por 15 bits utilizados para calcualr el checksum del mensaje
+\item Un campo de ACK. Cualquier controlador que haya recibido el mensaje envía un bit de acuse de recibo al final de cada mensaje. El transmisor comprueba la presencia del bit ACK. En caso de no detectar este bit reenvía el mensaje. Al no poder conocer la dirección de los nodos, no se sabe si el mensaje fue recibido correctamente por el node receptor, solo se sabe que el mensaje fue recibido por uno o más nodos.   
+\end{itemize}
+
+\subsubsection{Remote Frame}
+El frame remoto es un Data Frame con dos diferencias, es marcado como Remote Frame, esto es el bit RTR es recesivo; y por otro lado no hay un campo de datos. Este frame es utilizado para pedir la transmisión de un determinado frame de datos. Por ejemplo si el nodo A transmite un Remote Frame con el campo de arbitraje en 234, entonces el nodo B, reponderá con un frame de datos con el campo de arbitraje seteado a 234 \citep{kvaserWEB}. Este frame es poco utilizado.
+
+\subsubsection{Error Frame}
+Este frame se envía cuando un node detecta alguna falla en el mensaje. El envío de este frame provoca la retransmisión inmediata del mensaje. El Error Frame consiste en una bandera, el cual está compuesto por 6 bits del mismo valor, y un Error Delimiter que está compuesto por 8 bits recesivos.
+
+\subsubsection{Overload Frame}
+Este frame es similar al frame de error con el mismo formato. Es enviado cuando el nodo está ocupado. Este Frame es muy poco usado. El único controlador que generaba Overload Frame está obsoleto \citep{kvaserWEB}
+
+
+\subsubsection{CAN estándar y CAN extendido}
+

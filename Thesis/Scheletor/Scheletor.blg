@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Scheletor.aux
 The style file: plainnatesp.bst.bst
@@ -24,7 +24,20 @@ I was expecting an "="---line 490 of file biblio.bib.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "TTTEchWeb" isn't style-file defined
 --line 493 of file biblio.bib.bib
+Repeated entry---line 573 of file biblio.bib.bib
+ : @article{Pradhan82
+ :                   ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "esdWEB" isn't style-file defined
+--line 617 of file biblio.bib.bib
+Warning--entry type for "kvaserWEB" isn't style-file defined
+--line 643 of file biblio.bib.bib
+Illegal end of database file---line 649 of file biblio.bib.bib
+ : }
+ :  
+I'm skipping whatever remains of this entry
 Warning--there's a number but no volume in Anderson83
+Warning--empty booktitle in Arias17
 Warning--can't use both author and editor fields in Becker2016
 Warning--empty chapter and pages in Becker2016
 Warning--empty journal in Crawley04
@@ -32,6 +45,7 @@ Warning--can't use both autor y editor fields in FTDesign
 Warning--empty booktitle in Esteve12
 Warning--empty chapter and pages in Fortescue
 Warning--empty booktitle in Hoque15
+Warning--empty year in kvaserWEB
 Warning--empty booktitle in Liu14
 Warning--empty title in Loveless15
 Warning--can't use both author and editor fields in Mayo2016
@@ -44,45 +58,45 @@ Warning--empty título in TTTechOrion
 Warning--empty year in TTTechOrion
 Warning--empty año in TTTechOrion
 Warning--empty journal in Woerner00
-You've used 62 entries,
+You've used 70 entries,
             2773 wiz_defined-function locations,
-            1014 strings with 15520 characters,
-and the built_in function-call counts, 25975 in all, are:
-= -- 2243
-> -- 1338
-< -- 60
-+ -- 465
-- -- 403
-* -- 1874
-:= -- 3986
-add.period$ -- 200
-call.type$ -- 62
-change.case$ -- 307
-chr.to.int$ -- 62
-cite$ -- 144
-duplicate$ -- 1345
-empty$ -- 2297
-format.name$ -- 493
-if$ -- 5536
+            1058 strings with 16602 characters,
+and the built_in function-call counts, 28542 in all, are:
+= -- 2470
+> -- 1440
+< -- 70
++ -- 503
+- -- 433
+* -- 2029
+:= -- 4397
+add.period$ -- 223
+call.type$ -- 70
+change.case$ -- 338
+chr.to.int$ -- 70
+cite$ -- 162
+duplicate$ -- 1485
+empty$ -- 2540
+format.name$ -- 535
+if$ -- 6071
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 69
-newline$ -- 329
-num.names$ -- 250
-pop$ -- 751
+missing$ -- 73
+newline$ -- 368
+num.names$ -- 282
+pop$ -- 828
 preamble$ -- 1
-purify$ -- 258
+purify$ -- 284
 quote$ -- 0
-skip$ -- 998
+skip$ -- 1104
 stack$ -- 0
-substring$ -- 659
-swap$ -- 169
-text.length$ -- 17
+substring$ -- 702
+swap$ -- 179
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 592
-warning$ -- 20
-while$ -- 228
+type$ -- 675
+warning$ -- 22
+while$ -- 253
 width$ -- 0
-write$ -- 817
-(There were 2 error messages)
+write$ -- 914
+(There were 4 error messages)
