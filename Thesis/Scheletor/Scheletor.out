@@ -46,22 +46,49 @@
 \BOOKMARK [2][-]{subsection.2.12.5}{Vida restante media}{section.2.12}% 46
 \BOOKMARK [2][-]{subsection.2.12.6}{Distribuci\363n binomial}{section.2.12}% 47
 \BOOKMARK [2][-]{subsection.2.12.7}{Distribuci\363n exponencial}{section.2.12}% 48
-\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 49
-\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 50
-\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 51
-\BOOKMARK [2][-]{subsection.3.1.2}{Esquema de \341rbol binario con degradaci\363n de perfomance}{section.3.1}% 52
-\BOOKMARK [1][-]{section.3.2}{Redes distribu\355das}{chapter.3}% 53
-\BOOKMARK [2][-]{subsection.3.2.1}{Algoritmo de ruteo}{section.3.2}% 54
-\BOOKMARK [1][-]{section.3.3}{Redes Ethernet en avi\363nica}{chapter.3}% 55
-\BOOKMARK [2][-]{subsection.3.3.1}{Experiencia de vuelo}{section.3.3}% 56
-\BOOKMARK [1][-]{section.3.4}{Arquitectura de red basada en BUS}{chapter.3}% 57
-\BOOKMARK [2][-]{subsection.3.4.1}{Evaluaci\363n de la confiabilidad de arquitecturas basadas en BUS}{section.3.4}% 58
-\BOOKMARK [1][-]{section.3.5}{M\351trica y modelado de la confiabilidad de sistemas}{chapter.3}% 59
-\BOOKMARK [0][-]{chapter.4}{An\341lisis y desarrollo de arquitectura tolerante a fallas}{}% 60
-\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 61
-\BOOKMARK [1][-]{section.4.2}{Requerimientos para el an\341lisis}{chapter.4}% 62
-\BOOKMARK [1][-]{section.4.3}{Nomenclatura}{chapter.4}% 63
-\BOOKMARK [0][-]{chapter.5}{Arquitectura propuesta}{}% 64
-\BOOKMARK [0][-]{chapter.6}{An\341lisis y resultados}{}% 65
-\BOOKMARK [0][-]{chapter.7}{Conclusi\363n}{}% 66
-\BOOKMARK [0][-]{chapter*.45}{Bibliograf\355a}{}% 67
+\BOOKMARK [1][-]{section.2.13}{Protocolos de comunicaci\363n de tiempo real}{chapter.2}% 49
+\BOOKMARK [2][-]{subsection.2.13.1}{Sistemas de tiempo real}{section.2.13}% 50
+\BOOKMARK [1][-]{section.2.14}{Estrategia de acceso al medio}{chapter.2}% 51
+\BOOKMARK [2][-]{subsection.2.14.1}{CSMA}{section.2.14}% 52
+\BOOKMARK [2][-]{subsection.2.14.2}{TDMA}{section.2.14}% 53
+\BOOKMARK [2][-]{subsection.2.14.3}{Minislotting}{section.2.14}% 54
+\BOOKMARK [1][-]{section.2.15}{Revisi\363n de protocolos}{chapter.2}% 55
+\BOOKMARK [2][-]{subsection.2.15.1}{CAN}{section.2.15}% 56
+\BOOKMARK [2][-]{subsection.2.15.2}{byteflight}{section.2.15}% 57
+\BOOKMARK [2][-]{subsection.2.15.3}{ARINC 659 o SAFEbus}{section.2.15}% 58
+\BOOKMARK [2][-]{subsection.2.15.4}{TTP/C}{section.2.15}% 59
+\BOOKMARK [1][-]{section.2.16}{Posibles fallas en una red}{chapter.2}% 60
+\BOOKMARK [1][-]{section.2.17}{Protocolo CAN}{chapter.2}% 61
+\BOOKMARK [2][-]{subsection.2.17.1}{Consideraciones previas}{section.2.17}% 62
+\BOOKMARK [2][-]{subsection.2.17.2}{Introducci\363n}{section.2.17}% 63
+\BOOKMARK [2][-]{subsection.2.17.3}{Elementos necesarios}{section.2.17}% 64
+\BOOKMARK [2][-]{subsection.2.17.4}{Capa f\355sica}{section.2.17}% 65
+\BOOKMARK [2][-]{subsection.2.17.5}{Capa de Enlace}{section.2.17}% 66
+\BOOKMARK [2][-]{subsection.2.17.6}{Formato del mensaje}{section.2.17}% 67
+\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 68
+\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 69
+\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 70
+\BOOKMARK [2][-]{subsection.3.1.2}{Esquema de \341rbol binario con degradaci\363n de perfomance}{section.3.1}% 71
+\BOOKMARK [1][-]{section.3.2}{Sistemas Hypercube}{chapter.3}% 72
+\BOOKMARK [1][-]{section.3.3}{Redes distribu\355das}{chapter.3}% 73
+\BOOKMARK [2][-]{subsection.3.3.1}{Algoritmo de ruteo}{section.3.3}% 74
+\BOOKMARK [1][-]{section.3.4}{Redes Ethernet en avi\363nica}{chapter.3}% 75
+\BOOKMARK [2][-]{subsection.3.4.1}{Experiencia de vuelo}{section.3.4}% 76
+\BOOKMARK [1][-]{section.3.5}{Arquitectura de red basada en BUS}{chapter.3}% 77
+\BOOKMARK [2][-]{subsection.3.5.1}{Evaluaci\363n de la confiabilidad de arquitecturas basadas en BUS}{section.3.5}% 78
+\BOOKMARK [1][-]{section.3.6}{M\351trica y modelado de la confiabilidad de sistemas}{chapter.3}% 79
+\BOOKMARK [0][-]{chapter.4}{An\341lisis y desarrollo de arquitectura tolerante a fallas}{}% 80
+\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 81
+\BOOKMARK [1][-]{section.4.2}{Requerimientos para el an\341lisis}{chapter.4}% 82
+\BOOKMARK [1][-]{section.4.3}{Nomenclatura}{chapter.4}% 83
+\BOOKMARK [1][-]{section.4.4}{Estudio de topolog\355as de arquitecturas}{chapter.4}% 84
+\BOOKMARK [2][-]{subsection.4.4.1}{\301rbol binario}{section.4.4}% 85
+\BOOKMARK [2][-]{subsection.4.4.2}{Red distribuida}{section.4.4}% 86
+\BOOKMARK [2][-]{subsection.4.4.3}{Red hypercube}{section.4.4}% 87
+\BOOKMARK [1][-]{section.4.5}{Topolog\355a utilizada en la arquitectura a dise\361ar}{chapter.4}% 88
+\BOOKMARK [1][-]{section.4.6}{Topolog\355a propuesta}{chapter.4}% 89
+\BOOKMARK [1][-]{section.4.7}{Protocolo de comunicaci\363n}{chapter.4}% 90
+\BOOKMARK [0][-]{chapter.5}{Arquitectura propuesta}{}% 91
+\BOOKMARK [0][-]{chapter.6}{An\341lisis y resultados}{}% 92
+\BOOKMARK [0][-]{chapter.7}{Conclusi\363n}{}% 93
+\BOOKMARK [0][-]{chapter*.59}{Bibliograf\355a}{}% 94

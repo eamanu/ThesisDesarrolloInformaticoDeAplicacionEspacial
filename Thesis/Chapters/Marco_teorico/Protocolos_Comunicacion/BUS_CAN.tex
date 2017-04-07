@@ -1,0 +1,48 @@
+\section{Protocolo CAN}
+\subsection{Consideraciones previas}
+En es este trabajo de tesis se decidió continuar el desarrollo de la arquitectura con BUS-CAN ya que este es de interés para los proyectos desarrollados en INVAP. Cabe aclarar que el objetivo principal de esta tesis no es llevar a cabo una comparación exhaustiva de protocolos de comunicación tolerantes a fallas, sino elegir la más indicada y que se adapte a las necesidades de INVAP. Por tal motivo, se expone, en esta sección, las características importantes de CAN.
+
+\subsection{Introducción}
+El bus CAN (Controller Area Network) fue desarrollado por Bosh. Comenzó su desarrollo en 1983 y tuvo su primer release en 1986. Fue estandarizada por la Organización Internacional de Estandarización (ISO) bajo el nombre de  ISO 11898. El Bus CAN surgió como respuesta al rápido crecimiento de la elctrónica en la industria automotriz \citep{esdWEB}. Este protocolo se definió con el objetivo de proveer comunicación determinística de sistemas distribuídos, y que necesiten un alto grado de confiabilidad. CAN permite la conectividad vía bus serial. El bus está compuesto por  2 cables que pueden estar blindados o on \citep{esdWEB}.
+
+Las características de CAN que la convierten en un tentadora opción para la aplicación en el sector espacial, son:
+\begin{itemize}
+  \item Bajo costo
+  \item Operabilidad en ambientes eléctricos complicados
+  \item capacidades de tiempo real.
+  \item facilidad en el uso
+\end{itemize}
+
+La especificaciones de CAN, originalmente desarrollados por Bosch cubre solamente las capas físicas y de enlaces de datos del modelo de referencia de ISO/OSI. Luego de la estandarización ISO provee detalles adicionales de la capa física de CAN.
+
+A diferencia de otros protocolos como USB o Ethernet, CAN no envía grandes bloques de datos de un punto a otro. CAN envía mensajes cortos como temperatura, o RPM ( Revoluciones por minutos), y son enviados como broadcast a todo el sistema \citep{texasCAN}. 
+
+El protocolo de comunicación CAN, en su estandar ISO 11898, explica como la información viaja entre los dispositivos conectados a una arquitectura siguiente el modelo de OSI. La arquitectura planteada por la ISO 11898 se puede observar en la FIGURA \citep{texasCAN}
+
+\todo[inline]{AGREGAR LA IMAGEN DE LA PAGINA 2 DE INTROUCTION TO THE CONTROLLER AREA NETWORK}
+
+En resumen, la capa física de CAN  describe la definición del bit timing, bit enconding y la sincronización, los niveles aceptables de la señal (corriente y voltaje), los conectores y características físicas de los cables \citep{texasCAN}. Por otro lado la capa de enlaces de datos, provee todos los servicios necesarios para la transmisión de un stream de bits desde un nodo a otro.
+
+El bus CAN es un bus de tipo broadcast, es decir que todos los nodos escuchan todas las transmisiones. No hay manera de enviar un mensaje a un determinado nodo, por lo tanto no es necesario el direccionamiento de nodos. \citep{kvaserWEB}. 
+
+Actualmente la industria aeronáutica la utiliza. También el área agrícola en sus maquinarias, control de tráfico, sistemas de control industrial, sistemas domóticos y además, en equipamientos médicos.
+
+\subsection{Elementos necesarios}
+Como se puede observar en la Figura \todo[inline]{AGREGAR REFERENCIA A LA IMAGEN ANTERIOR (PAGINA 2 DE INTRODUCTION TO THE CONTROLLER AREA NETWORK}
+
+Cada nodo conectado a la red necesita de
+\begin{itemize}
+\item \ac{CPU}, o microprocesador, que decida que mensajes debe recibir y que debe enviar
+\item Controlador CAN, muchas veces integrado en el controlador, el cual recibe la serie de bits del bus. También es el encargado de transmitir mensajes (cuando se requiera), esto significa que al mensaje lo convierte en una serie de bits.
+  \item Tranceiver, definido en el ISO 11898. 
+\end{itemize}
+
+
+% \subsection{Capa física}
+\input{../Chapters/Marco_teorico/Protocolos_Comunicacion/Capa_Fisica_CAN.tex}
+
+% \subsection{Capa de enlace}
+\input{../Chapters/Marco_teorico/Protocolos_Comunicacion/Capa_Enlace.tex}
+
+% \subsection{Formato del mensaje}
+\input{../Chapters/Marco_teorico/Protocolos_Comunicacion/Formato_Mensaje_CAN.tex}
