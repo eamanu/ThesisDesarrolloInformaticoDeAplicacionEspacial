@@ -8,7 +8,7 @@ En la Figura (AGREGAR REFERENCIA) se observa un ejemplo extraído de \citep{texa
 
 \todo[inline]{AGREGAR IMAGEN DE CONTROLLER AREA NETWORK PHYSICAL LAYER REQUIREMENTS (PAGINA 4)}
 
-El médio físico  es una línea de bus con dos cable, terminada por una resistencia. Los cables pueden ser paralelos, trenzados y/o blindandos. Los segmentos de cable para la conexión de los nodos deben ser lo más cortos posibles. 
+El médio físico  es una línea de bus con dos cable, terminada por una resistencia. Los cables pueden ser paralelos, trenzados y/o blindandos. Los segmentos de cable para la conexión de los nodos deben ser lo más cortos posibles.
 
 Para mayores detalle técnico referentes al bus será necesario estudiar el estándar ISO 11898 o en \cite{texasFISICACAN}.
 
@@ -16,9 +16,9 @@ El largo del bus va a determinar el bitrate de la comunicación. Para alcanzar u
 
 Debe destacarse qde que existen diferentes capas físicas para el protocolo CAN:
 \begin{itemize}
-\item El tipo más común es el establecido en el estanar ISO 11898-2. Este protocolo cuenta con dos cables, cada uno identificado como CAN\_H y CAN\_L. También es llamado \textit{CAN de alta velocidad} (1 Mbit/s). Este requiere que el alrgo del cable sea como máximo 40m. 
+\item El tipo más común es el establecido en el estanar ISO 11898-2. Este protocolo cuenta con dos cables, cada uno identificado como CAN\_H y CAN\_L. También es llamado \textit{CAN de alta velocidad} (1 Mbit/s). Este requiere que el alrgo del cable sea como máximo 40m.
 \item También en el estándar de ISO se estable el ISO 11898-3, el cual define otro esquema de doble cable balanceado pero para bajas velocidades. Este es tolerante a fallas si alguno de los cables entra en corto circuito. Este es llamado también como \textit{CAN de baja velocidad} (125 kbit/s)
-\item Se define el SAE J2411 que utiliza un solo cable para la capa física. Este es utilizado en autos (velocidad por encima de los 50 kbit/s). No tiene demasiados requerimientos en cuanto al bitrate ni el largo del canal de comunicación. EL estandar define 32 nodos por red. 
+\item Se define el SAE J2411 que utiliza un solo cable para la capa física. Este es utilizado en autos (velocidad por encima de los 50 kbit/s). No tiene demasiados requerimientos en cuanto al bitrate ni el largo del canal de comunicación. EL estandar define 32 nodos por red.
 \item Existen modificaciones del estandar RS485 para su funcionamiento con CAN
 \end{itemize}
 
@@ -30,6 +30,6 @@ La asignación del bus depende de su aplicación. Generalmente existen 2 tipos d
 
 \begin{itemize}
 \item \textbf{Asignación en un tiempo fijo}: La asignación se hace secuencialmente a cada participante sin importar si este necesita el bus en ese momento. Esta técnica, asigna tiempo del bus a cada nodo, y si no tiene nada que enviar, el bus se encuentra ocioso.
-  
-\item \textbf{Asignación en base a sus necesidades}: el bus se asigna según las necesidades del nodo (utilizando CSMA o CSMA/CD). En CAN la asignación del bus es negociado entre los mensajes que esperan ser transmitido. CAN utiliza esta técnica. 
+
+\item \textbf{Asignación en base a sus necesidades}: el bus se asigna según las necesidades del nodo (utilizando CSMA o CSMA/CD). En CAN la asignación del bus es negociado entre los mensajes que esperan ser transmitido. CAN utiliza esta técnica.
 \end{itemize}
