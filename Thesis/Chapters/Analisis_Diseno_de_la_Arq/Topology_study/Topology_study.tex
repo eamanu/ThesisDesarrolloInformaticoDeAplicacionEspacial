@@ -6,7 +6,7 @@ Luego de un estudio exhaustivo del estado de la cuestión (\autoref{chap:estado_
   \item Arquitectura hypercube
 \end{itemize}
 
-En esta sección, se definirá modelos para medir la confiabilidad de cada una de las topologías de arquitectura que aseguren una mayor tolerancia a fallas a nivel de sistema, de modo tal que si se llega a producir una falla en cualquiera de los nodos (sistemas de procesamiento) de la arquitectura, esta puede reconfigurarse, pemitiendo que esta continúe funcionando, sin sufrir ningún tipo de degradación, aún en la presencia de fallas. 
+En esta sección, se definirá modelos para medir la confiabilidad de cada una de las topologías de arquitectura que aseguren una mayor tolerancia a fallas a nivel de sistema, de modo tal que si se llega a producir una falla en cualquiera de los nodos (sistemas de procesamiento) de la arquitectura, esta puede reconfigurarse, pemitiendo que esta continúe funcionando, sin sufrir ningún tipo de degradación, aún en la presencia de fallas.
 
 \subsection{Árbol binario}
 En primer lugar se planteó un árbol binario de cuatro niveles con back up, basandose en el diseño de \cite{Raghavendra84} \ref{fig:Reliability_binary_tree_4_levels}. Este diseño cuenta con $2^n - 1 =  15$ nodos. De lo estudiado en \autoref{sec:binary_tree} la confiabilidad puede ser calculada de la siguiente manera: $$R_{sys} = R^{2n +1} \prod_{k=0}^{n-1}{[(2^kc+1) - 2^kcR]}$$
@@ -16,8 +16,8 @@ Con esto se puede observar la confiabilidad de la red con respecto al tiempo \re
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.5]{images/Capitulo4/Reliability_BinaryTree.png}
-  \caption{Confiabilidad con respecto al tiempo de árbol binario de 4 niveles}  
-\label{fig:Reliability_binary_tree_4_levels_2} 
+  \caption{Confiabilidad con respecto al tiempo de árbol binario de 4 niveles}
+\label{fig:Reliability_binary_tree_4_levels_2}
 \end{figure}
 
 La cantidad de niveles que se eligió para esta topología depende del número de subsistemas que se requieren.
@@ -25,13 +25,13 @@ La cantidad de niveles que se eligió para esta topología depende del número d
 Los nodos back up se mantienen inactivos, es decir no participan en el procesamiento durante la vida normal del sistema. En caso de producirse una falla, se supone que estos nodos de redundancia, comienzan a funcionar automáticamente, sin ninún tipo de retraso. Esto, que no corresponde con la realidad, permite simplificar los cálculos para este trabajo de tesis.
 
 \subsection{Red distribuida}
-El estudio de una topología de red distribuída no es tan sencilla como la que se plantea para un árbol binario. Para el desarrollo de esta red, además de los 6 nodos que representa cada uno de los subsistemas requeridos, se agrega 2 nodos de redundancia. Por lo tanto se tiene una red de 8 nodos. Siguiendo la metodología de desarrollo presentado por \cite{Pradhan82} se llevó a cabo la red que se presenta en la Figura \ref{fig:distributed_net}. 
+El estudio de una topología de red distribuída no es tan sencilla como la que se plantea para un árbol binario. Para el desarrollo de esta red, además de los 6 nodos que representa cada uno de los subsistemas requeridos, se agrega 2 nodos de redundancia. Por lo tanto se tiene una red de 8 nodos. Siguiendo la metodología de desarrollo presentado por \cite{Pradhan82} se llevó a cabo la red que se presenta en la Figura \ref{fig:distributed_net}.
 
 \begin{figure}[h]
  \centering
  \includegraphics[scale=0.75]{images/Capitulo4/distributed_network.jpg}
-  \caption{Red distribuida}  
-\label{fig:distributed_net} 
+  \caption{Red distribuida}
+\label{fig:distributed_net}
 \end{figure}
 
 Esta cuenta con 4 nodos de grado 4, 2 nodos de grado 3, y 2 nodos de grado 2. Ante cualquier falla de alguno de los nodos de la red, esta topología tiene la capacidad formar subredes, que mantien todos los nodos conectados (a excepción del fallado), asegurandose la funcionalidad y reconfiguración del sistema completo. Estratégicamente y para lograr la condición mencionada anteriormente, se crea la \textbf{condición} de que pueden fallar hasta 4 nodos simultaneamento. Esto aseguraría de que la red continuará funcionando aún en la presencia de fallas (tolerante a fallas).
@@ -42,13 +42,13 @@ donde $v$ representa el nodo y $S$ es el subsistema funcional. Es decir, que est
 
 donde c se definió como una \textit{constante de degradación del sistema} para modelar una degradació del sistema.
 
-En la Figura \ref{fig:reliability_distributedNet} se puede observar la \textit{curva de confiabilidad} del sistema, para el caso en el que todos los nodos se encuentran funcionales. 
+En la Figura \ref{fig:reliability_distributedNet} se puede observar la \textit{curva de confiabilidad} del sistema, para el caso en el que todos los nodos se encuentran funcionales.
 
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.5]{images/Capitulo4/Reliability_DistributedNet.png}
-  \caption{Red distribuida}  
-\label{fig:reliability_distributedNet} 
+  \caption{Confiabilidad de red distribuida}
+\label{fig:reliability_distributedNet}
 \end{figure}
 
 
@@ -57,8 +57,8 @@ Para el caso de la falla de todos los nodos la \textit{curva de confiabilidad} (
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.5]{images/Capitulo4/Reliability_DistributedNet_4Nodes_Fail_2.png}
-  \caption{Red distribuida}  
-\label{fig:reliability_distributedNet_4Nodes_Fail} 
+  \caption{Confiabilidad de red distribuida con 4 nodos fallando}
+\label{fig:reliability_distributedNet_4Nodes_Fail}
 \end{figure}
 
 \subsection{Red hypercube}
@@ -67,19 +67,19 @@ Para el caso de la red hypercube se llevaron a cabo modificaciones al modelo pla
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.75]{images/Capitulo4/Hypercube2.jpg}
-  \caption{Red distribuida}  
-\label{fig:Hypercube} 
+  \caption{Red Hypercube}
+\label{fig:Hypercube}
 \end{figure}
 
 En este trabajo de tesis, la confiabilidad se calculó por medio del siguiente modelo: $$R_{sys} = 1- [N (1 - e^{- \lambda t}]$$
 
-Como se puede observar el modelo es similar al modelo de árboles binario. Como se pudo estudiar en la bibliografía, árboles binarios y redes hypercube presentan varias similitudes, incluso se emebebe árboles binarios en este tipo de red. La \textit{curva de confiabilidad} de esta red se la puede observar en la fgura 
+Como se puede observar el modelo es similar al modelo de árboles binario. Como se pudo estudiar en la bibliografía, árboles binarios y redes hypercube presentan varias similitudes, incluso se emebebe árboles binarios en este tipo de red. La \textit{curva de confiabilidad} de esta red se la puede observar en la fgura
 
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.5]{images/Capitulo4/Reliability_Hypercube.png}
-  \caption{Red distribuida}  
-\label{fig:Reliability_Hypercube} 
+  \caption{Confiabilidad de red hypercube}
+\label{fig:Reliability_Hypercube}
 \end{figure}
 
 \section{Topología utilizada en la arquitectura a diseñar}
@@ -99,8 +99,8 @@ Se observa que tanto las redes distribuidas como la hypercube presenta una mayor
 \begin{figure}[H]
  \centering
  \includegraphics[scale=0.5]{images/Capitulo4/comparative_reliablities.png}
-  \caption{Red distribuida}  
-\label{fig:comparative_reliablities} 
+  \caption{Comparación de confiabilidad}
+\label{fig:comparative_reliablities}
 \end{figure}
 
 \begin{table}[H]
@@ -127,26 +127,23 @@ Se observa que tanto las redes distribuidas como la hypercube presenta una mayor
 \end{table}
 
 
-Con esto se puede concluir que la topología que presenta un mayor grado de confiabilidad es la que responde a una filosofía distribuida (bajo las condiciones en las que fueron estudiadas). Por lo tanto, la arquitectura satelital, tolerante a fallas y basada en componentes COTS que se desarrolla en la presenta tesis se basa en una \textbf{topología distribuída} para interconectar los diferentes subsistemas. 
+Con esto se puede concluir que la topología que presenta un mayor grado de confiabilidad es la que responde a una filosofía distribuida (bajo las condiciones en las que fueron estudiadas). Por lo tanto, la arquitectura satelital, tolerante a fallas y basada en componentes COTS que se desarrolla en la presenta tesis se basa en una \textbf{topología distribuída} para interconectar los diferentes subsistemas.
 
 \section{Topología propuesta}
-Sobre la base de los resultados presentados en \citep{Arias17} se puede establecer que la topoloǵia propuesta es la más adecuada para el desarrollo de una arquitectura tolerante a fallas como se presenta en la Figura \ref{fig:topo_propuesta}. En esta se puede observar que cada subsitema (térmico, power, telemetría, etc.) tiene su propia CPU controladora. Estas CPU se conectan a los nodos. 
+Sobre la base de los resultados presentados en \citep{Arias17} se puede establecer que la topoloǵia propuesta es la más adecuada para el desarrollo de una arquitectura tolerante a fallas como se presenta en la Figura \ref{fig:topo_propuesta}. En esta se puede observar que cada subsitema (térmico, power, telemetría, etc.) tiene su propia CPU controladora. Estas CPU se conectan a los nodos.
 
 \begin{figure}[h]
  \centering
- \includegraphics[scale=0.75]{images/Capitulo4/distributed_network.jpg}
-  \caption{Red distribuida}  
-\label{fig:topo_propuesta} 
+ \includegraphics[scale=0.5]{images/Capitulo4/arq_final.jpg}
+  \caption{Arquitectura propuesta utilizando topología de red distribuida}
+\label{fig:topo_propuesta}
 \end{figure}
 
 El modelo exige como requerimiento que cada nodo debe estar compuesto por una computadora (componente COTS) que es la encargada de realizar el procesamiento de las tareas. También, debe exitir un puente de comunicación entre la red y la CPU del subsistema. De este modo se hace frente a posibles fallas en la computadora del nodo. Esta conexión se observa en la Figura \ref{fig:conn_prop}
 
 \begin{figure}[h]
  \centering
- \includegraphics[scale=0.75]{images/Capitulo4/distributed_network.jpg}
- \caption{Red distribuida}  
-\label{fig:conn_prop} 
+ \includegraphics[scale=0.3]{images/Capitulo4/com_nodo.jpg}
+ \caption{Conexión entre la red y el subsistema}
+\label{fig:conn_prop}
 \end{figure}
-
-
-

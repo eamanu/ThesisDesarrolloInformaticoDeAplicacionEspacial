@@ -31,7 +31,15 @@ Este frame es similar al frame de error con el mismo formato. Es enviado cuando 
 \subsubsection{CAN estándar y CAN extendido}
 El protocolo de comunicación CAN, es un protocolo de multiple acceso con detección de colisión y arbitraje según la prioridad de los mensajes (CSMA/CD+AMP) \citep{texasCAN}. CSMA ya fue estudiado en \ref{subsection:CSMA}. CD+AMP signfica que las colisiones son resueltas mediante arbitración por corrimiento de bits. El identificador con mayor prioridad es el que siempre gana el bus.
 
-El CAN estandar (Figura \todo[inline]{AGREGAR IMAGEN DEL CAN STANDAR FRAME}) tiene los siguientes campos:
+El CAN estandar (Figura \ref{fig:StandarCAN}) tiene los siguientes campos:
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.3]{images/Marco_teorico/StandarCAN.png}
+  \caption{Frame de mensaje del CAN estándar}
+\label{fig:StandarCAN}
+\end{figure}
+
 \begin{itemize}
   \item SOF: es el bit dominante de inicio de frame, este marca el comienzo de un mensaje.
   \item Identificador: este es un identificador de 11 bits, en el cual el valor binario más bajo es el de mayor prioridad.
@@ -45,7 +53,15 @@ El CAN estandar (Figura \todo[inline]{AGREGAR IMAGEN DEL CAN STANDAR FRAME}) tie
   \item IFS: Son 7 bits que representan el espacio entre frames.Es el tiempo que requiere el controlador para mover el mensaje hasta el buffer de mensajes recibidos.
 \end{itemize}
 
-El CAN extendido (Figura \todo[inline]{AGREGAR IMAGEN DEL CAN EXTENDIDO} es idéntico al CAN estándar, salvo por algunos detalles:
+El CAN extendido (Figura \ref{fig:extendedCAN})es idéntico al CAN estándar, salvo por algunos detalles:
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.3]{images/Marco_teorico/ExtendedCAN.png}
+  \caption{Frame del mensaje del CAN extendido}
+\label{fig:extendedCAN}
+\end{figure}
+
 \begin{itemize}
   \item SRR: Es el bit de peteción remota subtituta que remplaza al bit RTR del mensaje estándar.
   \item IDE: Un bit recesivo en el identificador de extensión (IDE) indica que siguen más bits de identificación. A este le siguen 18 bits.

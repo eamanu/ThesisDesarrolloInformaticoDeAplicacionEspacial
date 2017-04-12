@@ -19,7 +19,12 @@ A diferencia de otros protocolos como USB o Ethernet, CAN no envía grandes bloq
 
 El protocolo de comunicación CAN, en su estandar ISO 11898, explica como la información viaja entre los dispositivos conectados a una arquitectura siguiente el modelo de OSI. La arquitectura planteada por la ISO 11898 se puede observar en la FIGURA \citep{texasCAN}
 
-\todo[inline]{AGREGAR LA IMAGEN DE LA PAGINA 2 DE INTROUCTION TO THE CONTROLLER AREA NETWORK}
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.5]{images/Marco_teorico/ISO11898_Arquitectura_Standar.jpg}
+  \caption{Arquitectura estándar propuesta por ISO898}
+\label{fig:iso11898}
+\end{figure}
 
 En resumen, la capa física de CAN  describe la definición del bit timing, bit enconding y la sincronización, los niveles aceptables de la señal (corriente y voltaje), los conectores y características físicas de los cables \citep{texasCAN}. Por otro lado la capa de enlaces de datos, provee todos los servicios necesarios para la transmisión de un stream de bits desde un nodo a otro.
 
@@ -28,7 +33,7 @@ El bus CAN es un bus de tipo broadcast, es decir que todos los nodos escuchan to
 Actualmente la industria aeronáutica la utiliza. También el área agrícola en sus maquinarias, control de tráfico, sistemas de control industrial, sistemas domóticos y además, en equipamientos médicos.
 
 \subsection{Elementos necesarios}
-Como se puede observar en la Figura \todo[inline]{AGREGAR REFERENCIA A LA IMAGEN ANTERIOR (PAGINA 2 DE INTRODUCTION TO THE CONTROLLER AREA NETWORK}
+Como se puede observar en la Figura \ref{fig:iso11898}
 
 Cada nodo conectado a la red necesita de
 \begin{itemize}

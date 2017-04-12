@@ -4,9 +4,14 @@ El estándar de CAN define el bit enconding, el timing, y la sincronización. La
 \subsubsection{Bus de comunicación}
 Para iniciar una transmisión de mensaje es necesario como mínimo dos nodos conectados al bus CAN. Esto se debe a que el dispositivo que envía un mensaje está también recibiendo su propio mensajes, con esto puede chequear cada bit que ha enviado. De esta manera, un segundo nodo responde un un ACK mientras el bit todavía está siendo transmitido por el primer nodo. Esto demuestra por qué se necesitan de dos nodos para completar la transmisión de mensajes \citep{texasFISICACAN}.
 
-En la Figura (AGREGAR REFERENCIA) se observa un ejemplo extraído de \citep{texasFISICACAN}. En esta se muestra un nodo A que envía un mensaje. Luego se ve que que B y C contestan con un ACK indicando que el mensaje fue recibido sin errores. Luego B y C comienzan a transmiti hata que C gana el bus debido a que tiene un bit dominante, y termina este completando su mensaje.
+En la Figura \ref{fig:traficBUSCAN} se observa un ejemplo extraído de \citep{texasFISICACAN}. En esta se muestra un nodo A que envía un mensaje. Luego se ve que que B y C contestan con un ACK indicando que el mensaje fue recibido sin errores. Luego B y C comienzan a transmiti hata que C gana el bus debido a que tiene un bit dominante, y termina este completando su mensaje.
 
-\todo[inline]{AGREGAR IMAGEN DE CONTROLLER AREA NETWORK PHYSICAL LAYER REQUIREMENTS (PAGINA 4)}
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.3]{images/Marco_teorico/ExtendedCAN.png}
+  \caption{Tráfico en el BUS CAN}
+\label{fig:traficBUSCAN}
+\end{figure}
 
 El médio físico  es una línea de bus con dos cable, terminada por una resistencia. Los cables pueden ser paralelos, trenzados y/o blindandos. Los segmentos de cable para la conexión de los nodos deben ser lo más cortos posibles.
 

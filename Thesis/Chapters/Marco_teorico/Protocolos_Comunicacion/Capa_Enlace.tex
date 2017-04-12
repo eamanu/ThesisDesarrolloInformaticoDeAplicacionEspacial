@@ -1,2 +1,8 @@
 \subsection{Capa de Enlace}
-CAN utiliza el control de acceso al medio tipo \textit{CSMA/CS+CR} (Acceso múltiple con detección de portadora, detección de colisión más resolución de colisión)
+CAN utiliza el control de acceso al medio tipo \textit{CSMA/CS+CR} (Acceso múltiple con detección de portadora, detección de colisión más resolución de colisión). CAN resuelve el problema de la colisión con la supervivencia de una de las tramas que chocan en el bus. La trama "ganadora" es aquella que tiene mayor prioridad. Por lo tanto se puede indicar que CAN por naturaleza tiene en cuenta la prioridad.
+
+Como ya se mencionó anteriormente el bit \textit{dominante} es el 0 y el bit \textit{recesivo} es el 1, la resolución se realiza con una operación lógica AND de todos los bits transmitidos simultaneamente. Cada transmisor se encuentra continuamente
+observando y comprobando que el bit enviado se corresponda con el bit que envía. Cuando no coincide, el controlador retira el mensaje del bus y se convierte automáticamente en receptor. Como puede observarse la capa de enlace se comparta de manera similar a la capa física.
+
+La única diferencia que presenta la capa de enlace de CAN es que todos los errores a nivel de un solo bits son detectados. Los errores de múltiples bits son detectados con una alta probabilidad \citep{can-ciaWEB}
+s

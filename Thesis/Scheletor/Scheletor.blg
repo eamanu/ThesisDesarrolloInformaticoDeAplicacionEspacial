@@ -32,10 +32,8 @@ Warning--entry type for "esdWEB" isn't style-file defined
 --line 617 of file biblio.bib.bib
 Warning--entry type for "kvaserWEB" isn't style-file defined
 --line 643 of file biblio.bib.bib
-Illegal end of database file---line 649 of file biblio.bib.bib
- : }
- :  
-I'm skipping whatever remains of this entry
+Warning--entry type for "can-ciaWEB" isn't style-file defined
+--line 651 of file biblio.bib.bib
 Warning--there's a number but no volume in Anderson83
 Warning--empty booktitle in Arias17
 Warning--can't use both author and editor fields in Becker2016
@@ -45,7 +43,6 @@ Warning--can't use both autor y editor fields in FTDesign
 Warning--empty booktitle in Esteve12
 Warning--empty chapter and pages in Fortescue
 Warning--empty booktitle in Hoque15
-Warning--empty year in kvaserWEB
 Warning--empty booktitle in Liu14
 Warning--empty title in Loveless15
 Warning--can't use both author and editor fields in Mayo2016
@@ -58,45 +55,45 @@ Warning--empty título in TTTechOrion
 Warning--empty year in TTTechOrion
 Warning--empty año in TTTechOrion
 Warning--empty journal in Woerner00
-You've used 70 entries,
+You've used 71 entries,
             2773 wiz_defined-function locations,
-            1058 strings with 16602 characters,
-and the built_in function-call counts, 28542 in all, are:
-= -- 2470
-> -- 1440
-< -- 70
-+ -- 503
-- -- 433
-* -- 2029
-:= -- 4397
-add.period$ -- 223
-call.type$ -- 70
-change.case$ -- 338
-chr.to.int$ -- 70
-cite$ -- 162
-duplicate$ -- 1485
-empty$ -- 2540
-format.name$ -- 535
-if$ -- 6071
+            1064 strings with 16725 characters,
+and the built_in function-call counts, 28866 in all, are:
+= -- 2503
+> -- 1450
+< -- 71
++ -- 507
+- -- 436
+* -- 2046
+:= -- 4449
+add.period$ -- 228
+call.type$ -- 71
+change.case$ -- 343
+chr.to.int$ -- 71
+cite$ -- 163
+duplicate$ -- 1500
+empty$ -- 2572
+format.name$ -- 539
+if$ -- 6142
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 73
-newline$ -- 368
-num.names$ -- 282
-pop$ -- 828
+newline$ -- 375
+num.names$ -- 286
+pop$ -- 839
 preamble$ -- 1
-purify$ -- 284
+purify$ -- 287
 quote$ -- 0
-skip$ -- 1104
+skip$ -- 1115
 stack$ -- 0
-substring$ -- 702
-swap$ -- 179
+substring$ -- 704
+swap$ -- 180
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 675
-warning$ -- 22
-while$ -- 253
+type$ -- 686
+warning$ -- 21
+while$ -- 256
 width$ -- 0
-write$ -- 914
-(There were 4 error messages)
+write$ -- 931
+(There were 3 error messages)

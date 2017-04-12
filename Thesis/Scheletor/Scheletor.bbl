@@ -1,4 +1,4 @@
-\begin{thebibliography}{70}
+\begin{thebibliography}{71}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -34,6 +34,11 @@ Klaus Becker y Sebastian Voss.
 \newblock \emph{A Formal Model and Analysis of Feature Degradation in
   Fault-Tolerant Systems}.
 \newblock Springer International Publishing, 2016.
+
+\bibitem[{CAN-CIA}({11 de abril del 2017})]{can-ciaWEB}
+{CAN-CIA}.
+\newblock {CAN-CIA}, {11 de abril del 2017}.
+\newblock URL \url{{https://www.can-cia.org}}.
 
 \bibitem[Chau et~al.(1999)Chau, Alkalai, Tai, y Burt]{Chau99}
 Savio.~N. Chau, L.~Alkalai, Ann~T. Tai, y J.~B. Burt.
@@ -232,8 +237,10 @@ Jim Krodel y George Romanski.
 \newblock {Techn. Rep.} {DOT/FAA/AR-07/48}, {U.S. Department of
   Transportation}, 2008.
 
-\bibitem[{Kvaser}()]{kvaserWEB}
+\bibitem[{Kvaser}(2017)]{kvaserWEB}
 {Kvaser}.
+\newblock {Kvaser}, 2017.
+\newblock URL \url{{https://www.kvaser.com/can-protocol-tutorial/}}.
 
 \bibitem[Lisner(2007)]{Lisner07}
 Jens~C. Lisner.

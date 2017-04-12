@@ -3,13 +3,33 @@ En \cite{Tai99} se presenta una arquitectura tolerante a fallas basada en BUS. E
 
 Esta arquitectura utiliza una topología novedosa denominada \textit{stack-tree topology} \citep{Chau99} \citep{Tai99}. Una stack-tree es un árbol donde cada nodo rama se encuentra conectado como mucho a tres otros nodos de los cuales, como máximo, dos son nodos ramas \citep{Tai99}. Una \ac{CST} es aquella en donde cada nodo rama está conectado al menos 1 nodo rama \citep{Tai99}.
 
-En las Figura se pueden observar ejemplos de stack-tree. Mientra que en esta otra Figura no es una stack-tree.
-\todo[inline]{Colocar las imagenes del paper BUS network architecture}
+En las Figura \ref{fig:stack-tree} se pueden observar ejemplos de stack-tree. Mientra que en esta otra Figura \ref{fig:no-stack-tree} no es una stack-tree. Las imagenes fueron extraídas de \cite{Tai99}
 
-Como el objetivo principal es desarrollar una arquitectura tolerante a fallas, esto es, que aún cuando un nodo o un link entre nodos falle, el sistema completo debe continuar funcionando, sin ningún tipo de degradación en su servicio. Para cumplir con este objetivo \cite{Tai99} trabajan con un esquema de denominado \ac{CST} de equema dual (\ac{CST}$_D$) \footnote{En ingles,\ac{CST} dual scheme}. Esta puede observarse en la Figura
-\todo[inline] {Colocar la imagen del paper, sonbre CSTd}
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=1]{images/Marco_teorico/stack-tree.jpg}
+  \caption{Arquitecturas stack-trees}
+\label{fig:stack-tree}
+\end{figure}
 
-Para aumentar la confiabilidad de la arquitectra ante la acurrencia de fallas, se agrega links de backups que unen los nodos iniciales con el final, dando un efecto 3D de anillo \citep{Tai99}.
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=1]{images/Marco_teorico/no-stack-tree.jpg}
+  \caption{Arquitecturas que no responden al modelo stack-trees}
+\label{fig:no-stack-tree}
+\end{figure}
+
+Como el objetivo principal es desarrollar una arquitectura tolerante a fallas, esto es, que aún cuando un nodo o un link entre nodos falle, el sistema completo debe continuar funcionando, sin ningún tipo de degradación en su servicio. Para cumplir con este objetivo \cite{Tai99} trabajan con un esquema de denominado \ac{CST} de equema dual (\ac{CST}$_D$) \footnote{En ingles,\ac{CST} dual scheme}. Esta puede observarse en la Figura \ref{fig:cstd} extraída de cite{Tai99}.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.5]{images/Marco_teorico/cstd.png}
+  \caption{Esquema CST$_D$}
+\label{fig:cstd}
+\end{figure}
+
+
+Para aumentar la confiabilidad de la arquitectura ante la acurrencia de fallas, se agrega links de backups que unen los nodos iniciales con el final, dando un efecto 3D de anillo \citep{Tai99}.
 
 \subsection{Evaluación de la confiabilidad de arquitecturas basadas en BUS}
 La confiabilidad de esta arquitectura (como ya se viene mencionando) es la probabilidad de que, a lo largo del tiempo de vida de la misión $t$, la arquitectura se encuentra funcional, en la cual todos los nodos (aquello que no hayn fallado) se encuentren conectados \citep{Tai99}. \citep{Tai99} y \citep{Chau99} asumen que la probabilidad de que un nodo falle es mucho mayor a que un enlace (el bus físico) falle.
