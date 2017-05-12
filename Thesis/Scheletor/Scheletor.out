@@ -77,18 +77,35 @@
 \BOOKMARK [1][-]{section.3.5}{Arquitectura de red basada en BUS}{chapter.3}% 77
 \BOOKMARK [2][-]{subsection.3.5.1}{Evaluaci\363n de la confiabilidad de arquitecturas basadas en BUS}{section.3.5}% 78
 \BOOKMARK [1][-]{section.3.6}{M\351trica y modelado de la confiabilidad de sistemas}{chapter.3}% 79
-\BOOKMARK [0][-]{chapter.4}{An\341lisis y desarrollo de arquitectura tolerante a fallas}{}% 80
-\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 81
-\BOOKMARK [1][-]{section.4.2}{Requerimientos para el an\341lisis}{chapter.4}% 82
-\BOOKMARK [1][-]{section.4.3}{Nomenclatura}{chapter.4}% 83
-\BOOKMARK [1][-]{section.4.4}{Estudio de topolog\355as de arquitecturas}{chapter.4}% 84
-\BOOKMARK [2][-]{subsection.4.4.1}{\301rbol binario}{section.4.4}% 85
-\BOOKMARK [2][-]{subsection.4.4.2}{Red distribuida}{section.4.4}% 86
-\BOOKMARK [2][-]{subsection.4.4.3}{Red hypercube}{section.4.4}% 87
-\BOOKMARK [1][-]{section.4.5}{Topolog\355a utilizada en la arquitectura a dise\361ar}{chapter.4}% 88
-\BOOKMARK [1][-]{section.4.6}{Topolog\355a propuesta}{chapter.4}% 89
-\BOOKMARK [1][-]{section.4.7}{Protocolo de comunicaci\363n}{chapter.4}% 90
-\BOOKMARK [0][-]{chapter.5}{Arquitectura propuesta}{}% 91
-\BOOKMARK [0][-]{chapter.6}{An\341lisis y resultados}{}% 92
-\BOOKMARK [0][-]{chapter.7}{Conclusi\363n}{}% 93
-\BOOKMARK [0][-]{chapter*.61}{Bibliograf\355a}{}% 94
+\BOOKMARK [1][-]{section.3.7}{CAN en la actividad espacial}{chapter.3}% 80
+\BOOKMARK [0][-]{chapter.4}{An\341lisis y desarrollo de arquitectura tolerante a fallas}{}% 81
+\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 82
+\BOOKMARK [1][-]{section.4.2}{Requerimientos para el an\341lisis}{chapter.4}% 83
+\BOOKMARK [1][-]{section.4.3}{Nomenclatura}{chapter.4}% 84
+\BOOKMARK [1][-]{section.4.4}{Estudio de topolog\355as de arquitecturas}{chapter.4}% 85
+\BOOKMARK [2][-]{subsection.4.4.1}{\301rbol binario}{section.4.4}% 86
+\BOOKMARK [2][-]{subsection.4.4.2}{Red distribuida}{section.4.4}% 87
+\BOOKMARK [2][-]{subsection.4.4.3}{Red hypercube}{section.4.4}% 88
+\BOOKMARK [1][-]{section.4.5}{Topolog\355a utilizada en la arquitectura a dise\361ar}{chapter.4}% 89
+\BOOKMARK [1][-]{section.4.6}{Topolog\355a propuesta}{chapter.4}% 90
+\BOOKMARK [1][-]{section.4.7}{Protocolo de comunicaci\363n}{chapter.4}% 91
+\BOOKMARK [0][-]{chapter.5}{Arquitectura propuesta}{}% 92
+\BOOKMARK [1][-]{section.5.1}{Introducci\363n}{chapter.5}% 93
+\BOOKMARK [0][-]{chapter.6}{An\341lisis y resultados}{}% 94
+\BOOKMARK [1][-]{section.6.1}{Introduci\363n}{chapter.6}% 95
+\BOOKMARK [0][-]{chapter.7}{Conclusi\363n}{}% 96
+\BOOKMARK [0][-]{chapter*.60}{Bibliograf\355a}{}% 97
+\BOOKMARK [0][-]{appendix.Alph1}{Protocolo de comunicaci\363n: CANae 0.1 Alpha Version}{}% 98
+\BOOKMARK [1][-]{section.Alph1.1}{Introducci\363n}{appendix.Alph1}% 99
+\BOOKMARK [1][-]{section.Alph1.2}{Capa de aplicaci\363n}{appendix.Alph1}% 100
+\BOOKMARK [1][-]{section.Alph1.3}{Tipos de servicios de la capa de aplicaci\363n}{appendix.Alph1}% 101
+\BOOKMARK [1][-]{section.Alph1.4}{CANae Application Layer}{appendix.Alph1}% 102
+\BOOKMARK [1][-]{section.Alph1.5}{CMS}{appendix.Alph1}% 103
+\BOOKMARK [2][-]{subsection.Alph1.5.1}{Prioridades de los objetos}{section.Alph1.5}% 104
+\BOOKMARK [2][-]{subsection.Alph1.5.2}{Objeto CMS}{section.Alph1.5}% 105
+\BOOKMARK [2][-]{subsection.Alph1.5.3}{Servicios de CMS}{section.Alph1.5}% 106
+\BOOKMARK [2][-]{subsection.Alph1.5.4}{Eventos}{section.Alph1.5}% 107
+\BOOKMARK [1][-]{section.Alph1.6}{NMT}{appendix.Alph1}% 108
+\BOOKMARK [2][-]{subsection.Alph1.6.1}{Objectos NMT}{section.Alph1.6}% 109
+\BOOKMARK [2][-]{subsection.Alph1.6.2}{Servicios NMT}{section.Alph1.6}% 110
+\BOOKMARK [2][-]{subsection.Alph1.6.3}{Protocolos NMT}{section.Alph1.6}% 111

@@ -40,6 +40,9 @@
 %For comment
 \usepackage{comment}
 
+% For appendix
+\usepackage{appendix}
+
 %------------------------------------------------------------------------------
 % Esto no se usa (YA ESTA DEFINIDO EN EL TEMPLATE)
 %\usepackage{setspace}
@@ -109,11 +112,11 @@ satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DEL CÓRD
 \chapter{Análisis y desarrollo de arquitectura tolerante a fallas}
 \input{../Chapters/Analisis_Diseno_de_la_Arq/Analisis_Diseno_de_la_Arq.tex}
 \chapter{Arquitectura propuesta}
-%\input
+\input{../Chapters/Arqu_prop/Arqu_prop.tex}
 \chapter{Análisis y resultados}
-%\input
+\input{../Chapters/Analisis_Res/Analisis_Res.tex}
 \chapter{Conclusión}
-%\input$
+%\input
 
 %\include{secciones/AreaDeEstudio}
 %\include{secciones/Datos}
@@ -132,9 +135,9 @@ satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DEL CÓRD
 
 %------------------------------------------------------------------------------
 % EN CASO DE TENER APÉNDICES, DESCOMENTAR A CONTINUACIÓN
-% \appendix
-% \include{secciones/Apendice}
-
+\appendix
+\input{Secciones/Protocolo_Comunicacion/Protocolo_Comunicacion.tex}
+ 
 \newpage
 $\ $
 \thispagestyle{empty} % para que no se numere esta pagina

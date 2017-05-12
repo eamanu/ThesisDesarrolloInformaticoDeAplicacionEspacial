@@ -1,3 +1,4 @@
+\select@language {spanish}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n}{}{section.1.1}
 \contentsline {section}{\numberline {1.2}Hip\IeC {\'o}tesis}{}{section.1.2}
@@ -32,23 +33,23 @@
 \contentsline {subsubsection}{\numberline {2.8.4.1}Manejo de excepciones}{13}{subsubsection.2.8.4.1}
 \contentsline {subsubsection}{\numberline {2.8.4.2}Checkpoint y Restart}{13}{subsubsection.2.8.4.2}
 \contentsline {subsubsection}{\numberline {2.8.4.3}Procesos pares}{14}{subsubsection.2.8.4.3}
-\contentsline {subsubsection}{\numberline {2.8.4.4}Diversidad de datos}{15}{subsubsection.2.8.4.4}
+\contentsline {subsubsection}{\numberline {2.8.4.4}Diversidad de datos}{14}{subsubsection.2.8.4.4}
 \contentsline {subsubsection}{\numberline {2.8.4.5}Bloques de recuperaci\IeC {\'o}n}{15}{subsubsection.2.8.4.5}
-\contentsline {subsubsection}{\numberline {2.8.4.6}Programaci\IeC {\'o}n N-version}{15}{subsubsection.2.8.4.6}
-\contentsline {subsubsection}{\numberline {2.8.4.7}Programaci\IeC {\'o}n N-Auto Checking}{15}{subsubsection.2.8.4.7}
-\contentsline {section}{\numberline {2.9}T\IeC {\'e}cnica de evaluaci\IeC {\'o}n de fiabilidad}{15}{section.2.9}
+\contentsline {subsubsection}{\numberline {2.8.4.6}Programaci\IeC {\'o}n N-version}{16}{subsubsection.2.8.4.6}
+\contentsline {subsubsection}{\numberline {2.8.4.7}Programaci\IeC {\'o}n N-Auto Checking}{16}{subsubsection.2.8.4.7}
+\contentsline {section}{\numberline {2.9}T\IeC {\'e}cnica de evaluaci\IeC {\'o}n de fiabilidad}{16}{section.2.9}
 \contentsline {section}{\numberline {2.10}Medidas comunes de fiabilidad}{16}{section.2.10}
 \contentsline {subsection}{\numberline {2.10.1}Failure rate}{16}{subsection.2.10.1}
-\contentsline {subsection}{\numberline {2.10.2}Tiempo medio medio de falla}{17}{subsection.2.10.2}
+\contentsline {subsection}{\numberline {2.10.2}Tiempo medio medio de falla}{18}{subsection.2.10.2}
 \contentsline {subsection}{\numberline {2.10.3}Tiempo medio de reparaci\IeC {\'o}n}{18}{subsection.2.10.3}
 \contentsline {subsection}{\numberline {2.10.4}Tiempo medio entre fallas}{18}{subsection.2.10.4}
 \contentsline {subsection}{\numberline {2.10.5}Cobertura de fallas}{18}{subsection.2.10.5}
 \contentsline {section}{\numberline {2.11}M\IeC {\'e}todos de c\IeC {\'a}lculos de fiabilidad}{18}{section.2.11}
-\contentsline {subsection}{\numberline {2.11.1}Diagramas de bloques de confiabilidad}{18}{subsection.2.11.1}
-\contentsline {subsubsection}{\numberline {2.11.1.1}C\IeC {\'a}lculo de confiabilidad}{18}{subsubsection.2.11.1.1}
+\contentsline {subsection}{\numberline {2.11.1}Diagramas de bloques de confiabilidad}{19}{subsection.2.11.1}
+\contentsline {subsubsection}{\numberline {2.11.1.1}C\IeC {\'a}lculo de confiabilidad}{19}{subsubsection.2.11.1.1}
 \contentsline {subsubsection}{\numberline {2.11.1.2}C\IeC {\'a}lculo de disponibilidad}{19}{subsubsection.2.11.1.2}
 \contentsline {subsection}{\numberline {2.11.2}Utilizaci\IeC {\'o}n de procesos de Markov}{19}{subsection.2.11.2}
-\contentsline {section}{\numberline {2.12}Modelos de falla}{19}{section.2.12}
+\contentsline {section}{\numberline {2.12}Modelos de falla}{20}{section.2.12}
 \contentsline {subsection}{\numberline {2.12.1}Tiempo hasta la falla}{20}{subsection.2.12.1}
 \contentsline {subsection}{\numberline {2.12.2}Funci\IeC {\'o}n de confiabilidad}{21}{subsection.2.12.2}
 \contentsline {subsection}{\numberline {2.12.3}Tasa de falla}{21}{subsection.2.12.3}
@@ -58,28 +59,28 @@
 \contentsline {subsection}{\numberline {2.12.7}Distribuci\IeC {\'o}n exponencial}{22}{subsection.2.12.7}
 \contentsline {section}{\numberline {2.13}Protocolos de comunicaci\IeC {\'o}n de tiempo real}{23}{section.2.13}
 \contentsline {subsection}{\numberline {2.13.1}Sistemas de tiempo real}{23}{subsection.2.13.1}
-\contentsline {section}{\numberline {2.14}Estrategia de acceso al medio}{23}{section.2.14}
-\contentsline {subsection}{\numberline {2.14.1}CSMA}{23}{subsection.2.14.1}
+\contentsline {section}{\numberline {2.14}Estrategia de acceso al medio}{24}{section.2.14}
+\contentsline {subsection}{\numberline {2.14.1}CSMA}{24}{subsection.2.14.1}
 \contentsline {subsection}{\numberline {2.14.2}TDMA}{24}{subsection.2.14.2}
 \contentsline {subsection}{\numberline {2.14.3}Minislotting}{24}{subsection.2.14.3}
-\contentsline {section}{\numberline {2.15}Revisi\IeC {\'o}n de protocolos}{24}{section.2.15}
-\contentsline {subsection}{\numberline {2.15.1}CAN}{24}{subsection.2.15.1}
+\contentsline {section}{\numberline {2.15}Revisi\IeC {\'o}n de protocolos}{25}{section.2.15}
+\contentsline {subsection}{\numberline {2.15.1}CAN}{25}{subsection.2.15.1}
 \contentsline {subsection}{\numberline {2.15.2}byteflight}{25}{subsection.2.15.2}
 \contentsline {subsection}{\numberline {2.15.3}ARINC 659 o SAFEbus}{25}{subsection.2.15.3}
 \contentsline {subsection}{\numberline {2.15.4}TTP/C}{25}{subsection.2.15.4}
 \contentsline {section}{\numberline {2.16}Posibles fallas en una red}{25}{section.2.16}
-\contentsline {section}{\numberline {2.17}Protocolo CAN}{25}{section.2.17}
-\contentsline {subsection}{\numberline {2.17.1}Consideraciones previas}{25}{subsection.2.17.1}
+\contentsline {section}{\numberline {2.17}Protocolo CAN}{26}{section.2.17}
+\contentsline {subsection}{\numberline {2.17.1}Consideraciones previas}{26}{subsection.2.17.1}
 \contentsline {subsection}{\numberline {2.17.2}Introducci\IeC {\'o}n}{26}{subsection.2.17.2}
 \contentsline {subsection}{\numberline {2.17.3}Elementos necesarios}{27}{subsection.2.17.3}
 \contentsline {subsection}{\numberline {2.17.4}Capa f\IeC {\'\i }sica}{27}{subsection.2.17.4}
 \contentsline {subsubsection}{\numberline {2.17.4.1}Bus de comunicaci\IeC {\'o}n}{27}{subsubsection.2.17.4.1}
 \contentsline {subsubsection}{\numberline {2.17.4.2}Bit timing}{28}{subsubsection.2.17.4.2}
 \contentsline {subsubsection}{\numberline {2.17.4.3}Asignaci\IeC {\'o}n eficiente del bus}{28}{subsubsection.2.17.4.3}
-\contentsline {subsection}{\numberline {2.17.5}Capa de Enlace}{28}{subsection.2.17.5}
+\contentsline {subsection}{\numberline {2.17.5}Capa de Enlace}{29}{subsection.2.17.5}
 \contentsline {subsection}{\numberline {2.17.6}Formato del mensaje}{29}{subsection.2.17.6}
 \contentsline {subsubsection}{\numberline {2.17.6.1}Data Frame}{29}{subsubsection.2.17.6.1}
-\contentsline {subsubsection}{\numberline {2.17.6.2}Remote Frame}{29}{subsubsection.2.17.6.2}
+\contentsline {subsubsection}{\numberline {2.17.6.2}Remote Frame}{30}{subsubsection.2.17.6.2}
 \contentsline {subsubsection}{\numberline {2.17.6.3}Error Frame}{30}{subsubsection.2.17.6.3}
 \contentsline {subsubsection}{\numberline {2.17.6.4}Overload Frame}{30}{subsubsection.2.17.6.4}
 \contentsline {subsubsection}{\numberline {2.17.6.5}CAN est\IeC {\'a}ndar y CAN extendido}{30}{subsubsection.2.17.6.5}
@@ -98,6 +99,7 @@
 \contentsline {section}{\numberline {3.5}Arquitectura de red basada en BUS}{37}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Evaluaci\IeC {\'o}n de la confiabilidad de arquitecturas basadas en BUS}{38}{subsection.3.5.1}
 \contentsline {section}{\numberline {3.6}M\IeC {\'e}trica y modelado de la confiabilidad de sistemas}{39}{section.3.6}
+\contentsline {section}{\numberline {3.7}CAN en la actividad espacial}{41}{section.3.7}
 \contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis y desarrollo de arquitectura tolerante a fallas}{42}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{42}{section.4.1}
 \contentsline {section}{\numberline {4.2}Requerimientos para el an\IeC {\'a}lisis}{42}{section.4.2}
@@ -110,6 +112,34 @@
 \contentsline {section}{\numberline {4.6}Topolog\IeC {\'\i }a propuesta}{49}{section.4.6}
 \contentsline {section}{\numberline {4.7}Protocolo de comunicaci\IeC {\'o}n}{49}{section.4.7}
 \contentsline {chapter}{\numberline {5}Arquitectura propuesta}{51}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{51}{section.5.1}
 \contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis y resultados}{52}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduci\IeC {\'o}n}{52}{section.6.1}
 \contentsline {chapter}{\numberline {7}Conclusi\IeC {\'o}n}{53}{chapter.7}
-\contentsline {chapter}{Bibliograf\'ia}{57}{chapter*.61}
+\contentsline {chapter}{Bibliograf\'ia}{57}{chapter*.60}
+\contentsline {chapter}{\numberline {A}Protocolo de comunicaci\IeC {\'o}n: CANae 0.1 Alpha Version}{58}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Introducci\IeC {\'o}n}{58}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Capa de aplicaci\IeC {\'o}n}{58}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Tipos de servicios de la capa de aplicaci\IeC {\'o}n}{58}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}CANae Application Layer}{59}{section.Alph1.4}
+\contentsline {section}{\numberline {A.5}CMS}{60}{section.Alph1.5}
+\contentsline {subsection}{\numberline {A.5.1}Prioridades de los objetos}{60}{subsection.Alph1.5.1}
+\contentsline {subsection}{\numberline {A.5.2}Objeto CMS}{61}{subsection.Alph1.5.2}
+\contentsline {subsection}{\numberline {A.5.3}Servicios de CMS}{61}{subsection.Alph1.5.3}
+\contentsline {subsubsection}{\numberline {A.5.3.1}Servicios locales}{62}{subsubsection.Alph1.5.3.1}
+\contentsline {subsubsection}{\numberline {A.5.3.2}Servicios remotos}{62}{subsubsection.Alph1.5.3.2}
+\contentsline {subsection}{\numberline {A.5.4}Eventos}{62}{subsection.Alph1.5.4}
+\contentsline {subsubsection}{\numberline {A.5.4.1}Servicios locales}{62}{subsubsection.Alph1.5.4.1}
+\contentsline {subsubsection}{\numberline {A.5.4.2}Setvicios remotos}{63}{subsubsection.Alph1.5.4.2}
+\contentsline {subsubsection}{\numberline {A.5.4.3}Prioridad de eventos}{63}{subsubsection.Alph1.5.4.3}
+\contentsline {section}{\numberline {A.6}NMT}{63}{section.Alph1.6}
+\contentsline {subsection}{\numberline {A.6.1}Objectos NMT}{64}{subsection.Alph1.6.1}
+\contentsline {subsection}{\numberline {A.6.2}Servicios NMT}{64}{subsection.Alph1.6.2}
+\contentsline {subsubsection}{\numberline {A.6.2.1}Module Control Service}{65}{subsubsection.Alph1.6.2.1}
+\contentsline {subsubsection}{\numberline {A.6.2.2}Error Control Services}{65}{subsubsection.Alph1.6.2.2}
+\contentsline {subsubsection}{\numberline {A.6.2.3}Configuration Control Services}{65}{subsubsection.Alph1.6.2.3}
+\contentsline {subsubsection}{\numberline {A.6.2.4}Servicios a implementar}{65}{subsubsection.Alph1.6.2.4}
+\contentsline {subsection}{\numberline {A.6.3}Protocolos NMT}{66}{subsection.Alph1.6.3}
+\contentsline {subsubsection}{\numberline {A.6.3.1}Crear red CANae}{66}{subsubsection.Alph1.6.3.1}
+\contentsline {subsubsection}{\numberline {A.6.3.2}Crear Red}{66}{subsubsection.Alph1.6.3.2}
+\contentsline {subsubsection}{\numberline {A.6.3.3}Crear Objecto Red, Objeto Nodo y Objeto Nodo Remoto}{66}{subsubsection.Alph1.6.3.3}
