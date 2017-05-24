@@ -117,7 +117,9 @@
 \BOOKMARK [2][-]{subsection.Alph1.7.5}{Protocolos DBT}{section.Alph1.7}% 117
 \BOOKMARK [1][-]{section.Alph1.8}{Gestor de mensajes}{appendix.Alph1}% 118
 \BOOKMARK [2][-]{subsection.Alph1.8.1}{Receiver Manager}{section.Alph1.8}% 119
-\BOOKMARK [2][-]{subsection.Alph1.8.2}{Sorter Message}{section.Alph1.8}% 120
-\BOOKMARK [2][-]{subsection.Alph1.8.3}{Buffer Messages}{section.Alph1.8}% 121
-\BOOKMARK [1][-]{section.Alph1.9}{Gestor de Nodo}{appendix.Alph1}% 122
-\BOOKMARK [1][-]{section.Alph1.10}{Arquitectura completa del CANae}{appendix.Alph1}% 123
+\BOOKMARK [2][-]{subsection.Alph1.8.2}{Prepared Message}{section.Alph1.8}% 120
+\BOOKMARK [2][-]{subsection.Alph1.8.3}{Sorter Message}{section.Alph1.8}% 121
+\BOOKMARK [2][-]{subsection.Alph1.8.4}{Buffer Messages}{section.Alph1.8}% 122
+\BOOKMARK [2][-]{subsection.Alph1.8.5}{Buffer Message Receive y Buffer Message To Send}{section.Alph1.8}% 123
+\BOOKMARK [1][-]{section.Alph1.9}{Gestor de Nodo}{appendix.Alph1}% 124
+\BOOKMARK [1][-]{section.Alph1.10}{Arquitectura completa del CANae}{appendix.Alph1}% 125

@@ -162,7 +162,9 @@
 \contentsline {subsubsection}{\numberline {A.7.5.6}Checksum}{74}{subsubsection.Alph1.7.5.6}
 \contentsline {section}{\numberline {A.8}Gestor de mensajes}{74}{section.Alph1.8}
 \contentsline {subsection}{\numberline {A.8.1}Receiver Manager}{75}{subsection.Alph1.8.1}
-\contentsline {subsection}{\numberline {A.8.2}Sorter Message}{75}{subsection.Alph1.8.2}
-\contentsline {subsection}{\numberline {A.8.3}Buffer Messages}{76}{subsection.Alph1.8.3}
-\contentsline {section}{\numberline {A.9}Gestor de Nodo}{76}{section.Alph1.9}
-\contentsline {section}{\numberline {A.10}Arquitectura completa del CANae}{76}{section.Alph1.10}
+\contentsline {subsection}{\numberline {A.8.2}Prepared Message}{76}{subsection.Alph1.8.2}
+\contentsline {subsection}{\numberline {A.8.3}Sorter Message}{76}{subsection.Alph1.8.3}
+\contentsline {subsection}{\numberline {A.8.4}Buffer Messages}{77}{subsection.Alph1.8.4}
+\contentsline {subsection}{\numberline {A.8.5}Buffer Message Receive y Buffer Message To Send}{77}{subsection.Alph1.8.5}
+\contentsline {section}{\numberline {A.9}Gestor de Nodo}{77}{section.Alph1.9}
+\contentsline {section}{\numberline {A.10}Arquitectura completa del CANae}{78}{section.Alph1.10}

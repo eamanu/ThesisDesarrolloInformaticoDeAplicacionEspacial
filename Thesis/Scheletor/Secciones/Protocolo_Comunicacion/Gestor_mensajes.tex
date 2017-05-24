@@ -19,14 +19,24 @@ mensajes tiene cuatro entidades:
   \textit{Sorter Message}.
 \end{itemize}
 
-\todo[inline]{AGREGAR IMAGEN}
+En la Figura \ref{fig:Arq_Message_Management} se muestra la composición del
+gestor de mensajes. Por otra parte en la Figura
+\ref{fig:Arq_Message_Management_Internal} muestra el diagrama interno del
+gesto de mensajes.
+
 \begin{figure}[h!]
  \centering
- \includegraphics[scale=0.4]{images/Secciones/AppendixA/DBT.JPG}
-  \caption{Arquitectura de la entidad DBT}
-\label{fig:DBT}
+ \includegraphics[scale=0.4]{images/Secciones/AppendixA/MessageManagement.JPG}
+  \caption{Arquitectura de \textit{Message Management}}
+\label{fig:Arq_Message_Management}
 \end{figure}
 
+\begin{figure}[h!]
+ \centering
+ \includegraphics[scale=0.4]{images/Secciones/AppendixA/MessageManagementInternalDiagram.JPG}
+  \caption{Diagrama interno del \textit{Message Management}}
+\label{fig:Arq_Message_Management_Internal}
+\end{figure}
 
 \subsection{Receiver Manager}
 Esta entidad perteneciente al \textit{Message Management} se encarga de recibir
@@ -44,6 +54,27 @@ Las principales funciones de esta entidad son las siguientes:
   \end{itemize}
 \end{itemize}
 
+\subsection{Prepared Message}
+Esta entidad es la que recibe los mensajes desde las capas superiores y lo envía
+al \textit{Sorter Message}.
+
+\begin{itemize}
+\item receive\_message(Message message): esta es la operación que se debe llamar
+  para recibir el mensaje proveniente de la capa superior. 
+  \begin{itemize}
+  \item \textbf{Message message}: Es el mensaje que recibe de las capas inferiores
+    de la red CAN.
+  \end{itemize}
+
+  \item send\_message(Message message): esta es la operación que se debe llamar
+  para enviar el mensaje al \textit{Sorter Message}.
+  \begin{itemize}
+  \item \textbf{Message message}: Es el mensaje que se envía al \textit{Sorter
+    Message}
+  \end{itemize}
+\end{itemize}
+
+
 \subsection{Sorter Message}
 Esta entidad es el encargado de clasificar los mensajes que provienen tanto del
 \textit{Receiver Message} y \textit{Prepared Message}. Este clasifica los
@@ -53,10 +84,10 @@ que los datos, debido a que (en su mayoría) informan de algún problema a la re
 
 Las principales funciones con las que cuenta esta entidad son las siguiente:
 \begin{itemize}
-  \item Boolean extract\_type\_message(Data message): esta operación permite
+  \item Boolean extract\_type\_message(Message message): esta operación permite
   extraer el tipo de información que contiene el mensaje: datos o evento.
   \begin{itemize}
-  \item \textbf{Data message}: es el mensaje que recibe de las capas inferiores
+  \item \textbf{Message message}: es el mensaje que recibe de las capas inferiores
     de la red CAN.
   \item \textbf{Return Boolean}: retorna 1 se se trata de un evento, 0 si se
     trata de un dato.
@@ -77,7 +108,6 @@ Las principales funciones con las que cuenta esta entidad son las siguiente:
     correctamente.
   \end{itemize}
 \end{itemize}
-
 
 \subsection{Buffer Messages}
 Esta es la entidad que permite almacenar los mensajes que son recibidos y
@@ -101,7 +131,19 @@ Las principales funciones de esta entidad son las siguientes:
 \end{itemize}
 
 
-
-
-
+\subsection{Buffer Message Receive y Buffer Message To Send}
+La comunicación entre el Gestor de Mensajes y las capas, tanto
+superior como inferior, se realizan por medio de buffers. Se pueden dar las
+siguientes situaciones:
+\begin{itemize}
+\item Llegada de un mensaje de la capa superior para ser enviada a través de la
+  red. En este caso la aplicación de usuario necesita enviar un mensaje, para
+  ello debe colocar el mensaje en el \textit{Buffer Message To Send}. El 
+  \textit{Gestor de Mensaje} debe detectar (por medio de algún mecanismo) que se
+  ha escrito en el buffer, para tomar el mensaje.
+\item Enviar un mensaje a la red. Cuando el gestor necesita enviar un mensaje
+  lo tiene que almacenar en el \textit{Buffer Message To Send}. Esto ``alertaría''
+  por medio de algún mecanismo a las capas inferiores, de que existe un nuevo
+  mensaje a enviar  
+\end{itemize}
 

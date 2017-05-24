@@ -53,5 +53,6 @@
 \contentsline {figure}{\numberline {A.16}{\ignorespaces Protocolo create\_node\_definition\relax }}{73}{figure.caption.77}
 \contentsline {figure}{\numberline {A.17}{\ignorespaces Protocolo delete\_node\_definition\relax }}{74}{figure.caption.78}
 \contentsline {figure}{\numberline {A.18}{\ignorespaces Protocolo get\_checksum\relax }}{74}{figure.caption.79}
-\contentsline {figure}{\numberline {A.19}{\ignorespaces Arquitectura de la entidad DBT\relax }}{75}{figure.caption.81}
-\contentsline {figure}{\numberline {A.20}{\ignorespaces Arquitectura completa del CANae\relax }}{79}{figure.caption.82}
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Arquitectura de \textit {Message Management}\relax }}{75}{figure.caption.80}
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Diagrama interno del \textit {Message Management}\relax }}{76}{figure.caption.81}
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Arquitectura completa del CANae\relax }}{81}{figure.caption.82}
