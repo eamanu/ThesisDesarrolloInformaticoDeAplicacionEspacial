@@ -46,3 +46,12 @@
 \contentsline {figure}{\numberline {A.9}{\ignorespaces Preparar nodo para la conexi\IeC {\'o}n a la red CAN\relax }}{68}{figure.caption.70}
 \contentsline {figure}{\numberline {A.10}{\ignorespaces Conectar el nodo a la red CAN\relax }}{69}{figure.caption.71}
 \contentsline {figure}{\numberline {A.11}{\ignorespaces Comenzar la comunicaci\IeC {\'o}n de nodos\relax }}{69}{figure.caption.72}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Arquitectura de la entidad DBT\relax }}{70}{figure.caption.73}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Protocolo create\_node\_table\_configuration\relax }}{72}{figure.caption.74}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Protocolo enable\_distribution\relax }}{73}{figure.caption.75}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Protocolo disable\_distribution\relax }}{73}{figure.caption.76}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Protocolo create\_node\_definition\relax }}{73}{figure.caption.77}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Protocolo delete\_node\_definition\relax }}{74}{figure.caption.78}
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Protocolo get\_checksum\relax }}{74}{figure.caption.79}
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Arquitectura de la entidad DBT\relax }}{75}{figure.caption.81}
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Arquitectura completa del CANae\relax }}{79}{figure.caption.82}

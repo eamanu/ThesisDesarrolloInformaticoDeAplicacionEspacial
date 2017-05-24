@@ -148,8 +148,21 @@
 \contentsline {subsubsection}{\numberline {A.6.3.6}Comenzar la comunicaci\IeC {\'o}n}{69}{subsubsection.Alph1.6.3.6}
 \contentsline {section}{\numberline {A.7}DBT}{69}{section.Alph1.7}
 \contentsline {subsection}{\numberline {A.7.1}Objetos y servicios de DBT}{70}{subsection.Alph1.7.1}
-\contentsline {subsection}{\numberline {A.7.2}Descripci\IeC {\'o}n de los servicios DBT}{70}{subsection.Alph1.7.2}
+\contentsline {subsection}{\numberline {A.7.2}Descripci\IeC {\'o}n de los servicios DBT}{71}{subsection.Alph1.7.2}
 \contentsline {subsection}{\numberline {A.7.3}Objetos DBT}{71}{subsection.Alph1.7.3}
 \contentsline {subsection}{\numberline {A.7.4}Servicios DBT}{71}{subsection.Alph1.7.4}
 \contentsline {subsubsection}{\numberline {A.7.4.1}Distribution Control Services}{71}{subsubsection.Alph1.7.4.1}
-\contentsline {subsubsection}{\numberline {A.7.4.2}Consistency Control Service}{71}{subsubsection.Alph1.7.4.2}
+\contentsline {subsubsection}{\numberline {A.7.4.2}Consistency Control Service}{72}{subsubsection.Alph1.7.4.2}
+\contentsline {subsection}{\numberline {A.7.5}Protocolos DBT}{72}{subsection.Alph1.7.5}
+\contentsline {subsubsection}{\numberline {A.7.5.1}Crear NodeTableConfiguration}{72}{subsubsection.Alph1.7.5.1}
+\contentsline {subsubsection}{\numberline {A.7.5.2}Habilitar distribuci\IeC {\'o}n}{72}{subsubsection.Alph1.7.5.2}
+\contentsline {subsubsection}{\numberline {A.7.5.3}Deshabilitar distribuci\IeC {\'o}n}{72}{subsubsection.Alph1.7.5.3}
+\contentsline {subsubsection}{\numberline {A.7.5.4}Crear definici\IeC {\'o}n del nodo}{73}{subsubsection.Alph1.7.5.4}
+\contentsline {subsubsection}{\numberline {A.7.5.5}Eliminar la definici\IeC {\'o}n del nodo}{73}{subsubsection.Alph1.7.5.5}
+\contentsline {subsubsection}{\numberline {A.7.5.6}Checksum}{74}{subsubsection.Alph1.7.5.6}
+\contentsline {section}{\numberline {A.8}Gestor de mensajes}{74}{section.Alph1.8}
+\contentsline {subsection}{\numberline {A.8.1}Receiver Manager}{75}{subsection.Alph1.8.1}
+\contentsline {subsection}{\numberline {A.8.2}Sorter Message}{75}{subsection.Alph1.8.2}
+\contentsline {subsection}{\numberline {A.8.3}Buffer Messages}{76}{subsection.Alph1.8.3}
+\contentsline {section}{\numberline {A.9}Gestor de Nodo}{76}{section.Alph1.9}
+\contentsline {section}{\numberline {A.10}Arquitectura completa del CANae}{76}{section.Alph1.10}
