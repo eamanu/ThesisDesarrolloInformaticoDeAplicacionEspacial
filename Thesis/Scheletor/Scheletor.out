@@ -122,4 +122,7 @@
 \BOOKMARK [2][-]{subsection.Alph1.8.4}{Buffer Messages}{section.Alph1.8}% 122
 \BOOKMARK [2][-]{subsection.Alph1.8.5}{Buffer Message Receive y Buffer Message To Send}{section.Alph1.8}% 123
 \BOOKMARK [1][-]{section.Alph1.9}{Gestor de Nodo}{appendix.Alph1}% 124
-\BOOKMARK [1][-]{section.Alph1.10}{Arquitectura completa del CANae}{appendix.Alph1}% 125
+\BOOKMARK [2][-]{subsection.Alph1.9.1}{Tabla primara y secundaria de ruteo}{section.Alph1.9}% 125
+\BOOKMARK [2][-]{subsection.Alph1.9.2}{Servicios}{section.Alph1.9}% 126
+\BOOKMARK [1][-]{section.Alph1.10}{Formato de mensajes}{appendix.Alph1}% 127
+\BOOKMARK [1][-]{section.Alph1.11}{Arquitectura completa del CANae}{appendix.Alph1}% 128
