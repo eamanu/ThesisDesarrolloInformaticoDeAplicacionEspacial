@@ -958,6 +958,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {A.7.2}Descripci\IeC {\'o}n de los servicios DBT}{71}{subsection.Alph1.7.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {A.7.3}Objetos DBT}{71}{subsection.Alph1.7.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {A.7.4}Servicios DBT}{71}{subsection.Alph1.7.4}}
+\newlabel{subsection:servicios_dbt}{{A.7.4}{71}{Servicios DBT}{subsection.Alph1.7.4}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {A.7.4.1}Distribution Control Services}{71}{subsubsection.Alph1.7.4.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {A.7.4.2}Consistency Control Service}{72}{subsubsection.Alph1.7.4.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {A.7.5}Protocolos DBT}{72}{subsection.Alph1.7.5}}
@@ -993,13 +994,57 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {A.21}{\ignorespaces Arquitectura del \textit  {Node Management}\relax }}{78}{figure.caption.82}}
 \newlabel{fig:Gestor_Nodo}{{A.21}{78}{Arquitectura del \textit {Node Management}\relax }{figure.caption.82}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {A.9.1}Tabla primara y secundaria de ruteo}{78}{subsection.Alph1.9.1}}
+\newlabel{subsection:tablaprimariaysecundaria}{{A.9.1}{78}{Tabla primara y secundaria de ruteo}{subsection.Alph1.9.1}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {A.9.1.1}Tabla primaria}{78}{subsubsection.Alph1.9.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {A.9.1.2}Tabla secundaria}{79}{subsubsection.Alph1.9.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {A.9.2}Servicios}{79}{subsection.Alph1.9.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {A.10}Formato de mensajes}{80}{section.Alph1.10}}
 \@writefile{lof}{\contentsline {figure}{\numberline {A.22}{\ignorespaces Frame de datos CANae\relax }}{80}{figure.caption.83}}
 \newlabel{fig:Data_Frame}{{A.22}{80}{Frame de datos CANae\relax }{figure.caption.83}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.11}Arquitectura completa del CANae}{81}{section.Alph1.11}}
-\newlabel{RF1}{84}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.23}{\ignorespaces Arquitectura completa del CANae\relax }}{84}{figure.caption.84}}
-\newlabel{fig:Arq_CAN_App_Layer}{{A.23}{84}{Arquitectura completa del CANae\relax }{figure.caption.84}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.1}Start of Frame}{81}{subsection.Alph1.10.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.2}Priority}{81}{subsection.Alph1.10.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.2}{\ignorespaces Prioridades de mensajes\relax }}{81}{table.caption.84}}
+\newlabel{tab:prorities}{{A.2}{81}{Prioridades de mensajes\relax }{table.caption.84}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.3}Node-ID}{81}{subsection.Alph1.10.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.4}Remote transmission request (RTR)}{82}{subsection.Alph1.10.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.5}Type of Message (TOM)}{82}{subsection.Alph1.10.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.6}Bit reservado}{82}{subsection.Alph1.10.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.7}Data length}{82}{subsection.Alph1.10.7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.8}Data field}{82}{subsection.Alph1.10.8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.9}CRC}{82}{subsection.Alph1.10.9}}
+\newlabel{cod:CRC}{{A.1}{82}{Función para resolver CRC}{lstlisting.Alph1.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {A.1}Funci\IeC {\'o}n para resolver CRC}{82}{lstlisting.Alph1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.10}CRC delimiter}{83}{subsection.Alph1.10.10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.11}ACK}{83}{subsection.Alph1.10.11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.12}ACK delimiter}{83}{subsection.Alph1.10.12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.10.13}End-of-Frame (EOF)}{83}{subsection.Alph1.10.13}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.11}High Application Layer CANae}{83}{section.Alph1.11}}
+\undonewlabel{acro:FDIR}
+\newlabel{acro:FDIR}{{A.11}{83}{High Application Layer CANae}{section*.85}{}}
+\acronymused{FDIR}
+\acronymused{FDIR}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.11.1}Network Management}{83}{subsection.Alph1.11.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.23}{\ignorespaces Diagrama de bloques del High Application Layer de CANae\relax }}{84}{figure.caption.86}}
+\newlabel{fig:HighAppLayerBlock}{{A.23}{84}{Diagrama de bloques del High Application Layer de CANae\relax }{figure.caption.86}{}}
+\acronymused{FDIR}
+\acronymused{FDIR}
+\acronymused{FDIR}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.24}{\ignorespaces Diagrama de bloques internos del High Application Layer de CANae\relax }}{85}{figure.caption.87}}
+\newlabel{fig:HighAppLayerInternalBlock}{{A.24}{85}{Diagrama de bloques internos del High Application Layer de CANae\relax }{figure.caption.87}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.25}{\ignorespaces Diagrama de interacci\IeC {\'o}n del comportamiento del \textit  {Network Management}\relax }}{85}{figure.caption.88}}
+\newlabel{fig:NetworkManagementInteration}{{A.25}{85}{Diagrama de interacción del comportamiento del \textit {Network Management}\relax }{figure.caption.88}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.11.2}Task Management}{85}{subsection.Alph1.11.2}}
+\acronymused{FDIR}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.26}{\ignorespaces Diagrama de interacci\IeC {\'o}n del comportamiento del \textit  {Network Management en caso de errores}\relax }}{86}{figure.caption.89}}
+\newlabel{fig:NetworkManagementInterationError}{{A.26}{86}{Diagrama de interacción del comportamiento del \textit {Network Management en caso de errores}\relax }{figure.caption.89}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.27}{\ignorespaces Diagrama de secuencia de la ejecuci\IeC {\'o}n de tareas del Task Management\relax }}{86}{figure.caption.90}}
+\newlabel{fig:TaskManagement_RunTask}{{A.27}{86}{Diagrama de secuencia de la ejecución de tareas del Task Management\relax }{figure.caption.90}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.28}{\ignorespaces Diagrama de secuencia para detener procesos por parte del Task Management\relax }}{87}{figure.caption.91}}
+\newlabel{fig:TaskManagement_StopTask}{{A.28}{87}{Diagrama de secuencia para detener procesos por parte del Task Management\relax }{figure.caption.91}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.11.3}List of Tasks}{87}{subsection.Alph1.11.3}}
+\newlabel{subsection:listoftask}{{A.11.3}{87}{List of Tasks}{subsection.Alph1.11.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.11.4}Task}{87}{subsection.Alph1.11.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.12}Arquitectura completa del CANae}{87}{section.Alph1.12}}
+\newlabel{RF1}{91}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.29}{\ignorespaces Arquitectura completa del CANae\relax }}{91}{figure.caption.92}}
+\newlabel{fig:Arq_CAN_App_Layer}{{A.29}{91}{Arquitectura completa del CANae\relax }{figure.caption.92}{}}

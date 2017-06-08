@@ -57,4 +57,10 @@
 \contentsline {figure}{\numberline {A.20}{\ignorespaces Diagrama interno del \textit {Message Management}\relax }}{76}{figure.caption.81}
 \contentsline {figure}{\numberline {A.21}{\ignorespaces Arquitectura del \textit {Node Management}\relax }}{78}{figure.caption.82}
 \contentsline {figure}{\numberline {A.22}{\ignorespaces Frame de datos CANae\relax }}{80}{figure.caption.83}
-\contentsline {figure}{\numberline {A.23}{\ignorespaces Arquitectura completa del CANae\relax }}{84}{figure.caption.84}
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Diagrama de bloques del High Application Layer de CANae\relax }}{84}{figure.caption.86}
+\contentsline {figure}{\numberline {A.24}{\ignorespaces Diagrama de bloques internos del High Application Layer de CANae\relax }}{85}{figure.caption.87}
+\contentsline {figure}{\numberline {A.25}{\ignorespaces Diagrama de interacci\IeC {\'o}n del comportamiento del \textit {Network Management}\relax }}{85}{figure.caption.88}
+\contentsline {figure}{\numberline {A.26}{\ignorespaces Diagrama de interacci\IeC {\'o}n del comportamiento del \textit {Network Management en caso de errores}\relax }}{86}{figure.caption.89}
+\contentsline {figure}{\numberline {A.27}{\ignorespaces Diagrama de secuencia de la ejecuci\IeC {\'o}n de tareas del Task Management\relax }}{86}{figure.caption.90}
+\contentsline {figure}{\numberline {A.28}{\ignorespaces Diagrama de secuencia para detener procesos por parte del Task Management\relax }}{87}{figure.caption.91}
+\contentsline {figure}{\numberline {A.29}{\ignorespaces Arquitectura completa del CANae\relax }}{91}{figure.caption.92}
