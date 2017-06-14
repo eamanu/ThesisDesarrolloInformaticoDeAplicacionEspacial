@@ -1,0 +1,223 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:Selected/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>0</x:Number>
+       <x:ActiveRow>0</x:ActiveRow>
+       <x:ActiveCol>0</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>8895</x:WindowHeight>
+  <x:WindowWidth>13980</x:WindowWidth>
+  <x:WindowTopX>480</x:WindowTopX>
+  <x:WindowTopY>270</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body><table border='1'><tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'></td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'></td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>A</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>B</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>C</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>D</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>E</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>F</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>G</td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'></td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'></td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>id : String [1]</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>name : String [0..1]</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>text : String [1]</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>/tracedTo : NamedElement [*]</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>/derived : Requirement [*]</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>/derivedFrom : Requirement [*]</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>/master : Requirement [0..1]</td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>0</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L1_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>The architecture components shall be  Components Off-The-Shelf category</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L2_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>1</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L2_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L2_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L2_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>The architecture shall be reconfigurate when a node fail.</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>2</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L2_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L2_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L2_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>Each subsystem shall represented for a Components Off-The-Shelf
+ </td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_004, L1_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>3</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L1_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L1_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L1_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>Shall be develop an avionics architecture for spacecraft using Components Off-The-Shelf</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L1_003, L1_004, L1_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>4</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L1_002</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_002</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_002</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>The architecture shall have at least 6 subsystems</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>5</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L1_003</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L1_003</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L1_003</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>The architecture shall have fault tolerance techniques to assurance the the mission life
+</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L1_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>6</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L1_004</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_004</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_004</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>The main bus to interconnect components shall be the  Controller Area Network Bus developed for Bosch</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L2_001, L2_002</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>7</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L1_005</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L1_005</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L1_005</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>The architecture shall be sufficient to make a master degree thesis </td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L1_007</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>8</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L2_002</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L2_002</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L2_002</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>The architecture shall implements a based Controller Area Netoword protocol to intercommunicate the components
+</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_004</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>9</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L3_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L3_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L3_000</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>The intercommunication between nodes shall used the CANae protocol developed in the master degree thesis
+</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>10</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L1_006</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_006</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_006</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>The architecture shall to assurance at least 10 years mission life</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>11</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L3_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L3_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>L3_001</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'>The architecture shall use the distributed network philosophy</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(237,237,237); font: NORMAL; font-family: Sans;'></td>
+</tr>
+<tr>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>12</td>
+	<td style='color: rgb(46,52,54); background-color: rgb(237,237,237); font: NORMAL; font-family: Verdana;'>L1_007</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_007</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_007</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>The thesis shall be finished in 1 year</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'>L1_005</td>
+	<td style='color: rgb(0,0,0); background-color: rgb(255,255,255); font: NORMAL; font-family: Sans;'></td>
+</tr>
+</table></body></html>
