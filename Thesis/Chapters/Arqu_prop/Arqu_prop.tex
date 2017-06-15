@@ -1,4 +1,13 @@
 \section{Introducción}
+
+La arquitectura propuesta se centra en la comunicación de la aviónica de un
+vehículo espacial, con la característica de que sus componentes (nodos) son
+de baja confiabilidad (se piensa en la utilización de compoentes COTS)
+por lo tanto, es necesario que esta arquitectura sea tolerante a fallas. En este
+trabajo el protocolo de comunicación (tolerante a fallas) propuesto,
+se encuentra en las capas superiores del modelo de referencia OSI\footnote{ISO/IEC 7498-1 - Open System Interconnection}
+
+
 Aquí hago la propuesta de la arquitectura.
 
 El capítulo estará dividido en
@@ -97,9 +106,30 @@ A continuación se explica cada uno de los requerimientos:
 
 \section{Casos de Uso}
 A continuación se muestra el diagrama de Casos de Uso para la arquitectura propuesta.
-Se observa que el único Actor identificado en esta instancia de desarrollo es
-la aplicacción de usuario que se conecta a la arquitectura.  Dentro de esta
-arquitectura propuesta se encuentra el protocolo de comunicación CANae.
+El diagrama de Casos de Uso tiene como propósito explicar de manera general
+el comportamiento a nivel de sistema de la arquitectura propuesta.
+Los actores identificadores para esta arquitectura son los diferentes
+subsistemas que se conectan a la red a través de los nodos.
+Los subsistemas interactúan con el nodo a través de
+la aplicación de usuario, es decir se encuentra asociados.
+Se puede observar en la Figura \ref{fig:DiagramaCUArqPropuestaGENERAL}
+que de forma general existen tres casos de usos que comprenden el comportamiento
+general de la arquitectura. Se tiene \textit{Enviar mensaje} y \textit{Recibir
+  Mensaje} los cuales son básicos para cualquier arquitectura de comunicación. A
+esto se le agrega el caso de uso de \textit{FDIR} que es el agregado que se le
+hace en este trabajo de tesis a través del protocolo de comunicación desarrollado
+denominado CANae\ref{Appendix:A}.
+
+\begin{figure}[h!]
+ \centering
+ \includegraphics[scale=0.4]{images/Capitulo5/Arq_General.JPG}
+  \caption{Diagrama de Casos de Uso General de la arquitectura Propuesta}
+\label{fig:DiagramaCUArqPropuestaGENERAL}
+\end{figure} 
+
+De manera más detallada en la Figura \ref{fig:DiagramaCUArqPropuesta} se
+observa un diagrama de casos de uso explayado. En este se pueden observar su
+comportamiento.
 
 \begin{figure}[h!]
  \centering
@@ -108,3 +138,37 @@ arquitectura propuesta se encuentra el protocolo de comunicación CANae.
 \label{fig:DiagramaCUArqPropuesta}
 \end{figure} 
 
+Le especifcación de los casos de usos se describen en \ref{Appendix:UseCase}.
+Como se puede observar en la Figura \ref{fig:DiagramaCUArqPropuesta}
+el sistema tiene 9 casos de uso.
+
+Los casos de uso de \textit{Enviar Mensaje} y \textit{Recibir Mensaje} denota la
+capacidad de la arquitectura de enviar y recibir mensajes (Data Frames de
+CANae) desde y hacia las aplicaciones de usuario. Cuando una aplicación
+necesita enviar un mensaje, estos deben primer pasar por el caso de uso
+\textit{Procesar Mensaje} este es el encargado de empaquetar los mensajes.
+También en este caso de uso se encuentra el caso de uso \textit{Rutear
+  Mensaje}.
+
+El caso de uso \textit{Rutear Mensaje} se encarga de aplicar los algoritmos
+necesarios para lograr entregar el mensaje de una manera eficiente, siguiendo
+la tabla de ruteo del CANae. Para esto se basa del caso de uso \texit{Gestionar
+  Red}.
+
+El caso de uso \texit{Gestionar Tareas} y \texit{Dividr Tareas} se encarga de
+de conocer (periódicamente) el estado de la red y de sus nodos. Con esto puede
+decidir cómo se reparten las tareas de una manera eficiente, siguiendo
+la filosofía de arquitectura distribuída.
+
+Por último tenemos el caso de uso \textit{FDIR} que hace referencia a la
+Detección, Aislación, y Recuperación del sistema ante fallas. Debido a la
+complejidad de esto, no se lo desarrolla a esta caso de uso en este trabajo.
+El cual queda para \textbf{trabajos futuros}\ref{chap:TrabajosFuturos}. En este
+caso de uso se encuentra el \textit{Reconfigurar Arquitectura}. Este es una
+algoritmo del \ac{FDIR} que cuando se produce una falla en el algunos de los
+nodos, la red se tiene que reconfigurar, para lograr continuar funcionando,
+aún cuando haya nodos inactivos. Esto le brindaría a la arquitectura una grado
+más de tolerancia a fallas. 
+
+% talk about structural disegn
+\input{../Chapters/Arqu_prop/DisEstructural.tex}
