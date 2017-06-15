@@ -229,6 +229,8 @@ producirse el error. Este estado anterior se encuentra almacenado en una memoria
 \citep{FTDesign}. En la figura \ref{fig:checkAndRestart}\footnote{Basado en \cite{FTDesign} y 
 \cite{SoftwareFaultToleranceATutorial}}, se muestra la representación de este mecanismo.
 
+\todonote[INLINE]{Agregar imagen}
+\begin{comment}
 \begin{figure}[h]
   \centering
   \begin{tikzpicture}
@@ -258,7 +260,9 @@ producirse el error. Este estado anterior se encuentra almacenado en una memoria
   \caption{Representación de checkpoint y restart}
   \label{fig:checkAndRestart}
 \end{figure}
- 
+ \end{comment}
+
+
 Existe dos tipos de checkpoints, estáticos y dinámicos. Los checkpoints dinámicos toman una 
 ``fotografía'' del estado del sistema antes de comenzar la ejecución del \ac{SW} y lo guarda en 
 memoria \citep{FTDesign}. Si se detecta una falla, el sistema regresa a ese estado y 
@@ -295,6 +299,9 @@ este procesador sigue teniendo problema, se continúa trabajando con el segundo 
 
 La principal ventaja que brinda este mecanismo según \cite{FTDesign} es que permite entregar el 
 servicio ininterrumpidamente.
+
+
+\begin{comment}
 
 \begin{figure}[h]
  \centering
@@ -341,6 +348,9 @@ sep=3pt]
  \label{fig:repPares}
 \end{figure}
 
+\end{comment}
+
+\todolist[INLINE]{Agregar imagen}
 \subsubsection{Diversidad de datos}
 La diversidad es una técnica utilizada para mejorar la eficiencia en los checkpoint y restart, 
 usando diferentes entradas por cada reinicio \citep{FTDesign}. Esto se basa en que las fallas en el 
@@ -366,6 +376,7 @@ versión diferente a la que se ejecutó anteriomente \citep{FTDesign}.
 Los checks del test de aceptación deben mantenerse simples para mantener la velocidad de la 
 ejecución \citep{FTDesign}.
 
+\begin{comment}
 \begin{figure}[h]
  \centering
  \begin{tikzpicture}[node distance=1cm, auto,]
@@ -420,13 +431,15 @@ sep=3pt]
   \draw[arrow, dashed] (version1.150) -- (check.-145);
   
   
-  
-  
+
  \end{tikzpicture}
  \caption{Configuración de bloques de recuperación}
  \label{fig:repPares}
 \end{figure}
 
+
+\end{comment}
+\todolist[INLINE]{Agregar imagen}
 \subsubsection{Programación N-version}
 
 \subsubsection{Programación N-Auto Checking}

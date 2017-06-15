@@ -94,68 +94,69 @@
 \BOOKMARK [1][-]{section.5.2}{\301rbol de requrimientos}{chapter.5}% 94
 \BOOKMARK [1][-]{section.5.3}{Casos de Uso}{chapter.5}% 95
 \BOOKMARK [1][-]{section.5.4}{Dise\361o Estructural}{chapter.5}% 96
-\BOOKMARK [0][-]{chapter.6}{An\341lisis y resultados}{}% 97
-\BOOKMARK [1][-]{section.6.1}{Introduci\363n}{chapter.6}% 98
-\BOOKMARK [0][-]{chapter.7}{Conclusi\363n}{}% 99
-\BOOKMARK [0][-]{chapter*.65}{Bibliograf\355a}{}% 100
-\BOOKMARK [0][-]{appendix.Alph1}{Protocolo de comunicaci\363n: CANae 0.1 Alpha Version}{}% 101
-\BOOKMARK [1][-]{section.Alph1.1}{Introducci\363n}{appendix.Alph1}% 102
-\BOOKMARK [1][-]{section.Alph1.2}{Capa de aplicaci\363n}{appendix.Alph1}% 103
-\BOOKMARK [1][-]{section.Alph1.3}{Tipos de servicios de la capa de aplicaci\363n}{appendix.Alph1}% 104
-\BOOKMARK [1][-]{section.Alph1.4}{CANae Application Layer}{appendix.Alph1}% 105
-\BOOKMARK [1][-]{section.Alph1.5}{CMS}{appendix.Alph1}% 106
-\BOOKMARK [2][-]{subsection.Alph1.5.1}{Prioridades de los objetos}{section.Alph1.5}% 107
-\BOOKMARK [2][-]{subsection.Alph1.5.2}{Objeto CMS}{section.Alph1.5}% 108
-\BOOKMARK [2][-]{subsection.Alph1.5.3}{Servicios de CMS}{section.Alph1.5}% 109
-\BOOKMARK [2][-]{subsection.Alph1.5.4}{Eventos}{section.Alph1.5}% 110
-\BOOKMARK [1][-]{section.Alph1.6}{NMT}{appendix.Alph1}% 111
-\BOOKMARK [2][-]{subsection.Alph1.6.1}{Objectos NMT}{section.Alph1.6}% 112
-\BOOKMARK [2][-]{subsection.Alph1.6.2}{Servicios NMT}{section.Alph1.6}% 113
-\BOOKMARK [2][-]{subsection.Alph1.6.3}{Protocolos NMT}{section.Alph1.6}% 114
-\BOOKMARK [1][-]{section.Alph1.7}{DBT}{appendix.Alph1}% 115
-\BOOKMARK [2][-]{subsection.Alph1.7.1}{Objetos y servicios de DBT}{section.Alph1.7}% 116
-\BOOKMARK [2][-]{subsection.Alph1.7.2}{Descripci\363n de los servicios DBT}{section.Alph1.7}% 117
-\BOOKMARK [2][-]{subsection.Alph1.7.3}{Objetos DBT}{section.Alph1.7}% 118
-\BOOKMARK [2][-]{subsection.Alph1.7.4}{Servicios DBT}{section.Alph1.7}% 119
-\BOOKMARK [2][-]{subsection.Alph1.7.5}{Protocolos DBT}{section.Alph1.7}% 120
-\BOOKMARK [1][-]{section.Alph1.8}{Gestor de mensajes}{appendix.Alph1}% 121
-\BOOKMARK [2][-]{subsection.Alph1.8.1}{Receiver Manager}{section.Alph1.8}% 122
-\BOOKMARK [2][-]{subsection.Alph1.8.2}{Prepared Message}{section.Alph1.8}% 123
-\BOOKMARK [2][-]{subsection.Alph1.8.3}{Sorter Message}{section.Alph1.8}% 124
-\BOOKMARK [2][-]{subsection.Alph1.8.4}{Buffer Messages}{section.Alph1.8}% 125
-\BOOKMARK [2][-]{subsection.Alph1.8.5}{Buffer Message Receive y Buffer Message To Send}{section.Alph1.8}% 126
-\BOOKMARK [1][-]{section.Alph1.9}{Gestor de Nodo}{appendix.Alph1}% 127
-\BOOKMARK [2][-]{subsection.Alph1.9.1}{Tabla primara y secundaria de ruteo}{section.Alph1.9}% 128
-\BOOKMARK [2][-]{subsection.Alph1.9.2}{Servicios}{section.Alph1.9}% 129
-\BOOKMARK [1][-]{section.Alph1.10}{Formato de mensajes}{appendix.Alph1}% 130
-\BOOKMARK [2][-]{subsection.Alph1.10.1}{Start of Frame}{section.Alph1.10}% 131
-\BOOKMARK [2][-]{subsection.Alph1.10.2}{Priority}{section.Alph1.10}% 132
-\BOOKMARK [2][-]{subsection.Alph1.10.3}{Node-ID}{section.Alph1.10}% 133
-\BOOKMARK [2][-]{subsection.Alph1.10.4}{Remote transmission request \(RTR\)}{section.Alph1.10}% 134
-\BOOKMARK [2][-]{subsection.Alph1.10.5}{Type of Message \(TOM\)}{section.Alph1.10}% 135
-\BOOKMARK [2][-]{subsection.Alph1.10.6}{Bit reservado}{section.Alph1.10}% 136
-\BOOKMARK [2][-]{subsection.Alph1.10.7}{Data length}{section.Alph1.10}% 137
-\BOOKMARK [2][-]{subsection.Alph1.10.8}{Data field}{section.Alph1.10}% 138
-\BOOKMARK [2][-]{subsection.Alph1.10.9}{CRC}{section.Alph1.10}% 139
-\BOOKMARK [2][-]{subsection.Alph1.10.10}{CRC delimiter}{section.Alph1.10}% 140
-\BOOKMARK [2][-]{subsection.Alph1.10.11}{ACK}{section.Alph1.10}% 141
-\BOOKMARK [2][-]{subsection.Alph1.10.12}{ACK delimiter}{section.Alph1.10}% 142
-\BOOKMARK [2][-]{subsection.Alph1.10.13}{End-of-Frame \(EOF\)}{section.Alph1.10}% 143
-\BOOKMARK [1][-]{section.Alph1.11}{High Application Layer CANae}{appendix.Alph1}% 144
-\BOOKMARK [2][-]{subsection.Alph1.11.1}{Network Management}{section.Alph1.11}% 145
-\BOOKMARK [2][-]{subsection.Alph1.11.2}{Task Management}{section.Alph1.11}% 146
-\BOOKMARK [2][-]{subsection.Alph1.11.3}{List of Tasks}{section.Alph1.11}% 147
-\BOOKMARK [2][-]{subsection.Alph1.11.4}{Task}{section.Alph1.11}% 148
-\BOOKMARK [1][-]{section.Alph1.12}{Arquitectura completa del CANae}{appendix.Alph1}% 149
-\BOOKMARK [1][-]{section.Alph1.13}{Estados de nodos y red}{appendix.Alph1}% 150
-\BOOKMARK [0][-]{appendix.Alph2}{Especificaci\363n de Casos de Uso}{}% 151
-\BOOKMARK [1][-]{section.Alph2.1}{Enviar Mensaje}{appendix.Alph2}% 152
-\BOOKMARK [1][-]{section.Alph2.2}{Recibir Mensaje}{appendix.Alph2}% 153
-\BOOKMARK [1][-]{section.Alph2.3}{Procesar Mensaje}{appendix.Alph2}% 154
-\BOOKMARK [1][-]{section.Alph2.4}{Rutear Mensaje}{appendix.Alph2}% 155
-\BOOKMARK [1][-]{section.Alph2.5}{Gestionar Red}{appendix.Alph2}% 156
-\BOOKMARK [1][-]{section.Alph2.6}{Gestionar Tareas}{appendix.Alph2}% 157
-\BOOKMARK [1][-]{section.Alph2.7}{Dividir Tareas}{appendix.Alph2}% 158
-\BOOKMARK [1][-]{section.Alph2.8}{Dividir Tareas}{appendix.Alph2}% 159
-\BOOKMARK [1][-]{section.Alph2.9}{FDIR}{appendix.Alph2}% 160
-\BOOKMARK [1][-]{section.Alph2.10}{Reconfigurar Arquitectura}{appendix.Alph2}% 161
+\BOOKMARK [2][-]{subsection.5.4.1}{Bridge tolerante a fallas}{section.5.4}% 97
+\BOOKMARK [0][-]{chapter.6}{An\341lisis y resultados}{}% 98
+\BOOKMARK [1][-]{section.6.1}{Introduci\363n}{chapter.6}% 99
+\BOOKMARK [0][-]{chapter.7}{Conclusi\363n}{}% 100
+\BOOKMARK [0][-]{chapter*.66}{Bibliograf\355a}{}% 101
+\BOOKMARK [0][-]{appendix.Alph1}{Protocolo de comunicaci\363n: CANae 0.1 Alpha Version}{}% 102
+\BOOKMARK [1][-]{section.Alph1.1}{Introducci\363n}{appendix.Alph1}% 103
+\BOOKMARK [1][-]{section.Alph1.2}{Capa de aplicaci\363n}{appendix.Alph1}% 104
+\BOOKMARK [1][-]{section.Alph1.3}{Tipos de servicios de la capa de aplicaci\363n}{appendix.Alph1}% 105
+\BOOKMARK [1][-]{section.Alph1.4}{CANae Application Layer}{appendix.Alph1}% 106
+\BOOKMARK [1][-]{section.Alph1.5}{CMS}{appendix.Alph1}% 107
+\BOOKMARK [2][-]{subsection.Alph1.5.1}{Prioridades de los objetos}{section.Alph1.5}% 108
+\BOOKMARK [2][-]{subsection.Alph1.5.2}{Objeto CMS}{section.Alph1.5}% 109
+\BOOKMARK [2][-]{subsection.Alph1.5.3}{Servicios de CMS}{section.Alph1.5}% 110
+\BOOKMARK [2][-]{subsection.Alph1.5.4}{Eventos}{section.Alph1.5}% 111
+\BOOKMARK [1][-]{section.Alph1.6}{NMT}{appendix.Alph1}% 112
+\BOOKMARK [2][-]{subsection.Alph1.6.1}{Objectos NMT}{section.Alph1.6}% 113
+\BOOKMARK [2][-]{subsection.Alph1.6.2}{Servicios NMT}{section.Alph1.6}% 114
+\BOOKMARK [2][-]{subsection.Alph1.6.3}{Protocolos NMT}{section.Alph1.6}% 115
+\BOOKMARK [1][-]{section.Alph1.7}{DBT}{appendix.Alph1}% 116
+\BOOKMARK [2][-]{subsection.Alph1.7.1}{Objetos y servicios de DBT}{section.Alph1.7}% 117
+\BOOKMARK [2][-]{subsection.Alph1.7.2}{Descripci\363n de los servicios DBT}{section.Alph1.7}% 118
+\BOOKMARK [2][-]{subsection.Alph1.7.3}{Objetos DBT}{section.Alph1.7}% 119
+\BOOKMARK [2][-]{subsection.Alph1.7.4}{Servicios DBT}{section.Alph1.7}% 120
+\BOOKMARK [2][-]{subsection.Alph1.7.5}{Protocolos DBT}{section.Alph1.7}% 121
+\BOOKMARK [1][-]{section.Alph1.8}{Gestor de mensajes}{appendix.Alph1}% 122
+\BOOKMARK [2][-]{subsection.Alph1.8.1}{Receiver Manager}{section.Alph1.8}% 123
+\BOOKMARK [2][-]{subsection.Alph1.8.2}{Prepared Message}{section.Alph1.8}% 124
+\BOOKMARK [2][-]{subsection.Alph1.8.3}{Sorter Message}{section.Alph1.8}% 125
+\BOOKMARK [2][-]{subsection.Alph1.8.4}{Buffer Messages}{section.Alph1.8}% 126
+\BOOKMARK [2][-]{subsection.Alph1.8.5}{Buffer Message Receive y Buffer Message To Send}{section.Alph1.8}% 127
+\BOOKMARK [1][-]{section.Alph1.9}{Gestor de Nodo}{appendix.Alph1}% 128
+\BOOKMARK [2][-]{subsection.Alph1.9.1}{Tabla primara y secundaria de ruteo}{section.Alph1.9}% 129
+\BOOKMARK [2][-]{subsection.Alph1.9.2}{Servicios}{section.Alph1.9}% 130
+\BOOKMARK [1][-]{section.Alph1.10}{Formato de mensajes}{appendix.Alph1}% 131
+\BOOKMARK [2][-]{subsection.Alph1.10.1}{Start of Frame}{section.Alph1.10}% 132
+\BOOKMARK [2][-]{subsection.Alph1.10.2}{Priority}{section.Alph1.10}% 133
+\BOOKMARK [2][-]{subsection.Alph1.10.3}{Node-ID}{section.Alph1.10}% 134
+\BOOKMARK [2][-]{subsection.Alph1.10.4}{Remote transmission request \(RTR\)}{section.Alph1.10}% 135
+\BOOKMARK [2][-]{subsection.Alph1.10.5}{Type of Message \(TOM\)}{section.Alph1.10}% 136
+\BOOKMARK [2][-]{subsection.Alph1.10.6}{Bit reservado}{section.Alph1.10}% 137
+\BOOKMARK [2][-]{subsection.Alph1.10.7}{Data length}{section.Alph1.10}% 138
+\BOOKMARK [2][-]{subsection.Alph1.10.8}{Data field}{section.Alph1.10}% 139
+\BOOKMARK [2][-]{subsection.Alph1.10.9}{CRC}{section.Alph1.10}% 140
+\BOOKMARK [2][-]{subsection.Alph1.10.10}{CRC delimiter}{section.Alph1.10}% 141
+\BOOKMARK [2][-]{subsection.Alph1.10.11}{ACK}{section.Alph1.10}% 142
+\BOOKMARK [2][-]{subsection.Alph1.10.12}{ACK delimiter}{section.Alph1.10}% 143
+\BOOKMARK [2][-]{subsection.Alph1.10.13}{End-of-Frame \(EOF\)}{section.Alph1.10}% 144
+\BOOKMARK [1][-]{section.Alph1.11}{High Application Layer CANae}{appendix.Alph1}% 145
+\BOOKMARK [2][-]{subsection.Alph1.11.1}{Network Management}{section.Alph1.11}% 146
+\BOOKMARK [2][-]{subsection.Alph1.11.2}{Task Management}{section.Alph1.11}% 147
+\BOOKMARK [2][-]{subsection.Alph1.11.3}{List of Tasks}{section.Alph1.11}% 148
+\BOOKMARK [2][-]{subsection.Alph1.11.4}{Task}{section.Alph1.11}% 149
+\BOOKMARK [1][-]{section.Alph1.12}{Arquitectura completa del CANae}{appendix.Alph1}% 150
+\BOOKMARK [1][-]{section.Alph1.13}{Estados de nodos y red}{appendix.Alph1}% 151
+\BOOKMARK [0][-]{appendix.Alph2}{Especificaci\363n de Casos de Uso}{}% 152
+\BOOKMARK [1][-]{section.Alph2.1}{Enviar Mensaje}{appendix.Alph2}% 153
+\BOOKMARK [1][-]{section.Alph2.2}{Recibir Mensaje}{appendix.Alph2}% 154
+\BOOKMARK [1][-]{section.Alph2.3}{Procesar Mensaje}{appendix.Alph2}% 155
+\BOOKMARK [1][-]{section.Alph2.4}{Rutear Mensaje}{appendix.Alph2}% 156
+\BOOKMARK [1][-]{section.Alph2.5}{Gestionar Red}{appendix.Alph2}% 157
+\BOOKMARK [1][-]{section.Alph2.6}{Gestionar Tareas}{appendix.Alph2}% 158
+\BOOKMARK [1][-]{section.Alph2.7}{Dividir Tareas}{appendix.Alph2}% 159
+\BOOKMARK [1][-]{section.Alph2.8}{Dividir Tareas}{appendix.Alph2}% 160
+\BOOKMARK [1][-]{section.Alph2.9}{FDIR}{appendix.Alph2}% 161
+\BOOKMARK [1][-]{section.Alph2.10}{Reconfigurar Arquitectura}{appendix.Alph2}% 162
