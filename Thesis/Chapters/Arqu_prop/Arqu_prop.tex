@@ -33,30 +33,35 @@ observar los requerimientos.
 \label{fig:DiagramaRequerimientos}
 \end{figure} 
 
-\begin{sidewaystable}[]
-  \small
+% \begin{sidewaystable}[]
+\begin{table}[]
+\large
 \centering
-\caption{Tabla de requerimientos de la arquitectura propuesta}
+\caption{Tabla de Requerimientos}
 \label{table:Requerimientos}
-\begin{tabular}{|l|l|l|l|}
+\resizebox{\textwidth}{!}{%
+\Large
+\begin{tabular}{|l|l|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{\textbf{}} & \multicolumn{1}{c|}{\textbf{ID}} & \multicolumn{1}{c|}{\textbf{Name}} & \multicolumn{1}{c|}{\textbf{Detail}}                                                                           \\ \hline
-0                               & L1\_001                          & L1\_001                            & The architecture components shall be Components Off-The-Shelf category                                         \\ \hline
-1                               & L2\_000                          & L2\_000                            & The architecture shall be reconfigurate when a node fail.                                                      \\ \hline
-2                               & L2\_001                          & L2\_001                            & Each subsystem shall represented for a Components Off-The-Shelf                                                \\ \hline
-3                               & L1\_000                          & L1\_000                            & Shall be develop an avionics architecture for spacecraft using Components Off-The-Shelf                        \\ \hline
-4                               & L1\_002                          & L1\_002                            & The architecture shall have at least 6 subsystems                                                              \\ \hline
-5                               & L1\_003                          & L1\_003                            & The architecture shall have fault tolerance techniques to assurance the the mission life                       \\ \hline
-6                               & L1\_004                          & L1\_004                            & The main bus to interconnect components shall be the Controller Area Network Bus developed for Bosch           \\ \hline
-7                               & L1\_005                          & L1\_005                            & The architecture shall be sufficient to make a master degree thesis                                            \\ \hline
-8                               & L2\_002                          & L2\_002                            & The architecture shall implements a based Controller Area Netoword protocol to intercommunicate the components \\ \hline
-9                               & L3\_000                          & L3\_000                            & The intercommunication between nodes shall used the CANae protocol developed in the master degree thesis       \\ \hline
-10                              & L1\_006                          & L1\_006                            & The architecture shall to assurance at least 10 years mission life                                             \\ \hline
-11                              & L3\_001                          & L3\_001                            & The architecture shall use the distributed network philosophy                                                  \\ \hline
-12                              & L1\_007                          & L1\_007                            & The thesis shall be finished in 1 year                                                                         \\ \hline
-13 & L2\_003 & L2\_003 & The nodes shall send and receive message from any nodes connected to the architecture. \\ \hline
-\end{tabular}
-\end{sidewaystable}
+\multicolumn{1}{|c|}{\textbf{}} & \multicolumn{1}{c|}{\textbf{ID}} & \multicolumn{1}{c|}{\textbf{Name}} & \multicolumn{1}{c|}{\textbf{Detail}} & \multicolumn{1}{c|}{\textbf{Tipo  de Requerimiento}} \\ \hline
+0 & L1\_001 & L1\_001 & The architecture components shall be Components Off-The-Shelf category & Constraint \\ \hline
+1 & L2\_000 & L2\_000 & The architecture shall be reconfigurate when a node fail. & Funcional \\ \hline
+2 & L2\_001 & L2\_001 & Each subsystem shall represented for a Components Off-The-Shelf & Constraint \\ \hline
+3 & L1\_000 & L1\_000 & Shall be develop an avionics architecture for spacecraft using Components Off-The-Shelf & Constraint \\ \hline
+4 & L1\_002 & L1\_002 & The architecture shall have at least 6 subsystems & Constraint \\ \hline
+5 & L1\_003 & L1\_003 & The architecture shall have fault tolerance techniques to assurance the the mission life & No funcional \\ \hline
+6 & L1\_004 & L1\_004 & The main bus to interconnect components shall be the Controller Area Network Bus developed for Bosch & Constraint \\ \hline
+7 & L1\_005 & L1\_005 & The architecture shall be sufficient to make a master degree thesis & No funcional \\ \hline
+8 & L2\_002 & L2\_002 & The architecture shall implements a based Controller Area Netoword protocol to intercommunicate the components & Funcional \\ \hline
+9 & L3\_000 & L3\_000 & The intercommunication between nodes shall used the CANae protocol developed in the master degree thesis & No funcional \\ \hline
+10 & L1\_006 & L1\_006 & The architecture shall to assurance at least 10 years mission life & No funcional \\ \hline
+11 & L3\_001 & L3\_001 & The architecture shall use the distributed network philosophy & Constraint \\ \hline
+12 & L1\_007 & L1\_007 & The thesis shall be finished in 1 year & Constraint \\ \hline
+13 & L2\_003 & L2\_003 & The nodes shall send and receive message from any nodes connected to the architecture. & Funcional \\ \hline
+\end{tabular}%
+}
+\end{table}
+% \end{sidewaystable}
 
 A continuación se explica cada uno de los requerimientos:
 \begin{itemize}
@@ -118,7 +123,7 @@ general de la arquitectura. Se tiene \textit{Enviar mensaje} y \textit{Recibir
   Mensaje} los cuales son básicos para cualquier arquitectura de comunicación. A
 esto se le agrega el caso de uso de \textit{FDIR} que es el agregado que se le
 hace en este trabajo de tesis a través del protocolo de comunicación desarrollado
-denominado CANae\ref{Appendix:A}. Debe aclararse que en 
+denominado CANae (Ver apéndice \ref{Appendix:A}). Debe aclararse que en 
 la Figura \ref{fig:DiagramaCUArqPropuestaGENERAL}
 aparece un resumen de los Actores intereactuando con el sistema. 
 

@@ -113,9 +113,14 @@
 \contentsline {chapter}{\numberline {5}Arquitectura propuesta}{50}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{50}{section.5.1}
 \contentsline {section}{\numberline {5.2}\IeC {\'A}rbol de requrimientos}{50}{section.5.2}
-\contentsline {section}{\numberline {5.3}Casos de Uso}{53}{section.5.3}
-\contentsline {section}{\numberline {5.4}Dise\IeC {\~n}o Estructural}{55}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Bridge tolerante a fallas}{56}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.3}Casos de Uso}{52}{section.5.3}
+\contentsline {section}{\numberline {5.4}Dise\IeC {\~n}o Estructural}{53}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Bridge tolerante a fallas}{54}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Bloques Internos}{56}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Nodo Monitor}{56}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Modelo din\IeC {\'a}mico}{57}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Diagrama de actividades}{57}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Diagrama de secuencia}{57}{subsection.5.5.2}
 \contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis y resultados}{58}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduci\IeC {\'o}n}{58}{section.6.1}
 \contentsline {chapter}{\numberline {7}Conclusi\IeC {\'o}n}{59}{chapter.7}

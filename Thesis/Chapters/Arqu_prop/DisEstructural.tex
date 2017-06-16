@@ -102,6 +102,15 @@ en la Figura \ref{fig:conn_prop}, siendo el Bridge el cuadrado negro.
 Los detalles técnicos, electrónicos y de implementación no se desarrollan en
 este trabajo de tesis. 
 
+Como puede observarse en al Figura \ref{fig:DiagramaEstructuraCompleta} el
+protocolo CANae se encuentra dentro del Nodo. El desarrollador se debe encargar
+de implementar los protocolos, como un stack de servicios más del 
+sistema operativo (o sistema embebido) que se encuentre en el nodo.
+
 \subsection{Bloques Internos}
 
-\subsection{}
+\subsection{Nodo Monitor}
+En la versión actual del protocolo CANae (0.1 Alpha) preve la existencia de un
+nodo monitor. El objetivo principal de este nodo es lograr la coordinación 
+de todos los nodos en las fases iniciación del protocolo. Una vez que la red
+CANae ya fue creada el nodo monitor se puede ser retirada de esta.  
