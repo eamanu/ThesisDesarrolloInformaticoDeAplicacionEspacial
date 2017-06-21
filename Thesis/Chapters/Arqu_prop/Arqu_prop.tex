@@ -35,15 +35,14 @@ observar los requerimientos.
 
 % \begin{sidewaystable}[]
 \begin{table}[]
-\large
+\small
 \centering
 \caption{Tabla de Requerimientos}
 \label{table:Requerimientos}
-\resizebox{\textwidth}{!}{%
-\Large
-\begin{tabular}{|l|l|l|l|l|}
+%\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|p{7cm}|p{2cm}|}
 \hline
-\multicolumn{1}{|c|}{\textbf{}} & \multicolumn{1}{c|}{\textbf{ID}} & \multicolumn{1}{c|}{\textbf{Name}} & \multicolumn{1}{c|}{\textbf{Detail}} & \multicolumn{1}{c|}{\textbf{Tipo  de Requerimiento}} \\ \hline
+\multicolumn{1}{|c|}{\textbf{}} & \multicolumn{1}{c|}{\textbf{ID}} & \multicolumn{1}{c|}{\textbf{Name}} & \multicolumn{1}{c|}{\textbf{Detail}} & \multicolumn{1}{c|}{\textbf{Kind of Requirements}} \\ \hline
 0 & L1\_001 & L1\_001 & The architecture components shall be Components Off-The-Shelf category & Constraint \\ \hline
 1 & L2\_000 & L2\_000 & The architecture shall be reconfigurate when a node fail. & Funcional \\ \hline
 2 & L2\_001 & L2\_001 & Each subsystem shall represented for a Components Off-The-Shelf & Constraint \\ \hline
@@ -52,14 +51,14 @@ observar los requerimientos.
 5 & L1\_003 & L1\_003 & The architecture shall have fault tolerance techniques to assurance the the mission life & No funcional \\ \hline
 6 & L1\_004 & L1\_004 & The main bus to interconnect components shall be the Controller Area Network Bus developed for Bosch & Constraint \\ \hline
 7 & L1\_005 & L1\_005 & The architecture shall be sufficient to make a master degree thesis & No funcional \\ \hline
-8 & L2\_002 & L2\_002 & The architecture shall implements a based Controller Area Netoword protocol to intercommunicate the components & Funcional \\ \hline
-9 & L3\_000 & L3\_000 & The intercommunication between nodes shall used the CANae protocol developed in the master degree thesis & No funcional \\ \hline
-10 & L1\_006 & L1\_006 & The architecture shall to assurance at least 10 years mission life & No funcional \\ \hline
+8 & L2\_002 & L2\_002 & The architecture shall implements a based Controller Area Netowork protocol to intercommunicate the components & Funcional \\ \hline
+9 & L3\_000 & L3\_000 & The intercomunication beteween nodes shall used a Controller Area Netowork protocol based developed in the master degree theis. & Constraint\\ \hline
+10 & L1\_006 & L1\_006 & The architecture shall ssurance at least 10 years mission life & No funcional \\ \hline
 11 & L3\_001 & L3\_001 & The architecture shall use the distributed network philosophy & Constraint \\ \hline
 12 & L1\_007 & L1\_007 & The thesis shall be finished in 1 year & Constraint \\ \hline
 13 & L2\_003 & L2\_003 & The nodes shall send and receive message from any nodes connected to the architecture. & Funcional \\ \hline
 \end{tabular}%
-}
+%}
 \end{table}
 % \end{sidewaystable}
 
@@ -103,8 +102,9 @@ A continuación se explica cada uno de los requerimientos:
 \item\textbf{L2\_003}: Este requerimiento asegura que los nodos deben poder enviar
   y recibir mensajes de cualquier otro nodo conectado a la red CANae.
 \item\textbf{L3\_000}: Este requerimiento indica que el protocolo de
-  comunicación utilizado en esta arquitectura debe ser CANae. Este protocolo
-  fue desarrollado en el presente trabajo de tesis (Vease:\ref{Appendix:A}).
+  comunicación utilizado en esta arquitectura debe estar basado en el
+  el protocolo CAN. Este protocolo fue desarrollado en el presente
+  trabajo de tesis bajo el nombre de CANae 0.1 Alpha (Vease: Apéndice \ref{Appendix:A}).
 \item\textbf{L3\_001}: Este requerimiento exige la utilización de una
   filosofía de red distribuída para su diseño y desarrollo.
 \end{itemize}

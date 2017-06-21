@@ -1,12 +1,13 @@
 \section{Diseño Estructural}
-En este trabajo de tesis plantea una arquitectura a nivel de sistema.
+Este trabajo de tesis plantea una arquitectura a nivel de sistema.
 Esta arquitectura se encuentra basada en la red CAN debido a
-un interés especial de INVAP. Además esta sigue una filosía de red
-distribuída. Esto le da la característica de novedoso, ya que no se 
-encuentró en estado de la cuestión la utilización de esta 
-filosofía en el desarrollo de vehículos espaciales, mucho menos en
-Argentina, que se sigue una filosía más tradicional y conservadora 
-a la hora de desarrollar satélites. 
+un interés especial de INVAP. Además se sigue una filosía de red
+distribuída por las razones estudiadas en la sección
+\ref{seccion:TopologiaEstudio}. Esto le da la característica de innovador
+a este proyecto, ya que no se encontró en estado de la cuestión
+la utilización de esta filosofía en el desarrollo de vehículos
+espaciales, mucho menos en Argentina, que se sigue una filosía
+más tradicional y conservadora a la hora de desarrollar satélites. 
 
 La arquitectura propuesta, como se mencionó anteriormente tiene como
 base el bus CAN. A la red se pueden conectar un número N de
@@ -44,10 +45,10 @@ llevar a cabo un Bridge tolerante a fallas. Este Bridge permite que la comunicac
 con los subsistemas no se vean afectadas ante la falla de un nodo. La utilización
 de esta técnica se explica en la siguiente sección.
 
-De esa manera queda definida la estructura nivel de bloques de la arquitectura
+De esa manera queda definida la estructura a nivel de bloques de la arquitectura
 planteada. 
 
-\subsection{Bridge tolerante a fallas}
+\subsection{Bridge tolerante a fallas}\label{subsec:bridge}
 En esta sección se explica la necesidad de la utilización de un Bridge 
 Tolerante a Fallas. No se pretende llevar a cabo una especificación técnica
 del Bridge, ya que escapan a los propósitos de este trabajo de tesis. 
@@ -61,7 +62,7 @@ ejecución de tareas de un subsistema en otro está prohíbido.
 
 \begin{figure}[h!]
  \centering
- \includegraphics[scale=0.4]{images/Capitulo5/Bridge1.jpg}
+ \includegraphics[scale=0.6]{images/Capitulo5/Bridge1.jpg}
   \caption{Posibilidad de interconexión de nodos.}
 \label{fig:Bridge1}
 \end{figure} 
@@ -80,7 +81,7 @@ linealmente con la confiabilidad del componente COTS.
 
 \begin{figure}[h!]
  \centering
- \includegraphics[scale=0.4]{images/Capitulo5/Bridge2.jpg}
+ \includegraphics[scale=0.6]{images/Capitulo5/Bridge2.jpg}
   \caption{Posibilidad de interconexión de nodos.}
 \label{fig:Bridge2}
 \end{figure} 
@@ -94,7 +95,7 @@ en la Figura \ref{fig:conn_prop}, siendo el Bridge el cuadrado negro.
 
 \begin{figure}[h!]
  \centering
- \includegraphics[scale=0.3]{images/Capitulo4/com_nodo.jpg}
+ \includegraphics[scale=0.6]{images/Capitulo4/com_nodo.jpg}
  \caption{Conexión entre la red y el subsistema}
 \label{fig:conn_prop}
 \end{figure}
@@ -108,6 +109,42 @@ de implementar los protocolos, como un stack de servicios más del
 sistema operativo (o sistema embebido) que se encuentre en el nodo.
 
 \subsection{Bloques Internos}
+En esta sección se muestra el diagrama de bloques internos que conforman el
+nodo que es aquel que implementa el protocolo de comunicación CANae. Como
+puede observarse en la Figura \ref{BloquesInternosArq} el nodo, representa
+la parte más compleja de la red. En este dispositivo se encuentra toda la
+complejidad de la arquitectura, y es el encargado tanto de llevar a cabo
+las tareas, como así también comunicarse con los demás nodos, a través del
+protocolo CANae y coordinar las tareas a desarrollarse. Además,
+debe notarse que estos nodos se suponen que son componentes de estantería
+o componentes \ac{COTS} los cuales tiene una muy baja confiabilidad pero
+un alta perfomance. Por lo tanto, es de esperarse que el software de los
+nodos esté basado o dearrollado sobre un Sistema Operativo de Tiempo
+Real (RTOS) y estos deben aplicar técnicas de tolerancia a fallas que
+escapan de los alcances de este trabajo de tesis. Todos los bloques
+internos que se observa en la Figura \ref{BloquesInternosArq} deben
+desarrollarse como módulos pertenecientes al stack del servicio del
+sistema operativo, o bien, módulos de servicio del sistema embebido de
+los nodos.
+
+Como se estudió en el marco teórico (Véase sección \ref{seccion:ProtocoloCAN})
+el estándar del protocolo CAN \citep{can-ciaWEB} trabaja en las capas
+inferiores del modelo de OSI. Cada Nodo que se deba conectar a una red basada
+en CAN debe, en primer lugar, contar con un CAN Tranceiver y un
+Microcontrolador CAN, estos son modelados en el diagrama de bloques
+internos como Ports. CANae (Véase apéndice \ref{Appendix:A}) por su parte,
+trabaja en la capa de aplicación del modelo de OSI. Esta es modelada como
+una Parte (Part) del Nodo. Como se puede observar en el modelo
+\ref{BloquesInternosArq}, CANae es la capa de comunicación de la red
+que se comunica directamente (como es de esperarse) con la aplicación
+del usuario. 
+
+\begin{figure}[h!]
+ \centering
+ \includegraphics[scale=0.5]{images/Capitulo5/NodeInternalDiagram.JPG}
+ \caption{Diagrama de bloques interno del nodo.}
+\label{fig:BloquesInternosArq}
+\end{figure}
 
 \subsection{Nodo Monitor}
 En la versión actual del protocolo CANae (0.1 Alpha) preve la existencia de un

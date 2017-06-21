@@ -29,45 +29,54 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Arquitectura propuesta utilizando topolog\IeC {\'\i }a de red distribuida\relax }}{49}{figure.caption.55}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Conexi\IeC {\'o}n entre la red y el subsistema\relax }}{49}{figure.caption.56}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de requerimientos de la arquitectura propuesta\relax }}{51}{figure.caption.57}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de requerimientos de la arquitectura propuesta\relax }}{52}{figure.caption.57}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de Casos de Uso General de la arquitectura Propuesta\relax }}{53}{figure.caption.59}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de Casos de Uso de arquitectura propuesta\relax }}{54}{figure.caption.60}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagrama de bloques de la arquitectura completa\relax }}{55}{figure.caption.62}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Posibilidad de interconexi\IeC {\'o}n de nodos.\relax }}{55}{figure.caption.63}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Posibilidad de interconexi\IeC {\'o}n de nodos.\relax }}{56}{figure.caption.64}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Conexi\IeC {\'o}n entre la red y el subsistema\relax }}{56}{figure.caption.65}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagrama de bloques de la arquitectura completa\relax }}{56}{figure.caption.62}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Posibilidad de interconexi\IeC {\'o}n de nodos.\relax }}{57}{figure.caption.63}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Posibilidad de interconexi\IeC {\'o}n de nodos.\relax }}{57}{figure.caption.64}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Conexi\IeC {\'o}n entre la red y el subsistema\relax }}{58}{figure.caption.65}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Diagrama de bloques interno del nodo.\relax }}{61}{figure.caption.66}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces M\IeC {\'a}quina de estado de la arquitectura completa\relax }}{62}{figure.caption.67}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces M\IeC {\'a}quina de estado de los nodos.\relax }}{62}{figure.caption.68}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Diagrama de secuencia del inicio de la arquitectura.\relax }}{63}{figure.caption.69}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Diagrama de secuencia de CA\relax }}{63}{figure.caption.70}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Crear Objecto Red, Objeto Nodo y Objeto Nodo Remoto\relax }}{64}{figure.caption.71}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Preparar nodo para la conexi\IeC {\'o}n a la red CAN\relax }}{64}{figure.caption.72}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Preparar nodo para la conexi\IeC {\'o}n a la red CAN\relax }}{64}{figure.caption.73}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Conectar el nodo a la red CAN\relax }}{65}{figure.caption.74}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Estructura de la capa de aplicaci\IeC {\'o}n de CANae en alto nivel\relax }}{65}{figure.caption.67}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces CANae Application Layer\relax }}{66}{figure.caption.68}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Definici\IeC {\'o}n del Objeto CMS\relax }}{67}{figure.caption.69}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Definici\IeC {\'o}n de la entidad NMT\relax }}{70}{figure.caption.71}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Definici\IeC {\'o}n de la entidad NMT\relax }}{70}{figure.caption.72}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Protocolo NMT\relax }}{73}{figure.caption.73}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Crear Red\relax }}{73}{figure.caption.74}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Crear Objecto Red, Objeto Nodo y Objeto Nodo Remoto\relax }}{74}{figure.caption.75}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Preparar nodo para la conexi\IeC {\'o}n a la red CAN\relax }}{74}{figure.caption.76}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Conectar el nodo a la red CAN\relax }}{75}{figure.caption.77}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Comenzar la comunicaci\IeC {\'o}n de nodos\relax }}{75}{figure.caption.78}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Arquitectura de la entidad DBT\relax }}{76}{figure.caption.79}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Protocolo create\_node\_table\_configuration\relax }}{78}{figure.caption.80}
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Protocolo enable\_distribution\relax }}{79}{figure.caption.81}
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Protocolo disable\_distribution\relax }}{79}{figure.caption.82}
-\contentsline {figure}{\numberline {A.16}{\ignorespaces Protocolo create\_node\_definition\relax }}{79}{figure.caption.83}
-\contentsline {figure}{\numberline {A.17}{\ignorespaces Protocolo delete\_node\_definition\relax }}{80}{figure.caption.84}
-\contentsline {figure}{\numberline {A.18}{\ignorespaces Protocolo get\_checksum\relax }}{80}{figure.caption.85}
-\contentsline {figure}{\numberline {A.19}{\ignorespaces Arquitectura de \textit {Message Management}\relax }}{81}{figure.caption.86}
-\contentsline {figure}{\numberline {A.20}{\ignorespaces Diagrama interno del \textit {Message Management}\relax }}{82}{figure.caption.87}
-\contentsline {figure}{\numberline {A.21}{\ignorespaces Arquitectura del \textit {Node Management}\relax }}{84}{figure.caption.88}
-\contentsline {figure}{\numberline {A.22}{\ignorespaces Frame de datos CANae\relax }}{86}{figure.caption.89}
-\contentsline {figure}{\numberline {A.23}{\ignorespaces Diagrama de bloques del High Application Layer de CANae\relax }}{90}{figure.caption.91}
-\contentsline {figure}{\numberline {A.24}{\ignorespaces Diagrama de bloques internos del High Application Layer de CANae\relax }}{91}{figure.caption.92}
-\contentsline {figure}{\numberline {A.25}{\ignorespaces Diagrama de interacci\IeC {\'o}n del comportamiento del \textit {Network Management}\relax }}{91}{figure.caption.93}
-\contentsline {figure}{\numberline {A.26}{\ignorespaces Diagrama de interacci\IeC {\'o}n del comportamiento del \textit {Network Management en caso de errores}\relax }}{92}{figure.caption.94}
-\contentsline {figure}{\numberline {A.27}{\ignorespaces Diagrama de secuencia de la ejecuci\IeC {\'o}n de tareas del Task Management\relax }}{92}{figure.caption.95}
-\contentsline {figure}{\numberline {A.28}{\ignorespaces Diagrama de secuencia para detener procesos por parte del Task Management\relax }}{93}{figure.caption.96}
-\contentsline {figure}{\numberline {A.29}{\ignorespaces Arquitectura completa del CANae\relax }}{95}{figure.caption.97}
-\contentsline {figure}{\numberline {A.30}{\ignorespaces Definici\IeC {\'o}n de la entidad NMT\relax }}{96}{figure.caption.98}
-\contentsline {figure}{\numberline {A.31}{\ignorespaces Definici\IeC {\'o}n de la entidad NMT\relax }}{96}{figure.caption.99}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Estructura de la capa de aplicaci\IeC {\'o}n de CANae en alto nivel\relax }}{73}{figure.caption.76}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces CANae Application Layer\relax }}{74}{figure.caption.77}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Definici\IeC {\'o}n del Objeto CMS\relax }}{75}{figure.caption.78}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Definici\IeC {\'o}n de la entidad NMT (bloques internos)\relax }}{78}{figure.caption.80}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Definici\IeC {\'o}n de la entidad NMT\relax }}{78}{figure.caption.81}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Protocolo NMT\relax }}{81}{figure.caption.82}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Crear Red\relax }}{81}{figure.caption.83}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Crear Objecto Red, Objeto Nodo y Objeto Nodo Remoto\relax }}{82}{figure.caption.84}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Preparar nodo para la conexi\IeC {\'o}n a la red CAN\relax }}{82}{figure.caption.85}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Conectar el nodo a la red CAN\relax }}{83}{figure.caption.86}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Comenzar la comunicaci\IeC {\'o}n de nodos\relax }}{83}{figure.caption.87}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Arquitectura de la entidad DBT\relax }}{84}{figure.caption.88}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Protocolo create\_node\_table\_configuration\relax }}{86}{figure.caption.89}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Protocolo enable\_distribution\relax }}{87}{figure.caption.90}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Protocolo disable\_distribution\relax }}{87}{figure.caption.91}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Protocolo create\_node\_definition\relax }}{87}{figure.caption.92}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Protocolo delete\_node\_definition\relax }}{88}{figure.caption.93}
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Protocolo get\_checksum\relax }}{88}{figure.caption.94}
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Arquitectura de \textit {Message Management}\relax }}{89}{figure.caption.95}
+\contentsline {figure}{\numberline {A.20}{\ignorespaces Diagrama interno del \textit {Message Management}\relax }}{90}{figure.caption.96}
+\contentsline {figure}{\numberline {A.21}{\ignorespaces Arquitectura del \textit {Node Management}\relax }}{92}{figure.caption.97}
+\contentsline {figure}{\numberline {A.22}{\ignorespaces Frame de datos CANae\relax }}{94}{figure.caption.98}
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Diagrama de bloques del High Application Layer de CANae\relax }}{98}{figure.caption.100}
+\contentsline {figure}{\numberline {A.24}{\ignorespaces Diagrama de bloques internos del High Application Layer de CANae\relax }}{99}{figure.caption.101}
+\contentsline {figure}{\numberline {A.25}{\ignorespaces Diagrama de interacci\IeC {\'o}n del comportamiento del \textit {Network Management}\relax }}{99}{figure.caption.102}
+\contentsline {figure}{\numberline {A.26}{\ignorespaces Diagrama de interacci\IeC {\'o}n del comportamiento del \textit {Network Management en caso de errores}\relax }}{100}{figure.caption.103}
+\contentsline {figure}{\numberline {A.27}{\ignorespaces Diagrama de secuencia de la ejecuci\IeC {\'o}n de tareas del Task Management\relax }}{100}{figure.caption.104}
+\contentsline {figure}{\numberline {A.28}{\ignorespaces Diagrama de secuencia para detener procesos por parte del Task Management\relax }}{101}{figure.caption.105}
+\contentsline {figure}{\numberline {A.29}{\ignorespaces Arquitectura completa del CANae\relax }}{103}{figure.caption.106}
+\contentsline {figure}{\numberline {A.30}{\ignorespaces Definici\IeC {\'o}n de la entidad NMT\relax }}{104}{figure.caption.107}
+\contentsline {figure}{\numberline {A.31}{\ignorespaces Definici\IeC {\'o}n de la entidad NMT\relax }}{104}{figure.caption.108}
 \addvspace {10\p@ }
