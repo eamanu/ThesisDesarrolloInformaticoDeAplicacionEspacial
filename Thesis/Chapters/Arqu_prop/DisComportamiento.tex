@@ -163,9 +163,96 @@ ya pueden comenzar a comunicarse. Esto se observan en las Figuras
 \end{figure}
 
 \subsection{Diagrama de actividades}
+En esta subsección se verá algunos diagramas de actividad para modelar
+el comportamiento de la arquitectura propuesta. Los diagramas de actividades
+comúnmente son utilizados generalmente para describir el comportamiento
+a muy bajo nivel (a nivel de componentes), en otras palabras para modelar
+procesos, mientras que los diagramas de secuencia muestran el comportamiento
+entre elementos y las máquinas de estados  muestra el comportamiento
+dentro de los elementos \citep{HoltPery}.
 
+En la Figura \ref{fig:initNodes} se puede observar el proceso, en detalle,
+del inicio de los nodos. Todo comienza cuando se alimenta (eléctricamente)
+el nodo. En primer lugar, se ejecuta (como ocurre normalmente) el bootstrap,
+este bootea al sistema operativo o al sistema embebido (dependiendo de como
+se implemente). Los siguientes pasos son los esperados para cualquier sistema
+espacial. Se chequea el \ac{HW} propio del nodo, se chequea memoria y componentes.
+Luego, se chequea el estado de salud del subsistema. Para ello, se puede pedir
+el chequeo a la CPU del subsistema, y este a vez, chequea los componentes
+propios del subsistema.
 
+Con estos pasos se puede obtener el Houskeeping (HK) tanto de \ac{HW} propio del nodo
+como del subsistema. Este HK es recibido por el sistema operativo
+(o sistema embebido), y se comienza a hacer un chequeo del lado del
+software. Esto significa que se pueden realizar cualquier tipo de actividad
+para chequear que las tareas (o procesos) se ejecutan correctamente.
 
+Para finalizar, el sistema operativo crea una instancia del stack de servicio de
+comunicación, dónde se encuentra el protocolo de comunicación CANae.
 
+Debe observarse que el chequeo de \ac{HW} tanto propio como el del
+subsistema se encuentra dentro de lo que se denomina \textit{zona interruptible},
+esto significa que si se da alguna \textit{Falla} (Failure en la Figura), debe
+activarse el sistema FDIR del nodo. Este lo que busca en primer lugar
+es detectar la falla, dónde se produjo y por qué. Luego, El sistema trata de
+aislar la falla para que no afecte a ningún otro componente. Por último el
+sistema hará el intento de recuperarse de la falla, en el caso de que se
+recupere correctamente, se regresa hacias las tareas de chequea para
+llevar a cabo estas actividades nuevamente; en caso contrario se termina la actividad.
 
+\begin{figure}[h!]
+ \centering
+ \includegraphics[scale=0.4]{images/Capitulo5/initNodes.JPG}
+  \caption{Diagrama de actividades del inicio de nodos}
+  \label{fig:initNodes}
+\end{figure}
 
+Otra parte importante a modelar de la arquitectura propuesta, es el momento
+de la creación de la red CANae. Como se mencionó anteriormente el protocolo
+CANae (Véase apéndice \ref{Appendix:A}) requiere de la existencia de un nodo monitor
+para coordinar la creación de la red CANae. Este modelo se puede observar
+en la Figura \ref{fig:NodeMonitor}.
+
+En nodo monitor inicia la creación y configuración del nodo enviando la
+señal \textit{create\_remote\_network()} a todos los nodos conectados a la
+red. Cada nodo que recibe la señal, lleva a cabo todas las actividades prevista
+por el protocolo CANae para la creación y configuración de la red. Crea las instancias
+de la red remota, los objetos red, crea la tabla de configuración de nodos y crea
+por último las instancias de los nodos.
+
+\begin{figure}[h!]
+ \centering
+ \includegraphics[scale=0.4]{images/Capitulo5/NodeMonitor.JPG}
+  \caption{Diagrama de actividades del inicio de nodos}
+  \label{fig:NodeMonitor}
+\end{figure}
+
+En segudno paso el nodo monitor envía la señal de \textit{Prepare Remote Node}, la
+cual es recibida por todos los nodos y se preparan internamente para comenzar a
+comunicarse.
+
+Por último,  el nodo nodo monitor envía la señal para que los nodos se conected a
+la red. Cada nodo se conecta, y actualiza su tabla de configuración de nodo. A partir
+de este momento los nodos ya pueden comenzar a enviar mensajes y el nodo monitor ya
+puede ser extraído de la red. 
+
+Por último también se modela el ``cómo'' se comporta la arquitectura al
+momento de tratar de enviar un mensaje de uno nodo a otro nodo. Esto se puede
+observar en la Figura \ref{fig:SendMessage}. En primer lugar el nodo emisor,
+debe ``preparar'' el mensaje. Esto significa que debe empaquetarlo para,
+cumplir tanto con los protocolos CANae, como así también con el procolo CAN.
+
+En segundo paso se debe consultar a la tabla de configuación de nodo, para conocer
+cuál es el camino óptimo para llegar a entregar el mensaje. Para ello se le aplica algún
+algoritmo de ruteo.
+
+Por último, se envía el mensaje através del microcontrolador CAN. Este es recibido por el nodo
+destino y luego es procesado. Esto puede observarse con mayor detalle en el
+apéndice \ref{Appendix:A} dónde se desarrolla el protocolo CANae 0.1 Alpha. 
+
+\begin{figure}[h!]
+ \centering
+ \includegraphics[scale=0.4]{images/Capitulo5/SendMessage.JPG}
+  \caption{Diagrama de actividades del inicio de nodos}
+  \label{fig:SendMessage}
+\end{figure}
