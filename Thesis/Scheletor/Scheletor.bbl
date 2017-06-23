@@ -1,4 +1,4 @@
-\begin{thebibliography}{71}
+\begin{thebibliography}{72}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -295,6 +295,14 @@ Victor~P. Nelson.
 \bibitem[{Papyrus}(3 de {J}unio de 2016)]{PapyrusWeb}
 {Papyrus}.
 \newblock {\texttt{http://eclipse.org/papyrus/}}, 3 de {J}unio de 2016.
+
+\bibitem[Paxton(2007)]{Paxton07}
+Larry~J. Paxton.
+\newblock “faster, better, and cheaper” at nasa: Lessons learned in
+  managing and accepting risk.
+\newblock \emph{Acta Astronautica}, 61\penalty0 (10):\penalty0 954 -- 963,
+  2007.
+\newblock ISSN 0094-5765.
 
 \bibitem[Peng et~al.(2013)Peng, Lu, Miller, Johnson, y Zhao]{Peng13}
 Zhaoguang Peng, Yu~Lu, Alice Miller, Chris Johnson, y Tingdi Zhao.

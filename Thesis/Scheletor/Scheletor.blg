@@ -55,45 +55,45 @@ Warning--empty título in TTTechOrion
 Warning--empty year in TTTechOrion
 Warning--empty año in TTTechOrion
 Warning--empty journal in Woerner00
-You've used 71 entries,
+You've used 72 entries,
             2773 wiz_defined-function locations,
-            1064 strings with 16725 characters,
-and the built_in function-call counts, 28866 in all, are:
-= -- 2503
-> -- 1450
-< -- 71
-+ -- 507
-- -- 436
-* -- 2046
-:= -- 4449
-add.period$ -- 228
-call.type$ -- 71
-change.case$ -- 343
-chr.to.int$ -- 71
-cite$ -- 163
-duplicate$ -- 1500
-empty$ -- 2572
-format.name$ -- 539
-if$ -- 6142
+            1073 strings with 16884 characters,
+and the built_in function-call counts, 29278 in all, are:
+= -- 2543
+> -- 1460
+< -- 72
++ -- 511
+- -- 439
+* -- 2077
+:= -- 4512
+add.period$ -- 232
+call.type$ -- 72
+change.case$ -- 347
+chr.to.int$ -- 72
+cite$ -- 165
+duplicate$ -- 1520
+empty$ -- 2614
+format.name$ -- 543
+if$ -- 6231
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 73
-newline$ -- 375
-num.names$ -- 286
-pop$ -- 839
+missing$ -- 74
+newline$ -- 381
+num.names$ -- 290
+pop$ -- 845
 preamble$ -- 1
-purify$ -- 287
+purify$ -- 290
 quote$ -- 0
-skip$ -- 1115
+skip$ -- 1128
 stack$ -- 0
-substring$ -- 704
-swap$ -- 180
+substring$ -- 733
+swap$ -- 181
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 686
+type$ -- 697
 warning$ -- 21
-while$ -- 256
+while$ -- 260
 width$ -- 0
-write$ -- 931
+write$ -- 946
 (There were 3 error messages)

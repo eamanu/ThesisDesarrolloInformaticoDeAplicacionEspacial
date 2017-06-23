@@ -122,7 +122,7 @@ satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DEL CÓRD
 \input{../Chapters/Art_State/Art_State.tex}
 \chapter{Análisis y desarrollo de arquitectura tolerante a fallas}
 \input{../Chapters/Analisis_Diseno_de_la_Arq/Analisis_Diseno_de_la_Arq.tex}
-\chapter{Arquitectura propuesta}
+\chapter{Arquitectura propuesta}\label{chap:arquitectura_propuesta}
 \input{../Chapters/Arqu_prop/Arqu_prop.tex}
 %\chapter{Análisis y resultados}
 %\input{../Chapters/Analisis_Res/Analisis_Res.tex}
