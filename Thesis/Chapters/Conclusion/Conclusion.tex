@@ -5,7 +5,7 @@ Pero aquella, al ser una organización consciente de sus habilidades (y sobre to
 se puede dar el lujo de innovar, de ir en contra de las corriente y filosofías normales de desarrollo.
 Así, es como surge su lema \textit{Faster, Better and Cheaper} (FBC).
 Este lema fue introducido por el administrador de la NASA Dan Goldin a
-principios de la decáda de los 90's. Dan Goldin tiene una basta experiencia en
+principios de la decáda de los 90's. Dan Goldin tenía una basta experiencia en
 el desarrollo de pequeños satélites. Él estaba convencido de que el desarrollo
 ``clásico'' de misiones satelitales de NASA necesitaba un cambio de enfoque,
 para lograr reducir el tiempo de desarrollo, y pasar de escalas de tiempo de
@@ -30,7 +30,7 @@ Este trabajo tiene como objetivo demostrar que es posible desarrollar
 vehículos espaciales utilizando componentes COTS de baja confiabilidad, trayendo
 consigo una reducción considerable del costo y del tiempo de desarrollo. De más está
 decir, que esta tesis no busca desarrollar en profundidad una arquitectura
-altamente confiable llegando a niveles de detalles,que son esperables en una misión satelital, en la
+altamente confiable llegando a niveles de detalles, que son esperables en una misión satelital, en la
 que participan varios equipos de decenas de ingenieros, managers y científicos. Si no,
 más bien, ser el puntapié inicial de diversas líneas de investigación y desarrollo,
 ya que como se ha demostrado en este trabajo, es factible el desarrollo de estas arquitecturas
@@ -38,8 +38,8 @@ ya que como se ha demostrado en este trabajo, es factible el desarrollo de estas
 
 Luego de llevar a cabo un análisis de los sistemas satelitales y de aviónica que se
 han publicado en diferentes trabajos de investigación, y como resultado de  diversas reuniones
-con diferentes equipos dentro de la Unidad de Desarrollo INVAP, se llegó a la conclusión,
-de que se debe trabajar sobre el  desarrollo de aviónicas confiables,
+con varios equipos dentro de la Unidad de Desarrollo INVAP, se llegó a la conclusión,
+de que se debe trabajar sobre: el  desarrollo de aviónicas confiables
 aún cuando sus componentes sean de baja confiabilidad, la comunicación entre componentes,
 y que existe una tendencia a implementar redes de componentes dentro de los sistemas.
 
@@ -57,8 +57,9 @@ Las cuales fueron las siguientes:
 
 Los resultados del análisis de la confiabilidad se encuentra detallada en la sección
 \ref{seccion:TopologiaEstudio} (Página \pageref{seccion:TopologiaEstudio}) y en
-\cite{Arias17}. Resumiendo como se puede observar en la Figura
-\ref{fig:comparative_reliablitiesConclusion}, la que presenta un mayor grado
+\cite{Arias17}. Resumiendo, como se puede observar en la Figura
+\ref{fig:comparative_reliablitiesConclusion}, una vez realizada una comparativa
+entre redes tolerantes a fallas, la que presenta un mayor grado
 de confiabilidad sostenible en el tiempo es la que corresponde a
 la red distribuida. Este resultado representa un importante aporte para el
 conocimiento de tipos de topologías confiables tolerantes a fallas, y el desarrollo de
@@ -85,7 +86,7 @@ el ambiente espacial (entre otras industrias).
 En base a estos resultados y restricciones se plantea el desafío de implementar,
 crear, diseñar, una arquitectura que sea capaz de trabajar, con una filosofia
 de red distribuida, esta puede estudiarse en \ref{chap:arquitectura_propuesta}
-(Página \pageref{chap:arquitectura_propuesta}). El grado de innovación que coloca
+(Página \pageref{chap:arquitectura_propuesta}). El grado de innovacbión que coloca
 esta nueva arquitectura se ve reflejada en que no existe una computadora única (la
 connotación ``única'' hace referencia a la computadora propiamente dicha más sus
 redundancias, o bien, cualquier (micro)controlador más sus redundancias) por cada
@@ -101,11 +102,66 @@ stack de servicio que deben ser implementados a la hora del desarrollo. Este pro
 se encuentra documentado en el apéndice \ref{Appendix:A} (Página \pageref{Appendix:A}).
 
 En base a los resultados obtenidos y a la arquitectura propuesta basada en CANae
-(apéndice \ref{Appendix:A}) se concluye de que es factible la desarrollar una
+(apéndice \ref{Appendix:A}) se concluye de que es factible  desarrollar una
 \textit{arquitectura de aviónica tolerantes a fallas basada en componentes COTS para
   vehículos satelitales} utilizando el bus CAN, como bus principal de comunicación.
+Si bien esto exige un cambio de paradigma importante, este trabajo concluye con una
+clara demostración de que es posible diseñar arquitecturas fiables basadas
+en componentes baratos y de baja confiabilidad.  
 
 \section{Cumplimiento de los objetivos}
+En la Tabla \ref{table:objetivos_cumplidos} se describe
+si los objetivos planteados fueron cumplimentados o no.
+\begin{table}[h!]
+\small
+\centering
+\caption{Tabla de objetivos cumplidos}
+\label{table:objetivos_cumplidos}
+\begin{tabular}{|p{7cm}|p{8cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Objetivo planteado}} & \multicolumn{1}{c|}{\textbf{Resultado}} \\ \hline
+El objetivo de este trabajo es investigar y analizar arquitecturas de comunicación de los subsistemas de
+aviónica tolerante a fallas basada en componentes COTS para vehículos satelitales de nueva generación. & Cumplido \\ \hline
+Realizar un estudio del estado de la cuestión sobre arquitecturas tolerantes a fallas para sistemas críticos. & Cumplido \\ \hline
+Investigar y analizar arquitecturas tolerantes a fallas que aseguren la confiabilidad del sistema y que sean
+aplicables en la industria satelital. & Cumplido \\ \hline
+Investigar y analizar protocolos de comunicación, para las capas superiores del modelo de OSI (modelo
+de interconexión de sistemas abiertos - ISO/IEC 7498-1), orientados a la tolerancia a fallas y confiabilidad
+de los sistemas. Realizar un estudio comparativo de los diferentes protocolos estudiados. & No cumplido. Debido a la complejidad
+del objetivo demandaría una cantidad de tiempo extra, y no alcanzaría para ser cumplido en el tiempo preestablecido. Se decidió
+trabajar directamente con CAN. \\ \hline
+Investigar una metodología para lograr una medición de la tolerancia a fallas en arquitecturas de aviónica & Cumplido. Se investigó
+metodologías para la medición de topologías. \\ \hline
+Desarrollar un estudio comparativo de arquitecturas tolerantes a fallas con el fin de obtener ventajas y
+desventajas de cada una de ellas. & No cumplido. No se compararon arquitecturas completas debido a que no alcanzaría a ser
+cumplido en el tiempo preestablecido. En contraposición se compararon topologías. \\ \hline
+Diseñar modelos alternativos de arquitecturas tolerantes a fallas, que tenga un grado de confiabilidad tal
+que permita la aplicación de componentes COTS. & No cumplido. Solo se desarrolló una arquitectura debido a cuestiones de tiempo. \\ \hline
+Evaluar la confiabilidad de los modelos de arquitecturas (mediante métrica desarrollada en este trabajo o
+siguiendo otras estrategias). & No cumplido. \\ \hline
+Proponer el diseño de una nueva arquitectura tolerante a fallas, con un grado de confiabilidad suficiente
+para la aplicación de componentes COTS en aviónicas de vehículos satelitales. & Cumplido. \\ \hline
+Simular la arquitectura planteada para medir su grado de tolerancia a fallas y perfomance. & No cumplido. \\ \hline
+\end{tabular}
+\end{table}
+
+En cuanto a las preguntas de investigación que se plantearon para este trabajo de tesis, las respuestas de estas
+se describen a continuacion:
+
+\begin{itemize}
+\item \textbf{¿Es posible la realización de un método de medición del grado de tolerancia a fallas de una arquitectura
+de aviónica?} \textit{No fue posible responder. Se logró desarrollar una manera de comparar la confiabilidad de 
+topologías de arquitecturas, basándose en la tolerancia a fallas. }
+\item \textbf{¿Cuál es la estrategia más indicada de tolerancia a fallas que permita brindar un alto grado de confiabili-
+dad en la utilización de componentes COTS en sistemas críticos?} \textit{En este trabajo se demostró
+que la estrategía más indicada es desarrollar una arquitectura basada en red distribuida.}
+\item \textbf{¿Cuál es la arquitectura más indicada que permita desarrollar tolerancia a fallas en sistemas críticos
+basados en componentes COTS?} \textit{La arquitectura basada en CANae desarrollada en este trabajo de tesis,
+cumple con las necesidades necesarias para sentar las bases de trabajos futuros en la implementación de
+arquitecturas confiables basadas en componentes COTS.}
+\item \textbf{¿Es factible la utilización de componentes COTS en sistemas espaciales?} \textit{Este trabajo de tesis
+demostró que es factible la utilización de componentes COTS.}
+\end{itemize}
 
 \section{Trabajos a futuros}
 Luego de desarrollado este trabajo de tesis, se logra ver el gran potencia que existe
@@ -115,6 +171,11 @@ más confiable que los componentes que la conforman.
 
 Para ello se recomienda proseguir con los siguientes líneas de trabajo futuros:
 \begin{itemize}
-\item 
+\item Diseño detallado, desarrollo e implementación del protocolo CANae.
+\item Diseño detallado de la arquitectura propuesta.
+\item Estudio de nuevas técnicas de tolerancia a fallas aplicadas a los diferentes niveles
+de detalle de las arquitecturas de aviónica.
+\item Desarrollo de algoritmos de ruteo para la distribución de tareas en redes distribuida.
+\item Estudio de tecnología Wireless como medio de comunicación alternativo al cableado.
 \end{itemize}
 

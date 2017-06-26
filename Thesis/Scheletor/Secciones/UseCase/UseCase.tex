@@ -4,98 +4,47 @@
 % Caso de uso: Enviar mensaje %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 \section{Enviar Mensaje}
 
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ001
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-\textit{UserApplication}. Este la aplicación del usuario que se encuentra ejecutandose en el nodo.
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-Este caso de uso recibe los mensajes que la aplicación de usuario necesita enviar
-por la red hacia otro nodo en el sistema.
-
-\large\textbf{Precondición}
-\begin{itemize}
+%\begin{table}[H]
+%\large
+%\centering
+\begin{longtable}{|p{5cm}|p{8cm}|}
+  \hline
+  \textbf{Use Case ID} & El ID del Caso de uso es ARQ001 \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Historia del Caso de Uso}} \\ \hline
+  \textbf{Creado por} & Arias Emmanuel \\ \hline
+  \textbf{Fecha de Creación} & 12 de Junio del 2017 \\ \hline
+  \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
+  \textbf{Actor} & \begin{itemize}
+    \item \textit{UserApplication}.Este es la aplicación del usuario que se encuentra ejecutandose en el nodo.
+  \end{itemize} \\ \hline
+  \textbf{Descripción} & Este caso de uso recibe los mensajes que la aplicación de usuario necesita enviar
+  por la red hacia otro nodo en el sistema. \\ \hline
+  \textbf{Precondición} & \begin{itemize}
 \item El nodo debe estar funcional y conectado a la red.
 \item El protocolo CANae debe haber finalizado su inicialiación.
 \item El nodo destino tiene que estar funcional.
-\end{itemize}
-
-\large\textbf{Postcondición}
-\begin{itemize}
+  \end{itemize} \\ \hline
+  \textbf{Postcondición}  & \begin{itemize}
 \item Debe asegurarase el correcto envío del mensaje.
-\end{itemize}
-
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad media.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-El caso de uso recibe el mensaje proveniente de la aplicación
+\end{itemize} \\ \hline
+  \textbf{Prioridad} & Prioridad media. \\ \hline
+  \textbf{Curso normal de eventos} & El caso de uso recibe el mensaje proveniente de la aplicación
 del usuario. En el siguiente paso prepara el mensaje siguiendo
 los lineamientos del protocolo CANae. Por último lo envía a las
-capas inferiores para ser enviado a través del protocolo CAN.
-
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-En caso de producirse un error en el caso de uso, se lleva a cabo
+capas inferiores para ser enviado a través del protocolo CAN. \\ \hline
+\textbf{Cursos alternativos} & N/A \\ \hline
+\textbf{Excepciones} & En caso de producirse un error en el caso de uso, se lleva a cabo
 una excepción, para avisar a la aplicación de usuario que se
-produjo un error. 
+produjo un error. \\ \hline
+\textbf{Includes} & N/A \\ \hline
+\textbf{Notas y problemas} & N/A \\ \hline
 
-\large\textbf{Includes}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-N/A
-
+\end{longtable}
+%\end{table}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -104,92 +53,32 @@ N/A
 
 \section{Recibir Mensaje}
 
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ002
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-\textit{UserApplication}. Este la aplicación del usuario que se encuentra ejecutandose en el nodo.
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-Este caso de uso recibe los mensajes proveniente de las capas inferiores de CAN
-y luego es enviado a la aplicación del usuario.
-
-\large\textbf{Precondición}
-\begin{itemize}
+\begin{longtable}{|p{5cm}|p{8cm}|}
+  \hline
+  \textbf{Use Case ID} & El ID del Caso de uso es ARQ002 \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Historia del Caso de Uso}} \\ \hline
+  \textbf{Creado por} & Arias Emmanuel \\ \hline
+  \textbf{Fecha de Creación} & 12 de Junio del 2017 \\ \hline
+  \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
+  \textbf{Actor} & \begin{itemize}
+    \item \textit{UserApplication}. Este la aplicación del usuario que se encuentra ejecutandose en el nodo.
+  \end{itemize} \\ \hline
+  \textbf{Descripción} & Este caso de uso recibe los mensajes proveniente de las capas inferiores de CAN
+y luego es enviado a la aplicación del usuario. \\ \hline
+  \textbf{Precondición} & \begin{itemize}
 \item El mensaje tiene que llegar sin errores.
 \item El nodo debe estar conectado y funcional en la red.
 \item El nodo debe estar preparada (no ocupado) para recibir el mensaje.
-\end{itemize}
-
-\large\textbf{Postcondición}
-\vspace{5mm}
-
-N/A
-
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad media.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-El caso de uso recibe el mensaje proveniente de las capas inferiores del CAN.
-Se suponen que llegan sin errores. Luego se envía a la aplicación de usuario.
-
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Includes}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-N/A
-
-
+\end{itemize} \\ \hline
+  \textbf{Postcondición}  & N/A \\ \hline
+  \textbf{Prioridad} & Prioridad media. \\ \hline
+  \textbf{Curso normal de eventos} & N/A \\ \hline
+\textbf{Cursos alternativos} & N/A \\ \hline
+\textbf{Excepciones} & N/A \\ \hline
+\textbf{Includes} & N/A \\ \hline
+\textbf{Notas y problemas} & N/A \\ \hline
+\end{longtable}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Caso de uso: Procesar Mensaje %
@@ -197,91 +86,33 @@ N/A
 
 \section{Procesar Mensaje}
 
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ003
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-Este caso de uso se encarga de recibir los mensajes desde la aplicación
+\begin{longtable}{|p{5cm}|p{8cm}|}
+  \hline
+  \textbf{Use Case ID} & El ID del Caso de uso es ARQ003 \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Historia del Caso de Uso}} \\ \hline
+  \textbf{Creado por} & Arias Emmanuel \\ \hline
+  \textbf{Fecha de Creación} & 12 de Junio del 2017 \\ \hline
+  \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
+  \textbf{Actor} & N/A \\ \hline
+  \textbf{Descripción} & Este caso de uso se encarga de recibir los mensajes desde la aplicación
 de usuario y de las capas inferiores de CAN, para realizar un procesamiento.
 Este procesamiento incluye empaquetado y desempaquetado, y verificación de
 la ocurrencia de errores, clasificación de mensajes que contienen datos
-o eventos.
-
-\large\textbf{Precondición}
-\begin{itemize}
+o eventos. \\ \hline
+  \textbf{Precondición} &\begin{itemize}
 \item El nodo debe estar conectado y funcional en la arquitectura.
-\end{itemize}
-
-\large\textbf{Postcondición}
-\vspace{5mm}
-
-N/A
-
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad alta.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-El caso de uso recibe el mensaje proveniente de las capas inferiores del CAN.
+\end{itemize} \\ \hline
+  \textbf{Postcondición}  & N/A \\ \hline
+  \textbf{Prioridad} & Prioridad alta. \\ \hline
+  \textbf{Curso normal de eventos} & El caso de uso recibe el mensaje proveniente de las capas inferiores del CAN.
 Se suponen que llegan sin errores. Se desempaqueta, se clasifica (si es datos
-o evento) y luego se envía a la aplicación de usuario.
-
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Includes}
-\vspace{3mm}
-Ver Rutear Mensajes. \ref{uc:RutearMensajes}
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-N/A
+o evento) y luego se envía a la aplicación de usuario. \\ \hline
+\textbf{Cursos alternativos} & N/A \\ \hline
+\textbf{Excepciones} & N/A \\ \hline
+\textbf{Includes} & Ver Rutear Mensajes. \ref{uc:RutearMensajes} \\ \hline
+\textbf{Notas y problemas} & N/A \\ \hline
+\end{longtable}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -290,93 +121,33 @@ N/A
 
 \section{Rutear Mensaje}\label{uc:RutearMensajes}
 
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ003.1
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-Este es el encargado de rutear los mensajes. Debe indicar que nodos intermedios
-debe pasar el mensaje hasta llegar al nodo destino.
-
-\large\textbf{Precondición}
-\begin{itemize}
+\begin{longtable}{|p{5cm}|p{8cm}|}
+  \hline
+  \textbf{Use Case ID} & El ID del Caso de uso es ARQ003.1 \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Historia del Caso de Uso}} \\ \hline
+  \textbf{Creado por} & Arias Emmanuel \\ \hline
+  \textbf{Fecha de Creación} & 12 de Junio del 2017 \\ \hline
+  \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
+  \textbf{Actor} & N/A \\ \hline
+  \textbf{Descripción} & Este es el encargado de rutear los mensajes. Debe indicar que nodos intermedios
+debe pasar el mensaje hasta llegar al nodo destino. \\ \hline
+  \textbf{Precondición} & \begin{itemize}
 \item El nodo debe estar conectado y funcional en la arquitectura.
 \item El mensaje debe estar clasificado y empaquetado.
 \item Se debe conocer el nodo destino. 
-\end{itemize}
-
-\large\textbf{Postcondición}
-\vspace{5mm}
-
-N/A
-
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad alta.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-Este caso de uso una vez que se clasifica y empaqueta el mensaje,
+\end{itemize} \\ \hline
+  \textbf{Postcondición}  & N/A \\ \hline
+  \textbf{Prioridad} & Prioridad alta. \\ \hline
+  \textbf{Curso normal de eventos} & Este caso de uso una vez que se clasifica y empaqueta el mensaje,
 debe consultar al Caso de Uso \textit{Gestion de Red} para verificar
 que nodos intermedios debe pasar el mensaje hasta llegar al nodo
-destino. 
-
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Includes}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-N/A
-
+destino.  \\ \hline
+\textbf{Cursos alternativos} & N/A \\ \hline
+\textbf{Excepciones} & N/A \\ \hline
+\textbf{Includes} & N/A \\ \hline
+\textbf{Notas y problemas} & N/A \\ \hline
+\end{longtable}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Caso de uso: Gestionar Red %
@@ -384,96 +155,36 @@ N/A
 
 \section{Gestionar Red}\label{uc:GestionarRed}
 
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ004
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-Este caso de uso se encarga de gestionar la red. Se vale de las
+\begin{longtable}{|p{5cm}|p{8cm}|}
+  \hline
+  \textbf{Use Case ID} & El ID del Caso de uso es ARQ004 \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Historia del Caso de Uso}} \\ \hline
+  \textbf{Creado por} & Arias Emmanuel \\ \hline
+  \textbf{Fecha de Creación} & 12 de Junio del 2017 \\ \hline
+  \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
+  \textbf{Actor} & N/A \\ \hline
+  \textbf{Descripción} & Este caso de uso se encarga de gestionar la red. Se vale de las
 bondades ofrecidas por CANae para conocer cuales son los nodos
 conectados a la red y la distancia que existe entre el nodo
-objetivo y el destino. 
-
-\large\textbf{Precondición}
-\begin{itemize}
+objetivo y el destino. \\ \hline
+  \textbf{Precondición} & \begin{itemize}
 \item El nodo debe estar conectado y funcional en la arquitectura.
 \item El protocolo CANae debe haber finalizado su inicialización.
 \item El protocolo CANae tiene que haber realizar la tabla de ruteo.
-\end{itemize}
-
-\large\textbf{Postcondición}
-\vspace{5mm}
-
-N/A
-
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad alta.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-El caso de uso utiliza las bondades del protocolo CANae para conocer
+\end{itemize} \\ \hline
+  \textbf{Postcondición}  & N/A \\ \hline
+  \textbf{Prioridad} & Prioridad alta. \\ \hline
+  \textbf{Curso normal de eventos} & El caso de uso utiliza las bondades del protocolo CANae para conocer
 cuales son los nodos conectados a la red y su distancia. Este caso
 de uso es la base para que se realice una correcta gestión de tareas
 a realizar en el sistema. Luego con esto se pueden dividir las tareas que
-se llevarán a cabo el los diferentes nodos de la red. 
-
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Includes}
-\vspace{3mm}
-
-Ver Gestionar Tareas \ref{uc:GestionarTareas}
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-N/A
-
+se llevarán a cabo el los diferentes nodos de la red.  \\ \hline
+\textbf{Cursos alternativos} & N/A \\ \hline
+\textbf{Excepciones} & N/A \\ \hline
+\textbf{Includes} & Ver Gestionar Tareas \ref{uc:GestionarTareas} \\ \hline
+\textbf{Notas y problemas} & N/A \\ \hline
+\end{longtable}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Caso de uso: Gestionar Tareas %
@@ -481,94 +192,35 @@ N/A
 
 \section{Gestionar Tareas}\label{uc:GestionarTareas}
 
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ004.1
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-Este caso de uso se encarga de gestionar las tareas que se deben
+\begin{longtable}{|p{5cm}|p{8cm}|}
+  \hline
+  \textbf{Use Case ID} & El ID del Caso de uso es ARQ004.1 \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Historia del Caso de Uso}} \\ \hline
+  \textbf{Creado por} & Arias Emmanuel \\ \hline
+  \textbf{Fecha de Creación} & 12 de Junio del 2017 \\ \hline
+  \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
+  \textbf{Actor} & N/A \\ \hline
+  \textbf{Descripción} & Este caso de uso se encarga de gestionar las tareas que se deben
 ejecutar en la red. Para ello debe implementarse un algoritmo que
 asegure la correcta comunicación con los nodos para lograr
-la gestión de tareas del sistema.
-
-\large\textbf{Precondición}
-\begin{itemize}
+la gestión de tareas del sistema. \\ \hline
+  \textbf{Precondición} & \begin{itemize}
 \item El nodo debe estar conectado y funcional en la arquitectura.
 \item El protocolo CANae debe haber finalizado su inicialización.
 \item El protocolo CANae tiene que haber realizar la tabla de ruteo.
-\end{itemize}
-
-\large\textbf{Postcondición}
-\vspace{5mm}
-
-N/A
-
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad alta.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-En primer lugar debe consultar la tabla de ruteo para conocer la posción de los nodos.
+\end{itemize} \\ \hline
+  \textbf{Postcondición}  & N/A \\ \hline
+  \textbf{Prioridad} & Prioridad alta. \\ \hline
+  \textbf{Curso normal de eventos} & En primer lugar debe consultar la tabla de ruteo para conocer la posción de los nodos.
 Con ello y lista de tareas del sistema, lleva a cabo un algoritmo de
 gestión de tareas, donde se negocia con los demás nodos que tareas se
-van a llevar a cabo en los diferentes nodos.
-
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Includes}
-\vspace{3mm}
-
-Ver Dividir Tareas \ref{uc:DividirTareas}
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-N/A
+van a llevar a cabo en los diferentes nodos. \\ \hline
+\textbf{Cursos alternativos} & N/A \\ \hline
+\textbf{Excepciones} & N/A \\ \hline
+\textbf{Includes} & Ver Dividir Tareas \ref{uc:DividirTareas} \\ \hline
+\textbf{Notas y problemas} & N/A \\ \hline
+\end{longtable}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -577,183 +229,33 @@ N/A
 
 \section{Dividir Tareas}\label{uc:DividirTareas}
 
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ004.1.1
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-Este caso de uso se encarga de realizar al división de las tareas,
-una vez que se ha llevado a cabo la negociación.
-
-\large\textbf{Precondición}
-\begin{itemize}
+\begin{longtable}{|p{5cm}|p{8cm}|}
+  \hline
+  \textbf{Use Case ID} & El ID del Caso de uso es ARQ004.1.1 \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Historia del Caso de Uso}} \\ \hline
+  \textbf{Creado por} & Arias Emmanuel \\ \hline
+  \textbf{Fecha de Creación} & 12 de Junio del 2017 \\ \hline
+  \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
+  \textbf{Actor} & N/A \\ \hline
+  \textbf{Descripción} & Este caso de uso se encarga de realizar al división de las tareas,
+una vez que se ha llevado a cabo la negociación. \\ \hline
+  \textbf{Precondición} & \begin{itemize}
 \item El nodo debe estar conectado y funcional en la arquitectura.
 \item El protocolo CANae debe haber finalizado su inicialización.
 \item El protocolo CANae tiene que haber realizar la tabla de ruteo.
-\item Se debe haber llevado a cabo la negociación correctamente.
-\end{itemize}
-
-\large\textbf{Postcondición}
-\begin{itemize}
+\end{itemize} \\ \hline
+  \textbf{Postcondición}  & \begin{itemize}
   \item Se actualiza la lista de tareas en los nodos.
-\end{itemize}
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad alta.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-Luego de recibir el resultado de la negociación, actualiza la lista
-de tareas que se llevan a cabo en los nodos. E informa a los demás nodos.
-
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Includes}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-N/A
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Caso de uso: Dividir Tareas %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Dividir Tareas}\label{uc:DividirTareas}
-
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ004.1.1
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-Este caso de uso se encarga de realizar al división de las tareas,
-una vez que se ha llevado a cabo la negociación.
-
-\large\textbf{Precondición}
-\begin{itemize}
-\item El nodo debe estar conectado y funcional en la arquitectura.
-\item El protocolo CANae debe haber finalizado su inicialización.
-\item El protocolo CANae tiene que haber realizar la tabla de ruteo.
-\item Se debe haber llevado a cabo la negociación correctamente.
-\end{itemize}
-
-\large\textbf{Postcondición}
-\begin{itemize}
-  \item Se actualiza la lista de tareas en los nodos.
-\end{itemize}
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad alta.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-Luego de recibir el resultado de la negociación, actualiza la lista
-de tareas que se llevan a cabo en los nodos. E informa a los demás nodos.
-
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Includes}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-N/A
-
+\end{itemize} \\ \hline
+  \textbf{Prioridad} & Prioridad alta. \\ \hline
+  \textbf{Curso normal de eventos} & Luego de recibir el resultado de la negociación, actualiza la lista
+de tareas que se llevan a cabo en los nodos. E informa a los demás nodos. \\ \hline
+\textbf{Cursos alternativos} & N/A \\ \hline
+\textbf{Excepciones} & N/A \\ \hline
+\textbf{Includes} & N/A \\ \hline
+\textbf{Notas y problemas} & N/A \\ \hline
+\end{longtable}
 
 %%%%%%%%%%%%%%%%%%%%%
 % Caso de uso: FDIR %
@@ -761,94 +263,39 @@ N/A
 
 \section{FDIR}\label{uc:FDIR}
 
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ005
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-Este caso de uso se encarga de la detección, aislación
+\begin{longtable}{|p{5cm}|p{8cm}|}
+  \hline
+  \textbf{Use Case ID} & El ID del Caso de uso es ARQ005 \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Historia del Caso de Uso}} \\ \hline
+  \textbf{Creado por} & Arias Emmanuel \\ \hline
+  \textbf{Fecha de Creación} & 12 de Junio del 2017 \\ \hline
+  \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
+  \textbf{Actor} & N/A \\ \hline
+  \textbf{Descripción} & Este caso de uso se encarga de la detección, aislación
 y recuperación de errores que se produzcan tanto en el nodo
-como en la red.
-
-\large\textbf{Precondición}
-\begin{itemize}
+como en la red. \\ \hline
+  \textbf{Precondición} & \begin{itemize}
 \item El nodo debe estar conectado y funcional en la arquitectura.
 \item El protocolo CANae debe haber finalizado su inicialización.
 \item El protocolo CANae tiene que haber realizar la tabla de ruteo.
-\end{itemize}
-
-\large\textbf{Postcondición}
-\begin{itemize}
+\end{itemize} \\ \hline
+  \textbf{Postcondición}  & \begin{itemize}
 \item Se toma una medida para lograr aislar y recuperar la arquitectura
   del error que se ha producido.
-\end{itemize}
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad alta.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-Este caso de uso debe observar como se encuentra la red en cada momento. Para
+\end{itemize} \\ \hline
+  \textbf{Prioridad} & Prioridad alta. \\ \hline
+  \textbf{Curso normal de eventos} & Este caso de uso debe observar como se encuentra la red en cada momento. Para
 ello hace uso de las bondades que le puede brindar el caso de uso \textit{
   Gestionar Red}. Cuando detecta que se ha producido una falla en el nodo o en la red,
 lanza una excepción para manejar el problema. 
-
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
-
-Ver \textit{Reconfigurar Arquitectura} \ref{uc:ReconfigurarArquitectura}
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Includes}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-No se llega a realizar un diseño y desarollo de este caso de uso
-en esta instancia del trabajo de tesis.
+ \\ \hline
+\textbf{Cursos alternativos} & Ver \textit{Reconfigurar Arquitectura} \ref{uc:ReconfigurarArquitectura} \\ \hline
+\textbf{Excepciones} & N/A \\ \hline
+\textbf{Includes} & N/A \\ \hline
+\textbf{Notas y problemas} & No se llega a realizar un diseño y desarollo de este caso de uso
+en esta instancia del trabajo de tesis. \\ \hline
+\end{longtable}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -857,89 +304,38 @@ en esta instancia del trabajo de tesis.
 
 \section{Reconfigurar Arquitectura}\label{uc:ReconfigurarArquitectura}
 
-\large\textbf{Use Case ID}
-\vspace{3mm}
-
-El ID del Caso de eso es ARQ006
-
-\Large\textbf{Historia del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Creado por}
-\vspace{3mm}
-
-Arias Emmanuel
-
-\large\textbf{Fecha de Creación}
-\vspace{3mm}
-
-12 de Junio del 2017
-
-\large\textbf{Última actualización}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Fecha de la última actualización}
-\vspace{3mm}
-
-N/A
-
-\Large\textbf{Definición del Caso de Uso}
-\vspace{3mm}
-
-\large\textbf{Actor}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Descripción}
-\vspace{3mm}
-
-
-
-\large\textbf{Precondición}
-\begin{itemize}
+\begin{longtable}{|p{5cm}|p{8cm}|}
+  \hline
+  \textbf{Use Case ID} & El ID del Caso de uso es ARQ006 \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Historia del Caso de Uso}} \\ \hline
+  \textbf{Creado por} & Arias Emmanuel \\ \hline
+  \textbf{Fecha de Creación} & 12 de Junio del 2017 \\ \hline
+  \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
+  \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
+  \textbf{Actor} & N/A \\ \hline
+  \textbf{Descripción} & Este caso de uso se encarga de la detección, aislación
+y recuperación de errores que se produzcan tanto en el nodo
+como en la red. \\ \hline
+  \textbf{Precondición} & \begin{itemize}
 \item El nodo debe estar conectado y funcional en la arquitectura.
 \item El protocolo CANae debe haber finalizado su inicialización.
 \item El protocolo CANae tiene que haber realizar la tabla de ruteo.
-\end{itemize}
-
-\large\textbf{Postcondición}
-\begin{itemize}
+\end{itemize}\\ \hline
+  \textbf{Postcondición}  & \begin{itemize}
 \item Se toma una medida para lograr aislar y recuperar la arquitectura
   del error que se ha producido.
-\end{itemize}
-\large\textbf{Prioridad}
-\vspace{3mm}
-
-Prioridad alta.
-
-\large\textbf{Curso normal de eventos}
-\vspace{3mm}
-
-Este caso de uso debe observar como se encuentra la red en cada momento. Para
+\end{itemize} \\ \hline
+  \textbf{Prioridad} & Prioridad alta. \\ \hline
+  \textbf{Curso normal de eventos} & Este caso de uso debe observar como se encuentra la red en cada momento. Para
 ello hace uso de las bondades que le puede brindar el caso de uso \textit{
   Gestionar Red}. Cuando detecta que se ha producido una falla en el nodo o en la red,
 lanza una excepción para manejar el problema. 
+ \\ \hline
+\textbf{Cursos alternativos} & Ver \textit{Reconfigurar Arquitectura} \ref{uc:ReconfigurarArquitectura} \\ \hline
+\textbf{Excepciones} & N/A \\ \hline
+\textbf{Includes} & N/A \\ \hline
+\textbf{Notas y problemas} & No se llega a realizar un diseño y desarollo de este caso de uso
+en esta instancia del trabajo de tesis. \\ \hline
+\end{longtable}
 
-\large\textbf{Cursos alternativos}
-\vspace{3mm}
 
-Ver \textit{Reconfigurar Arquitectura} \ref{uc:ReconfigurarArquitectura}
-
-\large\textbf{Excepciones}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Includes}
-\vspace{3mm}
-
-N/A
-
-\large\textbf{Notas y problemas}
-\vspace{3mm}
-
-No se llega a realizar un diseño y desarollo de este caso de uso
-en esta instancia del trabajo de tesis.

@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Scheletor.aux
 The style file: plainnatesp.bst.bst
@@ -34,6 +34,8 @@ Warning--entry type for "kvaserWEB" isn't style-file defined
 --line 643 of file biblio.bib.bib
 Warning--entry type for "can-ciaWEB" isn't style-file defined
 --line 651 of file biblio.bib.bib
+Warning--entry type for "CANAerospaceWEB" isn't style-file defined
+--line 671 of file biblio.bib.bib
 Warning--there's a number but no volume in Anderson83
 Warning--empty booktitle in Arias17
 Warning--can't use both author and editor fields in Becker2016
@@ -55,45 +57,45 @@ Warning--empty título in TTTechOrion
 Warning--empty year in TTTechOrion
 Warning--empty año in TTTechOrion
 Warning--empty journal in Woerner00
-You've used 72 entries,
+You've used 73 entries,
             2773 wiz_defined-function locations,
-            1073 strings with 16884 characters,
-and the built_in function-call counts, 29278 in all, are:
-= -- 2543
-> -- 1460
-< -- 72
-+ -- 511
-- -- 439
-* -- 2077
-:= -- 4512
-add.period$ -- 232
-call.type$ -- 72
-change.case$ -- 347
-chr.to.int$ -- 72
-cite$ -- 165
-duplicate$ -- 1520
-empty$ -- 2614
-format.name$ -- 543
-if$ -- 6231
+            1078 strings with 17003 characters,
+and the built_in function-call counts, 29575 in all, are:
+= -- 2569
+> -- 1470
+< -- 73
++ -- 515
+- -- 442
+* -- 2092
+:= -- 4557
+add.period$ -- 235
+call.type$ -- 73
+change.case$ -- 351
+chr.to.int$ -- 73
+cite$ -- 167
+duplicate$ -- 1535
+empty$ -- 2646
+format.name$ -- 547
+if$ -- 6295
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 74
-newline$ -- 381
-num.names$ -- 290
-pop$ -- 845
+newline$ -- 386
+num.names$ -- 294
+pop$ -- 857
 preamble$ -- 1
-purify$ -- 290
+purify$ -- 293
 quote$ -- 0
-skip$ -- 1128
+skip$ -- 1142
 stack$ -- 0
-substring$ -- 733
-swap$ -- 181
+substring$ -- 735
+swap$ -- 182
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 697
+type$ -- 708
 warning$ -- 21
-while$ -- 260
+while$ -- 263
 width$ -- 0
-write$ -- 946
+write$ -- 958
 (There were 3 error messages)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{72}
+\begin{thebibliography}{73}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -376,6 +376,11 @@ Constantine Stivaros.
 \newblock A measure of fault-tolerance for distributed networks.
 \newblock En \emph{Computing and Information, 1992. Proceedings. ICCI '92.,
   Fourth International Conference on}, páginas 426--429, 1992.
+
+\bibitem[{Stock Flight Systems}(2017)]{CANAerospaceWEB}
+{Stock Flight Systems}.
+\newblock {CANAerospace}, 2017.
+\newblock URL \url{{http://www.stockflightsystems.com/canaerospace.html}}.
 
 \bibitem[Stone et~al.(2012)Stone, Alena, Baldwin, y Wilson]{Stone12}
 T.~Stone, R.~Alena, J.~Baldwin, y P.~Wilson.

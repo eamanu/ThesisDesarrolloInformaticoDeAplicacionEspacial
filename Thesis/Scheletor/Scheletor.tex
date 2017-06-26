@@ -53,6 +53,11 @@
 \usepackage{listings}
 
 \usepackage{graphicx}
+
+\usepackage{longtable}
+
+\usepackage{lipsum} % just for dummy text- not needed for a longtable
+
 %------------------------------------------------------------------------------
 % Esto no se usa (YA ESTA DEFINIDO EN EL TEMPLATE)
 %\usepackage{setspace}
@@ -83,13 +88,12 @@ satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DEL CÓRD
 % COMPLETAR CON LICENCIA CREATIVE COMMONS SEGÚN CORRESPONDA
 %\begin{center}
 %%%%% Ejemplo %%%%%%
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics[width=3cm, keepaspectratio=true]{imagenes/Logos/creativecommons.png}
-%\end{figure}
-%\vspace*{-0.5cm}
-%Esta obra está bajo una \href{http://creativecommons.org/licenses/by-sa/2.5/ar/}{Licencia Creative Commons Atribución-CompartirIgual 2.5 Argentina.}
-%\end{center}
+%\begin{figure}[H] \centering \includegraphics[width=3cm,
+%    keepaspectratio=true]{imagenes/Logos/creativecommons.png} \end{figure} \vspace*{-0.5cm}
+%    Esta obra está bajo una
+%    \href{http://creativecommons.org/licenses/by-sa/2.5/ar/}{Licencia
+%    Creative Commons Atribución-CompartirIgual 2.5
+%    Argentina.}  \end{center}
 
 \pagenumbering{gobble}
 
@@ -105,24 +109,26 @@ satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DEL CÓRD
 %-------------------------------------------------------------------------------
 %TODO: Elminiar esta tabla antes de enviar a corregir
 %-------------------------------------------------------------------------------
-\listoftodos
+%\listoftodos
 
 
 %------------------------------------------------------------------------------
 % Numeración arábiga a partir de este punto
-\input{../Chapters/Introduction/Introduction.tex}
 \pagenumbering{arabic}
 \setcounter{page}{1}
-
+\input{../Chapters/Introduction/Introduction.tex}
 % Marco Teorico
 \chapter{Marco Teórico}\label{chap:marco_teorico}
-\epigraph{I recall seeing a package to make quotes}{Snowball}
+\epigraph{Solo sé que no sé nada}{Platón}
 \input{../Chapters/Marco_teorico/Marco_Teorico.tex}
 \chapter{Estado del arte}\label{chap:estado_del_arte}
+\epigraph{Locura es hacer lo mismo una y otra vez esperando obtener resultados diferentes}{Albert Einstein}
 \input{../Chapters/Art_State/Art_State.tex}
 \chapter{Análisis y desarrollo de arquitectura tolerante a fallas}
+\epigraph{La raza humana necesita un desafío intelectual. Debe ser aburrido ser Dios y no tener nada que descubrir}{Stephen Hawking}
 \input{../Chapters/Analisis_Diseno_de_la_Arq/Analisis_Diseno_de_la_Arq.tex}
-\chapter{Arquitectura propuesta}
+\chapter{Arquitectura propuesta}\label{chap:arquitectura_propuesta}
+\epigraph{Dadme un punto de apoyo y moveré el mundo}{Arquímedes} 
 \input{../Chapters/Arqu_prop/Arqu_prop.tex}
 %\chapter{Análisis y resultados}
 %\input{../Chapters/Analisis_Res/Analisis_Res.tex}
