@@ -1,2 +1,20 @@
 \section{Sistemas Hypercube}
-Escribir algo
+Hypercube es una técnica utilizada para
+conectar múltiples procesadores. Esta topología
+tiene propiedades de tolerancia a fallas de un
+componente, ya que si esto se produce, no se
+transmite a todo el sistema \citep{Rong96}. Otra ventaja que
+presenta esta topología es la disponibilidad de
+enlaces entre cualquier par de nodos \citep{Mostafa14}. Un
+hypercube n-dimensional tiene: $$2^n $$ nodos y $$n2^{n-1}$$ enlaces.
+Los nodos está conectados a n nodos vecinos a través de n enlaces \citep{Rong96}. Estas
+relaciones pueden ser representadas en forma de matrices de proximidad \citep{Mostafa14}.
+En \cite{Mostafa14} se muestra una manera sencilla de calcular la confiabilidad
+de sistemas de este tipo. La probabilidad de falla de la red ($p_n$) depende
+de la probabilidad de falla de cada uno de los nodos ($p_n$), suponiendo
+que todos los nodos tienen la misma probabilidad de falla la confiabilidad
+del sistema sería: $$R(N) = 1 -(NP_v)$$.
+
+Para calcular la confiabilidad de una red hypercube se debe seguir
+la fórmula $$R(N) = 1 -(NP_v)$$, a esta se le realiza leves modificaciones
+para obtener el siguiente cálculo de confiabilidad: $$ R_{sys} = 1 - [N(1-e^{- \lambda t})]$$

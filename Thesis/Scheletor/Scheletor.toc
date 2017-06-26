@@ -90,127 +90,125 @@
 \contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{36}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{37}{subsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{37}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Extensi\IeC {\'o}n de la arquitectura con backup}{38}{subsubsection.3.1.1.2}
-\contentsline {subsection}{\numberline {3.1.2}Esquema de \IeC {\'a}rbol binario con degradaci\IeC {\'o}n de perfomance}{38}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Sistemas Hypercube}{38}{section.3.2}
 \contentsline {section}{\numberline {3.3}Redes distribu\IeC {\'\i }das}{39}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Algoritmo de ruteo}{39}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Algoritmo de ruteo}{40}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Redes Ethernet en avi\IeC {\'o}nica}{40}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Experiencia de vuelo}{41}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Arquitectura de red basada en BUS}{41}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Evaluaci\IeC {\'o}n de la confiabilidad de arquitecturas basadas en BUS}{42}{subsection.3.5.1}
+\contentsline {section}{\numberline {3.5}Arquitectura de red basada en BUS}{42}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Evaluaci\IeC {\'o}n de la confiabilidad de arquitecturas basadas en BUS}{43}{subsection.3.5.1}
 \contentsline {section}{\numberline {3.6}M\IeC {\'e}trica y modelado de la confiabilidad de sistemas}{43}{section.3.6}
 \contentsline {section}{\numberline {3.7}CAN en la actividad espacial}{45}{section.3.7}
-\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis y desarrollo de arquitectura tolerante a fallas}{46}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{46}{section.4.1}
-\contentsline {section}{\numberline {4.2}Requerimientos para el an\IeC {\'a}lisis}{46}{section.4.2}
-\contentsline {section}{\numberline {4.3}Nomenclatura}{47}{section.4.3}
-\contentsline {section}{\numberline {4.4}Estudio de topolog\IeC {\'\i }as de arquitecturas}{48}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}\IeC {\'A}rbol binario}{48}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Red distribuida}{49}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Red hypercube}{50}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Topolog\IeC {\'\i }a utilizada en la arquitectura a dise\IeC {\~n}ar}{51}{section.4.5}
-\contentsline {section}{\numberline {4.6}Topolog\IeC {\'\i }a propuesta}{53}{section.4.6}
-\contentsline {section}{\numberline {4.7}Protocolo de comunicaci\IeC {\'o}n}{53}{section.4.7}
-\contentsline {chapter}{\numberline {5}Arquitectura propuesta}{57}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{57}{section.5.1}
-\contentsline {section}{\numberline {5.2}\IeC {\'A}rbol de requrimientos}{57}{section.5.2}
-\contentsline {section}{\numberline {5.3}Casos de Uso}{60}{section.5.3}
-\contentsline {section}{\numberline {5.4}Dise\IeC {\~n}o Estructural}{62}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Bridge tolerante a fallas}{62}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Bloques Internos}{63}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Nodo Monitor}{65}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}Modelo din\IeC {\'a}mico}{65}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}M\IeC {\'a}quina de estado}{66}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Diagrama de secuencia}{66}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Diagrama de actividades}{67}{subsection.5.5.3}
-\contentsline {chapter}{\numberline {6}Conclusi\IeC {\'o}n}{76}{chapter.6}
-\contentsline {section}{\numberline {6.1}Cumplimiento de los objetivos}{78}{section.6.1}
-\contentsline {section}{\numberline {6.2}Trabajos a futuros}{78}{section.6.2}
-\contentsline {chapter}{Bibliograf\'ia}{84}{chapter*.81}
-\contentsline {chapter}{\numberline {A}Protocolo de comunicaci\IeC {\'o}n: CANae 0.1 Alpha Version}{85}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Introducci\IeC {\'o}n}{85}{section.Alph1.1}
-\contentsline {subsection}{\numberline {A.1.1}Revisiones}{85}{subsection.Alph1.1.1}
-\contentsline {section}{\numberline {A.2}Capa de aplicaci\IeC {\'o}n}{86}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}Tipos de servicios de la capa de aplicaci\IeC {\'o}n}{86}{section.Alph1.3}
-\contentsline {section}{\numberline {A.4}CANae Application Layer}{87}{section.Alph1.4}
-\contentsline {section}{\numberline {A.5}CMS}{88}{section.Alph1.5}
-\contentsline {subsection}{\numberline {A.5.1}Prioridades de los objetos}{88}{subsection.Alph1.5.1}
-\contentsline {subsection}{\numberline {A.5.2}Objeto CMS}{88}{subsection.Alph1.5.2}
-\contentsline {subsection}{\numberline {A.5.3}Servicios de CMS}{88}{subsection.Alph1.5.3}
-\contentsline {subsubsection}{\numberline {A.5.3.1}Servicios locales}{89}{subsubsection.Alph1.5.3.1}
-\contentsline {subsubsection}{\numberline {A.5.3.2}Servicios remotos}{90}{subsubsection.Alph1.5.3.2}
-\contentsline {subsection}{\numberline {A.5.4}Eventos}{90}{subsection.Alph1.5.4}
-\contentsline {subsubsection}{\numberline {A.5.4.1}Servicios locales}{90}{subsubsection.Alph1.5.4.1}
-\contentsline {subsubsection}{\numberline {A.5.4.2}Setvicios remotos}{90}{subsubsection.Alph1.5.4.2}
-\contentsline {subsubsection}{\numberline {A.5.4.3}Prioridad de eventos}{90}{subsubsection.Alph1.5.4.3}
-\contentsline {section}{\numberline {A.6}NMT}{91}{section.Alph1.6}
-\contentsline {subsection}{\numberline {A.6.1}Objectos NMT}{92}{subsection.Alph1.6.1}
-\contentsline {subsection}{\numberline {A.6.2}Servicios NMT}{92}{subsection.Alph1.6.2}
-\contentsline {subsubsection}{\numberline {A.6.2.1}Module Control Service}{93}{subsubsection.Alph1.6.2.1}
-\contentsline {subsubsection}{\numberline {A.6.2.2}Error Control Services}{93}{subsubsection.Alph1.6.2.2}
-\contentsline {subsubsection}{\numberline {A.6.2.3}Configuration Control Services}{93}{subsubsection.Alph1.6.2.3}
-\contentsline {subsubsection}{\numberline {A.6.2.4}Servicios a implementar}{93}{subsubsection.Alph1.6.2.4}
-\contentsline {subsection}{\numberline {A.6.3}Protocolos NMT}{94}{subsection.Alph1.6.3}
-\contentsline {subsubsection}{\numberline {A.6.3.1}Crear red CANae}{94}{subsubsection.Alph1.6.3.1}
-\contentsline {subsubsection}{\numberline {A.6.3.2}Crear Red}{94}{subsubsection.Alph1.6.3.2}
-\contentsline {subsubsection}{\numberline {A.6.3.3}Crear Objecto Red, Objeto Nodo y Objeto Nodo Remoto}{94}{subsubsection.Alph1.6.3.3}
-\contentsline {subsubsection}{\numberline {A.6.3.4}Preparar nodos para conexi\IeC {\'o}n}{94}{subsubsection.Alph1.6.3.4}
-\contentsline {subsubsection}{\numberline {A.6.3.5}Conectar nodos en la red}{95}{subsubsection.Alph1.6.3.5}
-\contentsline {subsubsection}{\numberline {A.6.3.6}Comenzar la comunicaci\IeC {\'o}n}{97}{subsubsection.Alph1.6.3.6}
-\contentsline {section}{\numberline {A.7}DBT}{97}{section.Alph1.7}
-\contentsline {subsection}{\numberline {A.7.1}Objetos y servicios de DBT}{98}{subsection.Alph1.7.1}
-\contentsline {subsection}{\numberline {A.7.2}Descripci\IeC {\'o}n de los servicios DBT}{98}{subsection.Alph1.7.2}
-\contentsline {subsection}{\numberline {A.7.3}Objetos DBT}{99}{subsection.Alph1.7.3}
-\contentsline {subsection}{\numberline {A.7.4}Servicios DBT}{99}{subsection.Alph1.7.4}
-\contentsline {subsubsection}{\numberline {A.7.4.1}Distribution Control Services}{99}{subsubsection.Alph1.7.4.1}
-\contentsline {subsubsection}{\numberline {A.7.4.2}Consistency Control Service}{99}{subsubsection.Alph1.7.4.2}
-\contentsline {subsection}{\numberline {A.7.5}Protocolos DBT}{99}{subsection.Alph1.7.5}
-\contentsline {subsubsection}{\numberline {A.7.5.1}Crear NodeTableConfiguration}{99}{subsubsection.Alph1.7.5.1}
-\contentsline {subsubsection}{\numberline {A.7.5.2}Habilitar distribuci\IeC {\'o}n}{100}{subsubsection.Alph1.7.5.2}
-\contentsline {subsubsection}{\numberline {A.7.5.3}Deshabilitar distribuci\IeC {\'o}n}{100}{subsubsection.Alph1.7.5.3}
-\contentsline {subsubsection}{\numberline {A.7.5.4}Crear definici\IeC {\'o}n del nodo}{100}{subsubsection.Alph1.7.5.4}
-\contentsline {subsubsection}{\numberline {A.7.5.5}Eliminar la definici\IeC {\'o}n del nodo}{101}{subsubsection.Alph1.7.5.5}
-\contentsline {subsubsection}{\numberline {A.7.5.6}Checksum}{101}{subsubsection.Alph1.7.5.6}
-\contentsline {section}{\numberline {A.8}Gestor de mensajes}{102}{section.Alph1.8}
-\contentsline {subsection}{\numberline {A.8.1}Receiver Manager}{102}{subsection.Alph1.8.1}
-\contentsline {subsection}{\numberline {A.8.2}Prepared Message}{103}{subsection.Alph1.8.2}
-\contentsline {subsection}{\numberline {A.8.3}Sorter Message}{104}{subsection.Alph1.8.3}
-\contentsline {subsection}{\numberline {A.8.4}Buffer Messages}{104}{subsection.Alph1.8.4}
-\contentsline {subsection}{\numberline {A.8.5}Buffer Message Receive y Buffer Message To Send}{105}{subsection.Alph1.8.5}
-\contentsline {section}{\numberline {A.9}Gestor de Nodo}{105}{section.Alph1.9}
-\contentsline {subsection}{\numberline {A.9.1}Tabla primara y secundaria de ruteo}{106}{subsection.Alph1.9.1}
-\contentsline {subsubsection}{\numberline {A.9.1.1}Tabla primaria}{106}{subsubsection.Alph1.9.1.1}
-\contentsline {subsubsection}{\numberline {A.9.1.2}Tabla secundaria}{106}{subsubsection.Alph1.9.1.2}
-\contentsline {subsection}{\numberline {A.9.2}Servicios}{107}{subsection.Alph1.9.2}
-\contentsline {section}{\numberline {A.10}Formato de mensajes}{108}{section.Alph1.10}
-\contentsline {subsection}{\numberline {A.10.1}Start of Frame}{109}{subsection.Alph1.10.1}
-\contentsline {subsection}{\numberline {A.10.2}Priority}{109}{subsection.Alph1.10.2}
-\contentsline {subsection}{\numberline {A.10.3}Node-ID}{109}{subsection.Alph1.10.3}
-\contentsline {subsection}{\numberline {A.10.4}Remote transmission request (RTR)}{109}{subsection.Alph1.10.4}
-\contentsline {subsection}{\numberline {A.10.5}Type of Message (TOM)}{109}{subsection.Alph1.10.5}
-\contentsline {subsection}{\numberline {A.10.6}Bit reservado}{109}{subsection.Alph1.10.6}
-\contentsline {subsection}{\numberline {A.10.7}Data length}{109}{subsection.Alph1.10.7}
-\contentsline {subsection}{\numberline {A.10.8}Data field}{110}{subsection.Alph1.10.8}
-\contentsline {subsection}{\numberline {A.10.9}CRC}{110}{subsection.Alph1.10.9}
-\contentsline {subsection}{\numberline {A.10.10}CRC delimiter}{110}{subsection.Alph1.10.10}
-\contentsline {subsection}{\numberline {A.10.11}ACK}{110}{subsection.Alph1.10.11}
-\contentsline {subsection}{\numberline {A.10.12}ACK delimiter}{110}{subsection.Alph1.10.12}
-\contentsline {subsection}{\numberline {A.10.13}End-of-Frame (EOF)}{110}{subsection.Alph1.10.13}
-\contentsline {section}{\numberline {A.11}High Application Layer CANae}{111}{section.Alph1.11}
-\contentsline {subsection}{\numberline {A.11.1}Network Management}{111}{subsection.Alph1.11.1}
-\contentsline {subsection}{\numberline {A.11.2}Task Management}{112}{subsection.Alph1.11.2}
-\contentsline {subsection}{\numberline {A.11.3}List of Tasks}{114}{subsection.Alph1.11.3}
-\contentsline {subsection}{\numberline {A.11.4}Task}{115}{subsection.Alph1.11.4}
-\contentsline {section}{\numberline {A.12}Arquitectura completa del CANae}{115}{section.Alph1.12}
-\contentsline {section}{\numberline {A.13}Estados de nodos y red}{115}{section.Alph1.13}
-\contentsline {chapter}{\numberline {B}Especificaci\IeC {\'o}n de Casos de Uso}{118}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Enviar Mensaje}{118}{section.Alph2.1}
-\contentsline {section}{\numberline {B.2}Recibir Mensaje}{119}{section.Alph2.2}
-\contentsline {section}{\numberline {B.3}Procesar Mensaje}{120}{section.Alph2.3}
-\contentsline {section}{\numberline {B.4}Rutear Mensaje}{120}{section.Alph2.4}
-\contentsline {section}{\numberline {B.5}Gestionar Red}{121}{section.Alph2.5}
-\contentsline {section}{\numberline {B.6}Gestionar Tareas}{122}{section.Alph2.6}
-\contentsline {section}{\numberline {B.7}Dividir Tareas}{123}{section.Alph2.7}
-\contentsline {section}{\numberline {B.8}FDIR}{123}{section.Alph2.8}
-\contentsline {section}{\numberline {B.9}Reconfigurar Arquitectura}{124}{section.Alph2.9}
+\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis y desarrollo de arquitectura tolerante a fallas}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{47}{section.4.1}
+\contentsline {section}{\numberline {4.2}Requerimientos para el an\IeC {\'a}lisis}{47}{section.4.2}
+\contentsline {section}{\numberline {4.3}Nomenclatura}{48}{section.4.3}
+\contentsline {section}{\numberline {4.4}Estudio de topolog\IeC {\'\i }as de arquitecturas}{49}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}\IeC {\'A}rbol binario}{49}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Red distribuida}{50}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Red hypercube}{51}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Topolog\IeC {\'\i }a utilizada en la arquitectura a dise\IeC {\~n}ar}{52}{section.4.5}
+\contentsline {section}{\numberline {4.6}Topolog\IeC {\'\i }a propuesta}{54}{section.4.6}
+\contentsline {section}{\numberline {4.7}Protocolo de comunicaci\IeC {\'o}n}{54}{section.4.7}
+\contentsline {chapter}{\numberline {5}Arquitectura propuesta}{58}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{58}{section.5.1}
+\contentsline {section}{\numberline {5.2}\IeC {\'A}rbol de requrimientos}{58}{section.5.2}
+\contentsline {section}{\numberline {5.3}Casos de Uso}{61}{section.5.3}
+\contentsline {section}{\numberline {5.4}Dise\IeC {\~n}o Estructural}{63}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Bridge tolerante a fallas}{63}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Bloques Internos}{64}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Nodo Monitor}{66}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Modelo din\IeC {\'a}mico}{66}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}M\IeC {\'a}quina de estado}{67}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Diagrama de secuencia}{67}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Diagrama de actividades}{68}{subsection.5.5.3}
+\contentsline {chapter}{\numberline {6}Conclusi\IeC {\'o}n}{77}{chapter.6}
+\contentsline {section}{\numberline {6.1}Conclusiones finales}{79}{section.6.1}
+\contentsline {section}{\numberline {6.2}Perspectivas a futuros}{79}{section.6.2}
+\contentsline {chapter}{Bibliograf\'ia}{85}{chapter*.80}
+\contentsline {chapter}{\numberline {A}Protocolo de comunicaci\IeC {\'o}n: CANae 0.1 Alpha Version}{86}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Introducci\IeC {\'o}n}{86}{section.Alph1.1}
+\contentsline {subsection}{\numberline {A.1.1}Revisiones}{86}{subsection.Alph1.1.1}
+\contentsline {section}{\numberline {A.2}Capa de aplicaci\IeC {\'o}n}{87}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Tipos de servicios de la capa de aplicaci\IeC {\'o}n}{87}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}CANae Application Layer}{88}{section.Alph1.4}
+\contentsline {section}{\numberline {A.5}CMS}{89}{section.Alph1.5}
+\contentsline {subsection}{\numberline {A.5.1}Prioridades de los objetos}{89}{subsection.Alph1.5.1}
+\contentsline {subsection}{\numberline {A.5.2}Objeto CMS}{89}{subsection.Alph1.5.2}
+\contentsline {subsection}{\numberline {A.5.3}Servicios de CMS}{89}{subsection.Alph1.5.3}
+\contentsline {subsubsection}{\numberline {A.5.3.1}Servicios locales}{90}{subsubsection.Alph1.5.3.1}
+\contentsline {subsubsection}{\numberline {A.5.3.2}Servicios remotos}{91}{subsubsection.Alph1.5.3.2}
+\contentsline {subsection}{\numberline {A.5.4}Eventos}{91}{subsection.Alph1.5.4}
+\contentsline {subsubsection}{\numberline {A.5.4.1}Servicios locales}{91}{subsubsection.Alph1.5.4.1}
+\contentsline {subsubsection}{\numberline {A.5.4.2}Setvicios remotos}{91}{subsubsection.Alph1.5.4.2}
+\contentsline {subsubsection}{\numberline {A.5.4.3}Prioridad de eventos}{91}{subsubsection.Alph1.5.4.3}
+\contentsline {section}{\numberline {A.6}NMT}{92}{section.Alph1.6}
+\contentsline {subsection}{\numberline {A.6.1}Objectos NMT}{93}{subsection.Alph1.6.1}
+\contentsline {subsection}{\numberline {A.6.2}Servicios NMT}{93}{subsection.Alph1.6.2}
+\contentsline {subsubsection}{\numberline {A.6.2.1}Module Control Service}{94}{subsubsection.Alph1.6.2.1}
+\contentsline {subsubsection}{\numberline {A.6.2.2}Error Control Services}{94}{subsubsection.Alph1.6.2.2}
+\contentsline {subsubsection}{\numberline {A.6.2.3}Configuration Control Services}{94}{subsubsection.Alph1.6.2.3}
+\contentsline {subsubsection}{\numberline {A.6.2.4}Servicios a implementar}{94}{subsubsection.Alph1.6.2.4}
+\contentsline {subsection}{\numberline {A.6.3}Protocolos NMT}{95}{subsection.Alph1.6.3}
+\contentsline {subsubsection}{\numberline {A.6.3.1}Crear red CANae}{95}{subsubsection.Alph1.6.3.1}
+\contentsline {subsubsection}{\numberline {A.6.3.2}Crear Red}{95}{subsubsection.Alph1.6.3.2}
+\contentsline {subsubsection}{\numberline {A.6.3.3}Crear Objecto Red, Objeto Nodo y Objeto Nodo Remoto}{95}{subsubsection.Alph1.6.3.3}
+\contentsline {subsubsection}{\numberline {A.6.3.4}Preparar nodos para conexi\IeC {\'o}n}{95}{subsubsection.Alph1.6.3.4}
+\contentsline {subsubsection}{\numberline {A.6.3.5}Conectar nodos en la red}{96}{subsubsection.Alph1.6.3.5}
+\contentsline {subsubsection}{\numberline {A.6.3.6}Comenzar la comunicaci\IeC {\'o}n}{98}{subsubsection.Alph1.6.3.6}
+\contentsline {section}{\numberline {A.7}DBT}{98}{section.Alph1.7}
+\contentsline {subsection}{\numberline {A.7.1}Objetos y servicios de DBT}{99}{subsection.Alph1.7.1}
+\contentsline {subsection}{\numberline {A.7.2}Descripci\IeC {\'o}n de los servicios DBT}{99}{subsection.Alph1.7.2}
+\contentsline {subsection}{\numberline {A.7.3}Objetos DBT}{100}{subsection.Alph1.7.3}
+\contentsline {subsection}{\numberline {A.7.4}Servicios DBT}{100}{subsection.Alph1.7.4}
+\contentsline {subsubsection}{\numberline {A.7.4.1}Distribution Control Services}{100}{subsubsection.Alph1.7.4.1}
+\contentsline {subsubsection}{\numberline {A.7.4.2}Consistency Control Service}{100}{subsubsection.Alph1.7.4.2}
+\contentsline {subsection}{\numberline {A.7.5}Protocolos DBT}{100}{subsection.Alph1.7.5}
+\contentsline {subsubsection}{\numberline {A.7.5.1}Crear NodeTableConfiguration}{100}{subsubsection.Alph1.7.5.1}
+\contentsline {subsubsection}{\numberline {A.7.5.2}Habilitar distribuci\IeC {\'o}n}{101}{subsubsection.Alph1.7.5.2}
+\contentsline {subsubsection}{\numberline {A.7.5.3}Deshabilitar distribuci\IeC {\'o}n}{101}{subsubsection.Alph1.7.5.3}
+\contentsline {subsubsection}{\numberline {A.7.5.4}Crear definici\IeC {\'o}n del nodo}{101}{subsubsection.Alph1.7.5.4}
+\contentsline {subsubsection}{\numberline {A.7.5.5}Eliminar la definici\IeC {\'o}n del nodo}{102}{subsubsection.Alph1.7.5.5}
+\contentsline {subsubsection}{\numberline {A.7.5.6}Checksum}{102}{subsubsection.Alph1.7.5.6}
+\contentsline {section}{\numberline {A.8}Gestor de mensajes}{103}{section.Alph1.8}
+\contentsline {subsection}{\numberline {A.8.1}Receiver Manager}{103}{subsection.Alph1.8.1}
+\contentsline {subsection}{\numberline {A.8.2}Prepared Message}{104}{subsection.Alph1.8.2}
+\contentsline {subsection}{\numberline {A.8.3}Sorter Message}{105}{subsection.Alph1.8.3}
+\contentsline {subsection}{\numberline {A.8.4}Buffer Messages}{105}{subsection.Alph1.8.4}
+\contentsline {subsection}{\numberline {A.8.5}Buffer Message Receive y Buffer Message To Send}{106}{subsection.Alph1.8.5}
+\contentsline {section}{\numberline {A.9}Gestor de Nodo}{106}{section.Alph1.9}
+\contentsline {subsection}{\numberline {A.9.1}Tabla primara y secundaria de ruteo}{107}{subsection.Alph1.9.1}
+\contentsline {subsubsection}{\numberline {A.9.1.1}Tabla primaria}{107}{subsubsection.Alph1.9.1.1}
+\contentsline {subsubsection}{\numberline {A.9.1.2}Tabla secundaria}{107}{subsubsection.Alph1.9.1.2}
+\contentsline {subsection}{\numberline {A.9.2}Servicios}{108}{subsection.Alph1.9.2}
+\contentsline {section}{\numberline {A.10}Formato de mensajes}{109}{section.Alph1.10}
+\contentsline {subsection}{\numberline {A.10.1}Start of Frame}{110}{subsection.Alph1.10.1}
+\contentsline {subsection}{\numberline {A.10.2}Priority}{110}{subsection.Alph1.10.2}
+\contentsline {subsection}{\numberline {A.10.3}Node-ID}{110}{subsection.Alph1.10.3}
+\contentsline {subsection}{\numberline {A.10.4}Remote transmission request (RTR)}{110}{subsection.Alph1.10.4}
+\contentsline {subsection}{\numberline {A.10.5}Type of Message (TOM)}{110}{subsection.Alph1.10.5}
+\contentsline {subsection}{\numberline {A.10.6}Bit reservado}{110}{subsection.Alph1.10.6}
+\contentsline {subsection}{\numberline {A.10.7}Data length}{110}{subsection.Alph1.10.7}
+\contentsline {subsection}{\numberline {A.10.8}Data field}{111}{subsection.Alph1.10.8}
+\contentsline {subsection}{\numberline {A.10.9}CRC}{111}{subsection.Alph1.10.9}
+\contentsline {subsection}{\numberline {A.10.10}CRC delimiter}{111}{subsection.Alph1.10.10}
+\contentsline {subsection}{\numberline {A.10.11}ACK}{111}{subsection.Alph1.10.11}
+\contentsline {subsection}{\numberline {A.10.12}ACK delimiter}{111}{subsection.Alph1.10.12}
+\contentsline {subsection}{\numberline {A.10.13}End-of-Frame (EOF)}{111}{subsection.Alph1.10.13}
+\contentsline {section}{\numberline {A.11}High Application Layer CANae}{112}{section.Alph1.11}
+\contentsline {subsection}{\numberline {A.11.1}Network Management}{112}{subsection.Alph1.11.1}
+\contentsline {subsection}{\numberline {A.11.2}Task Management}{113}{subsection.Alph1.11.2}
+\contentsline {subsection}{\numberline {A.11.3}List of Tasks}{115}{subsection.Alph1.11.3}
+\contentsline {subsection}{\numberline {A.11.4}Task}{116}{subsection.Alph1.11.4}
+\contentsline {section}{\numberline {A.12}Arquitectura completa del CANae}{116}{section.Alph1.12}
+\contentsline {section}{\numberline {A.13}Estados de nodos y red}{116}{section.Alph1.13}
+\contentsline {chapter}{\numberline {B}Especificaci\IeC {\'o}n de Casos de Uso}{119}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Enviar Mensaje}{119}{section.Alph2.1}
+\contentsline {section}{\numberline {B.2}Recibir Mensaje}{120}{section.Alph2.2}
+\contentsline {section}{\numberline {B.3}Procesar Mensaje}{121}{section.Alph2.3}
+\contentsline {section}{\numberline {B.4}Rutear Mensaje}{121}{section.Alph2.4}
+\contentsline {section}{\numberline {B.5}Gestionar Red}{122}{section.Alph2.5}
+\contentsline {section}{\numberline {B.6}Gestionar Tareas}{123}{section.Alph2.6}
+\contentsline {section}{\numberline {B.7}Dividir Tareas}{124}{section.Alph2.7}
+\contentsline {section}{\numberline {B.8}FDIR}{124}{section.Alph2.8}
+\contentsline {section}{\numberline {B.9}Reconfigurar Arquitectura}{125}{section.Alph2.9}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{74}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -241,6 +241,12 @@ Jim Krodel y George Romanski.
 {Kvaser}.
 \newblock {Kvaser}, 2017.
 \newblock URL \url{{https://www.kvaser.com/can-protocol-tutorial/}}.
+
+\bibitem[Leu y Kuo(1996)]{Rong96}
+Yuh-Rong Leu y Sy-Yen Kuo.
+\newblock A fault-tolerant tree communication scheme for hypercube systems.
+\newblock \emph{IEEE Transactions on Computers}, 45\penalty0 (6):\penalty0
+  641--650, Jun 1996.
 
 \bibitem[Lisner(2007)]{Lisner07}
 Jens~C. Lisner.

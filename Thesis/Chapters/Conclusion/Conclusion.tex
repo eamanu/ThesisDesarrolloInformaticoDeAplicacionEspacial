@@ -1,51 +1,53 @@
 No es un secreto de que llevar a cabo una misión satelital representa grandes costos
-y largos periódos de tiempo de desarrollo de la misión.
+y largos periódos de trabajo de desarrollo de la misión.
 La NASA también padeció estos problemas hace algunas décadas.
-Pero aquella, al ser una organización consciente de sus habilidades (y sobre todo con recursos),
-se puede dar el lujo de innovar, de ir en contra de las corriente y filosofías normales de desarrollo.
-Así, es como surge su lema \textit{Faster, Better and Cheaper} (FBC).
-Este lema fue introducido por el administrador de la NASA Dan Goldin a
-principios de la decáda de los 90's. Dan Goldin tenía una basta experiencia en
-el desarrollo de pequeños satélites. Él estaba convencido de que el desarrollo
+Pero, al ser una organización que suele ir en contra de las corrientes y filosofías
+normales de desarrollo, contar con personal altamente capacitado y disponer de recursos
+económicos, pudo afrontar los obstáculos e innovar.Así, es como
+surge su lema \textit{Faster, Better and Cheaper} (FBC).
+El cual fue introducido por el administrador de la NASA Dan Goldin a
+principios de la década de los 90's. Dan Goldin tenía una vasta experiencia en
+el desarrollo de pequeños satélites, y estaba convencido de que el desarrollo
 ``clásico'' de misiones satelitales de NASA necesitaba un cambio de enfoque,
-para lograr reducir el tiempo de desarrollo, y pasar de escalas de tiempo de
-décadas a años y sobre todo lograr reducir costos \citep{Paxton07}.
+con el objetivo de lograr reducir el tiempo de desarrollo,y pasar de escala de tiempo de
+décadas a años y, por sobre todo, lograr reducir costos \citep{Paxton07}.
 
-Es sabido que este lema produce una gran cantidad de fallas y
+Es sabido que el lema FBC produce una gran cantidad de fallas y
 carencias en las misiones satelitales \citep{Paxton07}. Sin embargo,
-esto es lo que impulsa la innovación, y el desarrollo y entrenamiento de nuevos
+esto es lo que impulsa la innovación, el desarrollo y entrenamiento de nuevos
 managers, ingenieros y científicos, los cuales serán los líderes de las
 nuevas generaciones. \citep{Paxton07}. Por tales motivos, es importante,
-que empresas y organizaciones del ambito espacial en Argentina, dejen
-de lado el ``clasicismo'', y se deben animar, y por su puesto, alentar a las futuras
+que empresas y organizaciones del ámbito espacial en Argentina, dejen
+de lado el ``clasicismo'', y se animen, y por supuesto, alienten a las futuras
 generaciones, a transformar el tradicional \textit{caminar con los manuales de NASA bajo
-  el brazo},  por la innovación y el desarrollo de nuevas tecnologías y técnicas
-para la realización de satelites (que en este trabajo se denominan
-\textit{vehículos de nueva generación}). Esta visión la tiene empresas tales como INVAP,
+  el brazo}. Lo cual implica volcarse al camino de la   innovación y el desarrollo
+de nuevas tecnologías y técnicas para la realización de satélites (que en este trabajo se denominan
+\textit{vehículos de nueva generación}). Esta visión fue adoptada por empresas tales como INVAP
 y otras tanto nacionales como extranjeras,  que están creciendo a paso agigantados llevando
-en su interior el cambio de filosofía que se exige, para reducir costos, y con la capacidad
-necesaria para producir a gran escala.
+en su interior el cambio de filosofía que se exige, para lograr reducir costos, y 
+alcanzar la capacidad necesaria para producir a gran escala.
 
-Este trabajo tiene como objetivo demostrar que es posible desarrollar
+El presente  trabajo tiene como objetivo demostrar que es posible desarrollar
 vehículos espaciales utilizando componentes COTS de baja confiabilidad, trayendo
 consigo una reducción considerable del costo y del tiempo de desarrollo. De más está
 decir, que esta tesis no busca desarrollar en profundidad una arquitectura
-altamente confiable llegando a niveles de detalles, que son esperables en una misión satelital, en la
-que participan varios equipos de decenas de ingenieros, managers y científicos. Si no,
-más bien, ser el puntapié inicial de diversas líneas de investigación y desarrollo,
-ya que como se ha demostrado en este trabajo, es factible el desarrollo de estas arquitecturas
-``económicas'', con la aplicación de técnicas y filosofías que escapan de lo tradicional.
+que alcance los niveles de detalles que son esperables en una misión satelital, debido a que para
+el cumplimiento de este objetivo se requiere de la colaboración interdisciplinar de equipos de 
+ingenieros, managers y científicos. Si no, que el presente trabajo pretender servir como
+base o puntapié inicial de líneas de investigación y desarrollo en el campo de estudio.
+Debido a que como se demostró, es factible el desarrollo de arquitecturas
+``económicas'', con la aplicación de técnicas y filosofías que van más allá de lo tradicional.
 
 Luego de llevar a cabo un análisis de los sistemas satelitales y de aviónica que se
 han publicado en diferentes trabajos de investigación, y como resultado de  diversas reuniones
-con varios equipos dentro de la Unidad de Desarrollo INVAP, se llegó a la conclusión,
-de que se debe trabajar sobre: el  desarrollo de aviónicas confiables
-aún cuando sus componentes sean de baja confiabilidad, la comunicación entre componentes,
+con varios equipos dentro de la Unidad de Desarrollo INVAP, se llegó a la siguiente conclusión:
+se debe promover el trabajo sobre el desarrollo de aviónicas aun cuando sus componentes
+sean de baja confiabilidad, la comunicación entre componentes,
 y que existe una tendencia a implementar redes de componentes dentro de los sistemas.
 
-Así, una vez realizado este análisis previo, se estudiaron diferentes redes que tengan
+Una vez realizado este análisis previo, se estudiaron diferentes redes que tengan
 la característica de ser tolerante a fallas y que sean factibles de ser
-aplicadas en el ambiente espacial, estas se estudiaron en el Marco
+aplicadas en el ambiente espacial, como se indicó en la sección de Marco
 Teórico (Capítulo \ref{chap:marco_teorico} Página \pageref{chap:marco_teorico}) y en
 el Estado del Arte (Capítulo \ref{chap:estado_del_arte} Página \pageref{chap:estado_del_arte}).
 Las cuales fueron las siguientes:
@@ -63,9 +65,19 @@ entre redes tolerantes a fallas, la que presenta un mayor grado
 de confiabilidad sostenible en el tiempo es la que corresponde a
 la red distribuida. Este resultado representa un importante aporte para el
 conocimiento de tipos de topologías confiables tolerantes a fallas, y el desarrollo de
-modelos para lograr medir la confiabilidad de esas topologías. Los resultados de
+modelos para lograr medir la confiabilidad de esas topologías. Debido a que
+permitirá reemplazar la estrucutra tradicional de un simple bus de comunicación, centralizada
+en una On Board Computer (OBC), comúnmente la computadora del subsistema de C&DH
+(Command and Data Handling), por una estructura distribuida, dónde no existen
+rangos de importancia entre componentes,  sino que todas las computadoras
+tiene la capacidad suficiente, y deben ejecutar las tareas de todos los subsistemas
+de manera distribuida. 
+
+\begin{comment}
+Los resultados de
 este estudio fueron presentados en el \textit{Congreso Argentino de Tecnologías
   Espaciales 2017 (Córdoba, Argentina)}
+\end{comment}
 
 \begin{figure}[H]
  \centering
@@ -75,41 +87,42 @@ este estudio fueron presentados en el \textit{Congreso Argentino de Tecnologías
 \end{figure}
 
 Un requerimiento que fue planteado por la Unidad de Desarrollo INVAP fue trabajar
-con el bus de comunicación CAN. CAN, es un protocolo de comunicación de bajo nivel,
-que demuestra ser altamente confiable por lo que es utilizado (y es de donde nació)
-mayormente en la industria automotriz. Esto, nos da una clara razón de que CAN, es un
-protocolo confiable, debido a que en la fabricación de automóviles, el producto final
-(el automóvil) puede poner en riesgo la vida de personas. Debido a su confiabilidad,
-y a su excelente respuesta en sistemas de tiempo real, CAN es utilizado en también en
-el ambiente espacial (entre otras industrias).
+con el bus de comunicación CAN. Este es un protocolo de comunicación de bajo nivel,
+que demuestra ser altamente confiable por lo que es utilizado en la industria automotriz,
+que fue la promotora de su creación. Esto, nos da una clara razón de que CAN es un
+protocolo confiable, debido a que en la fabricación de automóviles se tiene que cumplir
+el objetivo de que el producto final no ponga en riesgo la vida de personas.
+Además, por su confiabilidad, y a su excelente respuesta en sistemas de tiempo real,
+CAN es utilizado también en el ambiente espacial (entre otras industrias), pero
+relegado a ser un bus secundario.
 
-En base a estos resultados y restricciones se plantea el desafío de implementar,
-crear, diseñar, una arquitectura que sea capaz de trabajar, con una filosofia
-de red distribuida, esta puede estudiarse en \ref{chap:arquitectura_propuesta}
-(Página \pageref{chap:arquitectura_propuesta}). El grado de innovacbión que coloca
+En base a estos resultados y restricciones se plantea como un desafío a futuro implementar,
+crear, diseñar, una arquitectura que sea capaz de trabajar con una filosofía
+de red distribuida, la cual se encuentra descripta enla sección \ref{chap:arquitectura_propuesta}
+(Página \pageref{chap:arquitectura_propuesta}). El grado de innovación que coloca
 esta nueva arquitectura se ve reflejada en que no existe una computadora única (la
 connotación ``única'' hace referencia a la computadora propiamente dicha más sus
 redundancias, o bien, cualquier (micro)controlador más sus redundancias) por cada
 subsistema como se trabaja ``tradicionalmente'' sino que, existen computadoras
-híbridas capaz de llevar a cabo tareas de todos los sistemas en forma distribuida. 
-
+híbridas capaces de llevar a cabo tareas de todos los sistemas en forma distribuida. 
 Para ello se planteó un protocolo basado en CAN y CANOpen. Este protocolo, hasta el
-momento de desarrollar este trabajo, se encuentra en su versión 0.1 Alpha. El protocolo
+momento, se encuentra en su versión 0.1 Alpha. El protocolo
 presenta la innovación de estar orientado a objetos, y para ello se utilizó el
 lenguaje SysML (System Modeling Language) para llevar a cabo su modelado y
-la documentación del mismo. Estofacilita la interpretación del
-stack de servicio que deben ser implementados a la hora del desarrollo. Este protocolo
+la documentación del mismo. Esto facilita la interpretación del
+stack de servicio que debe ser implementado a la hora del desarrollo. Este protocolo
 se encuentra documentado en el apéndice \ref{Appendix:A} (Página \pageref{Appendix:A}).
 
 En base a los resultados obtenidos y a la arquitectura propuesta basada en CANae
 (apéndice \ref{Appendix:A}) se concluye de que es factible  desarrollar una
 \textit{arquitectura de aviónica tolerantes a fallas basada en componentes COTS para
   vehículos satelitales} utilizando el bus CAN, como bus principal de comunicación.
-Si bien esto exige un cambio de paradigma importante, este trabajo concluye con una
-clara demostración de que es posible diseñar arquitecturas fiables basadas
-en componentes baratos y de baja confiabilidad.  
+Si bien esto exige un cambio de paradigma importante, los datos recolectados en el
+presente trabajo demuestran que es posible diseñar arquitecturas
+fiables basdaas en componentes que sean baratos y de baja confiabilidad. 
 
-\section{Cumplimiento de los objetivos}
+\section{Conclusiones finales}
+\begin{comment}
 En la Tabla \ref{table:objetivos_cumplidos} se describe
 si los objetivos planteados fueron cumplimentados o no.
 \begin{table}[h!]
@@ -162,14 +175,38 @@ arquitecturas confiables basadas en componentes COTS.}
 \item \textbf{¿Es factible la utilización de componentes COTS en sistemas espaciales?} \textit{Este trabajo de tesis
 demostró que es factible la utilización de componentes COTS.}
 \end{itemize}
+\end{comment}
 
-\section{Trabajos a futuros}
-Luego de desarrollado este trabajo de tesis, se logra ver el gran potencia que existe
-en el estudio de arquitecturas de aviónicas tolerantes a fallas, y el estudio
-de los componentes COTS introducidos en sistemas, donde el sistema esperado debe ser
-más confiable que los componentes que la conforman.
+En el presente trabajo de tesis se desmotró que es factible la utilización
+componentes COTS en sistemas espaciales. Si bien, no se pudo responder si es
+posible la realización de un método de medición del grado de tolerancia a
+fallas de una arquitectura de aviónica, se logró desarrollar una manera
+de comparar confiabilidad de topologías de arquitectura, basándose en la
+tolerancia a fallas.
 
-Para ello se recomienda proseguir con los siguientes líneas de trabajo futuros:
+En este trabajo se demostró que la estrategia más indicada de tolerancia a
+fallas que permite brindar un alto grado de confiabilidad en la utilización de
+componentes COTS en sistemas críticos, es desarrollar una arquitectura basada en
+una red distribuida, debido a que de esta manera se logra distribuir las tareas
+entre todos las computadoras que conforman la arquitectura,
+y ante cualquier eventualidad (o falla), la red se puede reconfigurar sencillamente,
+y al no estar ligada una computadora a un subsistema (enfoque tradicional), las tareas
+se redistribuyen dinámicamente sin perjudicar el funcionamiento normal
+del sistema, en otras palabras aumenta a su tolerancia a fallas.
+
+La arqutiectura basada en CANae, demostró ser la arquitectura más indicada que permita
+desarrollar tolerancia a fallas en sistemas críticos basados en componentes COTS,
+debido a que cumple con los requisitos para sentar las bases de trabajos futuros
+en la implementación de arquitecturas confiables basadas en componentes COTS. 
+
+\section{Perspectivas a futuros}
+A partir de análisis realizado en este tarbajo de tesis, se logra ver el gran
+potencial que existe en el estudio de arquitecturas de aviónicas tolerantes
+a fallas, y de los componentes COTS introducidos en sistemas,
+donde el producto esperado debe ser más confiable que los componentes
+que la conforman.
+
+Por estos motivos, a futuro se pretende continuar con las siguientes lineas de trabajo:
 \begin{itemize}
 \item Diseño detallado, desarrollo e implementación del protocolo CANae.
 \item Diseño detallado de la arquitectura propuesta.

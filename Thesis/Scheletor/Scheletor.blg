@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Scheletor.aux
 The style file: plainnatesp.bst.bst
@@ -29,13 +29,13 @@ Repeated entry---line 573 of file biblio.bib.bib
  :                   ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "esdWEB" isn't style-file defined
---line 617 of file biblio.bib.bib
+--line 619 of file biblio.bib.bib
 Warning--entry type for "kvaserWEB" isn't style-file defined
---line 643 of file biblio.bib.bib
+--line 645 of file biblio.bib.bib
 Warning--entry type for "can-ciaWEB" isn't style-file defined
---line 651 of file biblio.bib.bib
+--line 653 of file biblio.bib.bib
 Warning--entry type for "CANAerospaceWEB" isn't style-file defined
---line 671 of file biblio.bib.bib
+--line 673 of file biblio.bib.bib
 Warning--there's a number but no volume in Anderson83
 Warning--empty booktitle in Arias17
 Warning--can't use both author and editor fields in Becker2016
@@ -57,45 +57,45 @@ Warning--empty título in TTTechOrion
 Warning--empty year in TTTechOrion
 Warning--empty año in TTTechOrion
 Warning--empty journal in Woerner00
-You've used 73 entries,
+You've used 74 entries,
             2773 wiz_defined-function locations,
-            1078 strings with 17003 characters,
-and the built_in function-call counts, 29575 in all, are:
-= -- 2569
-> -- 1470
-< -- 73
-+ -- 515
-- -- 442
-* -- 2092
-:= -- 4557
-add.period$ -- 235
-call.type$ -- 73
-change.case$ -- 351
-chr.to.int$ -- 73
-cite$ -- 167
-duplicate$ -- 1535
-empty$ -- 2646
-format.name$ -- 547
-if$ -- 6295
+            1086 strings with 17122 characters,
+and the built_in function-call counts, 30023 in all, are:
+= -- 2610
+> -- 1491
+< -- 74
++ -- 522
+- -- 448
+* -- 2130
+:= -- 4624
+add.period$ -- 238
+call.type$ -- 74
+change.case$ -- 356
+chr.to.int$ -- 74
+cite$ -- 169
+duplicate$ -- 1555
+empty$ -- 2686
+format.name$ -- 556
+if$ -- 6391
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 74
-newline$ -- 386
-num.names$ -- 294
-pop$ -- 857
+missing$ -- 75
+newline$ -- 391
+num.names$ -- 298
+pop$ -- 865
 preamble$ -- 1
-purify$ -- 293
+purify$ -- 297
 quote$ -- 0
-skip$ -- 1142
+skip$ -- 1157
 stack$ -- 0
-substring$ -- 735
-swap$ -- 182
+substring$ -- 758
+swap$ -- 184
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 708
+type$ -- 719
 warning$ -- 21
-while$ -- 263
+while$ -- 267
 width$ -- 0
-write$ -- 958
+write$ -- 971
 (There were 3 error messages)
