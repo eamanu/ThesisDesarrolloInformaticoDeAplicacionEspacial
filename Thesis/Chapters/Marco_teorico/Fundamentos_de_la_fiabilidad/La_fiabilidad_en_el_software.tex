@@ -1,10 +1,11 @@
 % TODO:La fiabilidad en el software
 \section{La fiabilidad en el software}
 El objetivo final de la \ac{FT}, es el desarrollo de un sistema fiable \citep{FTDesign}. Teniendo
-en cuenta que \ac{SW} que se encuentran dentro de las naves espaciales, como satélites,
+en cuenta que \ac{SW} que se encuentra dentro de las naves espaciales, como satélites,
 lanzadores, y sobre todo vehículos tripulados son críticos, ya que de ellos dependen el éxito o
-fracaso de una misión, se debe llevar a cabo un sistema fiable. La fiabilidad de un sistema es la
-capacidad del mismo de entregar a los usuarios un nivel deseado de servicio \citep{FTDesign}.
+fracaso de una misión o la vida de seres humanos,y se debe llevar a cabo un sistema fiable.
+La fiabilidad de un sistema es la capacidad del mismo de entregar a los usuarios un nivel
+deseado de servicio \citep{FTDesign}.
 
 La fiabilidad también se la puede considerar como una propiedad global que permite justificar la
 confianza de los servicios de un sistema \citep{FTAvionics}. Por lo tanto, como lo indica
@@ -41,7 +42,7 @@ logro de esas propiedades.
 
 % TODO: deteriodo de la confiabilidad
 \section{Impedimentos de la confiabilidad}
-El impedimiento de la confiabilidad o deteriodo de la confiabilidad es definido en términos de
+El impedimiento de la confiabilidad o deterioro de la confiabilidad es definido en términos de
 fallas, errores, y fracaso \citep{FTDesign}. Los mismos fueron desarrollados en la sección
 \ref{sec:terminologia}. Lo que tienen en común estos tres conceptos, es que avisan, o dan alerta
 cuando algo está mal \citep{FTDesign}. La diferencia radica, en que las fallas son a nivel físico;
@@ -135,9 +136,8 @@ especificación y fabricación de los procesos de diseño.
 % In page 22 of Pullum01 there're more definitions that may be important inside Failure avoidance
 
 \subsection{\acl{FT}}
-En la sección~\ref{chap:FaultTolerance} (página~\pageref{chap:FaultTolerance}) se discutirá con
-mayor detalle la \ac{FT}. Esto es así ya que en este trabajo de tesis se tiene como principal punto
-de estudio la \acl{FT}.
+En la sección~\ref{chap:FaultTolerance} (página~\pageref{chap:FaultTolerance}) se discute con
+mayor detalle la \ac{FT}.
 
 \subsection{\acl{FR}}
 La \ac{FR} hace referencia a las técnicas utilizadas para mejorar la fiabilidad empleadas durante
@@ -152,8 +152,8 @@ durante la vida operacional de un sistema, consiste en el mantenimiento preventi
 mismo \citep{FTDesign}.
 
 \subsection{\acl{FF}}
-La \ac{FF} se realiza mediante la realización de una evaluación del comportamiento del sitema con
-respecto a la ocurrencia o la activación de una falla \citep{FTDesign}.Esta evaluación puede ser:
+La \ac{FF} se realiza mediante la realización de una evaluación del comportamiento del sistema con
+respecto a la ocurrencia o la activación de una falla \citep{FTDesign}. Esta evaluación puede ser:
 \begin{itemize}
  \item Cualitativa: que tiene como objetivo clasificar los modos de fallas o combinaciones de
 eventos que llevan al sistema al fracaso \citep{FTDesign}.
@@ -168,7 +168,7 @@ consecuencia de fracasos \citep{Pullum01}
 % TODO: atributos de la fiabilidad
 \section{Atributos de la fiabilidad}\label{sec:atributos_de_la_fiabilidad}
 El objetivo final de la \ac{FT} es desarrollar un sistema que sea fiable. Fiabilidad tiene muchas
-definciones, pero comúnmente es expresado como la probabilidad de \textbf{no fallar}
+defini|ciones, pero comúnmente es expresado como la probabilidad de \textbf{no fallar}
 \citep{FTAvionics}. ``La fiabilidad es la probabilidad de que un sistema continúe funcionando
 correctamente durante un intervalo de tiempo particular'' \citep{SoftwareFaultToleranceATutorial}.
 
@@ -192,18 +192,18 @@ la pérdida de la misión, o una gran cantidad de datos. Otro ejemplo que se pue
 satélite geoestacionario de comunicación, la pérdida de este servicio debe ser baja, casi nula
 (idealmente).
 
-Coincidiendo \cite{pressman01}, define la confiabilidad como la ``probabilidad de tener operaciones
+Coincidiendo, \cite{pressman01} define la confiabilidad como la ``probabilidad de tener operaciones
 libre de fallas de un programa de computadora, en un ambiente específico para un tiempo
 específico''. El mismo autor también indica que la confiabilidad es la \ac{MTBF}\footnote{Del
 inglés, mean-time-between-failure}. Donde:
 
 $$MTBF = MTTF + MTTR$$
 
-\ac{MTTF} es el promedio de tiempo desde que empieza la operación del sistema hasta el tiempo que
-se produce la primera falla. \ac{MTTR} es el promedio de tiempo que se requiere para recuperarse,
+El \ac{MTTF} es el promedio de tiempo desde que empieza la operación del sistema hasta el tiempo que
+se produce la primera falla. El \ac{MTTR} es el promedio de tiempo que se requiere para recuperarse,
 después de un fracaso, al correcto funcionamiento \citep{Hanmer07}. \ac{MTBF}  es similar a
 \ac{MTTF}, lo único que los diferencia es que \ac{MTBF} es la suma de \ac{MTTF} y \ac{MTTR}. Según
-\cite{Hanmer07} \ac{MTBF} es utilizado para aquellos sistemas que son reperables. Para el caso
+\cite{Hanmer07}, \ac{MTBF} es utilizado para aquellos sistemas que son reparables. Para el caso
 contrario se utiliza \ac{MTTF}.
 
 La \cite{IEEE610.12} define confiabilidad como ``La capacidad del sistema o componente de realizar
@@ -216,7 +216,7 @@ tiempo \citep{SoftwareFaultToleranceATutorial}. La disponibilidad \textit{A(t)} 
 instante de tiempo \textit{t} es la probabilidad que el sistema esté funcionando correctamente en
 el instante \textit{t} \citep{FTDesign}.
 
-\cite{FTDesign} realiza un definción matemática de \textit{A(t)}, llamandola también como,
+\cite{FTDesign} realiza un definción matemática de \textit{A(t)}, llamandola también como
 \textit{punto de disponibilidad} o \textit{disponibilidad instantanea}. Y la define como:
 
 $$A(T) = \frac{1}{T} \int_0^T \! A(t) \, \mathrm{d}x $$
@@ -252,9 +252,9 @@ componente se encuentra operativo y accesible cuando se requiere su uso. Tambié
 términos de probabilidad''
 
 En satélites de órbita baja (LEO\footnote{Del inglés, Low Earth Orbit}), es necesario que el
-satélite se encuentre disponible al momento de su pasada por las estaciones terreras para poder
+satélite se encuentre disponible al momento de su pasada por las estaciones terrenas, con el fin de 
 descargar los datos que se fueron almacenando. Del mismo modo, el satélite debe estar disponible
-para poder realizar las funciones necesarias para poder cumplir con su misión (como por ejemplo la
+para llevar a cabo las funciones necesarias, y con esto cumplir con su misión (como por ejemplo la
 registración de imágenes en una determinada zona terrestre).
 
 Diferente es el caso para los satélites geoestacionarios, ya que estos deberían estar disponible la
@@ -262,16 +262,16 @@ mayor parte del tiempo, ya que en la mayoría de los casos son de comunicación.
 
 \subsection{Seguridad}\label{subsec:seguridad}
 La seguridad se considera como una extensión de la confiabilidad \citep{FTDesign}. Seguridad
-\textit{S(t)} es definidad como la probabilidad que el sistema sea capaz de realizar su función
-correctamente o discontinuar su función en una manera a prueba de fallas \citep{FTDesign}.
+\textit{S(t)} es definidad como la probabilidad que el sistema sea capaz de realizar sus funciones
+correctamente o discontinuar sus funciones en una manera a prueba de fallas \citep{FTDesign}.
 
 Según \cite{SoftwareFaultToleranceATutorial} la seguridad es la probabilidad de que el sistema
-levará a cabo sus tareas de una manera no peligrosa. Un peligro se lo puede definir como ``un
-estado o condición de un sistema, que juntos con otras condiciones ambientales de el sistema,
+llevará a cabo sus tareas de una manera no peligrosa. Un peligro se lo puede definir como ``un
+estado o condición de un sistema, que juntos con otras condiciones ambientales del sistema,
 conducirá inevitablemente a un accidente'' \citep{SoftwareFaultToleranceATutorial}.
 
 La seguridad es requerida para aquellas aplicaciones de seguridad crítica donde un fracaso puede
 resultar en lesiones humanas, pérdidas de vida o desastres ambientales \citep{FTDesign}.
 
-Para satélites es importante que se tenga una alta seguridad, ya que una pérdida de una misión
-representa grandes cantidades de dinero perdido.
+En el caso de los satélites, es importante asegurar altos niveles de seguridad, ya que
+el fracaso de una misión representa grandes pérdidas de dinero. 
