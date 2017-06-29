@@ -9,20 +9,22 @@ Las características de CAN que la convierten en un tentadora opción para la ap
 \begin{itemize}
   \item Bajo costo
   \item Operabilidad en ambientes eléctricos complicados
-  \item capacidades de tiempo real.
-  \item facilidad en el uso
+  \item Capacidades de tiempo real.
+  \item Facilidad en el uso
 \end{itemize}
 
 La especificaciones de CAN, originalmente desarrollados por Bosch cubre solamente las capas físicas y de enlaces de datos del modelo de referencia de ISO/OSI. Luego de la estandarización ISO provee detalles adicionales de la capa física de CAN.
 
 A diferencia de otros protocolos como USB o Ethernet, CAN no envía grandes bloques de datos de un punto a otro. CAN envía mensajes cortos como temperatura, o RPM ( Revoluciones por minutos), y son enviados como broadcast a todo el sistema \citep{texasCAN}.
 
-El protocolo de comunicación CAN, en su estandar ISO 11898, explica como la información viaja entre los dispositivos conectados a una arquitectura siguiente el modelo de OSI. La arquitectura planteada por la ISO 11898 se puede observar en la FIGURA \citep{texasCAN}
+El protocolo de comunicación CAN, en su estandar ISO 11898, explica cómo la información viaja entre los dispositivos
+conectados a una arquitectura siguiendo el modelo de OSI. La arquitectura planteada
+por la ISO 11898 se puede observar en la Figura \ref{fig:iso11898} \citep{texasCAN}.
 
 \begin{figure}[h]
  \centering
  \includegraphics[scale=0.5]{images/Marco_teorico/ISO11898_Arquitectura_Standar.jpg}
-  \caption{Arquitectura estándar propuesta por ISO898}
+  \caption{Arquitectura estándar propuesta por ISO11898}
 \label{fig:iso11898}
 \end{figure}
 
@@ -33,11 +35,10 @@ El bus CAN es un bus de tipo broadcast, es decir que todos los nodos escuchan to
 Actualmente la industria aeronáutica la utiliza. También el área agrícola en sus maquinarias, control de tráfico, sistemas de control industrial, sistemas domóticos y además, en equipamientos médicos.
 
 \subsection{Elementos necesarios}
-Como se puede observar en la Figura \ref{fig:iso11898}
+Como se puede observar en la Figura \ref{fig:iso11898} cada nodo conectado a la red necesita de:
 
-Cada nodo conectado a la red necesita de
 \begin{itemize}
-\item \ac{CPU}, o microprocesador, que decida que mensajes debe recibir y que debe enviar
+\item \ac{CPU}, o microprocesador, que decida qué mensajes debe recibir y/o enviar
 \item Controlador CAN, muchas veces integrado en el controlador, el cual recibe la serie de bits del bus. También es el encargado de transmitir mensajes (cuando se requiera), esto significa que al mensaje lo convierte en una serie de bits.
   \item Tranceiver, definido en el ISO 11898.
 \end{itemize}

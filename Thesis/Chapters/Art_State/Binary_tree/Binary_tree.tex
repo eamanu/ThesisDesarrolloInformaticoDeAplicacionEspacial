@@ -28,7 +28,7 @@ desprenden dos nodos hijos, estos se encuentran enlazados al nodo padre. Así re
 van generando dos nuevos hijos, por cada uno de los nodos. Los árboles binarios están divididos en 
 niveles, que representa cada una de las generaciones de nodos.
 
-Este tipo de topología tiene algunas problemas que la \ac{FT} debe hacer frente. En las 
+Este tipo de topología tiene algunos problemas que la \ac{FT} debe hacer frente. En las 
 arquitecturas basadas en árboles binario, existe una cierta probabilidad de que un nodo o un link 
 falle \citep{Raghavendra84}. Las arquitecturas de árbol binario son en general físicamente 
 estáticas. Por lo tanto, cualquier falla en uno de sus nodos (o links) demandaría una avería a 
@@ -42,8 +42,8 @@ frente cualquier punto de falla simple en la arquitectura.
 
 \subsection{Esquema de árbol binario con backups}
 El esquema planteado por \cite{Raghavendra84} es similar al que se muestra en al Figura 
-\ref{fig:binary_tree}. En este esquema se agrega nodos y links redundantes como técnica de \ac{FT}. 
-Existe un nodo de backcup por cada nivel del árbol.
+\ref{fig:binary_tree}. En este esquema se agregan nodos y links redundantes como técnica de \ac{FT}. 
+Existe un nodo de backup por cada nivel del árbol.
 
 \begin{figure}[h]
  \centering
@@ -66,7 +66,7 @@ conocer los nuevos caminos que intercomunican nodos, para mantener la operabilid
 \subsubsection{Estimación de la confiabilidad de un árbol binario con backup}
 Se asume que la probabilidad de fallas de los links es muy baja en comparación con la de los nodos. 
 Teniendo que el rate de falla es de $\lambda$, la confiabilidad  de un nodo es $R = e^{-\lambda 
-t}$. También se sabe que un árbol binario con n niveles, se tiene $2^n - 1$ nodos en total. 
+t}$. También se sabe que un árbol binario con n niveles,  tiene $2^n - 1$ nodos en total. 
 Entonces la confiabilidad de todo el sistema es: $$R_{nr} = R^{2^n - 1}$$
 
 \cite{Raghavendra84} incluye en sus cálculos un factor de cobertura $c$, el cual es la probabilidad 
@@ -78,7 +78,7 @@ R^{2k}(1-R) + 2^kcR^{2k}(1-R)]}$$.
 Simplificando: $$R_{sys} = R^{2n +1} \prod_{k=0}^{n-1}{[(2^kc+1) - 2^kcR]}$$
 
 En la Figura \ref{fig:Reliability_binary_tree_4_levels}, se observa la confiabilidad de una 
-arquitectura de árbol bianrio de 4 niveles, con una cantidad de $2^4 -1 = 15$ nodos. En color negro 
+arquitectura de árbol binario de 4 niveles, con una cantidad de $2^4 -1 = 15$ nodos. En color negro 
 se grafica una arquitectura sin redundancia, mientras que en color rojo, azul y cyan, se muestra 
 arquitecturas redundadas con diferentes $c$ (0.98, 0.99, 1, respectivamente). 
 

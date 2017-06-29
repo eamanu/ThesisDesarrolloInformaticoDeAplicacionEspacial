@@ -32,7 +32,7 @@ $T$ no significa que es solo una medida de tiempo. $T$ puede significar \citep{R
   \item Número de ciclos de trabajo
 \end{itemize}
 
-Debe destacarse que esta no solo es una variable discreta. Una variable discreta puede ser aproximada a una variable continua. Suponiendo que $T$ es una distribución continua con densidad de probabilidad $f(t)$ y una función de distribución: $$F(t) = P(T\leqt) = \int_0^t f(u)du \text{para t > 0}$$
+Debe destacarse que esta no solo es una variable discreta. Una variable discreta puede ser aproximada a una variable continua. Suponiendo que $T$ es una distribución continua con densidad de probabilidad $f(t)$ y una función de distribución: $$F(t) = P(T\leqt) = \int_0^t f(u)du \text{ para t > 0}$$
 
 $F(t)$ demuestra la probabilidad de que un componente falle dentro de un intervalo de tiempo $(0,t]$ \citep{Rausand04}.
 
@@ -44,17 +44,19 @@ Esto indica que para un $\Delta t$ pequeño, $$P(t < T \leq t + \Delta t) \appro
 La función de confiabilidad se define como sigue: $$R(t) =  1 - F(t) = P(T>t)$$ para $t>0$.
 
 \subsection{Tasa de falla}
-La probabilidad de que un componente falle en un intervalo de tiempo $(t, t+\Delta t]$ dado que el componente ha funcionando hasta t, se tiene: $$P(t < T \leq t + \Delta t | T > t) = \frac{P(t< T \leq t+\Delta)}{P(T>t)} = \frac{F(t+\Delta t) - F(t)}{R(t)}$$
+La probabilidad de que un componente falle en un intervalo de tiempo $(t, t+\Delta t]$ dado que el componente ha funcionado hasta t, se tiene: $$P(t < T \leq t + \Delta t | T > t) = \frac{P(t< T \leq t+\Delta)}{P(T>t)} = \frac{F(t+\Delta t) - F(t)}{R(t)}$$
 
 Si se divide esta probabilidad por un intervalo de tiempo $\Delta t$, y haciendo $\Delta t -> 0$, se obtiene la función de tasa de falla.
 
 \subsection{Tiempo medio hasta la falla}
-El \ac{MTTF} de un componente está definido por \citep{FTDesign} \cite{Rausand04}: $$MTTF = E(T) = \int_0^\infty tf(t)dt$$
+El \ac{MTTF} de un componente está definido por \citep{FTDesign} \citep{Rausand04}: $$MTTF = E(T) = \int_0^\infty tf(t)dt$$
 
 Se demuestra en \cite{Rausand04} que $$MTTF = \int_0^\infty R(t)dt$$
 
 \subsection{Vida restante media}
-Considerando un comoponente con tiempo hasta la falla T, que es colocado en opración en el tiempo $t = 0$ y continúa funcionando en el instante t. La probabilidad de que el componente en de edad t sobrevive en un intervalo $x$, entonces se tiene \citep{Rausand04}: $$R(x|t) = P(T>x+t | T>t) = \frac{P(T>x+t)}{P(T>t)} = \frac{R(x+t)}{R(t)}$$
+Considerando un comoponente con tiempo hasta la falla T, que es colocado en operación en el tiempo $t = 0$ y continúa funcionando en el instante t.
+La probabilidad de que el componente en edad t sobreviva en un intervalo $x$, entonces se tiene
+\citep{Rausand04}: $$R(x|t) = P(T>x+t | T>t) = \frac{P(T>x+t)}{P(T>t)} = \frac{R(x+t)}{R(t)}$$
 
 Entonces: $$MRL(t) = \frac{1}{R(t)}\int_t^\infty R(x)dx$$
 
@@ -64,7 +66,7 @@ Nótese que cuando t = 0, el componente es nuevo, y entonces $\mu(0) = \mu = MTT
 La distribución binomial es uno de lo más utilizados \citep{Rausand04}. Esta distribución es utilizada en los siguientes casos:
 \begin{itemize}
   \item Cuando se tienen n ensayos independientes
-  \item Cada ensayo tiene dos posibles resultaods
+  \item Cada ensayo tiene dos posibles resultados
   \item La P(A) = p es la misma en todos los ensayos
 \end{itemize}
 
@@ -81,11 +83,11 @@ $$
 
 Esta distribución es la que se denomina distribución exponencial con parámetro $\lambda$.
 
-La confiabilidad de esta función  es: $$R(t) = P (T>t) = \int_t^\infty f(u) du  = e^{\lambda t} \text{para t>0} $$
+La confiabilidad de esta función  es: $$R(t) = P (T>t) = \int_t^\infty f(u) du  = e^{\lambda t} \text{ para t>0} $$
 
 El \ac{MTTF} es: $$MTTF = \int_0^\infty R(t) dt = \int_0^\infty e^{\lambda t} dt  = \frac{1}{\lambda}$$
 
-La tasa de falla de esta distribución es \lambda
+La tasa de falla de esta distribución es $\lambda$.
 
 La distribución exponencial es lo que se utiliza más comúnmente en los análisis de confiabilidad.
 
@@ -96,4 +98,7 @@ tiempo medio hasta la falla \citep{Rausand04}.
 
 Mientras que la tasa de falla es: $$z(t) = \frac{f(t)}{R(t)} = \frac{\lambda e^{-\lambda t}}{e^{-\lambda t}} = \lambda $$
 
-\textbf{NOTA IMPORTANTE:} Como se mencionó anteriormente, existen numerosas distribuciones de probabilidad para medir el tiempo de vida de los componentes. En este trabajo de tesis, se trabaja únicamente con la distribución exponencial, debido a que es una de las más sencillas,y la más utilizada en la bibliografía.
+\textbf{NOTA IMPORTANTE:} Como se mencionó anteriormente, existen numerosas distribuciones
+de probabilidad para medir el tiempo de vida de los componentes. En este trabajo de tesis,
+se trabaja con la distribución exponencial debido a que es sencilla su aplicación, y además,
+es la más popular en la bibliografía.
