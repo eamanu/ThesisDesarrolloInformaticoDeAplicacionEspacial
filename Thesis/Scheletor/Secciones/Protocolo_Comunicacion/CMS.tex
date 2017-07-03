@@ -1,10 +1,10 @@
 \section{CMS}
-CMS ofrece un ambiente orientado a objeto para diseñar aplicaciones de usuario. CMS ofrece a la aplicación la posibilidad de modelar su comportamiento en la forma de objeto. Este elemento de servicio ofrece variables, eventos que se utilizan para diseñar y especificar como la funcionalidad de un módulo puede acceder a las interfaces CAN.
+CMS ofrece un ambiente orientado a objeto para diseñar aplicaciones de usuario. CMS ofrece a la aplicación la posibilidad de modelar su comportamiento en la forma de objeto. Este elemento de servicio ofrece variables, eventos que se utilizan para diseñar y especificar cómo la funcionalidad de un módulo puede acceder a las interfaces CAN.
 
 El servicio asume que no hay fallas provenientes de la capa de enlace de datos y la capa física de la red CAN. Las fallas, si ocurren, son resueltas por el NMSE (Network Management Service Element).
 
 \subsection{Prioridades de los objetos}
-La arbitración del protocolo CAN se realiza teniendo en cuenta la prioridad de los identificadores de los frames que se envía. La arbitración es no destructiva, debido a la necesidad de de tener un procesamiento de mensajes de tiempo real. La prioridad se determina teniendo en cuenta cada uno de los bits. El indentificador de los objetos y eventos de CMS está compuesto por 8 bits más 3 bits que los diferenciará entre objetos y eventos. Los eventos tiene mayor prioridad.
+La arbitración del protocolo CAN se realiza teniendo en cuenta la prioridad de los identificadores de los frames que se envía. La arbitración es no destructiva, debido a la necesidad de tener un procesamiento de mensajes de tiempo real. La prioridad se determina teniendo en cuenta cada uno de los bits. El indentificador de los objetos y eventos de CMS está compuesto por 8 bits más 3 bits que los diferenciará entre objetos y eventos. Los eventos tiene mayor prioridad.
 
 \begin{tabular}{lll}
     000 & (ID) & Tipo de evento \\
@@ -17,7 +17,7 @@ La prioridad de los objetos es un UInteger de 1 byte. La prioridad más baja es 
 Un objeto CMS define una estructura de dato que se debe respetar para poder enviar información (variables) a través de la red. El objeto está compuesto por los siguientes campos:
 \begin{itemize}
    \item Name: string de 6 caracteres (6 bytes)
-   \item User\_type: {client, server} (1 bit)
+   \item User\_type: \{client, server\} (1 bit)
    \item Priority: UInteger (1 bytes)
    \item Datatype: UInteger identificador del tipo de datos (1 byte)
    \item Data: Indefinido.
@@ -35,7 +35,7 @@ Con respecto a las variables de CMS existen una serie de servicios brindados por
 
 \begin{itemize}
    \item Name: string de 6 caracteres (6 bytes)
-   \item User\_type: {client, server} (1 bit)
+   \item User\_type: \{client, server\} (1 bit)
    \item Priority: UInteger (1 bytes)
    \item Event\_Type: UInteger identificador del tipo de datos (1 byte)
    \item Data: Indefinido.
@@ -89,7 +89,7 @@ Los eventos se utilizan para modelar comportamientos asíncronos, tales como tem
 \label{fig:CMSEvent}
 \end{figure} 
 \end{comment}
-Los servicios al igual que las variables se dividen los eventos brindados por servicio local o servicio remoto. Los servicios se describen a continuación.
+Los servicios al igual que las variables se dividen en servicio local o servicio remoto. Los servicios se describen a continuación.
 
 \subsubsection{Servicios locales}
 \begin{itemize}
@@ -102,7 +102,7 @@ Los servicios al igual que las variables se dividen los eventos brindados por se
 
 \end{itemize}
 
-\subsubsection{Setvicios remotos}
+\subsubsection{Servicios remotos}
 
 \begin{itemize}
 \item Event notify\_event()

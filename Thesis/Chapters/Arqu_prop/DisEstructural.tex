@@ -1,12 +1,12 @@
 \section{Diseño Estructural}
 Este trabajo de tesis plantea una arquitectura a nivel de sistema.
 Esta arquitectura se encuentra basada en la red CAN debido a
-un interés especial de INVAP. Además se sigue una filosía de red
+un interés especial de INVAP. Además se sigue una filosofía de red
 distribuída por las razones estudiadas en la sección
 \ref{seccion:TopologiaEstudio}. Esto le da la característica de innovador
 a este proyecto, ya que no se encontró en estado de la cuestión
 la utilización de esta filosofía en el desarrollo de vehículos
-espaciales, mucho menos en Argentina, que se sigue una filosía
+espaciales, mucho menos en Argentina, que se sigue una filosofía
 más tradicional y conservadora a la hora de desarrollar satélites. 
 
 La arquitectura propuesta, como se mencionó anteriormente tiene como
@@ -20,7 +20,7 @@ CAN, el cual a su vez está compuesto por el CAN tranceiver.
 La red a bajo nivel, es decir desde el cable CAN, el CAN Tranceiver y 
 el microcontrolador CAN, deben trabajar bajo las normas preestablecidas
 por algún protocolo existente, que cuya selección de este, cae bajo la 
-responsabilidad del diseñador y/o ingeniero en sistema que vaya 
+responsabilidad del diseñador y/o ingeniero de sistemas que vaya 
 a implementar la arquitectura. Para esta arquitectura se aconseja el uso
 del protocolo CANOpen \citep{can-ciaWEB}. Esto se puede observar en la
  Figura \ref{fig:DiagramaEstructuraCompleta} que el Node (nodo de la red)
@@ -74,7 +74,7 @@ surge una segunda propuesta de desarrollo de la estructura de arquitectura.
 En esta, el subsistema se encuentra separado del nodo, con su propia CPU, y se conecta
 a la red mediante el nodo. Suponiendo que un nodo falle,
  debido a su baja confiabilidad (es un componente COTS), ese subsistema queda totalmente
-asilado de la red. En la Figura \ref{fig:Bridge2} se observa que, cuando falla el Nodo
+aislado de la red. En la Figura \ref{fig:Bridge2} se observa que, cuando falla el Nodo
 del \textit{Subsistema 1} cualquier mensaje que envíe el \textit{Subsistema 2} al primero, 
 nunca se entregará. Esto provoca que la confiabilidad del sistema completo, disminuya 
 linealmente con la confiabilidad del componente COTS. 
@@ -86,10 +86,10 @@ linealmente con la confiabilidad del componente COTS.
 \label{fig:Bridge2}
 \end{figure} 
 
-La tercera opción y la ideal es la existencia de un Brdige, que se lo llama: 
+La tercera opción y la ideal es la existencia de un Bridge, que se lo llama: 
 \textit{Bridge Tolerantes a Fallas}. Esto crea un puente entre la red y la computadora
 del subsistema permitiendo aumentar la tolerancia a fallas de la arquitectura. En 
-caso falla en el nodo, el Bridge se activa ignorando al \textit{nodo fallado} y 
+caso de fallas en el nodo, el Bridge se activa ignorando al \textit{nodo fallado} y 
 conectando a la computadora del subsistema directamente en la red.  Esto se puede observar
 en la Figura \ref{fig:conn_prop}, siendo el Bridge el cuadrado negro.
 
@@ -104,25 +104,25 @@ Los detalles técnicos, electrónicos y de implementación no se desarrollan en
 este trabajo de tesis. 
 
 Como puede observarse en al Figura \ref{fig:DiagramaEstructuraCompleta} el
-protocolo CANae se encuentra dentro del Nodo. El desarrollador se debe encargar
+protocolo CANae se encuentra dentro del nodo. El desarrollador se debe encargar
 de implementar los protocolos, como un stack de servicios más del 
 sistema operativo (o sistema embebido) que se encuentre en el nodo.
 
 \subsection{Bloques Internos}
 En esta sección se muestra el diagrama de bloques internos que conforman el
 nodo que es aquel que implementa el protocolo de comunicación CANae. Como
-puede observarse en la Figura \ref{BloquesInternosArq} el nodo, representa
+puede observarse en la Figura \ref{fig:BloquesInternosArq} el nodo, representa
 la parte más compleja de la red. En este dispositivo se encuentra toda la
 complejidad de la arquitectura, y es el encargado tanto de llevar a cabo
 las tareas, como así también comunicarse con los demás nodos, a través del
 protocolo CANae y coordinar las tareas a desarrollarse. Además,
 debe notarse que estos nodos se suponen que son componentes de estantería
-o componentes \ac{COTS} los cuales tiene una muy baja confiabilidad pero
+o componentes \ac{COTS} los cuales tiene una muy baja confiabilidad, pero con 
 un alta perfomance. Por lo tanto, es de esperarse que el software de los
 nodos esté basado o dearrollado sobre un Sistema Operativo de Tiempo
 Real (RTOS) y estos deben aplicar técnicas de tolerancia a fallas que
 escapan de los alcances de este trabajo de tesis. Todos los bloques
-internos que se observa en la Figura \ref{BloquesInternosArq} deben
+internos que se observa en la Figura \ref{fig:BloquesInternosArq} deben
 desarrollarse como módulos pertenecientes al stack del servicio del
 sistema operativo, o bien, módulos de servicio del sistema embebido de
 los nodos.
@@ -147,7 +147,7 @@ del usuario.
 \end{figure}
 
 \subsection{Nodo Monitor}
-En la versión actual del protocolo CANae (0.1 Alpha) preve la existencia de un
+En la versión actual del protocolo CANae (0.1 Alpha) se preve la existencia de un
 nodo monitor. El objetivo principal de este nodo es lograr la coordinación 
-de todos los nodos en las fases iniciación del protocolo. Una vez que la red
-CANae ya fue creada el nodo monitor se puede ser retirada de esta.  
+de todos los nodos en las fases de iniciación del protocolo. Una vez que la red
+CANae ya fue creada, el nodo monitor  puede ser retirado.

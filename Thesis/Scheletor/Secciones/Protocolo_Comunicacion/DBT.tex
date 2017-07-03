@@ -5,9 +5,9 @@ los identificadores (Node-ID) correctamente a cada uno de los nodos y cómo se
 asignan los tiempos de inhibición. Los Node-ID y los tiempos de inhibición se
 deben distribuir entre los nodos de tal manera de asegurar que:
 \begin{itemize}
-\item Se preveean los conflictos entre nodos. Por ejemplo diferentes funciones
+\item Se preveean los conflictos entre nodos. Por ejemplo, diferentes funciones
   que usan el mismo identificador.
-\item Se preveean la falta de coincidencia. Por ejemplo que existan diferentes
+\item Se preveean la falta de coincidencia. Por ejemplo, que existan diferentes
   indentificadores para el mismo nodo.
 \item ofrecer el control integrado para un comportamiento dinámico del
   sistema.  
@@ -67,7 +67,7 @@ El DBT de CANae ofrece las siguientes categorias de servicio:
   corroborados por los nodos, comprobando que el ID enviado coincida con su
   propio Node-ID.
 \item \textbf{Consistency Control Services}: através de este servicio cada nodo
-  puede detectar inconsistencia en el NodeTableConfiguration e inconsistencia
+  puede detectar inconsistencia en el \textit{NodeTableConfiguration} e inconsistencia
   entre nodos.
 \end{itemize}
 
@@ -88,13 +88,13 @@ siguientes:
     \item \underline{Estado}: Uno de los valores {ENABLED, DISABLED}. Este
       atributo indica si el DBT Monitor es capaz de distribuir los Node-ID
       y tiempos de inhibición. En esta instancia de trabajo el valor del estado
-      en el DBT del Nodo Monitor será DSIABLED
-      \item \underline{Node Definition Set} set de todas las definciones. 
+      en el DBT del Nodo Monitor será DISABLED
+      \item \underline{Node Definition Set} set de todas las definiciones. 
     \end{itemize}
   \end{itemize}
 
 \item \textbf{Node-ID Defintion}:
-  Las definciones contiene los siguientes datos:
+  Las definiciones contiene los siguientes datos:
   \begin{itemize}
   \item \underline{ID}: Valor en el rango de [0,255]
   \item \underline{Mínimo tiempo de inhibición}: en el rango [0,65535] indicando
@@ -133,7 +133,7 @@ siguientes:
 
 \subsection{Protocolos DBT}
 \subsubsection{Crear NodeTableConfiguration}
-El La tabla de configuración del nodo juega un papel similar al que lo haría el
+En la tabla de configuración del nodo juega un papel similar al que lo haría el
 Node-ID DATABASE del estándar CAN. La principal diferencia, es que esta tabla
 se encuentra presente en todos los nodo y no en el ``Master'', ya que este
 protocolo está pensado para ser utilizado en redes distribuidas, donde no
@@ -153,10 +153,10 @@ recibido através de la interfaz DBT del nodo, y crea el objeto
 \end{figure} 
 
 \subsubsection{Habilitar distribución}
-La distribución de Node-ID es utilizada cuando se utiliza el método de
+La distribución de Node-ID es utilizada cuando se usa el método de
 asignación dinámica. En esta versión del protocolo la distribución del ID se
 encuentra desactivada. En la Figura \ref{fig:enable_distribution} se puede
-obseevar el protocolo.
+observar el protocolo.
 
 \begin{figure}[h!]
  \centering
@@ -179,7 +179,7 @@ Figura \ref{fig:disable_distribution}
 
 
 \subsubsection{Crear definición del nodo}
-El nodo monitor envía la señal para que sea creen las definiciones de nodo. Para
+El nodo monitor envía la señal para crear las definiciones del nodo. Para
 ello es necesario que el nodo monitor envíe los rangos permitidos para la
 definición de los nodos. Esto se define a través de las variables
 \textit{lNode-ID} y \textit{hNode-ID}. En esta versión del protocolo estas
