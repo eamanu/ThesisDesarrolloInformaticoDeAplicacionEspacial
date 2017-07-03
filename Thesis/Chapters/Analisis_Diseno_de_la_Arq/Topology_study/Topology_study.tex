@@ -1,17 +1,17 @@
 \section{Estudio de topologías de arquitecturas}\label{seccion:TopologiaEstudio}
-Luego de un estudio exhaustivo del estado de la cuestión (\autoref{chap:estado_del_arte}) se llegó a la conclusión de que las topologias más estudiadas, por ende más maduras y sencillas de aplicar a las activiades que se pretenden realizar en la presente tesis son:
+Luego de un estudio exhaustivo del estado de la cuestión (\autoref{chap:estado_del_arte} Página \pageref{chap:estado_del_arte}) se llegó a la conclusión de que las topologias más estudiadas, por ende más maduras y sencillas de aplicar a las activiades que se pretenden realizar en la presente tesis son:
 \begin{itemize}
   \item Árbol binario
-  \item Red distribuída
+  \item Red distribuida
   \item Arquitectura hypercube
 \end{itemize}
 
 En esta sección, se definirá modelos para medir la confiabilidad de cada una de las topologías de arquitectura que aseguren una mayor tolerancia a fallas a nivel de sistema, de modo tal que si se llega a producir una falla en cualquiera de los nodos (sistemas de procesamiento) de la arquitectura, esta puede reconfigurarse, pemitiendo que esta continúe funcionando, sin sufrir ningún tipo de degradación, aún en la presencia de fallas.
 
 \subsection{Árbol binario}
-En primer lugar se planteó un árbol binario de cuatro niveles con back up, basandose en el diseño de \cite{Raghavendra84} \ref{fig:Reliability_binary_tree_4_levels}. Este diseño cuenta con $2^n - 1 =  15$ nodos. De lo estudiado en \autoref{sec:binary_tree} la confiabilidad puede ser calculada de la siguiente manera: $$R_{sys} = R^{2n +1} \prod_{k=0}^{n-1}{[(2^kc+1) - 2^kcR]}$$
+En primer lugar se planteó un árbol binario de cuatro niveles con backup, basandose en el diseño de \cite{Raghavendra84} \ref{fig:Reliability_binary_tree_4_levels}. Este diseño cuenta con $2^n - 1 =  15$ nodos. De lo estudiado en \autoref{sec:binary_tree} la confiabilidad puede ser calculada de la siguiente manera: $$R_{sys} = R^{2n +1} \prod_{k=0}^{n-1}{[(2^kc+1) - 2^kcR]}$$
 
-Con esto se puede observar la confiabilidad de la red con respecto al tiempo \ref{fig:Reliability_binary_tree_4_levels_2}.
+Con esto se puede observar la confiabilidad de la red con respecto al tiempo en la Figura \ref{fig:Reliability_binary_tree_4_levels_2}.
 
 \begin{figure}[H]
  \centering
@@ -22,7 +22,7 @@ Con esto se puede observar la confiabilidad de la red con respecto al tiempo \re
 
 La cantidad de niveles que se eligió para esta topología depende del número de subsistemas que se requieren.
 
-Los nodos back up se mantienen inactivos, es decir no participan en el procesamiento durante la vida normal del sistema. En caso de producirse una falla, se supone que estos nodos de redundancia, comienzan a funcionar automáticamente, sin ninún tipo de retraso. Esto, que no corresponde con la realidad, permite simplificar los cálculos para este trabajo de tesis.
+Los nodos backup se mantienen inactivos, es decir no participan en el procesamiento durante la vida normal del sistema. En caso de producirse una falla, se supone que estos nodos de redundancia, comienzan a funcionar automáticamente, sin ninún tipo de retraso. Esto, que no corresponde con la realidad, permite simplificar los cálculos para este trabajo de tesis.
 
 \subsection{Red distribuida}
 El estudio de una topología de red distribuída no es tan sencilla como la que se plantea para un árbol binario. Para el desarrollo de esta red, además de los 6 nodos que representa cada uno de los subsistemas requeridos, se agrega 2 nodos de redundancia. Por lo tanto se tiene una red de 8 nodos. Siguiendo la metodología de desarrollo presentado por \cite{Pradhan82} se llevó a cabo la red que se presenta en la Figura \ref{fig:distributed_net}.
@@ -34,9 +34,9 @@ El estudio de una topología de red distribuída no es tan sencilla como la que 
 \label{fig:distributed_net}
 \end{figure}
 
-Esta cuenta con 4 nodos de grado 4, 2 nodos de grado 3, y 2 nodos de grado 2. Ante cualquier falla de alguno de los nodos de la red, esta topología tiene la capacidad formar subredes, que mantien todos los nodos conectados (a excepción del fallado), asegurandose la funcionalidad y reconfiguración del sistema completo. Estratégicamente y para lograr la condición mencionada anteriormente, se crea la \textbf{condición} de que pueden fallar hasta 4 nodos simultaneamento. Esto aseguraría de que la red continuará funcionando aún en la presencia de fallas (tolerante a fallas).
+Esta cuenta con 4 nodos de grado 4, 2 nodos de grado 3, y 2 nodos de grado 2. Ante cualquier falla de alguno de los nodos de la red, esta topología tiene la capacidad formar subredes, que mantien todos los nodos conectados (a excepción del fallado), asegurandose la funcionalidad y reconfiguración del sistema completo. Estratégicamente y para lograr la condición mencionada anteriormente, se crea la \textbf{condición} de que pueden fallar hasta 4 nodos en simultaneo. Esto aseguraría de que la red continuará funcionando aún en la presencia de fallas (definición de tolerancia a fallas).
 
-Se modificó la fórmula desarrollada  por \cite{Stivaros92}, para lograr una cohrencia de los modelos que se vienen planteand en el presente trabajo. Teniendo en cuenta que la confiabilidad del sistema completa es: $$R(t) = \prod_{v \in S} e^{- \lambda t}$$
+Se modificó la fórmula desarrollada  por \cite{Stivaros92}, para lograr coherencia entre los modelos que se plantean en el presente trabajo. Teniendo en cuenta que la confiabilidad del sistema completo es: $$R(t) = \prod_{v \in S} e^{- \lambda t}$$
 
 donde $v$ representa el nodo y $S$ es el subsistema funcional. Es decir, que este modelo recorre todos los nodos funcionales. Cuando existen nodos con fallas, y que dejan de ser funcionales, el modelos es el siguiente: $$R_{sys} =\sum_{i=0}^{k} (( \prod_{v \in S} R(t)) - (\prod_{v \notin S} (1 -  R(t) c )))$$
 

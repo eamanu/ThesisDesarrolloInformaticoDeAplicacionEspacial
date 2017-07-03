@@ -74,7 +74,7 @@
 \contentsline {subsection}{\numberline {2.17.4}Capa f\IeC {\'\i }sica}{31}{subsection.2.17.4}
 \contentsline {subsubsection}{\numberline {2.17.4.1}Bus de comunicaci\IeC {\'o}n}{31}{subsubsection.2.17.4.1}
 \contentsline {subsubsection}{\numberline {2.17.4.2}Bit timing}{32}{subsubsection.2.17.4.2}
-\contentsline {subsubsection}{\numberline {2.17.4.3}Asignaci\IeC {\'o}n eficiente del bus}{32}{subsubsection.2.17.4.3}
+\contentsline {subsubsection}{\numberline {2.17.4.3}Asignaci\IeC {\'o}n eficiente del bus}{33}{subsubsection.2.17.4.3}
 \contentsline {subsection}{\numberline {2.17.5}Capa de Enlace}{33}{subsection.2.17.5}
 \contentsline {subsection}{\numberline {2.17.6}Formato del mensaje}{33}{subsection.2.17.6}
 \contentsline {subsubsection}{\numberline {2.17.6.1}Data Frame}{33}{subsubsection.2.17.6.1}
@@ -83,14 +83,14 @@
 \contentsline {subsubsection}{\numberline {2.17.6.4}Overload Frame}{34}{subsubsection.2.17.6.4}
 \contentsline {subsubsection}{\numberline {2.17.6.5}CAN est\IeC {\'a}ndar y CAN extendido}{34}{subsubsection.2.17.6.5}
 \contentsline {subsubsection}{\numberline {2.17.6.6}Arbitraje}{35}{subsubsection.2.17.6.6}
-\contentsline {subsection}{\numberline {2.17.7}CANAerospace}{35}{subsection.2.17.7}
+\contentsline {subsection}{\numberline {2.17.7}CANAerospace}{36}{subsection.2.17.7}
 \contentsline {subsubsection}{\numberline {2.17.7.1}Formato del mensaje CANAerospace}{36}{subsubsection.2.17.7.1}
 \contentsline {chapter}{\numberline {3}Estado del arte}{38}{chapter.3}
 \contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{38}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{39}{subsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.1.1}Estimaci\IeC {\'o}n de la confiabilidad de un \IeC {\'a}rbol binario con backup}{39}{subsubsection.3.1.1.1}
 \contentsline {section}{\numberline {3.2}Sistemas Hypercube}{40}{section.3.2}
-\contentsline {section}{\numberline {3.3}Redes distribu\IeC {\'\i }das}{41}{section.3.3}
+\contentsline {section}{\numberline {3.3}Redes distribuidas}{41}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Algoritmo de ruteo}{42}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Redes Ethernet en avi\IeC {\'o}nica}{42}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Experiencia de vuelo}{43}{subsection.3.4.1}
