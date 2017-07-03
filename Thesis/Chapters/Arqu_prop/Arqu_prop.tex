@@ -2,7 +2,7 @@
 
 La arquitectura propuesta se centra en la comunicación de la aviónica de un
 vehículo espacial, con la característica de que sus componentes (nodos) son
-de baja confiabilidad (se piensa en la utilización de compoentes COTS)
+de baja confiabilidad (se piensa en la utilización de componentes COTS)
 por lo tanto, es necesario que esta arquitectura sea tolerante a fallas. En este
 trabajo el protocolo de comunicación (tolerante a fallas) propuesto,
 se encuentra en las capas superiores del modelo de referencia OSI\footnote{ISO/IEC 7498-1 - Open System Interconnection}
@@ -15,11 +15,11 @@ El capítulo estará dividido en
 \begin{itemize}
 \item Arbol de requerimientos
 \item Diseño estructural (Diagramas de bloques, bloques internos)
-\item Diseño dinámico (Diagramas de secuencia, interacción, maquina de estados,)
+\item Diseño dinámico (Diagramas de secuencia, interacción, máquina de estados,)
   
 \end{itemize}
 
-\section{Árbol de requrimientos}
+\section{Árbol de requerimientos}
 A continuación se detallas los requerimientos que van a guiar el diseño y
 desarrollo de la propuesta de arquitectura de aviónica tolerantes a fallas
 basada en componentes \ac{COTS} para satélites. En la Figura
@@ -71,27 +71,27 @@ A continuación se explica cada uno de los requerimientos:
   es desarrollar una arquitectura basada en componentes COTS, lo cual agrega un
   grado importante de innovación tecnológica y complejidad, siendo de especial
   interés para INVAP trabajar con estos tipos de componentes.
-\item\textbf{L1\_002}: Este requerimiento hace referencia que se debe asegurar
+\item\textbf{L1\_002}: Este requerimiento hace referencia a que se debe asegurar
   el correcto funcionamiento de la arquitectura con una cantidad de al menos
   6 subsistemas.
 \item\textbf{L1\_003}: Este requerimiento exige que la arquitectura sea
   tolerante a fallas para así poder sastifacer el requerimiento \textbf{L1\_006}.
 \item\textbf{L1\_004}: Este requerimiento (constraint) indica que se debe pensar
   la arquitectura para ser utilizada con el bus CAN de Bosch. Este requerimiento
-  es de interés par INVAP.
+  es de interés para INVAP.
 \item\textbf{L1\_005}: Este requerimiento indica que la arquitectura que se
-  desarrolle debe ser sufiencite para lograr terminar una tesis de maestría. Por
+  desarrolle debe ser suficiente para lograr terminar una tesis de maestría. Por
   el diseño y desarrollo debe ser solo el suficiente y necesario para cumplir
   con el presente trabajo.
 \item\textbf{L1\_006}: Este requerimiento indica que debe asegurarse que la
-  arquitectura sea lo suficientemente robusta como para asegurar el el tiempo de
+  arquitectura sea lo suficientemente robusta como para asegurar el tiempo de
   vida de la misión de 10 años como mínimo. Existe un \textbf{problema} con este
   requerimiento, y es que para los alcances de esta tesis, será imposible
   verificar si se cumple con este requerimiento.
 \item\textbf{L1\_007}: Este requerimiento indica que el trabajo de tesis tiene
   que ser finalizado en menos de un año. Esto tiene relación con el
-  requerimiento \textbf{L1\_005} debido a que no se logrará alcanzar el detalle
-  necesario para lograr la correcta implementación, verifación y validación de
+  requerimiento \textbf{L1\_005} debido a que no se alcanzará el detalle
+  necesario para lograr la correcta implementación, verificación y validación de
   la arquitectura.
 \item\textbf{L2\_000}: Este requerimiento exige que la arquitectura pueda
   reconfigurarse cuando un nodo falle.
@@ -113,7 +113,7 @@ A continuación se explica cada uno de los requerimientos:
 A continuación se muestra el diagrama de Casos de Uso para la arquitectura propuesta.
 El diagrama de Casos de Uso tiene como propósito explicar de manera general
 el comportamiento a nivel de sistema de la arquitectura propuesta.
-Los actores identificadores para esta arquitectura son los diferentes
+Los actores identificados para esta arquitectura son los diferentes
 subsistemas que se conectan a la red a través de los nodos.
 Los subsistemas interactúan con el nodo a través de
 la aplicación de usuario, es decir se encuentra asociados.
@@ -135,8 +135,7 @@ aparece un resumen de los Actores intereactuando con el sistema.
 \end{figure} 
 
 De manera más detallada en la Figura \ref{fig:DiagramaCUArqPropuesta} se
-observa un diagrama de casos de uso explayado. En este se pueden observar su
-comportamiento.
+observa un diagrama de casos de uso explayado que muestra su comportamiento.
 
 \begin{figure}[h!]
  \centering
@@ -145,25 +144,25 @@ comportamiento.
 \label{fig:DiagramaCUArqPropuesta}
 \end{figure} 
 
-Le especifcación de los casos de usos se describen en \ref{Appendix:UseCase}.
-Como se puede observar en la Figura \ref{fig:DiagramaCUArqPropuesta}
+Le especifcación de los casos de usos se describen en el apéndice \ref{Appendix:UseCase}.
+Como se verifica en la Figura \ref{fig:DiagramaCUArqPropuesta}
 el sistema tiene 9 casos de uso.
 
 Los casos de uso de \textit{Enviar Mensaje} y \textit{Recibir Mensaje} denota la
 capacidad de la arquitectura de enviar y recibir mensajes (Data Frames de
 CANae) desde y hacia las aplicaciones de usuario. Cuando una aplicación
-necesita enviar un mensaje, estos deben primer pasar por el caso de uso
+necesita enviar un mensaje, estos deben, primero pasar por el caso de uso
 \textit{Procesar Mensaje} este es el encargado de empaquetar los mensajes.
 También en este caso de uso se encuentra el caso de uso \textit{Rutear
   Mensaje}.
 
 El caso de uso \textit{Rutear Mensaje} se encarga de aplicar los algoritmos
 necesarios para lograr entregar el mensaje de una manera eficiente, siguiendo
-la tabla de ruteo del CANae. Para esto se basa del caso de uso \texit{Gestionar
+la tabla de ruteo del CANae. Para esto se basa del caso de uso \textit{Gestionar
   Red}.
 
-El caso de uso \texit{Gestionar Tareas} y \texit{Dividr Tareas} se encarga de
-de conocer (periódicamente) el estado de la red y de sus nodos. Con esto puede
+El caso de uso \textit{Gestionar Tareas} y \textit{Dividir Tareas} se encarga de
+de conocer (periódicamente) el estado de la red y de sus nodos. Con esto, se puede
 decidir cómo se reparten las tareas de una manera eficiente, siguiendo
 la filosofía de arquitectura distribuída.
 
@@ -172,7 +171,7 @@ Detección, Aislación, y Recuperación del sistema ante fallas. Debido a la
 complejidad de esto, no se lo desarrolla a esta caso de uso en este trabajo.
 El cual queda para \textbf{trabajos futuros}\ref{chap:TrabajosFuturos}. En este
 caso de uso se encuentra el \textit{Reconfigurar Arquitectura}. Este es una
-algoritmo del \ac{FDIR} que cuando se produce una falla en el algunos de los
+algoritmo del \ac{FDIR} que cuando se produce una falla en algunos de los
 nodos, la red se tiene que reconfigurar, para lograr continuar funcionando,
 aún cuando haya nodos inactivos. Esto le brindaría a la arquitectura una grado
 más de tolerancia a fallas. 

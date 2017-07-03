@@ -3,7 +3,7 @@
 En es este trabajo de tesis se decidió continuar el desarrollo de la arquitectura con BUS-CAN ya que este es de interés para los proyectos desarrollados en INVAP. Cabe aclarar que el objetivo principal de esta tesis no es llevar a cabo una comparación exhaustiva de protocolos de comunicación tolerantes a fallas, sino elegir la más indicada y que se adapte a las necesidades de INVAP. Por tal motivo, se expone, en esta sección, las características importantes de CAN.
 
 \subsection{Introducción}
-El bus CAN (Controller Area Network) fue desarrollado por Bosh. Comenzó su desarrollo en 1983 y tuvo su primer release en 1986. Fue estandarizada por la Organización Internacional de Estandarización (ISO) bajo el nombre de  ISO 11898. El Bus CAN surgió como respuesta al rápido crecimiento de la elctrónica en la industria automotriz \citep{esdWEB}. Este protocolo se definió con el objetivo de proveer comunicación determinística de sistemas distribuídos, y que necesiten un alto grado de confiabilidad. CAN permite la conectividad vía bus serial. El bus está compuesto por  2 cables que pueden estar blindados o on \citep{esdWEB}.
+El bus CAN (Controller Area Network) fue desarrollado por Bosh. Comenzó su desarrollo en 1983 y tuvo su primer release en 1986. Fue estándarizada por la Organización Internacional de Estándarización (ISO) bajo el nombre de  ISO 11898. El Bus CAN surgió como respuesta al rápido crecimiento de la elctrónica en la industria automotriz \citep{esdWEB}. Este protocolo se definió con el objetivo de proveer comunicación determinística de sistemas distribuídos, y que necesiten un alto grado de confiabilidad. CAN permite la conectividad vía bus serial. El bus está compuesto por  2 cables que pueden estar blindados o on \citep{esdWEB}.
 
 Las características de CAN que la convierten en un tentadora opción para la aplicación en el sector espacial, son:
 \begin{itemize}
@@ -13,11 +13,11 @@ Las características de CAN que la convierten en un tentadora opción para la ap
   \item Facilidad en el uso
 \end{itemize}
 
-La especificaciones de CAN, originalmente desarrollados por Bosch cubre solamente las capas físicas y de enlaces de datos del modelo de referencia de ISO/OSI. Luego de la estandarización ISO provee detalles adicionales de la capa física de CAN.
+La especificaciones de CAN, originalmente desarrollados por Bosch cubre solamente las capas físicas y de enlaces de datos del modelo de referencia de ISO/OSI. Luego de la estándarización ISO provee detalles adicionales de la capa física de CAN.
 
 A diferencia de otros protocolos como USB o Ethernet, CAN no envía grandes bloques de datos de un punto a otro. CAN envía mensajes cortos como temperatura, o RPM ( Revoluciones por minutos), y son enviados como broadcast a todo el sistema \citep{texasCAN}.
 
-El protocolo de comunicación CAN, en su estandar ISO 11898, explica cómo la información viaja entre los dispositivos
+El protocolo de comunicación CAN, en su estándar ISO 11898, explica cómo la información viaja entre los dispositivos
 conectados a una arquitectura siguiendo el modelo de OSI. La arquitectura planteada
 por la ISO 11898 se puede observar en la Figura \ref{fig:iso11898} \citep{texasCAN}.
 

@@ -19,13 +19,13 @@
   \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
   \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
   \textbf{Actor} & \begin{itemize}
-    \item \textit{UserApplication}.Este es la aplicación del usuario que se encuentra ejecutandose en el nodo.
+    \item \textit{UserApplication}.Este es la aplicación del usuario que se encuentra ejecutándose en el nodo.
   \end{itemize} \\ \hline
   \textbf{Descripción} & Este caso de uso recibe los mensajes que la aplicación de usuario necesita enviar
   por la red hacia otro nodo en el sistema. \\ \hline
   \textbf{Precondición} & \begin{itemize}
 \item El nodo debe estar funcional y conectado a la red.
-\item El protocolo CANae debe haber finalizado su inicialiación.
+\item El protocolo CANae debe haber finalizado su inicialización.
 \item El nodo destino tiene que estar funcional.
   \end{itemize} \\ \hline
   \textbf{Postcondición}  & \begin{itemize}
@@ -62,14 +62,14 @@ produjo un error. \\ \hline
   \textbf{Fecha de la úlltima actualización} & N/A \\ \hline
   \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
   \textbf{Actor} & \begin{itemize}
-    \item \textit{UserApplication}. Este la aplicación del usuario que se encuentra ejecutandose en el nodo.
+    \item \textit{UserApplication}. Este la aplicación del usuario que se encuentra ejecutándose en el nodo.
   \end{itemize} \\ \hline
   \textbf{Descripción} & Este caso de uso recibe los mensajes proveniente de las capas inferiores de CAN
 y luego es enviado a la aplicación del usuario. \\ \hline
   \textbf{Precondición} & \begin{itemize}
 \item El mensaje tiene que llegar sin errores.
 \item El nodo debe estar conectado y funcional en la red.
-\item El nodo debe estar preparada (no ocupado) para recibir el mensaje.
+\item El nodo debe estar preparado (no ocupado) para recibir el mensaje.
 \end{itemize} \\ \hline
   \textbf{Postcondición}  & N/A \\ \hline
   \textbf{Prioridad} & Prioridad media. \\ \hline
@@ -140,7 +140,7 @@ debe pasar el mensaje hasta llegar al nodo destino. \\ \hline
   \textbf{Postcondición}  & N/A \\ \hline
   \textbf{Prioridad} & Prioridad alta. \\ \hline
   \textbf{Curso normal de eventos} & Este caso de uso una vez que se clasifica y empaqueta el mensaje,
-debe consultar al Caso de Uso \textit{Gestion de Red} para verificar
+debe consultar al Caso de Uso \textit{Gestión de Red} para verificar
 que nodos intermedios debe pasar el mensaje hasta llegar al nodo
 destino.  \\ \hline
 \textbf{Cursos alternativos} & N/A \\ \hline
@@ -165,7 +165,7 @@ destino.  \\ \hline
   \multicolumn{2}{|c|}{\Large\textbf{Definición del Caso de Uso}} \\ \hline
   \textbf{Actor} & N/A \\ \hline
   \textbf{Descripción} & Este caso de uso se encarga de gestionar la red. Se vale de las
-bondades ofrecidas por CANae para conocer cuales son los nodos
+bondades ofrecidas por CANae para conocer cuáles son los nodos
 conectados a la red y la distancia que existe entre el nodo
 objetivo y el destino. \\ \hline
   \textbf{Precondición} & \begin{itemize}
@@ -176,10 +176,10 @@ objetivo y el destino. \\ \hline
   \textbf{Postcondición}  & N/A \\ \hline
   \textbf{Prioridad} & Prioridad alta. \\ \hline
   \textbf{Curso normal de eventos} & El caso de uso utiliza las bondades del protocolo CANae para conocer
-cuales son los nodos conectados a la red y su distancia. Este caso
+cuáles son los nodos conectados a la red y su distancia. Este caso
 de uso es la base para que se realice una correcta gestión de tareas
 a realizar en el sistema. Luego con esto se pueden dividir las tareas que
-se llevarán a cabo el los diferentes nodos de la red.  \\ \hline
+se llevarán a cabo en los diferentes nodos de la red.  \\ \hline
 \textbf{Cursos alternativos} & N/A \\ \hline
 \textbf{Excepciones} & N/A \\ \hline
 \textbf{Includes} & Ver Gestionar Tareas \ref{uc:GestionarTareas} \\ \hline
@@ -212,9 +212,9 @@ la gestión de tareas del sistema. \\ \hline
 \end{itemize} \\ \hline
   \textbf{Postcondición}  & N/A \\ \hline
   \textbf{Prioridad} & Prioridad alta. \\ \hline
-  \textbf{Curso normal de eventos} & En primer lugar debe consultar la tabla de ruteo para conocer la posción de los nodos.
-Con ello y lista de tareas del sistema, lleva a cabo un algoritmo de
-gestión de tareas, donde se negocia con los demás nodos que tareas se
+  \textbf{Curso normal de eventos} & En primer lugar debe consultar la tabla de ruteo para conocer la posición de los nodos.
+Con ello y la lista de tareas del sistema, lleva a cabo un algoritmo de
+gestión de tareas, donde se negocia con los demás nodos qué tareas se
 van a llevar a cabo en los diferentes nodos. \\ \hline
 \textbf{Cursos alternativos} & N/A \\ \hline
 \textbf{Excepciones} & N/A \\ \hline
@@ -250,7 +250,7 @@ una vez que se ha llevado a cabo la negociación. \\ \hline
 \end{itemize} \\ \hline
   \textbf{Prioridad} & Prioridad alta. \\ \hline
   \textbf{Curso normal de eventos} & Luego de recibir el resultado de la negociación, actualiza la lista
-de tareas que se llevan a cabo en los nodos. E informa a los demás nodos. \\ \hline
+de tareas que se llevan a cabo en los nodos. Informa a los demás nodos. \\ \hline
 \textbf{Cursos alternativos} & N/A \\ \hline
 \textbf{Excepciones} & N/A \\ \hline
 \textbf{Includes} & N/A \\ \hline

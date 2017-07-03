@@ -4,7 +4,7 @@ enviados y recibidos desde la red CAN. Esta entidad debe ser capaz de determinar
 si el mensaje (enviado o recibido) contiene datos o eventos. El gestor de
 mensajes tiene cuatro entidades:
 \begin{itemize}
-\item \textit{Receiver Manager}: es el encargado de recibir los mansajes de la
+\item \textit{Receiver Manager}: es el encargado de recibir los mensajes de la
   capa inferior a traves de la interfaz NMT. Esta entidad recibe y despaquetiza
   los mensajes.
 \item \textit{Prepared Message}: es el encargado de recibir los mensajes desde
@@ -113,7 +113,7 @@ Las principales funciones con las que cuenta esta entidad son las siguiente:
 Esta es la entidad que permite almacenar los mensajes que son recibidos y
 enviados. Esta entidad debe controlar la integridad de los mensajes que se
 encuentran almacenados. Además se encarga de escribir y leer los mensajes
-almacenados en el buffer. El buffer es FIFO\footnote{First In First Out}.
+almacenados en el buffer. El buffer es una  FIFO\footnote{First In First Out}.
 
 Las principales funciones de esta entidad son las siguientes:
 \begin{itemize}

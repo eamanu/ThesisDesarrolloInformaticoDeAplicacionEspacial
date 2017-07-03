@@ -29,7 +29,7 @@ mensajes de NMT CAN son envíados con máxima prioridad.
 \subsection{Objectos NMT}
 El Network Management utiliza tres objetos diferentes para modelar una red CAN.
 \begin{itemize}
- \item \textbf{Network Object}: Representa todos los modulos conectados en la
+ \item \textbf{Network Object}: Representa todos los módulos conectados en la
   red CAN. El objeto de red existe en todos los nodos.
  \item \textbf{Remote Node Object}: Cada nodo conectado a la red CAN tiene
    representado todos los demás nodos.    
@@ -74,7 +74,7 @@ La funciones típicas que se deben implementar en el NMT son los siguientes:
     
 \item UInteger identify\_remote\_node(UInteger Node-ID)
   \begin{itemize}
-  \item \textbf{UInteger Node-ID}: Dirección del nodo a idetenficar
+  \item \textbf{UInteger Node-ID}: Dirección del nodo a identificar
   \end{itemize}
 
 \item UInteger identify\_node()
@@ -106,16 +106,16 @@ La funciones típicas que se deben implementar en el NMT son los siguientes:
 \subsection{Protocolos NMT}
 \subsubsection{Crear red CANae}
 Para conectar correctamente la red CANae se debe respetar el protocolo NMT para
-crear la red.En primer lugar el nodo monitor debe enviar el mensaje
+crear la red. En primer lugar el nodo monitor debe enviar el mensaje
 \textit{create\_remote\_network()} para avisar a todos los nodos que deben crear
 sus propias instancias de \textit{NetworkObject} a través de
 \textit{create\_network()}. Automáticamente, los nodos deben crear una propia
-instancia del nodo mediante \textit{create\_node()}. Luego el nodo monitor
+instancia del nodo mediante \textit{create\_node()}. Luego,el nodo monitor
 envía el mensaje de \textit{prepare\_remote\_node()} para prepara todos los
-nodos a conectarse a la red CANae. Luego el nodo monitor envía la señal de
+nodos a conectarse a la red CANae. Paso siguiente, el nodo monitor envía la señal de
 \textit{connect\_remote\_node(UInteger Node-ID)} con la dirección de todos los
-nodos que figuran en su \textit{NodeTableConfiguration} preprogramada.
-Luego cada nodo, correctamente preparado, se conecta a la red a través de
+nodos que figuran en \textit{NodeTableConfiguration} preprogramada.
+Así, cada nodo, correctamente preparado, se conecta a la red a través de
 \textit{connect\_node()}.
 
 Este protocolo puede ser observado en la Figura \ref{fig:ProtocolNMTConnectNet}
@@ -131,9 +131,9 @@ Para lograr la correcta conexión de los nodos a la red, estos deben
 configurarse. Cuando se alimenta la red, los nodos deben iniciar en estado de
 \textit{escucha} esperando la orden del nodo monitor de crear la red mediante
 \textit{create\_remote\_network()}. Esta se envía en broadcast a todos los nodos
-conectados. Cuando el controlador de la capa de aplicaciónr recibe el mensaje
-através del servicio NMT, este manda un mensaje al gesto del nodo interno, el
-cual crea la \textit{tabla de configuración del nodo} y acutizaliza con la
+conectados. Cuando el controlador de la capa de aplicación recibe el mensaje
+através del servicio NMT, este manda un mensaje al gestor del nodo interno, el
+cual crea la \textit{tabla de configuración del nodo} y la  actualiza con la
 información necesaria.
 
 \begin{figure}[h!]
@@ -160,11 +160,11 @@ pertenecen a la entidad NMT (Figura \ref{fig:CreateNode}).
 
 \subsubsection{Preparar nodos para conexión}
 Para lograr la conexión de los nodos a la red CAN, es necesario que el nodo
-monitor envía la señal \textit{\_prepare\_remote\_node(UInteger Nodo-ID)} a
+monitor envíe la señal \textit{_prepare\_remote\_node(UInteger Nodo-ID)} a
 cada uno de los nodos conectados a la red siguiendo la propia tabla de
 configuración de nodos preprogramada. Cada nodo recibe la señal procesa aquella
 que le pertence, y comienza a preparar el nodo para lograr la correcta conexión.
-Para ello debe actualizar su propia tabal de configuración de nodos, como así
+Para ello debe actualizar su propia tabla de configuración de nodos, como así
 también actualizar su \textit{Objeto Red} (Figura \ref{fig:PrepareNode}).
 
 \begin{figure}[h!]

@@ -3,7 +3,7 @@ La denominada \textit{High Application Layer} tiene una función más del lado d
 la gestión de nodos y tareas. En esta capa se desarrollan los algoritmos
 necesarios para realizar el ruteo y la reconfiguración de la red ante fallas,
 por lo tanto en la \textit{High Application Layer} se debe implementar la
-\ac{FDIR}. El protocolo no define ninún algoritmo de ruteo, por lo que queda
+\ac{FDIR}. El protocolo no define ningún algoritmo de ruteo, por lo que queda
 para el usuario la definición de los algoritmos. Se recomienda desarrollar 2
 algoritmos, el primario y el secundario. Para aumentar la tolerancia a fallas
 se pueden desarrollar más algoritmos secundarios, y el switch entre algoritmos,
@@ -47,7 +47,7 @@ Los servicios brindados por el \textit{Network Management} son los siguientes:
 \item \textbf{QueryNodes()}: este servicio hace consulta de los nodos
   conectados. Este puede ser utilizado por el servicio Routing()
 \item \textbf{ConfigurationNetwork()}: este servicio se lleva a cabo solo una
-  vez, durante el encendido y configuración al nodo. 
+  vez, durante el encendido y configuración del nodo. 
 \item \textbf{ReconfigurationNetwork()}: este servicio lleva a cabo la
   reconfiguración de la red. Este servicio es activado por el \ac{FDIR} una vez
   que detecta algún error.
@@ -109,10 +109,10 @@ una señal de \textit{QueryTasks()} con el motivo de conocer todas las tareas qu
 se están ejecutando en la red. El \textit{Task Management} lleva a cabo un
 \textit{query\_tasks\_in\_network()} al \textit{Network Management} el cual le
 provee la información. La primera comprobación que debe realizar la
-aplicación de usuario es que la tarea no existe en otro nodo ejecutandose. Luego
-de esta comprobación ya tiene permitido llevar a cabo el \textit{RunTask()}. Por
-último el \textit{Task Management} manda el mensaje \textit{Running(Task task)}
-al \textit{ListOfTasks}(ver \ref{subsection:listoftask}). El comportamiento de
+aplicación de usuario es que la tarea no exista en otro nodo ejecutándose. Luego
+de esta comprobación, ya tiene permitido llevar a cabo el \textit{RunTask()}. Por
+último, el \textit{Task Management} manda el mensaje \textit{Running(Task task)}
+al \textit{ListOfTasks} (ver \ref{subsection:listoftask}). El comportamiento de
 la entidad se la puede observar en la Figura \ref{fig:TaskManagement_RunTask}.
 
 \begin{figure}[h!]
@@ -122,7 +122,7 @@ la entidad se la puede observar en la Figura \ref{fig:TaskManagement_RunTask}.
 \label{fig:TaskManagement_RunTask}
 \end{figure}
 
-Por otro lado cuando la aplicación de usuario necesita para una tarea, o debido
+Por otro lado cuando la aplicación de usuario necesita detener una tarea, o debido
 a que el FDIR detecto una falla y necesita detener la ejecución de una tarea, el
 proceso que debe llevar el \textit{Task Management} es el siguiente, en primer
 hace un \textit{QueryTasks()} para conocer las tareas que se están ejecutando y
@@ -141,7 +141,7 @@ En la Figura \ref{fig:TaskManagement_StopTask}
 
 \subsection{List of Tasks}\label{subsection:listoftask}
 Este es un objeto que mantiene una lista de las tareas que se están definidas en
-el sistema. Estas tareas pueden o no estar ejecutandose. Esta lista tiene un
+el sistema. Estas tareas pueden o no estar ejecutándose. Esta lista tiene un
 instancia a todas las tareas. 
 
 Los servicios que se ejecutan en esta entidad son los siguientes:
