@@ -1,5 +1,6 @@
-\section{Introducción}
-
+%\section{Introducción}
+\vspace{1cm}
+\itshape
 La arquitectura propuesta se centra en la comunicación de la aviónica de un
 vehículo espacial, con la característica de que sus componentes (nodos) son
 de baja confiabilidad (se piensa en la utilización de componentes COTS)
@@ -7,19 +8,24 @@ por lo tanto, es necesario que esta arquitectura sea tolerante a fallas. En este
 trabajo el protocolo de comunicación (tolerante a fallas) propuesto,
 se encuentra en las capas superiores del modelo de referencia OSI\footnote{ISO/IEC 7498-1 - Open System Interconnection}
 
-
-Aquí hago la propuesta de la arquitectura.
-
-El capítulo estará dividido en
+Este capítulo está dividido en las seguientes secciones:
 
 \begin{itemize}
-\item Arbol de requerimientos
-\item Diseño estructural (Diagramas de bloques, bloques internos)
-\item Diseño dinámico (Diagramas de secuencia, interacción, máquina de estados,)
+\item Arbol de requerimientos, Sección \ref{sec:arbol_req} (página \pageref{sec:arbol_req}).
+\item Casos de uso, Sección \ref{sec:caso_uso} (página \pageref{sec:caso_uso}).
+\item Diseño estructural (Diagramas de bloques, bloques internos), Sección \ref{sec:dis_estructural}
+(página \pageref{sec:dis_estructural}).
+\item Diseño dinámico (Diagramas de secuencia, interacción, máquina de estados), Sección
+\ref{sec:modelo_dinamico} (página \pageref{sec:modelo_dinamico}).
   
 \end{itemize}
+\upshape
 
-\section{Árbol de requerimientos}
+\noindent\rule{\textwidth}{2pt}
+
+\vspace{1cm}
+
+\section{Árbol de requerimientos}\label{sec:arbol_req}
 A continuación se detallas los requerimientos que van a guiar el diseño y
 desarrollo de la propuesta de arquitectura de aviónica tolerantes a fallas
 basada en componentes \ac{COTS} para satélites. En la Figura
@@ -109,7 +115,7 @@ A continuación se explica cada uno de los requerimientos:
   filosofía de red distribuída para su diseño y desarrollo.
 \end{itemize}
 
-\section{Casos de Uso}
+\section{Casos de Uso}\label{sec:caso_uso}
 A continuación se muestra el diagrama de Casos de Uso para la arquitectura propuesta.
 El diagrama de Casos de Uso tiene como propósito explicar de manera general
 el comportamiento a nivel de sistema de la arquitectura propuesta.
@@ -181,3 +187,18 @@ más de tolerancia a fallas.
 
 % talk about behavorial design
 \input{../Chapters/Arqu_prop/DisComportamiento.tex}
+
+\vspace{1cm}
+\noindent\rule{\textwidth}{2pt}
+
+\textbf{\Large{Resúmen}}
+
+En este capítulo se presentó la arquitectura propuesta, la cual 
+sigue una filosofía de red distribuida que, como se estudio en
+capítulos anteriores, brinda una mayor tolerancia a fallas.
+
+La innovación de este trabajo puede ser observada en el diseño de
+la arquitectura basado en modelos y orientado a objetos. Tanto la
+arquitectura, como su protocolo de comunicación (CANae),
+están basados en modelos, y utilizan el lenguaje de modelado SysML para su
+modelado y documentación. 

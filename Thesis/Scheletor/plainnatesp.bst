@@ -60,7 +60,7 @@ ENTRY
     issn
     journal
     key
-    month
+    %month not used in apalike
     note
     number
     organization

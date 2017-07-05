@@ -1,5 +1,28 @@
+\vspace{1cm}
+
+\itshape
+En este capítulo se lleva a cabo una estudio de la confiabilidad de tres tipos
+de topologías tolerantes a fallas (Sección \ref{seccion:TopologiaEstudio}
+página \pageref{seccion:TopologiaEstudio}), candidatas a ser utilizada en el
+diseño de la arquitectura propuesta en este trabajo de tesis.
+
+Para ello, en la Sección \ref{sec:req_analisis} (página \pageref{sec:req_analisis})
+se realiza una descripción de algunos requerimientos (no estrictos), que guiarán
+el desarrollo de una arquitectura para un misión satelital ficticia basada en
+componentes COTS. En base a estos ``requerimientos'', se presentan los modelos para
+la medición de confiabilidad de las topologías mencionadas en el párrafo anterior. 
+
+En la Sección \ref{sec:protocolo_communicacion} (página \pageref{sec:protocolo_communicacion})
+se describe resumídamente el protocolo CANae 0.1 Alpha, que está basado en CAN y
+que fue desarrollado en este trabajo de tesis. En el apéndice \ref{Appendix:A}
+se describe este protocolo con mayor detalle
+\upshape
+
+\noindent\rule{\textwidth}{2pt}
+
+\vspace{1cm}
 % section that make an introduction
-\input{../Chapters/Analisis_Diseno_de_la_Arq/Introduction/Introduction.tex}
+%\input{../Chapters/Analisis_Diseno_de_la_Arq/Introduction/Introduction.tex}
 % section that talk about requeriments
 \input{../Chapters/Analisis_Diseno_de_la_Arq/Requeriments/Requeriments.tex}
 % section that talk about the nomenclautre
@@ -8,3 +31,21 @@
 \input{../Chapters/Analisis_Diseno_de_la_Arq/Topology_study/Topology_study.tex}
 % section that talk about the comm protocol
 \input{../Chapters/Analisis_Diseno_de_la_Arq/Comm_Protocol/Comm_Protocol.tex}
+
+\vspace{1cm}
+\noindent\rule{\textwidth}{2pt}
+
+\textbf{\Large{Resúmen}}
+
+En este capítulo se llevó a cabo un estudio de tres tipos de topologías tolerantes
+a fallas que fueron candidatas a ser utilizadas como base en la
+arquitectura que se diseñará en este trabajo de tesis. 
+
+Teniendo en cuenta los modelos que se han desarrollado en este capítulo se compararon las diferentes curvas de confiabilidad. El resultado de esto, permitió conocer de manera analítica qué topología presenta una mayor tolerancia a fallas através del tiempo.
+
+Se asumió que la distribución de la confiabilidad es exponencial, con una tasa de falla fija de 1/15, y se estudió su evolución en un rango $[0,1]t$. El resultado de esta comparación se la puede observar en la Figura \ref{fig:comparative_reliablities} y en la Tabla \ref{table_comprative_reliability}.
+
+Se observa que tanto las redes distribuidas como la hypercube presenta una mayor confiabilidad a través del tiempo que  los árboles binarios. Si bien, las redes distribuidas y la hypercube tienen una curva similar, la primera presenta una mayor confiabilidad sostenida en el tiempo.
+
+Así en este capítulo se llegó a la conclusión de que la topología que presenta un mayor grado de
+confiabilidad es la que responde a una filosofía distribuida.  Por lo tanto, la arquitectura satelital, tolerante a fallas y basada en componentes COTS que se desarrolla en la presenta tesis se basa en una \textbf{topología distribuida} para interconectar los diferentes subsistemas.

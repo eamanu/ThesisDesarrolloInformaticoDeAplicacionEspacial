@@ -1,3 +1,25 @@
+\vspace{1cm}
+
+\itshape
+En este capítulo se presenta el estado del arte del presente trabajo. Se pretende que el lector
+conozca los avances que se llevaron a cabo en el estudio de topologías tolerantes a fallas,
+tales como árboles binarios (Sección \ref{sec:binary_tree} página \pageref{sec:binary_tree}),
+redes hypercube (Sección \ref{sec:hypercube} página \pageref{sec:hypercube}), redes distribuidas
+(Sección \ref{sec:redes_distribuidas} página \pageref{sec:redes_distribuidas}), redes Ethernet
+(Sección \ref{sec:ethernet} página \pageref{sec:ethernet}), arquitecturas basadas en bus
+(Sección \ref{sec:bus} página \pageref{sec:bus}).
+
+En la Sección \ref{sec:metrica_modelado} (página \pageref{sec:metrica_modelado})
+las métrica y modelado de la confiabilidad de sistemas.
+
+Para finalizar, en la Sección \ref{sec:CAN_space} (página \pageref{sec:CAN_space}) se comenta sobre
+CAN en la actividad espacial.
+\upshape
+
+\noindent\rule{\textwidth}{2pt}
+
+\vspace{1cm}
+
 % section that explain binary tree
 \input{../Chapters/Art_State/Binary_tree/Binary_tree.tex}
 % section that explain the hypercube systems
@@ -12,3 +34,44 @@
 \input{../Chapters/Art_State/Modeling_Metrics_Reliability_Architecture/Modeling_Metrics_Reliability_Architecture.tex}
 % section that explain the uses of CAN in space activity
 \input{../Chapters/Art_State/CAN_In_Space/CAN_In_Space.tex}
+
+\vspace{1cm}
+\noindent\rule{\textwidth}{2pt}
+
+\textbf{\Large{Resúmen}}
+
+Un \textbf{árbol binario} está compuesto por nodos y enlaces (links). Existe un nodo central dónde se 
+desprenden dos nodos hijos, estos se encuentran enlazados al nodo padre. Así recursivamente, se 
+van generando dos nuevos hijos, por cada uno de los nodos. Los árboles binarios están divididos en 
+niveles, que representa cada una de las generaciones de nodos. Para lograr \ac{FT} en estas arquitecturas se las deben diseñar con un número mínimo de nodos de backup y links redundantes, de modo tal de hacer frente cualquier punto de falla simple en la arquitectura.
+
+\textbf{Hypercube} es una técnica utilizada para
+conectar múltiples procesadores. Esta topología
+tiene propiedades de tolerancia a fallas de un
+componente, ya que si esto se produce, no se
+transmite a todo el sistema. Otra ventaja que
+presenta esta topología es la disponibilidad de
+enlaces entre cualquier par de nodos.
+
+Una \textbf{red distribuida} tiene como principal caraceterística que no existe un nodo central que ``gestione'' toda la red. Todas las cargas de las tareas y/o actividades son distribuidas entre los nodos que forman parte de la red. Una red distribuída es tolerante a fallas si los nodos pueden formar subredes. Es decir, la red se debe mantener activa y conectada, con diferentes topologías e interconexiones, que permitan tolerar posibles fallas producidas en algunos nodos y permitir mantener la perfomance.
+
+\textbf{TTEthernet} es una tecnología de red de computadoras comercializada por TTTech Computertechnik AG para el desarrollo de aplicaciones seguras. SAE International estandarizó esta red como SAE AS6802. TTEthernet se basa en el Ethernet clásico, en el cual se pone énfasis en las características principales que deben respetarse en sistemas críticos, tales como latencias de mensajes determinísticos, presición de tiempo real, tolerancia a fallas. Tiene la capacidad de transmitir datos 100 veces más rápido que la que lo hacen las tecnologías tradicionales tales como el MIL-STD-1553.
+
+Para medir la confiabilidad y, que es utilizada para
+asegurar la seguridad del software de sistemas críticos, existen dos categorías
+\begin{itemize}
+    \item[-] medición y predicción que están asociadas con las fallas y errores residuales.
+    \item[-] medición y predicción que están asociadas con la disponibilidad del sistema a sobrevivir durante la misión sin experimentar fallas (o pérdidas) en el sistema.
+\end{itemize}
+
+Por útlimo en este capítulo se comenta que el protocolo de comunicación
+\textbf{CAN} ya es utilizado en misiones satelitales, pero en la mayoría de los
+casos es utilizado como bus secundario de comunicación, dejando el bus
+primario para otros medios de comunicación más clásicos como el
+MIL-STD-1553B.
+
+La ESA observa que existe
+una tendencia de producir un cambio de  paradigma 
+centralizado, a funciones autónomas distribuidas, además, tiene en cuenta las ventajas que
+brinda CAN para el desarrollo de satélites. Por ello, lleva a cabo anualmente
+el \textit{CAN in Space Workshop}

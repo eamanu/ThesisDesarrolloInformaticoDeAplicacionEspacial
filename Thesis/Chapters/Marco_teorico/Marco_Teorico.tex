@@ -1,3 +1,56 @@
+\vspace{1cm}
+
+\itshape
+En este capítulo se introduce al lector a la teoría en la cual se basa este trabajo de tesis. En la
+Sección \ref{sec:terminologia} (página \pageref{sec:terminologia}) se explica brevemente la
+terminología que se utiliza a lo largo de este trabajo. Es importante leer esta sección ya que
+algunos términos pueden considerarse sinónimos en el habla común, pero en esta tesis, tienen
+significados bien diferenciados.
+
+En la Sección \ref{sec:fiabilidad_software} (página \pageref{sec:fiabilidad_software}) explica
+qué es la fiabilidad aplicada en sistemas (de software) y cómo se puede clasificar la fiabilidad. En
+Sección \ref{sec:impedimentos} (página \pageref{sec:impedimentos}) se detalla el concepto de los
+impedimentos de la fiabiliad, cuáles son los orígenes de las fallas, los modos comúnes de fallas
+y las fallas en el software.
+
+En la Sección \ref{sec:medios_falla} (página \pageref{sec:medios_falla}) se explican los medios de
+la fiabilidad, es decir, los medios para lograr la fiabilidad de sistemas. Aquí se ven los conceptos
+de confiabilidad, disponibilidad y seguridad.
+
+La tolerancia a fallas, el núcleo de este trabajo, se explica en la Sección \ref{chap:FaultTolerance}
+(página \pageref{chap:FaultTolerance}). En esta sección se detalla el signficado de la tolerancia
+fallas, importante para entender este trabajo de tesis.
+
+En la Sección \ref{sec:redundancias_sw} (página \pageref{sec:redundancias_sw}) se explican diferentes
+técnicas de redundancias en el software, las cuales son importantes durante el desarrollo
+de sistemas críticos.
+
+Las técnicas de evaluación de fiabilidad (Sección \ref{sec:tecnicas_evaluacion_fiabilidad}
+\pageref{sec:tecnicas_evaluacion_fiabilidad}) junto con las medidas de fiabilidad
+(Sección \ref{sec:medidas_fiabilidad} \pageref{sec:medidas_fiabilidad}) exponen los fundamentos
+matemáticos en los cuales se basan los cálculos de tolerancia de fallas. Los métodos de cálculos
+de fiabilidad se presentan en la Sección \ref{sec:metodos_calculo_confiabilidad} (página
+\pageref{sec:metodos_calculo_confiabilidad})
+
+En la Sección \ref{sec:modelos_fallas} (página \pageref{sec:modelos_fallas}) se explican con más
+detalle conceptos importantes tales como, la función de confiabilidad, tasa de falla, tiempo medio
+hasta la falla, vida residual media.
+
+En la Sección \ref{sec:protocolos_comunicacion} (página \pageref{sec:protocolos_comunicacion})
+se brinda un resúmen teórico de diferentes protocolos de comunicación existentes en la actualidad.
+
+En la Sección \ref{seccion:ProtocoloCAN} (página \pageref{seccion:ProtocoloCAN}) se detalla el
+protocolo CAN que es utilizado como principal protocolo de comunicación. La arquitectura propuesta
+en este trabajo de tesis utiliza un protocolo de comunicación basado en CAN. En esta sección se describe capa física (página \pageref{subsec:capafisca}), capa de enlace (página \pageref{subsec:capa_enlace}), formato del mensaje (página \pageref{subsec:formato_mensaje}) y se comenta sobre un protocolo basado en CAN que es utilizado en aplicaciones de aeronáutica llamado CANAerospace (página \pageref{subsec:CANaerospace})
+
+\upshape
+
+\noindent\rule{\textwidth}{2pt}
+%\begin{center}
+%\line(1,0){\textwidth}
+%\end{center}
+\vspace{1cm}
+
 % section that talk about terminology
 \input{../Chapters/Marco_teorico/Conceptos/Conceptos.tex}
 
@@ -18,3 +71,60 @@
 
 % Section that talk about CAN
 \input{../Chapters/Marco_teorico/Protocolos_Comunicacion/BUS_CAN.tex}
+
+\vspace{1cm}
+\noindent\rule{\textwidth}{2pt}
+
+\textbf{\Large{Resúmen}}
+
+En este capítulo se desarrollaron diferentes conceptos que son importantes ya que sustentan
+este trabajo de tesis.
+
+Los principales conceptos que se necesitan conocer son:
+
+\begin{itemize}
+\item \textbf{Avería} de sistema ocurre cuando el servicio prestado por el sistema ya no coincide con las especificaciones del mismo. Esto quiere decir que existe un problema que tiene
+una consecuencia negativa en el sistema completo, logrando que este ya no logre cumplir con sus
+especificaciones
+\item Un \textbf{error} es una parte del estado del sistema
+que es susceptible de provocar un avería en el sistema. Un error que afecta al servicio, es una
+indicación de que un avería se ha producido.
+\item La causa adjudicada o la hipótesis de un error es una \textbf{falla}, también llamado ``bugs''. Una falla es un defecto que está presente en el sistema y que puede causar un error. Es la desviación actual de lo correcto \cite{Hanmer07}.
+\end{itemize}
+
+Por otro lado, la fiabilidad también se la puede considerar como una propiedad global que permite justificar la confianza de los servicios de un sistema. Esta puede ser clasificada en:
+\begin{itemize}
+\item Impedimentos, que son todas las cosas que se interponen en la fiabilidad de un sistema.
+\item Medios, son los medios para lograr la confiabilidad. 
+\end{itemize}
+
+Los medios de la fiabilidad son los siguientes:
+\begin{itemize}
+\item Evitación de fallas, que son técnicas de mejoramiento de la fiabilidad utilizada durante el
+desarrollo de software para reducir el número de fallas introducidas durante esta etapa.
+\item Tolerancia de fallas, es la capacidad de un sistema a continuar funcionando a pesar de la ocurrencia de fallas.
+\item Eliminación de fallas, son técnicas utilizadas para mejorar la fiabiliadad, que se
+emplean durante la validación y verificación del sistema.
+\item Predicción de fallas, esto se lleva a cabo mediante una evaluación del comportamiento del
+sistema con respecto a la ocurrencia o la activación de una falla. 
+\end{itemize}
+
+Los atributos de la fiabilidad son los siguientes:
+\begin{itemize}
+\item Confiabilidad, es la probabilidad de que un sistema continúe operando correctamente
+durante un intervalo de tiempo dado.
+\item Disponibilidad, La disponibilidad \textit{A(t)} de un sistema en el
+instante de tiempo \textit{t} es la probabilidad que el sistema esté funcionando correctamente en
+el instante \textit{t}.
+\item Seguridad, es definida como la probabilidad que el sistema sea capaz de realizar sus funciones correctamente o discontinuar sus funciones en una manera a prueba de fallas.
+\end{itemize}
+
+En este trabajo de tesis se trabaja con el protocolo CAN. Este fue desarrollado por Bosh en 1983, para ser aplicado en la industria automotriz, como respuesta al rápido crecimiento de la electrónica en el fabricación de automóviles. Fue estándarizada por la Organización Internacional de Estándarización (ISO) bajo el nombre de  ISO 11898. Este protocolo se definió con el objetivo de proveer comunicación determinística de sistemas distribuídos, y que necesiten un alto grado de confiabilidad. CAN permite la conectividad vía bus serial.
+
+Las características de CAN que la convierten en un tentadora opción para la aplicación en el sector espacial, son:
+\begin{itemize}
+  \item Bajo costo
+  \item Operabilidad en ambientes eléctricos complicados
+  \item Capacidades de tiempo real.
+  \item Facilidad en el uso
+\end{itemize}

@@ -110,7 +110,7 @@ crear la red. En primer lugar el nodo monitor debe enviar el mensaje
 \textit{create\_remote\_network()} para avisar a todos los nodos que deben crear
 sus propias instancias de \textit{NetworkObject} a través de
 \textit{create\_network()}. Automáticamente, los nodos deben crear una propia
-instancia del nodo mediante \textit{create\_node()}. Luego,el nodo monitor
+instancia del nodo mediante \textit{create\_node()}. Luego, el nodo monitor
 envía el mensaje de \textit{prepare\_remote\_node()} para prepara todos los
 nodos a conectarse a la red CANae. Paso siguiente, el nodo monitor envía la señal de
 \textit{connect\_remote\_node(UInteger Node-ID)} con la dirección de todos los
@@ -160,7 +160,7 @@ pertenecen a la entidad NMT (Figura \ref{fig:CreateNode}).
 
 \subsubsection{Preparar nodos para conexión}
 Para lograr la conexión de los nodos a la red CAN, es necesario que el nodo
-monitor envíe la señal \textit{_prepare\_remote\_node(UInteger Nodo-ID)} a
+monitor envíe la señal \textit{prepare\_remote\_node(UInteger Nodo-ID)} a
 cada uno de los nodos conectados a la red siguiendo la propia tabla de
 configuración de nodos preprogramada. Cada nodo recibe la señal procesa aquella
 que le pertence, y comienza a preparar el nodo para lograr la correcta conexión.
