@@ -26,25 +26,25 @@
 \contentsline {section}{\numberline {2.7}Redundancia en el software}{16}{section.2.7}
 \contentsline {subsection}{\numberline {2.7.1}T\IeC {\'e}cnicas single version}{17}{subsection.2.7.1}
 \contentsline {subsubsection}{\numberline {2.7.1.1}Estructuras de software}{17}{subsubsection.2.7.1.1}
-\contentsline {subsection}{\numberline {2.7.2}T\IeC {\'e}cnicas multi-version}{17}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.2}T\IeC {\'e}cnicas multi-version}{18}{subsection.2.7.2}
 \contentsline {subsection}{\numberline {2.7.3}T\IeC {\'e}cnicas de detecci\IeC {\'o}n de fallas}{18}{subsection.2.7.3}
-\contentsline {subsection}{\numberline {2.7.4}T\IeC {\'e}cnicas de recuperaci\IeC {\'o}n de fallas}{18}{subsection.2.7.4}
+\contentsline {subsection}{\numberline {2.7.4}T\IeC {\'e}cnicas de recuperaci\IeC {\'o}n de fallas}{19}{subsection.2.7.4}
 \contentsline {subsubsection}{\numberline {2.7.4.1}Manejo de excepciones}{19}{subsubsection.2.7.4.1}
 \contentsline {subsubsection}{\numberline {2.7.4.2}Checkpoint y Restart}{19}{subsubsection.2.7.4.2}
 \contentsline {subsubsection}{\numberline {2.7.4.3}Procesos pares}{20}{subsubsection.2.7.4.3}
-\contentsline {subsubsection}{\numberline {2.7.4.4}Diversidad de datos}{20}{subsubsection.2.7.4.4}
+\contentsline {subsubsection}{\numberline {2.7.4.4}Diversidad de datos}{21}{subsubsection.2.7.4.4}
 \contentsline {subsubsection}{\numberline {2.7.4.5}Bloques de recuperaci\IeC {\'o}n}{21}{subsubsection.2.7.4.5}
 \contentsline {section}{\numberline {2.8}T\IeC {\'e}cnica de evaluaci\IeC {\'o}n de fiabilidad}{21}{section.2.8}
-\contentsline {section}{\numberline {2.9}Medidas comunes de fiabilidad}{21}{section.2.9}
+\contentsline {section}{\numberline {2.9}Medidas comunes de fiabilidad}{22}{section.2.9}
 \contentsline {subsection}{\numberline {2.9.1}Failure rate}{22}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Tiempo medio medio de falla}{23}{subsection.2.9.2}
+\contentsline {subsection}{\numberline {2.9.2}Tiempo medio de falla}{23}{subsection.2.9.2}
 \contentsline {subsection}{\numberline {2.9.3}Tiempo medio de reparaci\IeC {\'o}n}{23}{subsection.2.9.3}
 \contentsline {subsection}{\numberline {2.9.4}Tiempo medio entre fallas}{24}{subsection.2.9.4}
 \contentsline {subsection}{\numberline {2.9.5}Cobertura de fallas}{24}{subsection.2.9.5}
 \contentsline {section}{\numberline {2.10}M\IeC {\'e}todos de c\IeC {\'a}lculos de fiabilidad}{24}{section.2.10}
 \contentsline {subsection}{\numberline {2.10.1}Diagramas de bloques de confiabilidad}{24}{subsection.2.10.1}
 \contentsline {subsubsection}{\numberline {2.10.1.1}C\IeC {\'a}lculo de confiabilidad}{24}{subsubsection.2.10.1.1}
-\contentsline {subsubsection}{\numberline {2.10.1.2}C\IeC {\'a}lculo de disponibilidad}{24}{subsubsection.2.10.1.2}
+\contentsline {subsubsection}{\numberline {2.10.1.2}C\IeC {\'a}lculo de disponibilidad}{25}{subsubsection.2.10.1.2}
 \contentsline {subsection}{\numberline {2.10.2}Utilizaci\IeC {\'o}n de procesos de Markov}{25}{subsection.2.10.2}
 \contentsline {section}{\numberline {2.11}Modelos de falla}{25}{section.2.11}
 \contentsline {subsection}{\numberline {2.11.1}Tiempo hasta la falla}{26}{subsection.2.11.1}
@@ -139,7 +139,7 @@
 \contentsline {subsubsection}{\numberline {A.5.4.2}Servicios remotos}{95}{subsubsection.Alph1.5.4.2}
 \contentsline {subsubsection}{\numberline {A.5.4.3}Prioridad de eventos}{95}{subsubsection.Alph1.5.4.3}
 \contentsline {section}{\numberline {A.6}NMT}{96}{section.Alph1.6}
-\contentsline {subsection}{\numberline {A.6.1}Objectos NMT}{97}{subsection.Alph1.6.1}
+\contentsline {subsection}{\numberline {A.6.1}Objetos NMT}{97}{subsection.Alph1.6.1}
 \contentsline {subsection}{\numberline {A.6.2}Servicios NMT}{97}{subsection.Alph1.6.2}
 \contentsline {subsubsection}{\numberline {A.6.2.1}Module Control Service}{98}{subsubsection.Alph1.6.2.1}
 \contentsline {subsubsection}{\numberline {A.6.2.2}Error Control Services}{98}{subsubsection.Alph1.6.2.2}
@@ -187,10 +187,10 @@
 \contentsline {subsection}{\numberline {A.10.7}Data length}{114}{subsection.Alph1.10.7}
 \contentsline {subsection}{\numberline {A.10.8}Data field}{115}{subsection.Alph1.10.8}
 \contentsline {subsection}{\numberline {A.10.9}CRC}{115}{subsection.Alph1.10.9}
-\contentsline {subsection}{\numberline {A.10.10}CRC delimiter}{115}{subsection.Alph1.10.10}
-\contentsline {subsection}{\numberline {A.10.11}ACK}{115}{subsection.Alph1.10.11}
-\contentsline {subsection}{\numberline {A.10.12}ACK delimiter}{115}{subsection.Alph1.10.12}
-\contentsline {subsection}{\numberline {A.10.13}End-of-Frame (EOF)}{115}{subsection.Alph1.10.13}
+\contentsline {subsection}{\numberline {A.10.10} CRC delimiter}{115}{subsection.Alph1.10.10}
+\contentsline {subsection}{\numberline {A.10.11} ACK}{115}{subsection.Alph1.10.11}
+\contentsline {subsection}{\numberline {A.10.12} ACK delimiter}{115}{subsection.Alph1.10.12}
+\contentsline {subsection}{\numberline {A.10.13} End-of-Frame (EOF)}{115}{subsection.Alph1.10.13}
 \contentsline {section}{\numberline {A.11}High Application Layer CANae}{116}{section.Alph1.11}
 \contentsline {subsection}{\numberline {A.11.1}Network Management}{116}{subsection.Alph1.11.1}
 \contentsline {subsection}{\numberline {A.11.2}Task Management}{117}{subsection.Alph1.11.2}

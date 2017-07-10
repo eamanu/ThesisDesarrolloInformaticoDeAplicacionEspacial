@@ -3,16 +3,16 @@ Como se estudió en el marco teórico, en una arquitectura
 de comunicación, el protocolo CAN trabaja en las
 capas inferiores del modelo de OSI. CAN propone cómo debe ser
 el medio físico, y la manera de transmisión de las señales.
-Además, preve cuál es la estrategia a utilizar  para sincronizar
+Además, prevé cuál es la estrategia a utilizar  para sincronizar
 la transmisión de datos sin nigún tipo de latencia, ni tampoco
 colisiones de mensajes. Así, este protocolo permite que estos
 sean enviados teniendo en cuenta sus prioridades, eliminando las colisiones, y
-por lo tanto también, el tiempo de espera en la que los nodos se quedan
+por lo tanto también, el tiempo de espera en que los nodos se quedan
 relegados cuando han tratado de enviar un mensaje al mismo tiempo.
 
 Este protocolo no establece nada sobre ruteos de mensajes, tipos de mensajes y
-tipos de datos, que a la hora de desarrollar una arquitectura de aviónica es
-importante tener en cuenta esos detalles. Es necesario, que exista una
+tipos de datos, los cuales se deben tener en cuenta a la hora de desarrollar una arquitectura de aviónica.
+Es necesario, que exista una
 capa de servicios que facilite la comunicación entre aplicaciones de usuarios
 de diferentes nodos, y la comunicación entre las aplicaciones de usuario
 y el protocolo CAN (de bajo nivel) en sí.
@@ -46,19 +46,19 @@ divide esta capa en dos subcapas:
 \label{fig:CANAEC4}
 \end{figure}
 
-Esto puede observar se en la Figura \ref{fig:CANAEC4}. En el gráfico
+Esto puede observarse en la Figura \ref{fig:CANAEC4}. En el gráfico
 se observa que la CANae application Layer, cuenta con 3 interfaces:
 \begin{itemize}
-\item \textbf{CMS}: ofrece un ambiente orientado a objecto para diseñar aplicaciones de usuario.
+\item \textbf{CMS}: ofrece un ambiente orientado a objeto para diseñar aplicaciones de usuario.
   Esta entidad ofrece variables y eventos, y específica como un módulo pude acceder a
 las interfaces de CAN.
 \item \textbf{NMT}: ofrece un ambiente orientado a objetos para permitir que un módulo (el
 NMT Master) se ocupe de la inicialización y posibles fallas de otros módulos (NMT Slaves).
-\item \textbf{DBT}: ofrece el servicio para distribuir dinámicamente el identificador de para los diferentes nodos.
+\item \textbf{DBT}: ofrece el servicio para distribuir dinámicamente el identificador para los diferentes nodos.
 \end{itemize}
 Debe destacarse que, el servicio CMS ofrece un ambiente orientado a objeto  para diseñar
 aplicaciones de usuario, es decir, que ofrece la posibilidad de modelar el
-comportamiento del sistema en forma de objeto. Este servicio ofrece la posibilidad
+comportamiento del sistema en forma de objeto. Este servicio también permite la posibilidad
 de crear variables y eventos, según las necesidades de los usuarios, que son
 utilizadas para diseñar y especificar como la funcionalidad de un módulo puede
 acceder a las interfaces de bajo nivel de CAN. Esto propone un grado de innovación
@@ -73,7 +73,7 @@ Agregando, dentro de esta capa existen dos entidades que juegan un papel importa
 \item \textbf{Gestor de mensajes}: este se encarga de gestionar los mensajes que son enviados y recibidos desde la red.
 Esta entidad debe ser capaz de determinar si el mensajes contiene datos o eventos. Trabaja en conjunto
 con el CMS.
-\item \textbf{Gestor de nodo}: esta entidad se encarga de llevar el control de los nodos existenten en la red. En este
+\item \textbf{Gestor de nodo}: esta entidad se encarga de llevar el control de los nodos existentes en la red. En este
 nodo se encuentra la tabla de ruteo primario y secundario necesarios para la correcta comunicación.
 \end{itemize}
 

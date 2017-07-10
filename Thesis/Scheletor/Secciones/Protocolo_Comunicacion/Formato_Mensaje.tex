@@ -133,16 +133,16 @@ El algoritmo para resolver el CRC se muestra en \ref{cod:CRC}.
 }
 \end{lstlisting}
 
-\subsection{CRC delimiter}
+\subsection{ CRC delimiter}
 Este es un bit recesivo (1) para indicar que el CRC Field finalizó.
 
-\subsection{ACK}
+\subsection{ ACK}
 El transmisor debe poner este bit en recesivo (1), y el receptor puede responder
 el mensaje colocando este bit en dominante(0).
 
-\subsection{ACK delimiter}
+\subsection{ ACK delimiter}
 Este bit indica el final del ACK. Este es un bit recesivo (1).
 
-\subsection{End-of-Frame (EOF)}
+\subsection{ End-of-Frame (EOF)}
 Indica el final del frame de datos. Debe ser recesivo, es decir, los 7 bits en
 1.

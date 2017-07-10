@@ -26,7 +26,7 @@ Este capítulo está dividido en las seguientes secciones:
 \vspace{1cm}
 
 \section{Árbol de requerimientos}\label{sec:arbol_req}
-A continuación se detallas los requerimientos que van a guiar el diseño y
+A continuación se detallan los requerimientos que van a guiar el diseño y
 desarrollo de la propuesta de arquitectura de aviónica tolerantes a fallas
 basada en componentes \ac{COTS} para satélites. En la Figura
 \ref{fig:DiagramaRequerimientos} y en la Tabla \ref{table:Requerimientos} se pueden
@@ -54,12 +54,12 @@ observar los requerimientos.
 2 & L2\_001 & L2\_001 & Each subsystem shall represented for a Components Off-The-Shelf & Constraint \\ \hline
 3 & L1\_000 & L1\_000 & Shall be develop an avionics architecture for spacecraft using Components Off-The-Shelf & Constraint \\ \hline
 4 & L1\_002 & L1\_002 & The architecture shall have at least 6 subsystems & Constraint \\ \hline
-5 & L1\_003 & L1\_003 & The architecture shall have fault tolerance techniques to assurance the the mission life & No funcional \\ \hline
+5 & L1\_003 & L1\_003 & The architecture shall have fault tolerance techniques to assurance the mission life & No funcional \\ \hline
 6 & L1\_004 & L1\_004 & The main bus to interconnect components shall be the Controller Area Network Bus developed for Bosch & Constraint \\ \hline
 7 & L1\_005 & L1\_005 & The architecture shall be sufficient to make a master degree thesis & No funcional \\ \hline
 8 & L2\_002 & L2\_002 & The architecture shall implements a based Controller Area Netowork protocol to intercommunicate the components & Funcional \\ \hline
-9 & L3\_000 & L3\_000 & The intercomunication beteween nodes shall used a Controller Area Netowork protocol based developed in the master degree theis. & Constraint\\ \hline
-10 & L1\_006 & L1\_006 & The architecture shall ssurance at least 10 years mission life & No funcional \\ \hline
+9 & L3\_000 & L3\_000 & The intercomunication between nodes shall used a Controller Area Netowork protocol based developed in the master degree thesis. & Constraint\\ \hline
+10 & L1\_006 & L1\_006 & The architecture shall assurance at least 10 years mission life & No funcional \\ \hline
 11 & L3\_001 & L3\_001 & The architecture shall use the distributed network philosophy & Constraint \\ \hline
 12 & L1\_007 & L1\_007 & The thesis shall be finished in 1 year & Constraint \\ \hline
 13 & L2\_003 & L2\_003 & The nodes shall send and receive message from any nodes connected to the architecture. & Funcional \\ \hline
@@ -81,7 +81,7 @@ A continuación se explica cada uno de los requerimientos:
   el correcto funcionamiento de la arquitectura con una cantidad de al menos
   6 subsistemas.
 \item\textbf{L1\_003}: Este requerimiento exige que la arquitectura sea
-  tolerante a fallas para así poder sastifacer el requerimiento \textbf{L1\_006}.
+  tolerante a fallas para así poder satifacer el requerimiento \textbf{L1\_006}.
 \item\textbf{L1\_004}: Este requerimiento (constraint) indica que se debe pensar
   la arquitectura para ser utilizada con el bus CAN de Bosch. Este requerimiento
   es de interés para INVAP.
@@ -122,7 +122,7 @@ el comportamiento a nivel de sistema de la arquitectura propuesta.
 Los actores identificados para esta arquitectura son los diferentes
 subsistemas que se conectan a la red a través de los nodos.
 Los subsistemas interactúan con el nodo a través de
-la aplicación de usuario, es decir se encuentra asociados.
+la aplicación de usuario, es decir, se encuentran asociados.
 Se puede observar en la Figura \ref{fig:DiagramaCUArqPropuestaGENERAL}
 que de forma general existen tres casos de usos que comprenden el comportamiento
 general de la arquitectura. Se tiene \textit{Enviar mensaje} y \textit{Recibir
@@ -131,7 +131,7 @@ esto se le agrega el caso de uso de \textit{FDIR} que es el agregado que se le
 hace en este trabajo de tesis a través del protocolo de comunicación desarrollado
 denominado CANae (Ver apéndice \ref{Appendix:A}). Debe aclararse que en 
 la Figura \ref{fig:DiagramaCUArqPropuestaGENERAL}
-aparece un resumen de los Actores intereactuando con el sistema. 
+aparece un resumen de los Actores interactuando con el sistema. 
 
 \begin{figure}[h!]
  \centering
@@ -158,8 +158,8 @@ Los casos de uso de \textit{Enviar Mensaje} y \textit{Recibir Mensaje} denota la
 capacidad de la arquitectura de enviar y recibir mensajes (Data Frames de
 CANae) desde y hacia las aplicaciones de usuario. Cuando una aplicación
 necesita enviar un mensaje, estos deben, primero pasar por el caso de uso
-\textit{Procesar Mensaje} este es el encargado de empaquetar los mensajes.
-También en este caso de uso se encuentra el caso de uso \textit{Rutear
+\textit{Procesar Mensaje}, debido a que  este es el encargado de empaquetar los mensajes.
+También en este punto se encuentra el caso de uso \textit{Rutear
   Mensaje}.
 
 El caso de uso \textit{Rutear Mensaje} se encarga de aplicar los algoritmos
@@ -174,9 +174,9 @@ la filosofía de arquitectura distribuída.
 
 Por último tenemos el caso de uso \textit{FDIR} que hace referencia a la
 Detección, Aislación, y Recuperación del sistema ante fallas. Debido a la
-complejidad de esto, no se lo desarrolla a esta caso de uso en este trabajo.
-El cual queda para \textbf{trabajos futuros}\ref{chap:TrabajosFuturos}. En este
-caso de uso se encuentra el \textit{Reconfigurar Arquitectura}. Este es una
+complejidad de esto, no se desarrolla este caso de uso en la presente tesis.
+El cual queda para \textbf{trabajos futuros} \ref{chap:TrabajosFuturos}. En este
+caso de uso se encuentra el \textit{Reconfigurar Arquitectura}. Este es un
 algoritmo del \ac{FDIR} que cuando se produce una falla en algunos de los
 nodos, la red se tiene que reconfigurar, para lograr continuar funcionando,
 aún cuando haya nodos inactivos. Esto le brindaría a la arquitectura una grado

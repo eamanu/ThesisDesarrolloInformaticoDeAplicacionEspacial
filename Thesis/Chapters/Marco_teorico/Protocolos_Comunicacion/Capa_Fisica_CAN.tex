@@ -2,9 +2,9 @@
 El estándar de CAN define el bit enconding, el timing, y la sincronización. La capa física es la encargada de convertir 1 y 0 en pulsos eléctricos para enviar mensajes por el canal, y también el proceso inverso cuando recibe mensajes. La capa física es implementada enteramente en \ac{HW} \citep{texasFISICACAN}.
 
 \subsubsection{Bus de comunicación}
-Para iniciar una transmisión de mensaje es necesario como mínimo dos nodos conectados al bus CAN. Esto se debe a que el dispositivo que envía un mensaje está también recibiendo su propio mensajes, con esto puede chequear cada bit que ha enviado. De esta manera, un segundo nodo responde con un ACK, mientras el bit todavía está siendo transmitido por el primer nodo. Esto demuestra por qué se necesitan de dos nodos para completar la transmisión de mensajes \citep{texasFISICACAN}.
+Para iniciar una transmisión de mensaje es necesario como mínimo dos nodos conectados al bus CAN. Esto se debe a que el dispositivo que envía un mensaje está también recibiendo su propio mensajes, con esto puede chequear cada bit que ha enviado. De esta manera, un segundo nodo responde con un ACK (acknowledgement), mientras el bit todavía está siendo transmitido por el primer nodo. Esto demuestra por qué se necesitan de dos nodos para completar la transmisión de mensajes \citep{texasFISICACAN}.
 
-En la Figura \ref{fig:traficBUSCAN} se observa un ejemplo extraído de \citep{texasFISICACAN}. En esta se muestra un nodo A que envía un mensaje. Luego se ve que que B y C contestan con un ACK indicando que el mensaje fue recibido sin errores. Luego B y C comienzan a transmitir hasta que C gana el bus debido a que tiene un bit dominante, y termina este completando su mensaje.
+En la Figura \ref{fig:traficBUSCAN} se observa un ejemplo extraído de \cite{texasFISICACAN}. En esta se muestra un nodo A que envía un mensaje. Luego se ve que que B y C contestan con un ACK indicando que el mensaje fue recibido sin errores. Luego B y C comienzan a transmitir hasta que C gana el bus debido a que tiene un bit dominante, y termina este completando su mensaje.
 
 \begin{figure}[h]
  \centering
@@ -13,7 +13,7 @@ En la Figura \ref{fig:traficBUSCAN} se observa un ejemplo extraído de \citep{te
 \label{fig:traficBUSCAN}
 \end{figure}
 
-El medio físico  es una línea de bus con dos cable, terminada por una resistencia. Los cables pueden ser paralelos, trenzados y/o blindandos. Los segmentos de cable para la conexión de los nodos deben ser lo más cortos posibles.
+El medio físico  es una línea de bus con dos cables, terminada por una resistencia. Los cables pueden ser paralelos, trenzados y/o blindandos. Los segmentos de cable para la conexión de los nodos deben ser lo más cortos posibles.
 
 Para mayores detalle técnico referentes al bus será necesario estudiar el estándar ISO 11898 o en \cite{texasFISICACAN}.
 
@@ -23,7 +23,7 @@ Debe destacarse que que existen diferentes capas físicas para el protocolo CAN:
 \begin{itemize}
 \item El tipo más común es el establecido en el estanar ISO 11898-2. Este protocolo cuenta con dos cables, cada uno identificado como CAN\_H y CAN\_L. También es llamado \textit{CAN de alta velocidad} (1 Mbit/s). Este requiere que el largo del cable sea como máximo 40m.
 \item También en el estándar de ISO se establece el ISO 11898-3, el cual define otro esquema de doble cable balanceado pero para bajas velocidades. Este es tolerante a fallas si alguno de los cables entra en corto circuito. También es llamado también como \textit{CAN de baja velocidad} (125 kbit/s)
-\item Se define el SAE J2411 que utiliza un solo cable para la capa física. Este es utilizado en autos (velocidad por encima de los 50 kbit/s). No tiene demasiados requerimientos en cuanto al bitrate ni el largo del canal de comunicación. El estandar define 32 nodos por red.
+\item Se define el SAE J2411 que utiliza un solo cable para la capa física. Este es utilizado en autos (velocidad por encima de los 50 kbit/s). No tiene demasiados requerimientos en cuanto al bitrate ni el largo del canal de comunicación. El estándar define 32 nodos por red.
 \item Existen modificaciones del estandar RS485 para su funcionamiento con CAN
 \end{itemize}
 

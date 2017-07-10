@@ -20,12 +20,12 @@ reestablezca al estado en el cual se encontraba antes del problema, para seguir 
 mismo ocurre con el \ac{SW} de naves espaciales, hay situaciones en la que no se puede esperar y es 
 preferible que el sistema siga funcionando aún en la presencia de fallas.
 
-Tal lo como indica \cite{pressman01} las fallas de \ac{SW} implica problemas cualitativos que son 
+Tal como lo indica \cite{pressman01} las fallas de \ac{SW} implican problemas cualitativos que son 
 descubiertos después de que el \ac{SW} es llevado a los usuarios y probados por ellos. Una 
 gran cantidad de estudios indican que en las actividades de diseño se introducen entre un 50 y 65 
 porciento de errores del total de errores que se dan durante el proceso del \ac{SW} 
 \citep{pressman01}. Esto no debe ocurrir en el ámbito espacial, ya que una vez que el sistema es 
-utilizado, es muy dificil corregir los errores que surgen 
+utilizado, es muy difícil corregir los errores que surgen 
 
 Cabe aclarar que el \ac{SW} al no ser un componente físico, no puede ser tratado de la misma 
 manera que un componenete hardware. Como ejemplifica \cite{SoftwareFaultToleranceATutorial}, las 
@@ -48,7 +48,7 @@ una falla de diseño ocurra.
 Debe hacerse una diferencia entre \ac{FT} y calidad. \cite{Hanmer07} lo define de la 
 siguiente manera: ``\ac{FT} es la capacidad del sistema a ejecutarse apropiadamente a 
 pesar de la presencia de fallas. \ac{FT} ocurre en tiempo de ejecución''. Cuando se 
-habla que un sistema es tolerante a fallas, signfica que fue diseñado de tal manera, que 
+habla que un sistema es tolerante a fallas, significa que fue diseñado de tal manera, que 
 puede seguir funcionando correctamente aún en la presencia de errores de sistemas \citep{Hanmer07}. 
 
 En cambio calidad, tal como lo define \cite{Hanmer07}, ``se refiere a cuán libre de fallas está el 
@@ -65,7 +65,7 @@ cual incluye hardware, \ac{SW}, timing, sensores y sus interfaces, actuadores, e
 de comunicación con los diferenes elementos \citep{FTAvionics}. 
 
 Este tipo de sistemas debería detectar los errores causados por fallas, evaluar los daños 
-producidos por la falla, aislar a la misma y por último recueperarse, en ese caso se habla de 
+producidos por la falla, aislar a la misma y por último recuperarse, en ese caso se habla de 
 aquitectura o sistemas \acs{FDIR}\footnote{FDIR, del inglés: Failure detect, isolate and recover}.
 
 \ac{FT} es la capacidad de un sistema a continuar funcionando a pesar de la ocurrencia 
@@ -73,12 +73,13 @@ de fallas \citep{FTDesign}. Un sistema tolerante a fallas debe ser capaz de mane
 hardware como de \ac{SW}. La \ac{FT} es necesaria debido a que es imposible construir 
 un sistema perfecto.
 
-El objetivo de la \ac{FT} es el desarrollo de sistemas los cuales funcionen correctamente en 
-presencia de fallas \citep{FTDesign}. La \ac{FT} es alcanzada mediate la utilización de algunos 
+El objetivo de la \ac{FT} es el desarrollo de sistemas que tengan la capacidad de
+funcionar correctamente en 
+presencia de fallas \citep{FTDesign}. La \ac{FT} es alcanzada mediante la utilización de algunos 
 tipos de redundancias \citep{FTDesign}. \textit{Redundancia} es la provisión de capacidades 
-funcionales que sería innecesario para enternos libres de fallos \citep{FTDesign}. Esto significa 
+funcionales que sería innecesario para entornos libres de fallas \citep{FTDesign}. Esto significa 
 tener hardware adicionales, check bits en una cadena de datos, o algunas l\'ineas de c\'odigo que 
-verifica el resultado correcto del \ac{SW}. La redundancia permite enmascarar una falla, o 
+verifique el resultado correcto del \ac{SW}. La redundancia permite enmascarar una falla, o 
 detectarla, para luego localizarla, contenerla y recuperarse de esta \citep{FTDesign}. Las 
 técnicas de tolerancia de fallas se emplean durante la adquisición, o desarrollo del \ac{SW}. 
 Permite al \ac{SW} tolerar fallas después que este haya sido desarrollado \citep{Pullum01}. Cuando 
@@ -91,8 +92,8 @@ fracaso del sistema \citep{Pullum01}.
 A pesar de lo comentado anteriormente, sobre la importancia del \ac{SW}, todavía existe una 
 creencia, de que el \ac{SW} aparece por arte de magia, y que los programadores no son nunca, lo 
 suficientemente capaces, de hacer un \ac{SW} libre de errores. Salvo aquellas empresas u 
-organizaciones que tienen un proceso maduro de desarrollo de \ac{SW}, el resto cae en el error de 
-pensamiento mencionado anteriomente. 
+organizaciones que tienen un proceso maduro de desarrollo de \ac{SW}, el resto suele encasillarse
+en el pensamiento mencionado anteriomente. 
 
 \cite{FTDesign} explica que la \ac{FT} aplicado en el \ac{SW} no está tan entendido, ni maduro, 
 como es en el caso de la \ac{FT} aplicada en hardware. Si una falla exisitiera en el \ac{SW}, esta 
@@ -110,9 +111,9 @@ ciertas situaciones \citep{FTDesign}.
 
 Las técnicas de \ac{FT} se pueden dividir en dos grupos:
 \begin{itemize}
- \item técnicas de una sola versión, se utilizan cuando existe una sola versión del \ac{SW} en el 
+ \item técnicas de una sola versión (single version), se utilizan cuando existe una sola versión del \ac{SW} en el 
 sistema.
- \item técnicas multi-versión, se utilizan cuando se desarrollan varias versiones de una misma 
+ \item técnicas multi-versión (multi-version), se utilizan cuando se desarrollan varias versiones de una misma 
 función. 
 \end{itemize}
 
@@ -140,7 +141,7 @@ en el diseño de un sistema \citep{SoftwareFaultToleranceATutorial}.
 El particionado es otra técnica mencionada en \cite{SoftwareFaultToleranceATutorial}, lo cual 
 provee aislación entre módulos independentes del sistema. Esta técnica permite descomponer al 
 problema en partes separadas \citep{pressman01}. El particionado puede ser horizontal u 
-vertical. En el primero se descomponen el problema moviendose en forma horizontal en la jerarquía, 
+vertical. En el primero se descompone el problema moviéndose en forma horizontal en la jerarquía, 
 mientras que el segundo se parte de lo más general hasta llegar a lo detallado, moviendose 
 verticalmente en la jerarquía \citep{pressman01}. 
 
@@ -152,7 +153,7 @@ es que es sencillo el manejo de errores, y evitar la propagación de fallas si o
 
 \subsection{Técnicas multi-version}
 Las técnicas de multi-version utilizan dos o más versiones diferentes del mismo módulo de \ac{SW} 
-\citep{FTDesign} \citep{SoftwareFaultToleranceATutorial}, lo cual satisface el requerimiento de 
+(\citep{FTDesign}; \citep{SoftwareFaultToleranceATutorial}), lo cual satisface el requerimiento de 
 diversidad. 
 
 El objetivo de utilizar diferentes versiones de \ac{SW} es que es construido de diferentes 
@@ -271,7 +272,7 @@ producirse el error. Este estado anterior se encuentra almacenado en una memoria
 
 
 Existe dos tipos de checkpoints, estáticos y dinámicos. Los checkpoints dinámicos toman una 
-``fotografía'' del estado del sistema antes de comenzar la ejecución del \ac{SW} y lo guarda en 
+``fotografía'' del estado del sistema antes de comenzar la ejecución del \ac{SW} y lo guarda en la
 memoria \citep{FTDesign}. Si se detecta una falla, el sistema regresa a ese estado y 
 comienza de nuevo su ejecución \citep{FTDesign}. Los checkpoints estáticos se basan en regresar el 
 módulo a un estado predeterminado \citep{SoftwareFaultToleranceATutorial}. Se puede regresar a un 
@@ -291,8 +292,8 @@ módulo.
 \end{enumerate}
 
 \subsubsection{Procesos pares}
-Los procesos pare utilizan dos versiones identicas de un proceso de \ac{SW} que corre en 
-procesadores separados \citep{FTDesign} \citep{SoftwareFaultToleranceATutorial}. El mecanismo de 
+Los procesos a pares utilizan dos versiones idénticas de un proceso de \ac{SW} que corre en 
+procesadores separados (\citep{FTDesign}; \citep{SoftwareFaultToleranceATutorial}). El mecanismo de 
 recuperación que se utiliza es el de checkpoint y restart \citep{SoftwareFaultToleranceATutorial}.  
 
 Como se puede observar en la figura~\ref{fig:repPares}\footnote{Basada en \cite{FTDesign} y 
@@ -365,17 +366,17 @@ sep=3pt]
 
 \subsubsection{Diversidad de datos}
 La diversidad es una técnica utilizada para mejorar la eficiencia en los checkpoint y restart, 
-usando diferentes entradas por cada reinicio \citep{FTDesign}. Esto se basa en que las fallas en el 
-\ac{SW} son dependientes de las entradas \citep{FTDesign}. Es poco probable que la misma falla se 
+usando diferentes entradas por cada reinicio. Esto se basa en que las fallas en el 
+\ac{SW} son dependientes de las entradas. Es poco probable que la misma falla se 
 de con la misma secuencia de entrada \citep{FTDesign}.
 
 \subsubsection{Bloques de recuperación}
 
 Esta técnica combina las bases de la técnica de checkpoints y restart enfocada con múltiples 
 versiones de un componente de \ac{SW} en el sentido de que una versión de \ac{SW} diferente es 
-lanzada cada vez que se encuentra una falla \citep{SoftwareFaultToleranceATutorial}. Los 
-checkpoints son creados antes de que una versión de \ac{SW} se ejecuta 
-\citep{SoftwareFaultToleranceATutorial}. La ejecución de las múltiples versiones pueden ser 
+lanzada cada vez que se encuentra una falla. Los 
+checkpoints son creados antes de que una versión de \ac{SW} se ejecuta.
+La ejecución de las múltiples versiones pueden ser 
 secuencial o paralelas dependiendo de la disponibilidad de la capacidad de procesamiento y 
 perfomance requerida \citep{SoftwareFaultToleranceATutorial}.
 

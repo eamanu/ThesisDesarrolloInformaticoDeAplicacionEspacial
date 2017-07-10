@@ -1,9 +1,9 @@
 % TODO:La fiabilidad en el software
 \section{La fiabilidad en el software}\label{sec:fiabilidad_software}
 El objetivo final de la \ac{FT}, es el desarrollo de un sistema fiable \citep{FTDesign}. Teniendo
-en cuenta que \ac{SW} que se encuentra dentro de las naves espaciales, como satélites,
+en cuenta que el \ac{SW} que se encuentra dentro de las naves espaciales, como satélites,
 lanzadores, y sobre todo vehículos tripulados son críticos, ya que de ellos dependen el éxito o
-fracaso de una misión o la vida de seres humanos,y se debe llevar a cabo un sistema fiable.
+fracaso de una misión o la vida de seres humanos,y por lo tanto, se debe llevar a cabo un sistema fiable.
 La fiabilidad de un sistema es la capacidad del mismo de entregar a los usuarios un nivel
 deseado de servicio \citep{FTDesign}.
 
@@ -47,11 +47,11 @@ fallas, errores, y fracaso \citep{FTDesign}. Los mismos fueron desarrollados en 
 \ref{sec:terminologia}. Lo que tienen en común estos tres conceptos, es que avisan, o dan alerta
 cuando algo está mal \citep{FTDesign}. La diferencia radica, en que las fallas son a nivel físico;
 los errores se dan a nivel computacional; mientras que los fracaso se dan a nivel de sistema
-\cite{FTDesign}.
+\citep{FTDesign}.
 
 \subsection{Orígenes de la falla}
 Existen diversos orígenes de fallas. Estas pueden provenir desde terceros, en el caso de productos
-comprados, pueden deverse a una falta del conocimiento del problema, falta de tiempo, etc.
+comprados, pueden deberse a una falta del conocimiento del problema, falta de tiempo, etc.
 \cite{FTDesign} clasifica el orígen de las fallas en cuatro grupos: \textit{especificación
 incorrecta, implementación incorrecta, defectos de fabricación y factores externos}
 
@@ -71,18 +71,18 @@ incluir defectos de fabricación, defectos aleatorios dados en los componentes, 
 
 Y por último se tienen las fallas que son causadas por \textit{factores externos}, los cuales
 provienen del medio ambiente, usuarios u operadores \citep{FTDesign}. Ejemplos de estos factores
-externos pueden ser, vibraciones, cargas electroestáticas, temperatura, radición electromagnética,
+externos pueden ser, vibraciones, cargas electroestáticas, temperatura, radiación electromagnética,
 envío incorrecto de comandos, etc.
 
 % TODO: Modos comúnes de fallas
 \subsection{Modos comúnes de fallas}
 Un \textit{\ac{CMF}}\footnote{En inglés, common-mode faults} es una falla que ocurre
-simultaneamente en dos o más componentes redundantes \citep{FTDesign}.
+simultáneamente en dos o más componentes redundantes \citep{FTDesign}.
 
 \cite{Gangloff75} define los \ac{CMF} como múltiples unidades de fracaso debido a una sola causa.
 
 \ac{CMF} son causados por fenómenos que crean dependencias entre unidades redundadas, lo que causa
-la falla de estas unidades simultaneamente \citep{FTDesign}.
+la falla de estas unidades simultáneamente \citep{FTDesign}.
 
 Según como lo indica \cite{FTDesign} el único enfoque para combatir los \ac{CMF}, es mediante el
 diseño en diversidad. Diseño en diversidad es la implementación de más de una variante de la
@@ -93,9 +93,9 @@ redundancia en código, etc.
 %TODO: Fallas en el Software
 \subsection{Fallas en el Software}
 El \ac{SW} difiere en gran medida con el \ac{HW}. En primer lugar el \ac{SW} no envejece, no se deforma, tampoco se puede quebrar ni ser afectado
-por el medio ambiente. El \ac{SW} es determinístico, siempre responde de la misma manera en el mismo ambiente, al menos que falle.
+por el medio ambiente. El \ac{SW} es determinístico, siempre responde de la misma manera en el mismo ambiente, a menos que falle.
 
-Por otro lado el \ac{SW} se lo puede actualizar varias veces a lo largo del su ciclo de vida.
+Por otro lado, el \ac{SW} se lo puede actualizar varias veces a lo largo del su ciclo de vida.
 
 En tercer lugar, arreglar bugs de \ac{SW} \textbf{no significa que el mismo sea más confiable}, al contrario pueden ocurrir nuevos errores \citep{FTDesign}.
 
@@ -106,9 +106,8 @@ Por último el \ac{SW} es mucho más complejo y menos regular que el \ac{HW}. Te
 Los medios de confiabilidad son métodos y técnicas que permiten el desarrollo de un sistema
 confiable \citep{FTDesign}. Los medios se pueden dividir en dos grandes grupos \citep{Pullum01}:
 \begin{enumerate}
- \item Aquellos que son empleados durante el proceso de construcción del \ac{SW} \citep{Pullum01},
- \item y a quellos que ayudan en la validación del \ac{SW} después que fue desarrollado
-\citep{Pullum01}.
+ \item Aquellos que son empleados durante el proceso de construcción del \ac{SW},
+ \item y a quellos que ayudan en la validación del \ac{SW} después que fue desarrollado.
 \end{enumerate}
 
 Dentro del primer grupo se tiene:
@@ -129,7 +128,7 @@ para reducir el número de fallas introducidas durante la etapa mencionada \cite
 técnicas pueden estar presentes en las especificaciones y requerimientos del sistema, métodos de
 diseño de \ac{SW} \citep{Pullum01}.
 
-\cite{FTDesign} la denomina \textit{prevensión de fallas}\footnote{En inglés, Fault prevention}, y
+\cite{FTDesign} la denomina \textit{prevención de fallas}\footnote{En inglés, Fault prevention}, y
 coincide con el autor anterior, definiendo \ac{FA} como técnicas de control de calidad durante la
 especificación y fabricación de los procesos de diseño.
 
@@ -153,12 +152,12 @@ mismo \citep{FTDesign}.
 
 \subsection{\acl{FF}}
 La \ac{FF} se realiza mediante la realización de una evaluación del comportamiento del sistema con
-respecto a la ocurrencia o la activación de una falla \citep{FTDesign}. Esta evaluación puede ser:
+respecto a la ocurrencia o la activación de una falla Según \cite{FTDesign} esta evaluación puede ser:
 \begin{itemize}
  \item Cualitativa: que tiene como objetivo clasificar los modos de fallas o combinaciones de
-eventos que llevan al sistema al fracaso \citep{FTDesign}.
+eventos que llevan al sistema al fracaso,
  \item Cuantitativa: que tiene como objetivo evaluar en término de probabilidad, el grado en el
-cual los atributos de fiabilidad son satisfechos \citep{FTDesign}.
+cual los atributos de fiabilidad son satisfechos.
 \end{itemize}
 
 \ac{FF} incluye técnicas para aumentar la fiabilidad del sistema que son usados durante la
@@ -168,7 +167,7 @@ consecuencia de fracasos \citep{Pullum01}
 % TODO: atributos de la fiabilidad
 \section{Atributos de la fiabilidad}\label{sec:atributos_de_la_fiabilidad}
 El objetivo final de la \ac{FT} es desarrollar un sistema que sea fiable. Fiabilidad tiene muchas
-defini|ciones, pero comúnmente es expresado como la probabilidad de \textbf{no fallar}
+definiciones, pero comúnmente es expresado como la probabilidad de \textbf{no fallar}
 \citep{FTAvionics}. ``La fiabilidad es la probabilidad de que un sistema continúe funcionando
 correctamente durante un intervalo de tiempo particular'' \citep{SoftwareFaultToleranceATutorial}.
 
@@ -176,7 +175,7 @@ La fiabilidad de un sistema \ac{SW} puede ser descrita por una serie de atributo
 mencionados a continuación.
 
 \subsection{Confiabilidad}\label{subsec:confiabilidad}
-La confiabilidad es la probabilidad de que un sistema continua operando correctamente durante un
+La confiabilidad es la probabilidad de que un sistema continue operando correctamente durante un
 intervalo de tiempo dado \citep{SoftwareFaultToleranceATutorial}.
 
 \cite{FTDesign} coincide que la confiabilidad \textit{R(t)}\footnote{En inlgés, Reliability} de un
@@ -217,7 +216,7 @@ instante de tiempo \textit{t} es la probabilidad que el sistema esté funcionand
 el instante \textit{t} \citep{FTDesign}.
 
 \cite{FTDesign} realiza un definción matemática de \textit{A(t)}, llamandola también como
-\textit{punto de disponibilidad} o \textit{disponibilidad instantanea}. Y la define como:
+\textit{punto de disponibilidad} o \textit{disponibilidad instantánea}. Y la define como:
 
 $$A(T) = \frac{1}{T} \int_0^T \! A(t) \, \mathrm{d}x $$
 

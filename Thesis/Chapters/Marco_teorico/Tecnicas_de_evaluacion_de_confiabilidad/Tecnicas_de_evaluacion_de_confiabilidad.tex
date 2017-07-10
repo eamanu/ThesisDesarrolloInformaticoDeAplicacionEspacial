@@ -35,8 +35,8 @@ Generalmente, $\lambda$ se encuentra a nivel de componente. Para conocer el fail
 sistema completo, se puede realizar (\textit{grosso modo}) una sumatoria de los $\lambda$ de los
 componentes que integran el sistema. $$\lambda=\sum_{i=1}^{n} \lambda_i$$.
 
-La evolución de $\lambda$ a través del tiempo, no tiene el mismo comportamiento tanto para \ac{HW} como para \ac{SW}
-Si se devide el ciclo de vida de un sistema en las siguientes fases: mortalidad prematura (I), vida útil (II), desgaste (II) \citep{FTDesign}
+La evolución de $\lambda$ a través del tiempo, no tiene el mismo comportamiento tanto para \ac{HW} como para \ac{SW}.
+Si se divide el ciclo de vida de un sistema en las siguientes fases: mortalidad prematura (I), vida útil (II), desgaste (II) \citep{FTDesign}
 se aprecia, para el caso del \ac{HW}, lo que se denomina \textit{curva de la bañera} la cual puede observarse en la Figura \ref{fig:bathtub_curve}.
 En una primera fase, $\lambda$ decrese, ya que a través de los procesos de testing se van descubriendo y resolviendo los errores. Luego se da un periodo de estabilización.
 Y al final, el \ac{HW} sufre el paso del tiempo, y se desgasta, aumentando la tasa de fallas.
@@ -72,25 +72,25 @@ Esto se conoce como \textit{ley de la falla exponencial} \citep{FTDesign}. El gr
 \label{fig:failure_rate}
 \end{figure}
 
-\subsection{Tiempo medio medio de falla}
+\subsection{Tiempo medio de falla}
 \textit{El tiempo medio de falla} (MTTF\footnote{Del inglés, Mean Time To Failure}) de un sistema es el tiempo esperado que transcurra hasta la primera falla que se
-detecte en el sistema. En terminos de confiabilidad, MTTF se define de la siguiente manera \citep{FTDesign} \citep{Rausand04} $$\int_0^{\infty} R(t) dt$$
+detecte en el sistema. En terminos de confiabilidad, MTTF se define de la siguiente manera (\citep{FTDesign}; \citep{Rausand04}) $$\int_0^{\infty} R(t) dt$$
 
 \subsection{Tiempo medio de reparación}
 \textit{El tiempo medio de reparación} (MTTR\footnote{Del inglés, Mean Time To Repair})
 de un sistema, es el promedio de tiempo que se requiere para reparar al sistema.
-MTTR se especifica en términos de la tasa de reparación $\mu$ \citep{FTDesign} \citep{Rausand04}, el cual es el número esperarado de reparaciones por unidad de tiempo: $$MTTR = \frac{1}{\mu}$$
+MTTR se especifica en términos de la tasa de reparación $\mu$ (\citep{FTDesign}; \citep{Rausand04}), el cual es el número esperarado de reparaciones por unidad de tiempo: $$MTTR = \frac{1}{\mu}$$
 
 El MTTR depende de los mecanismos de recuperación ante fallas que se utilicen en el sistema, localización del sistema, scheduler de mantenimiento \citep{FTDesign}. Con esto se puede definir la disponibilidad como sigue: $$A(\infty) = \frac{MTTF}{MTTF+MTTR}$$
 
-Muchas veces se utiliza MDT\footnote{Del inglés, Meann Downtime} en vez de MTTR, para denotar más claro que es el tiempo medio que el sistema se encuentra fuera de sericio.
+Muchas veces se utiliza MDT\footnote{Del inglés, Meann Downtime} en vez de MTTR, para denotar más claro que es el tiempo medio que el sistema se encuentra fuera de servicio.
 
 \subsection{Tiempo medio entre fallas}
 \textit{El tiempo medio entre fallas} (MTBF\footnote{Del inglés, Mean Time Between Failure}) de un sistema es el tiempo promedio entre dos fallas del sistema. $$MTBF = MTTF + MTTR$$
 
 \subsection{Cobertura de fallas}
 La cobertura de fallas es la probabilidad  de que el sistema no interrumpirá su actividad cuando una falla se presente. En términos matemáticos la cobertura
-de fallas la probabilidad condicional $P(A|B)$. Existen diferentes coberturas de fallas, dependiendo de si se está tratando con detección de fallas, localización de fallas, contención de
+de fallas es la probabilidad condicional $P(A|B)$. Existen diferentes coberturas de fallas, dependiendo de si se está tratando con detección de fallas, localización de fallas, contención de
 fallas o recuperación de fallas \citep{FTDesign}. Siendo $A$ detección, localización, contensión o recuperación de fallas, y $B$ la existencia de fallas.
 
 \section{Métodos de cálculos de fiabilidad}\label{sec:metodos_calculo_confiabilidad}

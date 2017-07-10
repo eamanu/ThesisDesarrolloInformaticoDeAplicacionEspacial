@@ -12,7 +12,7 @@ de los modelos de comportamiento del sistema. En primer lugar, el
 nivel más alto de abstracción es la máquina de estado, que considera la
 interacción entre bloques. El siguiente diagrama que se verá es
 el diagrama de secuencia, el cual pone en manifiesto los diferentes
-mensajes que son enviadas entre las entidades. Y por último, se
+mensajes que son enviados entre las entidades. Y por último, se
 desarrolla el diagrama de actividades, siendo este el nivel
 más bajo de abstracción del modelado del comportamiento del sistema.
 
@@ -37,7 +37,7 @@ debe recorrer.
 A continuación se procede a explicar la máquina de estado. Todo
 inicia en el momento en el que la red es alimentada (eléctricamente)
 siguiendo los protocolos de CAN \citep{can-ciaWEB}. En primer lugar, la
-red pasa a un estdo de inicialización de los nodos, en los cuales, estos
+red pasa a un estado de inicialización de los nodos, en los cuales, estos
 son alimentados, se encienden, y comienzan con todos los procedimientos
 normales de cualquier sistema embebido. Los cuales son Booteo, checkeo del
 funcionamiento y del estado de salud del propio \ac{HW} y los \ac{HW}
@@ -68,7 +68,7 @@ entre nodos utilizando el protocolo CANae (Versión 0.1 Alpha).
 
 Una vez finalizada la creación de la red, la arquitectura completa
 pasa a un estado Ready, donde el nodo monitor ya puede ser retirado.
-Luego, la arquitectura ignora el nodo monitor (Si todavía se encuentra
+Luego, la arquitectura ignora el nodo monitor (si todavía se encuentra
 conectado) y ya puede comenzar a trabajar normalmente.
 
 \subsection{Diagrama de secuencia}
@@ -108,7 +108,7 @@ Luego de que los chequeos se hayan resuelto exitosamente se crea una
 instancia del protocolo CANae y da inicio a su servicio NMT. Este
 servicio se puede observar en la Figura \ref{fig:NMTC5}. En primer lugar
 se debe esperar que el nodo monitor esté inicializado, y este les
-envía un mensaje de \textit{crete\_remote\_network()} a todos los
+envía un mensaje de \textit{create\_remote\_network()} a todos los
 nodos conectados a la arquitectura. Este mensaje llega al NMT del
 protocolo de CANae de todos los nodos.
 
@@ -128,12 +128,12 @@ El objeto de \textit{CANAppLayerController} envía el mensaje \textit{
 \begin{figure}[h!]
  \centering
  \includegraphics[scale=0.4]{images/Secciones/AppendixA/create_node.JPG}
-  \caption{Crear Objecto Red, Objeto Nodo y Objeto Nodo Remoto}
+  \caption{Crear Objeto Red, Objeto Nodo y Objeto Nodo Remoto}
   \label{fig:CreateNodeNMTC5}
 \end{figure}
 
 Luego el nodo monitor envía el mensaje \textit{prepare\_remote\_node()}.
-El protocolo CANae preve los pasos que se muestran en la Figura
+El protocolo CANae prevé los pasos que se muestran en la Figura
 \ref{fig:PrepareNodeC5}
 
 \begin{figure}[h!]
@@ -146,13 +146,13 @@ El protocolo CANae preve los pasos que se muestran en la Figura
 Por último, se conectan todo los nodos a la red, para lo cual deben
 actualizar el \textit{Node Table Configuration}, y finalmente ya
 pueden comenzar a comunicarse. Esto se observan en las Figuras
-\ref{fig:PrepareNodeC5} y \ref{fig:ConnectNodeC5}
+\ref{fig:StartNodeC52} y \ref{fig:ConnectNodeC5}
 
 \begin{figure}[h!]
  \centering
- \includegraphics[scale=0.4]{images/Secciones/AppendixA/PrepareNode.JPG}
+ \includegraphics[scale=0.4]{images/Secciones/AppendixA/StartNode.JPG}
   \caption{Preparar nodo para la conexión a la red CAN}
-  \label{fig:PrepareNodeC5}
+  \label{fig:StartNodeC52}
 \end{figure}
 
 \begin{figure}[h!]
@@ -163,7 +163,7 @@ pueden comenzar a comunicarse. Esto se observan en las Figuras
 \end{figure}
 
 \subsection{Diagrama de actividades}
-En esta subsección se verá algunos diagramas de actividad para modelar
+En esta subsección se verán algunos diagramas de actividad para modelar
 el comportamiento de la arquitectura propuesta. Los diagramas de actividades
 comúnmente son utilizados, generalmente, para describir el comportamiento
 a muy bajo nivel (a nivel de componentes), en otras palabras para modelar
@@ -223,7 +223,7 @@ por último las instancias de los nodos.
 \begin{figure}[h!]
  \centering
  \includegraphics[scale=0.4]{images/Capitulo5/NodeMonitor.JPG}
-  \caption{Diagrama de actividades del inicio de nodos}
+  \caption{Diagrama de actividades del Nodo monitor}
   \label{fig:NodeMonitor}
 \end{figure}
 
@@ -231,13 +231,13 @@ Como segundo paso, el nodo monitor envía la señal de \textit{Prepare Remote No
 cual es recibida por todos los nodos y se preparan internamente para comenzar a
 comunicarse.
 
-Por último,  el nodo nodo monitor envía la señal para que los nodos se conecten a
+Por último,  el nodo monitor envía la señal para que los nodos se conecten a
 la red. Cada nodo se conecta, y actualiza su tabla de configuración del nodo. A partir
 de este momento los nodos ya pueden comenzar a enviar mensajes y el nodo monitor ya
 puede ser extraído de la red. 
 
 Además, se modela el ``cómo'' se comporta la arquitectura al
-momento de tratar de enviar un mensaje de uno nodo a otro nodo. Esto se puede
+momento de tratar de enviar un mensaje de un nodo a otro nodo. Esto se puede
 observar en la Figura \ref{fig:SendMessage}. En primer lugar el nodo emisor,
 debe ``preparar'' el mensaje. Esto significa que debe empaquetarlo para,
 cumplir tanto con los protocolos CANae, como así también con el procolo CAN.
@@ -253,6 +253,6 @@ apéndice \ref{Appendix:A}.
 \begin{figure}[h!]
  \centering
  \includegraphics[scale=0.4]{images/Capitulo5/SendMessage.JPG}
-  \caption{Diagrama de actividades del inicio de nodos}
+  \caption{Diagrama de actividades del envio de mensajes}
   \label{fig:SendMessage}
 \end{figure}

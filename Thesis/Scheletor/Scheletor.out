@@ -30,7 +30,7 @@
 \BOOKMARK [1][-]{section.2.8}{T\351cnica de evaluaci\363n de fiabilidad}{chapter.2}% 30
 \BOOKMARK [1][-]{section.2.9}{Medidas comunes de fiabilidad}{chapter.2}% 31
 \BOOKMARK [2][-]{subsection.2.9.1}{Failure rate}{section.2.9}% 32
-\BOOKMARK [2][-]{subsection.2.9.2}{Tiempo medio medio de falla}{section.2.9}% 33
+\BOOKMARK [2][-]{subsection.2.9.2}{Tiempo medio de falla}{section.2.9}% 33
 \BOOKMARK [2][-]{subsection.2.9.3}{Tiempo medio de reparaci\363n}{section.2.9}% 34
 \BOOKMARK [2][-]{subsection.2.9.4}{Tiempo medio entre fallas}{section.2.9}% 35
 \BOOKMARK [2][-]{subsection.2.9.5}{Cobertura de fallas}{section.2.9}% 36
@@ -114,7 +114,7 @@
 \BOOKMARK [2][-]{subsection.Alph1.5.3}{Servicios de CMS}{section.Alph1.5}% 114
 \BOOKMARK [2][-]{subsection.Alph1.5.4}{Eventos}{section.Alph1.5}% 115
 \BOOKMARK [1][-]{section.Alph1.6}{NMT}{appendix.Alph1}% 116
-\BOOKMARK [2][-]{subsection.Alph1.6.1}{Objectos NMT}{section.Alph1.6}% 117
+\BOOKMARK [2][-]{subsection.Alph1.6.1}{Objetos NMT}{section.Alph1.6}% 117
 \BOOKMARK [2][-]{subsection.Alph1.6.2}{Servicios NMT}{section.Alph1.6}% 118
 \BOOKMARK [2][-]{subsection.Alph1.6.3}{Protocolos NMT}{section.Alph1.6}% 119
 \BOOKMARK [1][-]{section.Alph1.7}{DBT}{appendix.Alph1}% 120
@@ -142,10 +142,10 @@
 \BOOKMARK [2][-]{subsection.Alph1.10.7}{Data length}{section.Alph1.10}% 142
 \BOOKMARK [2][-]{subsection.Alph1.10.8}{Data field}{section.Alph1.10}% 143
 \BOOKMARK [2][-]{subsection.Alph1.10.9}{CRC}{section.Alph1.10}% 144
-\BOOKMARK [2][-]{subsection.Alph1.10.10}{CRC delimiter}{section.Alph1.10}% 145
-\BOOKMARK [2][-]{subsection.Alph1.10.11}{ACK}{section.Alph1.10}% 146
-\BOOKMARK [2][-]{subsection.Alph1.10.12}{ACK delimiter}{section.Alph1.10}% 147
-\BOOKMARK [2][-]{subsection.Alph1.10.13}{End-of-Frame \(EOF\)}{section.Alph1.10}% 148
+\BOOKMARK [2][-]{subsection.Alph1.10.10}{ CRC delimiter}{section.Alph1.10}% 145
+\BOOKMARK [2][-]{subsection.Alph1.10.11}{ ACK}{section.Alph1.10}% 146
+\BOOKMARK [2][-]{subsection.Alph1.10.12}{ ACK delimiter}{section.Alph1.10}% 147
+\BOOKMARK [2][-]{subsection.Alph1.10.13}{ End-of-Frame \(EOF\)}{section.Alph1.10}% 148
 \BOOKMARK [1][-]{section.Alph1.11}{High Application Layer CANae}{appendix.Alph1}% 149
 \BOOKMARK [2][-]{subsection.Alph1.11.1}{Network Management}{section.Alph1.11}% 150
 \BOOKMARK [2][-]{subsection.Alph1.11.2}{Task Management}{section.Alph1.11}% 151

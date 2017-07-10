@@ -49,13 +49,13 @@ La probabilidad de que un componente falle en un intervalo de tiempo $(t, t+\Del
 Si se divide esta probabilidad por un intervalo de tiempo $\Delta t$, y haciendo $\Delta t -> 0$, se obtiene la función de tasa de falla.
 
 \subsection{Tiempo medio hasta la falla}
-El \ac{MTTF} de un componente está definido por \citep{FTDesign} \citep{Rausand04}: $$MTTF = E(T) = \int_0^\infty tf(t)dt$$
+El \ac{MTTF} de un componente está definido por (\citep{FTDesign}; \citep{Rausand04}): $$MTTF = E(T) = \int_0^\infty tf(t)dt$$
 
 Se demuestra en \cite{Rausand04} que $$MTTF = \int_0^\infty R(t)dt$$
 
 \subsection{Vida restante media}
 Considerando un comoponente con tiempo hasta la falla T, que es colocado en operación en el tiempo $t = 0$ y continúa funcionando en el instante t.
-La probabilidad de que el componente en edad t sobreviva en un intervalo $x$, entonces se tiene
+La probabilidad de que el componente de edad t sobreviva en un intervalo $x$, entonces se tiene
 \citep{Rausand04}: $$R(x|t) = P(T>x+t | T>t) = \frac{P(T>x+t)}{P(T>t)} = \frac{R(x+t)}{R(t)}$$
 
 Entonces: $$MRL(t) = \frac{1}{R(t)}\int_t^\infty R(x)dx$$
