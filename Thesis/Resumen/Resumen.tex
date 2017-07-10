@@ -1,4 +1,57 @@
 \chapter*{Resumen} % si no queremos que añada la palabra "Capitulo"
 %\addcontentsline{toc}{chapter}{Resumen} % si queremos que aparezca en el índice
 
-Esta tesis se trata de
+El desarrollo de proyectos satelitales conlleva costos de importante magnitud, y 
+dependen de cada misión. Estos costos pueden ser clasificados, en forma general, en
+5 grupos:
+
+\begin{itemize}
+ \item Desarrollo
+ \item Materiales
+ \item Ensamblado, integración, y tests
+ \item Lanzamiento
+ \item Operaciones
+\end{itemize}
+
+Una parte importante de los costos está conformado por el 
+desarrollo, y sobre todo, por los materiales que se utilizan para su fabricación. Esto 
+es debido a que se utilizan componentes que son exclusivos para el ámbito espacial, en otras 
+palabras que se encuentran ``calificados para volar''. Estos componentes son fabricados especialmente para soportar el ambiente hostil del espacio.
+
+No se puede mencionar a ciencia cierta cuál es el costo “verdadero” de desarrollar un satélite. Este 
+depende exclusivamente del tipo de satélite y de la misión. Lo que sí se debe tener en claro es que 
+las tareas de desarrollo representan una parte muy importante del costo total del proyecto. Por tal
+motivo, este trabajo de tesis se centrará principalmente en el desarrollo (proceso de planificación, 
+análisis, diseño e implementación.), y en los materiales utilizados en la fabricación de vehículos satelitales.
+
+El desafío de este trabajo de tesis es analizar y estudiar arquitecturas que sean tolerantes a 
+fallas, que permitan una correcta comunicación entre los diferentes subsistemas de un vehículo 
+espacial de nueva generación, y que tenga como característica principal un cierto grado de confiabilidad, de modo tal que pueda ser aplicado con componentes \ac{COTS}. Desarrollar un vehículo espacial con componente \ac{COTS}, en un principio podría representar costos 
+adicionales, ya que se le deben realizar tareas de calificación adicional, debido a que no están 
+“preparados” para resistir las condiciones hostiles del espacio.
+
+Estos componentes COTS tiene varias ventajas sobre los ``clásicos''. Uno de sus puntos positivos,
+es que a la hora de desarrollar varios satélites en base a la misma ingeniería, se puede ahorrar en gran medida en los materiales que se utilizan. Los componentes \ac{COTS}
+suelen tener un costo de compra hasta 1000 
+veces menores que aquellos que están calificados para volar. \textbf{Esto ayudaría a ahorrar 
+ millones de dólares de los proyectos satelitales.}
+
+Otra de las ventajas de utilizar componentes \ac{COTS}, es que la mayoría cuentan con una tecnología más avanzada que aquellos que son calificados para volar. Esta tecnología permite:
+\begin{itemize}
+ \item Aumentar prestaciones, mediante el incremento de las capacidades de procesamiento, memoria, 
+velocidades de 
+procesamiento, etc.
+ \item Implementar funciones que son imposibles de aplicar en tecnologías viejas.
+ \item Reducir tiempos de desarrollo.
+ \item Reducir volumen, masa y consumo
+\end{itemize}
+
+Uno de los puntos en contra de la utilización de componentes \ac{COTS} es que al no ser calificados para volar, es necesario llevar a cabo tareas y estrategias inteligentes, con el fin de hacer frente a 
+esa “deficiencia”. Por ello, se exige realizar una investigación y análisis de diferentes 
+arquitecturas de aviónica, que puedan ser utilizadas para lograr que el sistema sea tolerante a 
+fallas, y así, cumplir con los requerimientos de una misión satelital.
+
+En esta tesis se desarrolla un protocolo de comunicación basada en CAN, que se lo llamó CANae.
+Este, es el protocolo utilizado en la arquitectura tolerante a fallas que se propone en este
+trabajo, el cual está basado en redes distribuidas. Todos los diseños están orientados a
+modelos, y se utiliza el lenguaje de modelado  SysML para su desarrollo y documentación. 
