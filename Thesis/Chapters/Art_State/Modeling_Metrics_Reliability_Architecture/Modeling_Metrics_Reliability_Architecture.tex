@@ -20,7 +20,7 @@ Existen dos categorías de medición de la confiabilidad y predición, estas son
 
   dónde $t_t$ es el Tiempo total de testing (observado o predicho); $r(t_t)$ son las fallas restantes hasta $t_t$; $r_c$ es una valor crítico de fallas restantes; $T_F(t_t)$ es la métrica para medir el riesgo; y $t_m$ es la duración de la misión.
 
-  Lo anterior significa que un sistema crítico será seguro si: las fallas restantes en el tiempo de prueba son menores a un valor crítico de cantidad de fallas, o la duración de una misión es mayor al tiempo que se de la siguiente falla.
+  Lo anterior significa que un sistema crítico será seguro si: las fallas restantes en el tiempo de prueba son menores a un valor crítico de cantidad de fallas, o la duración de una misión es menor al tiempo que se de la siguiente falla.
   
   En la literatura se utilizan modelos matemáticos para modelar los sistemas críticos y calcular así su confiabilidad. La mayoría de ellos asumen, que todas las fallas tienen igual tasa de detección de fallas, como así también la misma severidad, lo cual no es correcto \citep{Liu14}. Las técnicas de verificación formal tienen un fuerte enfoque para la verificación tanto de sistemas complejos, como de las propiedades deseadas de los sistemas \citep{Peng13}. Es importante llevar a cabo una verificación de modelo\footnote{Model checking}, esta incluye técnicas de verificación automática para sistemas de estados concurrentes finitos. En estos modelos, las especificaciones de los sistemas son escritos en una lógica temporal y proposicional, y el procedimiento de verificación es una búsqueda del espacio de estado del diseño \citep{Hoque15}.
 

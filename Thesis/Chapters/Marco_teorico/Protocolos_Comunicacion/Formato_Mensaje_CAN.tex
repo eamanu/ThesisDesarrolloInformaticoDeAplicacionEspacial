@@ -50,7 +50,7 @@ El CAN estandar (Figura \ref{fig:StandarCAN}) tiene los siguientes campos:
   \item DLC: 4 bits que contiene el  número de bytes que van a transmitirse.
   \item Data: Hasta 64 bits, es el mensaje que se transmite.
   \item CRC: Son 16 bits que conforman el Cyclic Redundancy Check (CRC) para chequear la existencia de algún error.
-  \item ACK: Todos los nodos que reciben el mensaje correctamente sobreescribe este bit recesivo, indicando que han recibido el mensaje sin errores. Si un nodo detecta un error y detecta la persistencia de este bit recesivo. Con esto, se descarta el mensaje enviado y el nodo transmisor vuelve a enviar el mensaje.
+  \item ACK: Todos los nodos que reciben el mensaje correctamente sobreescribe este bit recesivo, indicando que han recibido el mensaje sin errores. Si un nodo detecta un error y detecta la persistencia de este bit recesivo, sabe que ocurrió un error y se deberán tomar las medidas necesarias para hacer frente a ese error. Con esto, se descarta el mensaje enviado y el nodo transmisor vuelve a enviar el mensaje.
   \item IFS: Son 7 bits que representan el espacio entre frames. Es el tiempo que requiere el controlador para mover el mensaje hasta el buffer de mensajes recibidos.
 \end{itemize}
 

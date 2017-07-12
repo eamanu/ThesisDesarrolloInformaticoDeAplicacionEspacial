@@ -10,7 +10,7 @@ La tolerancia a fallas aplicadas en protocolos de comunicación de tiempo real, 
 
 Otro aspecto importante de los protocolos de comunicación tolerantes a fallas de tiempo real, es conocer el momento en el que un nodo está disponible para enviar mensajes. Esto es llevado a cabo por las estrategias de acceso al medio. Los métodos de acceso al medio pueden ser clasificados como event-triggered y time-triggered. En el primero, un mensaje es enviado si algún nodo requiere ese mensaje. Este no es una buena opción para los sistemas de tiemp real, ya que no asegura los límites de tiempo \citep{Lisner07}.
 
-Los métodos time-triggered es hecho en ciclos. Los nodos tiene acceso al medio a través de intervalos periódicos de tiempo \citep{Lisner07}. Una de las principales ventajas de este enfoque, es que es predecible, los intervalos son pre configurados. Como desventaja se puede mencionar que se hace un uso deficiente del medio, ya que cuando algún nodo no tiene nada para enviar en su ventana de tiempo.
+Los métodos time-triggered es hecho en ciclos. Los nodos tiene acceso al medio a través de intervalos periódicos de tiempo \citep{Lisner07}. Una de las principales ventajas de este enfoque, es que es predecible, los intervalos son pre configurados. Como desventaja se puede mencionar que se hace un uso deficiente del medio, ya que cuando algún nodo no tiene nada para enviar en su ventana de tiempo, el canal se encuentra ocioso.
 
 \section{Estrategia de acceso al medio}
 \subsection{CSMA}\label{subsection:CSMA}
@@ -20,7 +20,7 @@ El esquema CSMA (Acceso Múltiple por Detección de Portadora\footnote{Del ingl�
  \item CSMA con Detección de Colisiones
 \end{itemize}
 
-En la primera, el nodo intenta enviar un mensaje cuando el canal está inactivo. Si otro nodo lo está usando espera hasta que se desocupa y luego transmite. En el caso de una colisión de mensajes, espera un tiempo aleatorio antes de enviar el mensaje nuevamente. Esta tiene algunas desventajas, que no la hacen apropiadas para su aplicación en sistemas críticos. Para hacer frente a las desventajas del CSMA con detección de portadora, se utiliza CSMA/CD (CSMA con Detección).
+En la primera, el nodo intenta enviar un mensaje cuando el canal está inactivo. Si otro nodo lo está usando espera hasta que se desocupa y luego transmite. En el caso de una colisión de mensajes, espera un tiempo aleatorio antes de enviar el mensaje nuevamente. Esta tiene algunas desventajas, que no la hacen apropiadas para su aplicación en sistemas críticos. Para hacer frente a las desventajas del CSMA con detección de portadora, se utiliza CSMA/CD (CSMA con Detección Detección de Colisiones).
 
 Por otro lado, también existe otro método denominado CSMA/CA (CSMA con Evitación de Colisiones), utilizado en el 802.11. Este protocolo que es similar al CSMA/CD de Ethernet, con detección de canal antes de enviar y retroceso exponencial después de las colisiones \citep{Tanenbaum03}. Esta estrategia además de ser utilizada en el Wireless, se utiliza en CAN.
 

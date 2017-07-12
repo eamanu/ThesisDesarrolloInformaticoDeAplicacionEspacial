@@ -76,16 +76,16 @@ Entonces $$P(X=x) = {{n}\choose{x}} \cdot p^x (1-p)^{n-x}$$ Donde ${n}\choose{x}
 Considerando un componente que entra en operación en el instante $t=0$. El tiempo hasta la falla T del componente tiene una función de densidad de probabilidad de la siguiente forma \cite{Rausand04}:
 $$ f(t) =\left \{
 \begin{matrix}
-  \lambda e^{\lambda t } & \text{para t > 0, } \lambda \text{ > 0}\\
+  \lambda e^{ -\lambda t } & \text{para t > 0, } \lambda \text{ > 0}\\
   0                      & \text{para cualquier otro caso}
 \end{matrix}
 $$
 
 Esta distribución es la que se denomina distribución exponencial con parámetro $\lambda$.
 
-La confiabilidad de esta función  es: $$R(t) = P (T>t) = \int_t^\infty f(u) du  = e^{\lambda t} \text{ para t>0} $$
+La confiabilidad de esta función  es: $$R(t) = P (T>t) = \int_t^\infty f(u) du  = e^{ - \lambda t} \text{ para t>0} $$
 
-El \ac{MTTF} es: $$MTTF = \int_0^\infty R(t) dt = \int_0^\infty e^{\lambda t} dt  = \frac{1}{\lambda}$$
+El \ac{MTTF} es: $$MTTF = \int_0^\infty R(t) dt = \int_0^\infty e^{ - \lambda t} dt  = \frac{1}{\lambda}$$
 
 La tasa de falla de esta distribución es $\lambda$.
 
