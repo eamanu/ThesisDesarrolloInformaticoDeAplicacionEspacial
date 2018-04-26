@@ -50,7 +50,7 @@ Y al final, el \ac{HW} sufre el paso del tiempo, y se desgasta, aumentando la ta
 
 Para el \ac{SW} es totalmente diferente. En primer lugar cuando se realiza una actualización, se aumenta la complejidad, como así también la probabilidad de fallas,
 con ello el failure rate. Otra diferencia sustancial con el \ac{HW} es que el \ac{SW} no se desgasta con el tiempo. En la Figura \ref{fig:Failure_rate_software}
-se puede apreciar $\lambda$ a través de tiempo. Esta curva suele llamarse \texit{curva serrucho}. El failure rate del \ac{SW} decrece en función del tiempo. En estos tipo de sistemas
+se puede apreciar $\lambda$ a través de tiempo. Esta curva suele llamarse \textit{curva serrucho}. El failure rate del \ac{SW} decrece en función del tiempo. En estos tipo de sistemas
 la tasa de falla depende de varios factores como pueden ser el proceso utilizado en el diseño y codificación, complejidad del \ac{SW}, tamaño del \ac{SW},etc \citep{FTDesign}.
 
 \begin{figure}[h]
@@ -60,10 +60,11 @@ la tasa de falla depende de varios factores como pueden ser el proceso utilizado
 \label{fig:Failure_rate_software}
 \end{figure}
 
-A lo largo de la vida del sistema se supon que el failure rate $\lambda$ es constante. Por lo tanto la confiabilidad del sistema varía exponencialmente
-con respecto al tiempo \citep{FTDesign}: $$R(t) = e^{- \lambda t}$$
+A lo largo de la vida del sistema se supone que el failure rate $\lambda$ es constante. 
 
-Esto se conoce como \textit{ley de la falla exponencial} \citep{FTDesign}. El gráfico de confiabilidad $R(t)$ vs tiempo se muestra en la Figura \ref{fig:failure_rate}.
+La confiabilidad del sistema varía exponencialmente con respecto al tiempo \citep{FTDesign}: $$R(t) = e^{- \lambda t}$$
+
+Esto se conoce como \textit{ley de la falla exponencial} \citep{FTDesign}. El gráfico de confiabilidad $R(t)$ vs tiempo se muestra en la Figura \ref{fig:failure_rate}. Esta ley es utilizada para analizar la confiabilidad de de componentes y sistemas de hardware. En este trabajo de tesis se asume su extensión al software. Esta ley solo puede ser utilizada en casos dónde, se asume que la tasa de falla es constante. \citep{FTDesign}
 
 \begin{figure}[h]
  \centering
@@ -81,9 +82,11 @@ detecte en el sistema. En terminos de confiabilidad, MTTF se define de la siguie
 de un sistema, es el promedio de tiempo que se requiere para reparar al sistema.
 MTTR se especifica en términos de la tasa de reparación $\mu$ (\citep{FTDesign}; \citep{Rausand04}), el cual es el número esperarado de reparaciones por unidad de tiempo: $$MTTR = \frac{1}{\mu}$$
 
+Esto será siempre y cuando la mantenibilidad sea exponencial. Esto se da si la probabilidad de que el sistema sea reparado en un tiempo determinado, dado que falló al principio de ese intervalo sea proporcional a ese intervalo de tiempo.
+
 El MTTR depende de los mecanismos de recuperación ante fallas que se utilicen en el sistema, localización del sistema, scheduler de mantenimiento \citep{FTDesign}. Con esto se puede definir la disponibilidad como sigue: $$A(\infty) = \frac{MTTF}{MTTF+MTTR}$$
 
-Muchas veces se utiliza MDT\footnote{Del inglés, Meann Downtime} en vez de MTTR, para denotar más claro que es el tiempo medio que el sistema se encuentra fuera de servicio.
+Muchas veces se utiliza MDT\footnote{Del inglés, Mean Downtime} en vez de MTTR, para denotar más claro que es el tiempo medio que el sistema se encuentra fuera de servicio.
 
 \subsection{Tiempo medio entre fallas}
 \textit{El tiempo medio entre fallas} (MTBF\footnote{Del inglés, Mean Time Between Failure}) de un sistema es el tiempo promedio entre dos fallas del sistema. $$MTBF = MTTF + MTTR$$

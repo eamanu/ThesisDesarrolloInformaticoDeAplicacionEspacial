@@ -1,8 +1,13 @@
 % esta seccion habla sobre los términos importantes a utilizar a lo largo de la tesis
 \section{Terminología}\label{sec:terminologia}
 Existe una importante diferencia entre los significados de las palabras falla, error y
-avería\footnote{En inglés: fault, error y failure.}, que es importante destacar antes de comenzar
-con el desarrollo de este trabajo.
+avería\footnote{En inglés: fault, error y failure.}, que es importante destacar. Teniendo en cuenta 
+el Diccionario de Cambridge \citep{CambridgeDictionary}\footnote{\texttt{{https://dictionary.cambridge.org/}}}
+el significado de fault es, ``1. something that is wrong with something; 2. an imperfection, something wrong;
+3. a mistake, especially something for which you are to blame'', 
+que se adapta de mejor manera con la palabra española ``falla'', que según la Real Academia Española \citep{RAE}\footnote{\texttt{{http://www.rae.es/}}} es, ``1. defecto o falta; 2. incumplimiento de una
+obligación''.  Por otro lado, Failure según \cite{CambridgeDictionary} es, ``1. the fact of someone or something not succeeding; 2. the fact of not doing something that you must do or are expected to do'', que 
+nuevamente se adapta mejor con la palabra española ``avería'', la cual significa: ``1. Daño que impide el funcionamiento de un aparato, instalación, vehículo, etc.'' Por esto, en esta obra se utilizan las palabras: falla, error y avería, para las traducciones de fault, error y failure.
 
 Una \textbf{avería} de sistema ocurre cuando el servicio prestado por el sistema ya no coincide con
 las especificaciones del mismo \citep{Hanmer07}. Esto quiere decir que existe un problema que tiene
@@ -28,6 +33,9 @@ dar a lugar otros errores \citep{Pullum01}.
 \cite{IEEE610.12} define error como ``la diferencia entre un valor computado, observado o medido,
 con el valor verdadero, especificado o el teóricamente verdadero''.
 
+Según \cite{Rani11} un error es la parte de estado del sistema que puede conducir a una avería, es una
+etapa intermedia entre fallas y averías.
+
 Los errores se pueden clasificar en dos tipos: errores de tiempo y valores \citep{Hanmer07}. Los
 errores de valores son aquellos que se manifiestan como valores discretos incorrectos o estados del
 sistema incorrecto. En cambio, los errores de tiempo pueden incluir aquellos que no cumplen con el total de las tareas.
@@ -48,12 +56,18 @@ actividades a la que es expuesta.
 La causa adjudicada o la hipótesis de un error es una \textbf{falla}, también llamado ``bugs''. Una
 \textbf{falla activa} es aquella que produce un error \citep{Pullum01}. Una falla es un defecto que está
 presente en el sistema y que puede causar un error \citep{Hanmer07}. Es la desviación actual de lo
-correcto \citep{Hanmer07}.
+correcto \citep{Hanmer07} \citep{Rani11}. 
 
 Según \cite{IEEE610.12} una falla es ``un defecto en un dispositivo de hardware o componente; como
 por ejemplo un corto circuito o un cable cortado''. También realiza una segunda definición diciendo
 que falla es ``un paso incorrecto, proceso, o definición de dato en un programa de computadora''
 \citep{IEEE610.12}. Esta última afirmación es la que se usa en el ámbito de este trabajo.
+
+Se puede indicar que un software contiene falla, si dado un conjunto de entradas, se obtienen
+resultados que son incorrectos. Una falla es una parte del software, y puede ser eliminada mediante 
+la corrección de dicha parte. \citep{XIE}
+
+Debe realizar la distinción entre fallas activas y pasivas. Las primeras son aquellas que han sido descubiertas por algún, es decir, mediante testing o durante el funcionamiento del sistema. Si el sistema no es capaz de identificar la falla, aislar y recuperarse de esta, podría llegar a convertirse en una avería. Por otro lado, las fallas pasivas son aquellas que se encuentran dentro del sistema, pero todavía no ha sido detectada, es decir, que no causa ningún efecto observable eternamente (a nivel de sistema). Debe aclararse que una falla se manifieste o no, depende de lo que esté sucediendo en le sistema y su entorno. 
 
 Algunas fallas introducidas en el \ac{SW} se detallan en \cite{Hanmer07}, lo cual señala que
 pueden incluir:
@@ -62,6 +76,14 @@ pueden incluir:
  \item Diseño incorrecto
  \item Errores de programación
 \end{itemize}
+
+
+Resumiendo, la principal diferencia entre falla (fault) y avería (failure) es que la primera, es 
+la causa de la segunda. Debido a la existencia de una falla, las entradas del módulo (o sistema) software
+que contiene dicha falla, provocará como salida valores y/o resultados incorrectos, es decir, 
+que no corresponden con los valores teóricos. Por otro lado una avería, es la consecuencia de una falla, 
+y se refiere a cuando el sistema deja de responder o comportarse como debería hacerlo, desviándose 
+de sus requerimientos. 
 
 Entonces, como lo indica \cite{Pullum01} con la tolerancia a fallas, lo que se busca es prevenir la
 avería mediante la ``tolerancia'' de fallas, las cuales son detectables cuando un error aparece.

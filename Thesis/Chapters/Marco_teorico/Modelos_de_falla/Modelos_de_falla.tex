@@ -70,7 +70,7 @@ La distribución binomial es uno de lo más utilizados \citep{Rausand04}. Esta d
   \item La P(A) = p es la misma en todos los ensayos
 \end{itemize}
 
-Entonces $$P(X=x) = {{n}\choose{x}} \cdot p^x (1-p)^{n-x}$$ Donde ${n}\choose{x}$ es el coeficiente binomial y X es el número de n ensayos para alcanzar un resultado A \citep{Rausand04}.
+Entonces $$P(X=x) = {{n}\choose{x}} \cdot p^x (1-p)^{n-x} \quad \textrm{para} \quad x = 0, 1, ..., n$$ Donde ${n}\choose{x}$ es el coeficiente binomial que se define como: $${{n}\choose{x}} = \dfrac{n!}{x!(n-x)!}$$ y X es el número de n ensayos para alcanzar un resultado A \citep{Rausand04}.
 
 \subsection{Distribución exponencial}
 Considerando un componente que entra en operación en el instante $t=0$. El tiempo hasta la falla T del componente tiene una función de densidad de probabilidad de la siguiente forma \cite{Rausand04}:
@@ -100,5 +100,4 @@ Mientras que la tasa de falla es: $$z(t) = \frac{f(t)}{R(t)} = \frac{\lambda e^{
 
 \textbf{NOTA IMPORTANTE:} Como se mencionó anteriormente, existen numerosas distribuciones
 de probabilidad para medir el tiempo de vida de los componentes. En este trabajo de tesis,
-se trabaja con la distribución exponencial debido a que es sencilla su aplicación, y además,
-es la más popular en la bibliografía.
+se trabaja con la distribución exponencial debido a que es sencilla su aplicación.

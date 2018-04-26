@@ -90,10 +90,15 @@ función en cuestión \citep{FTDesign}. Esto se puede lograr variando los algori
 diferentes equipos de trabajo realicen las mismas partes del sistema, de manera tal de tener
 redundancia en código, etc.
 
+\subsection{Falla de causa común}
+Una falla de causa común (CCF) se define como cualquier instancia donde múltiples unidades o elementos fallan
+debido a una causa común. Estos tipos de fallas pueden ocurrir debido al diseño de los equipos, catástrofes externas, fuentes de energías compartidas, la utilización de equipamientos provenientes de un mismo fabricante, etc. \citep{Rani11}
+
 %TODO: Fallas en el Software
 \subsection{Fallas en el Software}
-El \ac{SW} difiere en gran medida con el \ac{HW}. En primer lugar el \ac{SW} no envejece, no se deforma, tampoco se puede quebrar ni ser afectado
-por el medio ambiente. El \ac{SW} es determinístico, siempre responde de la misma manera en el mismo ambiente, a menos que falle.
+El \ac{SW} difiere en gran medida con el \ac{HW}. En primer lugar el \ac{SW} no envejece, no se deforma, tampoco se puede quebrar ni ser afectado por el medio ambiente. Debido a que esta obra tiene como área de estudio el software de vuelo de satélites, se asume que el \ac{SW} es determinístico, esto quiere  decir que tendrá el mismo comportamiento, en las mismas circunstancias, al menos que exista un problema en el \ac{HW} (provocado por el ambiente espacial, por ejemplo).
+
+El \ac{SW} es determinístico, siempre responde de la misma manera en el mismo ambiente, a menos que falle.
 
 Por otro lado, el \ac{SW} se lo puede actualizar varias veces a lo largo del su ciclo de vida.
 
@@ -166,16 +171,13 @@ consecuencia de fracasos \citep{Pullum01}
 
 % TODO: atributos de la fiabilidad
 \section{Atributos de la fiabilidad}\label{sec:atributos_de_la_fiabilidad}
-El objetivo final de la \ac{FT} es desarrollar un sistema que sea fiable. Fiabilidad tiene muchas
-definiciones, pero comúnmente es expresado como la probabilidad de \textbf{no fallar}
-\citep{FTAvionics}. ``La fiabilidad es la probabilidad de que un sistema continúe funcionando
-correctamente durante un intervalo de tiempo particular'' \citep{SoftwareFaultToleranceATutorial}.
+Como se mencionó anteriormente, la fiabilidad de un sistema es la capacidad del mismo de entregar a los usuarios un nivel
+deseado de servicio \citep{FTDesign}.
 
-La fiabilidad de un sistema \ac{SW} puede ser descrita por una serie de atributos, los cuales son
-mencionados a continuación.
+La fiabilidad es una medida de calidad  que abarca los conceptos de confiabilidad, disponibilidad y seguridad \citep{SoftwareFaultToleranceATutorial}. Estos se denominan atributos de la fiabilidad, los cuales son mencionados a continuación.
 
 \subsection{Confiabilidad}\label{subsec:confiabilidad}
-La confiabilidad es la probabilidad de que un sistema continue operando correctamente durante un
+La confiabilidad es la probabilidad de que un sistema continúe operando correctamente durante un
 intervalo de tiempo dado \citep{SoftwareFaultToleranceATutorial}.
 
 \cite{FTDesign} coincide que la confiabilidad \textit{R(t)}\footnote{En inlgés, Reliability} de un
@@ -192,18 +194,7 @@ satélite geoestacionario de comunicación, la pérdida de este servicio debe se
 (idealmente).
 
 Coincidiendo, \cite{pressman01} define la confiabilidad como la ``probabilidad de tener operaciones
-libre de fallas de un programa de computadora, en un ambiente específico para un tiempo
-específico''. El mismo autor también indica que la confiabilidad es la \ac{MTBF}\footnote{Del
-inglés, mean-time-between-failure}. Donde:
-
-$$MTBF = MTTF + MTTR$$
-
-El \ac{MTTF} es el promedio de tiempo desde que empieza la operación del sistema hasta el tiempo que
-se produce la primera falla. El \ac{MTTR} es el promedio de tiempo que se requiere para recuperarse,
-después de un fracaso, al correcto funcionamiento \citep{Hanmer07}. \ac{MTBF}  es similar a
-\ac{MTTF}, lo único que los diferencia es que \ac{MTBF} es la suma de \ac{MTTF} y \ac{MTTR}. Según
-\cite{Hanmer07}, \ac{MTBF} es utilizado para aquellos sistemas que son reparables. Para el caso
-contrario se utiliza \ac{MTTF}.
+libre de fallas de un programa de computadora, en un ambiente específico para un tiempo específico''. 
 
 La \cite{IEEE610.12} define confiabilidad como ``La capacidad del sistema o componente de realizar
 sus funciones requeridas bajo las condiciones establecidas durante un período de tiempo
@@ -258,6 +249,8 @@ registración de imágenes en una determinada zona terrestre).
 
 Diferente es el caso para los satélites geoestacionarios, ya que estos deberían estar disponible la
 mayor parte del tiempo, ya que en la mayoría de los casos son de comunicación.
+
+Resumiendo, la disponibilidad es la probabilidad de que el sistema esté operando correctamente en el instante de tiempo en el que se requiera su servicios, es decir, en el momento que se lo opera. 
 
 \subsection{Seguridad}\label{subsec:seguridad}
 La seguridad se considera como una extensión de la confiabilidad \citep{FTDesign}. Seguridad

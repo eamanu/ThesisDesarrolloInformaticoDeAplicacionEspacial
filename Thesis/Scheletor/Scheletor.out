@@ -11,156 +11,157 @@
 \BOOKMARK [1][-]{section.2.3}{Impedimentos de la confiabilidad}{chapter.2}% 11
 \BOOKMARK [2][-]{subsection.2.3.1}{Or\355genes de la falla}{section.2.3}% 12
 \BOOKMARK [2][-]{subsection.2.3.2}{Modos com\372nes de fallas}{section.2.3}% 13
-\BOOKMARK [2][-]{subsection.2.3.3}{Fallas en el Software}{section.2.3}% 14
-\BOOKMARK [1][-]{section.2.4}{Medios de fiabilidad}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.4.1}{Evitaci\363n de Fallas}{section.2.4}% 16
-\BOOKMARK [2][-]{subsection.2.4.2}{Tolerancia a Fallas}{section.2.4}% 17
-\BOOKMARK [2][-]{subsection.2.4.3}{Eliminaci\363n de Fallas}{section.2.4}% 18
-\BOOKMARK [2][-]{subsection.2.4.4}{Predicci\363n de Fallas}{section.2.4}% 19
-\BOOKMARK [1][-]{section.2.5}{Atributos de la fiabilidad}{chapter.2}% 20
-\BOOKMARK [2][-]{subsection.2.5.1}{Confiabilidad}{section.2.5}% 21
-\BOOKMARK [2][-]{subsection.2.5.2}{Disponibilidad}{section.2.5}% 22
-\BOOKMARK [2][-]{subsection.2.5.3}{Seguridad}{section.2.5}% 23
-\BOOKMARK [1][-]{section.2.6}{Tolerancia a falla}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.7}{Redundancia en el software}{chapter.2}% 25
-\BOOKMARK [2][-]{subsection.2.7.1}{T\351cnicas single version}{section.2.7}% 26
-\BOOKMARK [2][-]{subsection.2.7.2}{T\351cnicas multi-version}{section.2.7}% 27
-\BOOKMARK [2][-]{subsection.2.7.3}{T\351cnicas de detecci\363n de fallas}{section.2.7}% 28
-\BOOKMARK [2][-]{subsection.2.7.4}{T\351cnicas de recuperaci\363n de fallas}{section.2.7}% 29
-\BOOKMARK [1][-]{section.2.8}{T\351cnica de evaluaci\363n de fiabilidad}{chapter.2}% 30
-\BOOKMARK [1][-]{section.2.9}{Medidas comunes de fiabilidad}{chapter.2}% 31
-\BOOKMARK [2][-]{subsection.2.9.1}{Failure rate}{section.2.9}% 32
-\BOOKMARK [2][-]{subsection.2.9.2}{Tiempo medio de falla}{section.2.9}% 33
-\BOOKMARK [2][-]{subsection.2.9.3}{Tiempo medio de reparaci\363n}{section.2.9}% 34
-\BOOKMARK [2][-]{subsection.2.9.4}{Tiempo medio entre fallas}{section.2.9}% 35
-\BOOKMARK [2][-]{subsection.2.9.5}{Cobertura de fallas}{section.2.9}% 36
-\BOOKMARK [1][-]{section.2.10}{M\351todos de c\341lculos de fiabilidad}{chapter.2}% 37
-\BOOKMARK [2][-]{subsection.2.10.1}{Diagramas de bloques de confiabilidad}{section.2.10}% 38
-\BOOKMARK [2][-]{subsection.2.10.2}{Utilizaci\363n de procesos de Markov}{section.2.10}% 39
-\BOOKMARK [1][-]{section.2.11}{Modelos de falla}{chapter.2}% 40
-\BOOKMARK [2][-]{subsection.2.11.1}{Tiempo hasta la falla}{section.2.11}% 41
-\BOOKMARK [2][-]{subsection.2.11.2}{Funci\363n de confiabilidad}{section.2.11}% 42
-\BOOKMARK [2][-]{subsection.2.11.3}{Tasa de falla}{section.2.11}% 43
-\BOOKMARK [2][-]{subsection.2.11.4}{Tiempo medio hasta la falla}{section.2.11}% 44
-\BOOKMARK [2][-]{subsection.2.11.5}{Vida restante media}{section.2.11}% 45
-\BOOKMARK [2][-]{subsection.2.11.6}{Distribuci\363n binomial}{section.2.11}% 46
-\BOOKMARK [2][-]{subsection.2.11.7}{Distribuci\363n exponencial}{section.2.11}% 47
-\BOOKMARK [1][-]{section.2.12}{Protocolos de comunicaci\363n de tiempo real}{chapter.2}% 48
-\BOOKMARK [2][-]{subsection.2.12.1}{Sistemas de tiempo real}{section.2.12}% 49
-\BOOKMARK [1][-]{section.2.13}{Estrategia de acceso al medio}{chapter.2}% 50
-\BOOKMARK [2][-]{subsection.2.13.1}{CSMA}{section.2.13}% 51
-\BOOKMARK [2][-]{subsection.2.13.2}{TDMA}{section.2.13}% 52
-\BOOKMARK [2][-]{subsection.2.13.3}{Minislotting}{section.2.13}% 53
-\BOOKMARK [1][-]{section.2.14}{Revisi\363n de protocolos}{chapter.2}% 54
-\BOOKMARK [2][-]{subsection.2.14.1}{CAN}{section.2.14}% 55
-\BOOKMARK [2][-]{subsection.2.14.2}{byteflight}{section.2.14}% 56
-\BOOKMARK [2][-]{subsection.2.14.3}{ARINC 659 o SAFEbus}{section.2.14}% 57
-\BOOKMARK [2][-]{subsection.2.14.4}{TTP/C}{section.2.14}% 58
-\BOOKMARK [1][-]{section.2.15}{Posibles fallas en una red}{chapter.2}% 59
-\BOOKMARK [1][-]{section.2.16}{Protocolo CAN}{chapter.2}% 60
-\BOOKMARK [2][-]{subsection.2.16.1}{Consideraciones previas}{section.2.16}% 61
-\BOOKMARK [2][-]{subsection.2.16.2}{Introducci\363n}{section.2.16}% 62
-\BOOKMARK [2][-]{subsection.2.16.3}{Elementos necesarios}{section.2.16}% 63
-\BOOKMARK [2][-]{subsection.2.16.4}{Capa f\355sica}{section.2.16}% 64
-\BOOKMARK [2][-]{subsection.2.16.5}{Capa de Enlace}{section.2.16}% 65
-\BOOKMARK [2][-]{subsection.2.16.6}{Formato del mensaje}{section.2.16}% 66
-\BOOKMARK [2][-]{subsection.2.16.7}{CANAerospace}{section.2.16}% 67
-\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 68
-\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 69
-\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 70
-\BOOKMARK [1][-]{section.3.2}{Sistemas Hypercube}{chapter.3}% 71
-\BOOKMARK [1][-]{section.3.3}{Redes distribuidas}{chapter.3}% 72
-\BOOKMARK [2][-]{subsection.3.3.1}{Algoritmo de ruteo}{section.3.3}% 73
-\BOOKMARK [1][-]{section.3.4}{Redes Ethernet en avi\363nica}{chapter.3}% 74
-\BOOKMARK [2][-]{subsection.3.4.1}{Experiencia de vuelo}{section.3.4}% 75
-\BOOKMARK [1][-]{section.3.5}{Arquitectura de red basada en BUS}{chapter.3}% 76
-\BOOKMARK [2][-]{subsection.3.5.1}{Evaluaci\363n de la confiabilidad de arquitecturas basadas en BUS}{section.3.5}% 77
-\BOOKMARK [1][-]{section.3.6}{M\351trica y modelado de la confiabilidad de sistemas}{chapter.3}% 78
-\BOOKMARK [1][-]{section.3.7}{CAN en la actividad espacial}{chapter.3}% 79
-\BOOKMARK [0][-]{chapter.4}{An\341lisis y desarrollo de arquitectura tolerante a fallas}{}% 80
-\BOOKMARK [1][-]{section.4.1}{Requerimientos para el an\341lisis}{chapter.4}% 81
-\BOOKMARK [1][-]{section.4.2}{Nomenclatura}{chapter.4}% 82
-\BOOKMARK [1][-]{section.4.3}{Estudio de topolog\355as de arquitecturas}{chapter.4}% 83
-\BOOKMARK [2][-]{subsection.4.3.1}{\301rbol binario}{section.4.3}% 84
-\BOOKMARK [2][-]{subsection.4.3.2}{Red distribuida}{section.4.3}% 85
-\BOOKMARK [2][-]{subsection.4.3.3}{Red hypercube}{section.4.3}% 86
-\BOOKMARK [1][-]{section.4.4}{Topolog\355a utilizada en la arquitectura a dise\361ar}{chapter.4}% 87
-\BOOKMARK [1][-]{section.4.5}{Topolog\355a propuesta}{chapter.4}% 88
-\BOOKMARK [1][-]{section.4.6}{Protocolo de comunicaci\363n}{chapter.4}% 89
-\BOOKMARK [0][-]{chapter.5}{Arquitectura propuesta}{}% 90
-\BOOKMARK [1][-]{section.5.1}{\301rbol de requerimientos}{chapter.5}% 91
-\BOOKMARK [1][-]{section.5.2}{Casos de Uso}{chapter.5}% 92
-\BOOKMARK [1][-]{section.5.3}{Dise\361o Estructural}{chapter.5}% 93
-\BOOKMARK [2][-]{subsection.5.3.1}{Bridge tolerante a fallas}{section.5.3}% 94
-\BOOKMARK [2][-]{subsection.5.3.2}{Bloques Internos}{section.5.3}% 95
-\BOOKMARK [2][-]{subsection.5.3.3}{Nodo Monitor}{section.5.3}% 96
-\BOOKMARK [1][-]{section.5.4}{Modelo din\341mico}{chapter.5}% 97
-\BOOKMARK [2][-]{subsection.5.4.1}{M\341quina de estado}{section.5.4}% 98
-\BOOKMARK [2][-]{subsection.5.4.2}{Diagrama de secuencia}{section.5.4}% 99
-\BOOKMARK [2][-]{subsection.5.4.3}{Diagrama de actividades}{section.5.4}% 100
-\BOOKMARK [0][-]{chapter.6}{Conclusi\363n}{}% 101
-\BOOKMARK [1][-]{section.6.1}{Conclusiones finales}{chapter.6}% 102
-\BOOKMARK [1][-]{section.6.2}{Perspectivas a futuros}{chapter.6}% 103
-\BOOKMARK [0][-]{chapter*.83}{Bibliograf\355a}{}% 104
-\BOOKMARK [0][-]{appendix.Alph1}{Protocolo de comunicaci\363n: CANae 0.1 Alpha Version}{}% 105
-\BOOKMARK [1][-]{section.Alph1.1}{Introducci\363n}{appendix.Alph1}% 106
-\BOOKMARK [2][-]{subsection.Alph1.1.1}{Revisiones}{section.Alph1.1}% 107
-\BOOKMARK [1][-]{section.Alph1.2}{Capa de aplicaci\363n}{appendix.Alph1}% 108
-\BOOKMARK [1][-]{section.Alph1.3}{Tipos de servicios de la capa de aplicaci\363n}{appendix.Alph1}% 109
-\BOOKMARK [1][-]{section.Alph1.4}{CANae Application Layer}{appendix.Alph1}% 110
-\BOOKMARK [1][-]{section.Alph1.5}{CMS}{appendix.Alph1}% 111
-\BOOKMARK [2][-]{subsection.Alph1.5.1}{Prioridades de los objetos}{section.Alph1.5}% 112
-\BOOKMARK [2][-]{subsection.Alph1.5.2}{Objeto CMS}{section.Alph1.5}% 113
-\BOOKMARK [2][-]{subsection.Alph1.5.3}{Servicios de CMS}{section.Alph1.5}% 114
-\BOOKMARK [2][-]{subsection.Alph1.5.4}{Eventos}{section.Alph1.5}% 115
-\BOOKMARK [1][-]{section.Alph1.6}{NMT}{appendix.Alph1}% 116
-\BOOKMARK [2][-]{subsection.Alph1.6.1}{Objetos NMT}{section.Alph1.6}% 117
-\BOOKMARK [2][-]{subsection.Alph1.6.2}{Servicios NMT}{section.Alph1.6}% 118
-\BOOKMARK [2][-]{subsection.Alph1.6.3}{Protocolos NMT}{section.Alph1.6}% 119
-\BOOKMARK [1][-]{section.Alph1.7}{DBT}{appendix.Alph1}% 120
-\BOOKMARK [2][-]{subsection.Alph1.7.1}{Objetos y servicios de DBT}{section.Alph1.7}% 121
-\BOOKMARK [2][-]{subsection.Alph1.7.2}{Descripci\363n de los servicios DBT}{section.Alph1.7}% 122
-\BOOKMARK [2][-]{subsection.Alph1.7.3}{Objetos DBT}{section.Alph1.7}% 123
-\BOOKMARK [2][-]{subsection.Alph1.7.4}{Servicios DBT}{section.Alph1.7}% 124
-\BOOKMARK [2][-]{subsection.Alph1.7.5}{Protocolos DBT}{section.Alph1.7}% 125
-\BOOKMARK [1][-]{section.Alph1.8}{Gestor de mensajes}{appendix.Alph1}% 126
-\BOOKMARK [2][-]{subsection.Alph1.8.1}{Receiver Manager}{section.Alph1.8}% 127
-\BOOKMARK [2][-]{subsection.Alph1.8.2}{Prepared Message}{section.Alph1.8}% 128
-\BOOKMARK [2][-]{subsection.Alph1.8.3}{Sorter Message}{section.Alph1.8}% 129
-\BOOKMARK [2][-]{subsection.Alph1.8.4}{Buffer Messages}{section.Alph1.8}% 130
-\BOOKMARK [2][-]{subsection.Alph1.8.5}{Buffer Message Receive y Buffer Message To Send}{section.Alph1.8}% 131
-\BOOKMARK [1][-]{section.Alph1.9}{Gestor de Nodo}{appendix.Alph1}% 132
-\BOOKMARK [2][-]{subsection.Alph1.9.1}{Tabla primara y secundaria de ruteo}{section.Alph1.9}% 133
-\BOOKMARK [2][-]{subsection.Alph1.9.2}{Servicios}{section.Alph1.9}% 134
-\BOOKMARK [1][-]{section.Alph1.10}{Formato de mensajes}{appendix.Alph1}% 135
-\BOOKMARK [2][-]{subsection.Alph1.10.1}{Start of Frame}{section.Alph1.10}% 136
-\BOOKMARK [2][-]{subsection.Alph1.10.2}{Priority}{section.Alph1.10}% 137
-\BOOKMARK [2][-]{subsection.Alph1.10.3}{Node-ID}{section.Alph1.10}% 138
-\BOOKMARK [2][-]{subsection.Alph1.10.4}{Remote transmission request \(RTR\)}{section.Alph1.10}% 139
-\BOOKMARK [2][-]{subsection.Alph1.10.5}{Type of Message \(TOM\)}{section.Alph1.10}% 140
-\BOOKMARK [2][-]{subsection.Alph1.10.6}{Bit reservado}{section.Alph1.10}% 141
-\BOOKMARK [2][-]{subsection.Alph1.10.7}{Data length}{section.Alph1.10}% 142
-\BOOKMARK [2][-]{subsection.Alph1.10.8}{Data field}{section.Alph1.10}% 143
-\BOOKMARK [2][-]{subsection.Alph1.10.9}{CRC}{section.Alph1.10}% 144
-\BOOKMARK [2][-]{subsection.Alph1.10.10}{ CRC delimiter}{section.Alph1.10}% 145
-\BOOKMARK [2][-]{subsection.Alph1.10.11}{ ACK}{section.Alph1.10}% 146
-\BOOKMARK [2][-]{subsection.Alph1.10.12}{ ACK delimiter}{section.Alph1.10}% 147
-\BOOKMARK [2][-]{subsection.Alph1.10.13}{ End-of-Frame \(EOF\)}{section.Alph1.10}% 148
-\BOOKMARK [1][-]{section.Alph1.11}{High Application Layer CANae}{appendix.Alph1}% 149
-\BOOKMARK [2][-]{subsection.Alph1.11.1}{Network Management}{section.Alph1.11}% 150
-\BOOKMARK [2][-]{subsection.Alph1.11.2}{Task Management}{section.Alph1.11}% 151
-\BOOKMARK [2][-]{subsection.Alph1.11.3}{List of Tasks}{section.Alph1.11}% 152
-\BOOKMARK [2][-]{subsection.Alph1.11.4}{Task}{section.Alph1.11}% 153
-\BOOKMARK [1][-]{section.Alph1.12}{Arquitectura completa del CANae}{appendix.Alph1}% 154
-\BOOKMARK [1][-]{section.Alph1.13}{Estados de nodos y red}{appendix.Alph1}% 155
-\BOOKMARK [0][-]{appendix.Alph2}{Especificaci\363n de Casos de Uso}{}% 156
-\BOOKMARK [1][-]{section.Alph2.1}{Enviar Mensaje}{appendix.Alph2}% 157
-\BOOKMARK [1][-]{section.Alph2.2}{Recibir Mensaje}{appendix.Alph2}% 158
-\BOOKMARK [1][-]{section.Alph2.3}{Procesar Mensaje}{appendix.Alph2}% 159
-\BOOKMARK [1][-]{section.Alph2.4}{Rutear Mensaje}{appendix.Alph2}% 160
-\BOOKMARK [1][-]{section.Alph2.5}{Gestionar Red}{appendix.Alph2}% 161
-\BOOKMARK [1][-]{section.Alph2.6}{Gestionar Tareas}{appendix.Alph2}% 162
-\BOOKMARK [1][-]{section.Alph2.7}{Dividir Tareas}{appendix.Alph2}% 163
-\BOOKMARK [1][-]{section.Alph2.8}{FDIR}{appendix.Alph2}% 164
-\BOOKMARK [1][-]{section.Alph2.9}{Reconfigurar Arquitectura}{appendix.Alph2}% 165
-\BOOKMARK [0][-]{appendix.Alph3}{Antecedentes}{}% 166
+\BOOKMARK [2][-]{subsection.2.3.3}{Falla de causa com\372n}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.4}{Fallas en el Software}{section.2.3}% 15
+\BOOKMARK [1][-]{section.2.4}{Medios de fiabilidad}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.4.1}{Evitaci\363n de Fallas}{section.2.4}% 17
+\BOOKMARK [2][-]{subsection.2.4.2}{Tolerancia a Fallas}{section.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.4.3}{Eliminaci\363n de Fallas}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.4}{Predicci\363n de Fallas}{section.2.4}% 20
+\BOOKMARK [1][-]{section.2.5}{Atributos de la fiabilidad}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{Confiabilidad}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.2}{Disponibilidad}{section.2.5}% 23
+\BOOKMARK [2][-]{subsection.2.5.3}{Seguridad}{section.2.5}% 24
+\BOOKMARK [1][-]{section.2.6}{Tolerancia a falla}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.7}{Redundancia en el software}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.7.1}{T\351cnicas single version}{section.2.7}% 27
+\BOOKMARK [2][-]{subsection.2.7.2}{T\351cnicas multi-version}{section.2.7}% 28
+\BOOKMARK [2][-]{subsection.2.7.3}{T\351cnicas de detecci\363n de fallas}{section.2.7}% 29
+\BOOKMARK [2][-]{subsection.2.7.4}{T\351cnicas de recuperaci\363n de fallas}{section.2.7}% 30
+\BOOKMARK [1][-]{section.2.8}{T\351cnica de evaluaci\363n de fiabilidad}{chapter.2}% 31
+\BOOKMARK [1][-]{section.2.9}{Medidas comunes de fiabilidad}{chapter.2}% 32
+\BOOKMARK [2][-]{subsection.2.9.1}{Failure rate}{section.2.9}% 33
+\BOOKMARK [2][-]{subsection.2.9.2}{Tiempo medio de falla}{section.2.9}% 34
+\BOOKMARK [2][-]{subsection.2.9.3}{Tiempo medio de reparaci\363n}{section.2.9}% 35
+\BOOKMARK [2][-]{subsection.2.9.4}{Tiempo medio entre fallas}{section.2.9}% 36
+\BOOKMARK [2][-]{subsection.2.9.5}{Cobertura de fallas}{section.2.9}% 37
+\BOOKMARK [1][-]{section.2.10}{M\351todos de c\341lculos de fiabilidad}{chapter.2}% 38
+\BOOKMARK [2][-]{subsection.2.10.1}{Diagramas de bloques de confiabilidad}{section.2.10}% 39
+\BOOKMARK [2][-]{subsection.2.10.2}{Utilizaci\363n de procesos de Markov}{section.2.10}% 40
+\BOOKMARK [1][-]{section.2.11}{Modelos de falla}{chapter.2}% 41
+\BOOKMARK [2][-]{subsection.2.11.1}{Tiempo hasta la falla}{section.2.11}% 42
+\BOOKMARK [2][-]{subsection.2.11.2}{Funci\363n de confiabilidad}{section.2.11}% 43
+\BOOKMARK [2][-]{subsection.2.11.3}{Tasa de falla}{section.2.11}% 44
+\BOOKMARK [2][-]{subsection.2.11.4}{Tiempo medio hasta la falla}{section.2.11}% 45
+\BOOKMARK [2][-]{subsection.2.11.5}{Vida restante media}{section.2.11}% 46
+\BOOKMARK [2][-]{subsection.2.11.6}{Distribuci\363n binomial}{section.2.11}% 47
+\BOOKMARK [2][-]{subsection.2.11.7}{Distribuci\363n exponencial}{section.2.11}% 48
+\BOOKMARK [1][-]{section.2.12}{Protocolos de comunicaci\363n de tiempo real}{chapter.2}% 49
+\BOOKMARK [2][-]{subsection.2.12.1}{Sistemas de tiempo real}{section.2.12}% 50
+\BOOKMARK [1][-]{section.2.13}{Estrategia de acceso al medio}{chapter.2}% 51
+\BOOKMARK [2][-]{subsection.2.13.1}{CSMA}{section.2.13}% 52
+\BOOKMARK [2][-]{subsection.2.13.2}{TDMA}{section.2.13}% 53
+\BOOKMARK [2][-]{subsection.2.13.3}{Minislotting}{section.2.13}% 54
+\BOOKMARK [1][-]{section.2.14}{Revisi\363n de protocolos}{chapter.2}% 55
+\BOOKMARK [2][-]{subsection.2.14.1}{CAN}{section.2.14}% 56
+\BOOKMARK [2][-]{subsection.2.14.2}{byteflight}{section.2.14}% 57
+\BOOKMARK [2][-]{subsection.2.14.3}{ARINC 659 o SAFEbus}{section.2.14}% 58
+\BOOKMARK [2][-]{subsection.2.14.4}{TTP/C}{section.2.14}% 59
+\BOOKMARK [1][-]{section.2.15}{Posibles fallas en una red}{chapter.2}% 60
+\BOOKMARK [1][-]{section.2.16}{Protocolo CAN}{chapter.2}% 61
+\BOOKMARK [2][-]{subsection.2.16.1}{Consideraciones previas}{section.2.16}% 62
+\BOOKMARK [2][-]{subsection.2.16.2}{Introducci\363n}{section.2.16}% 63
+\BOOKMARK [2][-]{subsection.2.16.3}{Elementos necesarios}{section.2.16}% 64
+\BOOKMARK [2][-]{subsection.2.16.4}{Capa f\355sica}{section.2.16}% 65
+\BOOKMARK [2][-]{subsection.2.16.5}{Capa de Enlace}{section.2.16}% 66
+\BOOKMARK [2][-]{subsection.2.16.6}{Formato del mensaje}{section.2.16}% 67
+\BOOKMARK [2][-]{subsection.2.16.7}{CANAerospace}{section.2.16}% 68
+\BOOKMARK [0][-]{chapter.3}{Estado del arte}{}% 69
+\BOOKMARK [1][-]{section.3.1}{\301rboles binarios}{chapter.3}% 70
+\BOOKMARK [2][-]{subsection.3.1.1}{Esquema de \341rbol binario con backups}{section.3.1}% 71
+\BOOKMARK [1][-]{section.3.2}{Sistemas Hypercube}{chapter.3}% 72
+\BOOKMARK [1][-]{section.3.3}{Redes distribuidas}{chapter.3}% 73
+\BOOKMARK [2][-]{subsection.3.3.1}{Algoritmo de ruteo}{section.3.3}% 74
+\BOOKMARK [1][-]{section.3.4}{Redes Ethernet en avi\363nica}{chapter.3}% 75
+\BOOKMARK [2][-]{subsection.3.4.1}{Experiencia de vuelo}{section.3.4}% 76
+\BOOKMARK [1][-]{section.3.5}{Arquitectura de red basada en BUS}{chapter.3}% 77
+\BOOKMARK [2][-]{subsection.3.5.1}{Evaluaci\363n de la confiabilidad de arquitecturas basadas en BUS}{section.3.5}% 78
+\BOOKMARK [1][-]{section.3.6}{M\351trica y modelado de la confiabilidad de sistemas}{chapter.3}% 79
+\BOOKMARK [1][-]{section.3.7}{CAN en la actividad espacial}{chapter.3}% 80
+\BOOKMARK [0][-]{chapter.4}{An\341lisis y desarrollo de arquitectura tolerante a fallas}{}% 81
+\BOOKMARK [1][-]{section.4.1}{Requerimientos para el an\341lisis}{chapter.4}% 82
+\BOOKMARK [1][-]{section.4.2}{Nomenclatura}{chapter.4}% 83
+\BOOKMARK [1][-]{section.4.3}{Estudio de topolog\355as de arquitecturas}{chapter.4}% 84
+\BOOKMARK [2][-]{subsection.4.3.1}{\301rbol binario}{section.4.3}% 85
+\BOOKMARK [2][-]{subsection.4.3.2}{Red distribuida}{section.4.3}% 86
+\BOOKMARK [2][-]{subsection.4.3.3}{Red hypercube}{section.4.3}% 87
+\BOOKMARK [1][-]{section.4.4}{Topolog\355a utilizada en la arquitectura a dise\361ar}{chapter.4}% 88
+\BOOKMARK [1][-]{section.4.5}{Topolog\355a propuesta}{chapter.4}% 89
+\BOOKMARK [1][-]{section.4.6}{Protocolo de comunicaci\363n}{chapter.4}% 90
+\BOOKMARK [0][-]{chapter.5}{Arquitectura propuesta}{}% 91
+\BOOKMARK [1][-]{section.5.1}{\301rbol de requerimientos}{chapter.5}% 92
+\BOOKMARK [1][-]{section.5.2}{Casos de Uso}{chapter.5}% 93
+\BOOKMARK [1][-]{section.5.3}{Dise\361o Estructural}{chapter.5}% 94
+\BOOKMARK [2][-]{subsection.5.3.1}{Bridge tolerante a fallas}{section.5.3}% 95
+\BOOKMARK [2][-]{subsection.5.3.2}{Bloques Internos}{section.5.3}% 96
+\BOOKMARK [2][-]{subsection.5.3.3}{Nodo Monitor}{section.5.3}% 97
+\BOOKMARK [1][-]{section.5.4}{Modelo din\341mico}{chapter.5}% 98
+\BOOKMARK [2][-]{subsection.5.4.1}{M\341quina de estado}{section.5.4}% 99
+\BOOKMARK [2][-]{subsection.5.4.2}{Diagrama de secuencia}{section.5.4}% 100
+\BOOKMARK [2][-]{subsection.5.4.3}{Diagrama de actividades}{section.5.4}% 101
+\BOOKMARK [0][-]{chapter.6}{Conclusi\363n}{}% 102
+\BOOKMARK [1][-]{section.6.1}{Conclusiones finales}{chapter.6}% 103
+\BOOKMARK [1][-]{section.6.2}{Perspectivas a futuros}{chapter.6}% 104
+\BOOKMARK [0][-]{chapter*.82}{Bibliograf\355a}{}% 105
+\BOOKMARK [0][-]{appendix.Alph1}{Protocolo de comunicaci\363n: CANae 0.1 Alpha Version}{}% 106
+\BOOKMARK [1][-]{section.Alph1.1}{Introducci\363n}{appendix.Alph1}% 107
+\BOOKMARK [2][-]{subsection.Alph1.1.1}{Revisiones}{section.Alph1.1}% 108
+\BOOKMARK [1][-]{section.Alph1.2}{Capa de aplicaci\363n}{appendix.Alph1}% 109
+\BOOKMARK [1][-]{section.Alph1.3}{Tipos de servicios de la capa de aplicaci\363n}{appendix.Alph1}% 110
+\BOOKMARK [1][-]{section.Alph1.4}{CANae Application Layer}{appendix.Alph1}% 111
+\BOOKMARK [1][-]{section.Alph1.5}{CMS}{appendix.Alph1}% 112
+\BOOKMARK [2][-]{subsection.Alph1.5.1}{Prioridades de los objetos}{section.Alph1.5}% 113
+\BOOKMARK [2][-]{subsection.Alph1.5.2}{Objeto CMS}{section.Alph1.5}% 114
+\BOOKMARK [2][-]{subsection.Alph1.5.3}{Servicios de CMS}{section.Alph1.5}% 115
+\BOOKMARK [2][-]{subsection.Alph1.5.4}{Eventos}{section.Alph1.5}% 116
+\BOOKMARK [1][-]{section.Alph1.6}{NMT}{appendix.Alph1}% 117
+\BOOKMARK [2][-]{subsection.Alph1.6.1}{Objetos NMT}{section.Alph1.6}% 118
+\BOOKMARK [2][-]{subsection.Alph1.6.2}{Servicios NMT}{section.Alph1.6}% 119
+\BOOKMARK [2][-]{subsection.Alph1.6.3}{Protocolos NMT}{section.Alph1.6}% 120
+\BOOKMARK [1][-]{section.Alph1.7}{DBT}{appendix.Alph1}% 121
+\BOOKMARK [2][-]{subsection.Alph1.7.1}{Objetos y servicios de DBT}{section.Alph1.7}% 122
+\BOOKMARK [2][-]{subsection.Alph1.7.2}{Descripci\363n de los servicios DBT}{section.Alph1.7}% 123
+\BOOKMARK [2][-]{subsection.Alph1.7.3}{Objetos DBT}{section.Alph1.7}% 124
+\BOOKMARK [2][-]{subsection.Alph1.7.4}{Servicios DBT}{section.Alph1.7}% 125
+\BOOKMARK [2][-]{subsection.Alph1.7.5}{Protocolos DBT}{section.Alph1.7}% 126
+\BOOKMARK [1][-]{section.Alph1.8}{Gestor de mensajes}{appendix.Alph1}% 127
+\BOOKMARK [2][-]{subsection.Alph1.8.1}{Receiver Manager}{section.Alph1.8}% 128
+\BOOKMARK [2][-]{subsection.Alph1.8.2}{Prepared Message}{section.Alph1.8}% 129
+\BOOKMARK [2][-]{subsection.Alph1.8.3}{Sorter Message}{section.Alph1.8}% 130
+\BOOKMARK [2][-]{subsection.Alph1.8.4}{Buffer Messages}{section.Alph1.8}% 131
+\BOOKMARK [2][-]{subsection.Alph1.8.5}{Buffer Message Receive y Buffer Message To Send}{section.Alph1.8}% 132
+\BOOKMARK [1][-]{section.Alph1.9}{Gestor de Nodo}{appendix.Alph1}% 133
+\BOOKMARK [2][-]{subsection.Alph1.9.1}{Tabla primara y secundaria de ruteo}{section.Alph1.9}% 134
+\BOOKMARK [2][-]{subsection.Alph1.9.2}{Servicios}{section.Alph1.9}% 135
+\BOOKMARK [1][-]{section.Alph1.10}{Formato de mensajes}{appendix.Alph1}% 136
+\BOOKMARK [2][-]{subsection.Alph1.10.1}{Start of Frame}{section.Alph1.10}% 137
+\BOOKMARK [2][-]{subsection.Alph1.10.2}{Priority}{section.Alph1.10}% 138
+\BOOKMARK [2][-]{subsection.Alph1.10.3}{Node-ID}{section.Alph1.10}% 139
+\BOOKMARK [2][-]{subsection.Alph1.10.4}{Remote transmission request \(RTR\)}{section.Alph1.10}% 140
+\BOOKMARK [2][-]{subsection.Alph1.10.5}{Type of Message \(TOM\)}{section.Alph1.10}% 141
+\BOOKMARK [2][-]{subsection.Alph1.10.6}{Bit reservado}{section.Alph1.10}% 142
+\BOOKMARK [2][-]{subsection.Alph1.10.7}{Data length}{section.Alph1.10}% 143
+\BOOKMARK [2][-]{subsection.Alph1.10.8}{Data field}{section.Alph1.10}% 144
+\BOOKMARK [2][-]{subsection.Alph1.10.9}{CRC}{section.Alph1.10}% 145
+\BOOKMARK [2][-]{subsection.Alph1.10.10}{ CRC delimiter}{section.Alph1.10}% 146
+\BOOKMARK [2][-]{subsection.Alph1.10.11}{ ACK}{section.Alph1.10}% 147
+\BOOKMARK [2][-]{subsection.Alph1.10.12}{ ACK delimiter}{section.Alph1.10}% 148
+\BOOKMARK [2][-]{subsection.Alph1.10.13}{ End-of-Frame \(EOF\)}{section.Alph1.10}% 149
+\BOOKMARK [1][-]{section.Alph1.11}{High Application Layer CANae}{appendix.Alph1}% 150
+\BOOKMARK [2][-]{subsection.Alph1.11.1}{Network Management}{section.Alph1.11}% 151
+\BOOKMARK [2][-]{subsection.Alph1.11.2}{Task Management}{section.Alph1.11}% 152
+\BOOKMARK [2][-]{subsection.Alph1.11.3}{List of Tasks}{section.Alph1.11}% 153
+\BOOKMARK [2][-]{subsection.Alph1.11.4}{Task}{section.Alph1.11}% 154
+\BOOKMARK [1][-]{section.Alph1.12}{Arquitectura completa del CANae}{appendix.Alph1}% 155
+\BOOKMARK [1][-]{section.Alph1.13}{Estados de nodos y red}{appendix.Alph1}% 156
+\BOOKMARK [0][-]{appendix.Alph2}{Especificaci\363n de Casos de Uso}{}% 157
+\BOOKMARK [1][-]{section.Alph2.1}{Enviar Mensaje}{appendix.Alph2}% 158
+\BOOKMARK [1][-]{section.Alph2.2}{Recibir Mensaje}{appendix.Alph2}% 159
+\BOOKMARK [1][-]{section.Alph2.3}{Procesar Mensaje}{appendix.Alph2}% 160
+\BOOKMARK [1][-]{section.Alph2.4}{Rutear Mensaje}{appendix.Alph2}% 161
+\BOOKMARK [1][-]{section.Alph2.5}{Gestionar Red}{appendix.Alph2}% 162
+\BOOKMARK [1][-]{section.Alph2.6}{Gestionar Tareas}{appendix.Alph2}% 163
+\BOOKMARK [1][-]{section.Alph2.7}{Dividir Tareas}{appendix.Alph2}% 164
+\BOOKMARK [1][-]{section.Alph2.8}{FDIR}{appendix.Alph2}% 165
+\BOOKMARK [1][-]{section.Alph2.9}{Reconfigurar Arquitectura}{appendix.Alph2}% 166
+\BOOKMARK [0][-]{appendix.Alph3}{Antecedentes}{}% 167

@@ -39,7 +39,7 @@ Esta cuenta con 4 nodos de grado 4, 2 nodos de grado 3, y 2 nodos de grado 2. An
 
 Se modificó la fórmula desarrollada  por \cite{Stivaros92}, para lograr una coherencia entre los modelos que se plantean en el presente trabajo. Teniendo en cuenta que la confiabilidad del sistema completo es: $$R(t) = \prod_{v \in S} e^{- \lambda t}$$
 donde $v$ representa el nodo y $S$ es el subsistema funcional. Es decir, que este modelo recorre todos los nodos funcionales. Cuando existen nodos con fallas, y que dejan de ser funcionales, el modelo es el siguiente: $$R_{sys} =\sum_{i=0}^{k} (( \prod_{v \in S} R(t)) - (\prod_{v \notin S} (1 -  R(t) c )))$$
-donde c se definió como una \textit{constante de degradación del sistema} para modelar una degradación del sistema.
+donde c se definió como una \textit{constante de degradación del sistema} para modelar una degradación del sistema (c es definida en la subsección \ref{subsec:conf_binary_tree}).
 
 En la Figura \ref{fig:reliability_distributedNet} se puede observar la \textit{curva de confiabilidad} del sistema, para el caso en el que todos los nodos se encuentren funcionales.
 
