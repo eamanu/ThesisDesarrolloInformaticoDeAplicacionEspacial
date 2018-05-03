@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.1)  1 MAY 2018 20:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.1)  2 MAY 2018 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1742,13 +1742,170 @@ LaTeX Info: Redefining \% on input line 1.
 
 ] [67
 
-]) (./conclusiones.tex
-(./TesisPresentacion.toc
+] [68
+
+]
+<images/Arq_General.JPG, id=2846, 1195.46625pt x 583.17876pt>
+File: images/Arq_General.JPG Graphic file (type jpg)
+
+<use images/Arq_General.JPG>
+Package pdftex.def Info: images/Arq_General.JPG used on input line 20.
+(pdftex.def)             Requested size: 334.72827pt x 163.28894pt.
+ [69
+
+ <./images/Arq_General.JPG>]
+<images/Caso_de_Uso_Arquitectura.JPG, id=2873, 817.0525pt x 628.3475pt>
+File: images/Caso_de_Uso_Arquitectura.JPG Graphic file (type jpg)
+
+<use images/Caso_de_Uso_Arquitectura.JPG>
+Package pdftex.def Info: images/Caso_de_Uso_Arquitectura.JPG used on input line
+ 25.
+(pdftex.def)             Requested size: 326.81522pt x 251.33455pt.
+ [70
+
+ <./images/Caso_de_Uso_Arquitectura.JPG>] [71
+
+] [72
+
+] [73
+
+] <images/Bridge1.jpg, id=2980, 523.9575pt x 575.14874pt>
+File: images/Bridge1.jpg Graphic file (type jpg)
+
+<use images/Bridge1.jpg>
+Package pdftex.def Info: images/Bridge1.jpg used on input line 51.
+(pdftex.def)             Requested size: 209.57928pt x 230.05542pt.
+ [74
+
+ <./images/Bridge1.jpg>]
+<images/Bridge2.jpg, id=3007, 664.4825pt x 398.48875pt>
+File: images/Bridge2.jpg Graphic file (type jpg)
+
+<use images/Bridge2.jpg>
+Package pdftex.def Info: images/Bridge2.jpg used on input line 56.
+(pdftex.def)             Requested size: 265.78828pt x 159.39267pt.
+ [75
+
+ <./images/Bridge2.jpg>]
+<images/com_nodo.jpg, id=3035, 603.25375pt x 417.56pt>
+File: images/com_nodo.jpg Graphic file (type jpg)
+
+<use images/com_nodo.jpg>
+Package pdftex.def Info: images/com_nodo.jpg used on input line 61.
+(pdftex.def)             Requested size: 241.29723pt x 167.02103pt.
+ [76
+
+ <./images/com_nodo.jpg>]
+<images/ArqCompletaBlockDiagram.JPG, id=3062, 1175.39125pt x 935.495pt>
+File: images/ArqCompletaBlockDiagram.JPG Graphic file (type jpg)
+
+<use images/ArqCompletaBlockDiagram.JPG>
+Package pdftex.def Info: images/ArqCompletaBlockDiagram.JPG used on input line 
+67.
+(pdftex.def)             Requested size: 470.14818pt x 374.19136pt.
+
+Overfull \hbox (127.85287pt too wide) in paragraph at lines 67--67
+ [][] 
+ []
+
+
+Overfull \vbox (137.58487pt too high) detected at line 67
+ []
+
+[77
+
+ <./images/ArqCompletaBlockDiagram.JPG>]
+<images/NodeInternalDiagram.JPG, id=3089, 926.46124pt x 1348.03625pt>
+File: images/NodeInternalDiagram.JPG Graphic file (type jpg)
+
+<use images/NodeInternalDiagram.JPG>
+Package pdftex.def Info: images/NodeInternalDiagram.JPG used on input line 73.
+(pdftex.def)             Requested size: 370.57793pt x 539.20496pt.
+
+Overfull \hbox (28.28262pt too wide) in paragraph at lines 73--73
+ [][] 
+ []
+
+
+Overfull \vbox (302.59846pt too high) detected at line 73
+ []
+
+[78
+
+ <./images/NodeInternalDiagram.JPG>] [79
+
+]
+<images/StateMachineArqCompleta.JPG, id=3144, 735.74875pt x 953.5625pt>
+File: images/StateMachineArqCompleta.JPG Graphic file (type jpg)
+
+<use images/StateMachineArqCompleta.JPG>
+Package pdftex.def Info: images/StateMachineArqCompleta.JPG used on input line 
+84.
+(pdftex.def)             Requested size: 294.29428pt x 381.41824pt.
+
+Overfull \vbox (144.81175pt too high) detected at line 84
+ []
+
+[80
+
+ <./images/StateMachineArqCompleta.JPG>]
+<images/InitializeNodes.JPG, id=3171, 652.4375pt x 533.995pt>
+File: images/InitializeNodes.JPG Graphic file (type jpg)
+
+<use images/InitializeNodes.JPG>
+Package pdftex.def Info: images/InitializeNodes.JPG used on input line 90.
+(pdftex.def)             Requested size: 260.97037pt x 213.59421pt.
+ [81
+
+ <./images/InitializeNodes.JPG>] [82
+
+]
+<images/initNodes.JPG, id=3224, 1027.84pt x 974.64125pt>
+File: images/initNodes.JPG Graphic file (type jpg)
+
+<use images/initNodes.JPG>
+Package pdftex.def Info: images/initNodes.JPG used on input line 101.
+(pdftex.def)             Requested size: 411.12872pt x 389.8496pt.
+
+Overfull \hbox (68.83342pt too wide) in paragraph at lines 101--101
+ [][] 
+ []
+
+
+Overfull \vbox (153.2431pt too high) detected at line 101
+ []
+
+[83
+
+ <./images/initNodes.JPG>]
+<images/NodeMonitor.JPG, id=3251, 881.2925pt x 1392.20125pt>
+File: images/NodeMonitor.JPG Graphic file (type jpg)
+
+<use images/NodeMonitor.JPG>
+Package pdftex.def Info: images/NodeMonitor.JPG used on input line 107.
+(pdftex.def)             Requested size: 352.51076pt x 556.87064pt.
+
+Overfull \hbox (10.21545pt too wide) in paragraph at lines 107--107
+ [][] 
+ []
+
+
+Overfull \vbox (320.26414pt too high) detected at line 107
+ []
+
+[84
+
+ <./images/NodeMonitor.JPG>]) (./conclusiones.tex (./TesisPresentacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [68
+)
+[85
 
-] [69
+] [86
+
+] [87
+
+] [88
 
 ])
 \tf@nav=\write6
@@ -1777,10 +1934,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 19263 strings out of 493013
- 361156 string characters out of 6135682
- 451080 words of memory out of 5000000
- 22068 multiletter control sequences out of 15000+600000
+ 19394 strings out of 493013
+ 363381 string characters out of 6135682
+ 451250 words of memory out of 5000000
+ 22150 multiletter control sequences out of 15000+600000
  17043 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,68p,810b,956s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1800,10 +1957,10 @@ cmssi17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on TesisPresentacion.pdf (69 pages, 4939223 bytes).
+Output written on TesisPresentacion.pdf (88 pages, 5807380 bytes).
 PDF statistics:
- 2992 PDF objects out of 3580 (max. 8388607)
- 2825 compressed objects within 29 object streams
- 167 named destinations out of 1000 (max. 500000)
- 451 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3514 PDF objects out of 3580 (max. 8388607)
+ 3312 compressed objects within 34 object streams
+ 205 named destinations out of 1000 (max. 500000)
+ 506 words of extra memory for PDF output out of 10000 (max. 10000000)
 
