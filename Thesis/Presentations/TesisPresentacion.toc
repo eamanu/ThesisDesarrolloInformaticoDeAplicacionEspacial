@@ -1,0 +1,29 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{Motivacion}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Componentes COTS}{5}{0}{1}
+\beamer@sectionintoc {2}{Objetivos}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Objetivos del trabajo}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Objetivos espec\IeC {\'\i }fico}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{Preguntas de investigaci\IeC {\'o}n}{13}{0}{2}
+\beamer@sectionintoc {3}{Marco Te\IeC {\'o}rico}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{Definiciones}{16}{0}{3}
+\beamer@subsectionintoc {3}{2}{Medios y atributos de fiabilidad}{20}{0}{3}
+\beamer@subsectionintoc {3}{3}{Atributos de la fiabildad}{23}{0}{3}
+\beamer@subsectionintoc {3}{4}{Medidas usadas en fiabilidad}{27}{0}{3}
+\beamer@subsectionintoc {3}{5}{Tolerancia a fallas}{31}{0}{3}
+\beamer@sectionintoc {4}{Bus CAN}{34}{0}{4}
+\beamer@subsectionintoc {4}{1}{Definici\IeC {\'o}n}{35}{0}{4}
+\beamer@subsectionintoc {4}{2}{Protocolo CAN}{38}{0}{4}
+\beamer@sectionintoc {5}{Estado del arte}{40}{0}{5}
+\beamer@subsectionintoc {5}{1}{\IeC {\'A}rboles binarios}{41}{0}{5}
+\beamer@subsectionintoc {5}{2}{Redes Hypercube}{43}{0}{5}
+\beamer@subsectionintoc {5}{3}{Redes distribuidas}{45}{0}{5}
+\beamer@subsectionintoc {5}{4}{Redes TTEthernet en avi\IeC {\'o}nica}{47}{0}{5}
+\beamer@sectionintoc {6}{An\IeC {\'a}lisis de arquitectura tolerante a fallas}{49}{0}{6}
+\beamer@sectionintoc {7}{CANae}{53}{0}{7}
+\beamer@subsectionintoc {7}{1}{Introducci\IeC {\'o}n}{54}{0}{7}
+\beamer@subsectionintoc {7}{2}{Capa de aplicaci\IeC {\'o}n}{56}{0}{7}
+\beamer@subsectionintoc {7}{3}{CANae Application Layer}{58}{0}{7}
+\beamer@subsectionintoc {7}{4}{High Application Layer CANae}{64}{0}{7}
+\beamer@sectionintoc {8}{Arquitectura propuesta}{66}{0}{8}
+\beamer@sectionintoc {9}{Conclusiones}{68}{0}{9}

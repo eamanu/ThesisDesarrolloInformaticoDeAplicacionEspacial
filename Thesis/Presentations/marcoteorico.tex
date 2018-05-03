@@ -1,0 +1,138 @@
+\section{Marco Teórico}
+\subsection{Definiciones}
+\begin{frame}
+    \frametitle{Fallas != Error != Avería}
+    \begin{itemize}
+        \item \textbf{Avería:} ocurre cuando el servicio prestado por el sistema no coincide con las especificaciones del mismo.  Existe una consecuencia negativa en el sistema completo. (Failure)
+        \item \textbf{Error:} es una parte del estado del sistema que es susceptible de provocar un avería en el sistema. Es una etapa intermedia entre falla y avería. (Error)
+        \item \textbf{Falla:} también llamado “bug”. Es la hipótesis de un error. (Fault)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Fallas de modo común vs fallas de causa común}
+	\begin{itemize}
+		\item \textbf{Fallas de modo común (CMF):}  es una falla que ocurre simultáneamente en dos o más componentes redundantes. CMF son causados por fenómenos que crean dependencias entre unidades redundadas.
+		\item \textbf{Fallas de causa común (CCF):} se define como cualquier instancia donde múltiples elementos fallan debido a una causa común
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Fallas en el Software}
+	Algunas de las fallas introducidas en el software:
+	\begin{itemize}
+		\item Especificaciones incorrecta de requerimientos
+		\item Diseño incorrecto
+		\item Errores de programación
+	\end{itemize}
+\end{frame}
+
+\subsection{Medios y atributos de fiabilidad}
+\begin{frame}
+	\frametitle{Fiabilidad de sistemas}
+	Algunas de las fallas introducidas en el software:
+	La fiabilidad de un sistema es la capacidad del mismo de entregar a los usuarios un nivel deseado de servicio. 
+	\vfill
+	Es una medida de calidad que abarca los conceptos: confiabilidad, disponibilidad, y seguridad.
+	\vfill
+	Es un propiedad global que permite justificar la confianza de los servicios de un sistema 
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Medios de fiabilidad}
+	\begin{itemize}
+		\item \textbf{Evitación de fallas:} técnicas de mejoramiento de la fiabilidad utilizadas durante el desarrollo de SW para reducir el número de fallas.  
+        \item \textbf{Tolerancia a fallas:} se utiliza como una capa más de protección. FT es la capacidad del sistema a ejecutarse apropiadamente a pesar de la presencia de fallas. FT ocurre en tiempo de ejecución.
+        \item \textbf{Eliminación de Fallas:} técnicas utilizadas para mejorar la fiabilidad empleadas durante el proceso de validación y verificación del sistema SW. Se eliminan la fallas que se detectan.
+        \item \textbf{Predicción de Fallas:} se aplica mediante la realización de una evaluación del comportamiento del sistema con respecto a la ocurrencia, o la activación de una falla.
+	\end{itemize}
+\end{frame}
+
+\subsection{Atributos de la fiabildad}
+\begin{frame}
+	\frametitle{Confiabilidad}
+	Es la probabilidad de que un sistema continúe operando correctamente durante un intervalo de tiempo dado. 
+	“Es la capacidad del sistema o componente de realizar sus funciones requeridos bajo las condiciones establecidas durante un período de tiempo específico” (IEEE)
+	\LARGE
+	$$
+	R(t) = e^{-\lambda t }
+	$$
+\end{frame}
+
+\begin{frame}
+	\frametitle{Disponibilidad}
+	Es la probabilidad de que el sistema esté operando correctamente en un determinado instante de tiempo. 
+	\LARGE
+	$$
+	A(t) = 1/T \int_0^T{A(t) dt}
+	$$
+\end{frame}
+
+\begin{frame}
+	\frametitle{Seguridad}
+	Se considera como una extensión de la confiabilidad. Se define como la probabilidad de que el sistema sea capaz de realizar sus funciones correctamente o continuar sus funciones en una manera a prueba de fallas. 
+\end{frame}
+
+\subsection{Medidas usadas en fiabilidad}
+\begin{frame}
+	\frametitle{Failure rate}
+	Es el número esperado de fallas por unidad de tiempo. Generalmente, se encuentra a nivel de componente.
+	\LARGE
+	$$
+	\lambda =  \sum_{i=1}^{n} \lambda_n
+	$$	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Failure rate}
+	\begin{columns}[T]
+		\begin{column}{.5\textwidth}
+			\centering
+			Failure rate de HW vs tiempo
+			\includegraphics[scale=0.4]{images/bathtub_curve.png}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\centering
+			Failure rate de SW vs tiempo
+			\includegraphics[scale=0.4]{images/Failure_rate_software.png}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Failure rate}
+    \textbf{Tiempo medio hasta la falla (MTTF):}
+    $$ MTTF = \int_{0}^{\infty}{R(t) dt} $$
+    \textbf{Tiempo medio de reparación (MTTR):}
+    $$ MTTR = 1/\mu $$
+\end{frame}
+
+\subsection{Tolerancia a fallas}
+\begin{frame}
+	\frametitle{Tolerancia a fallas}
+	\begin{columns}[T]
+		\begin{column}{.5\textwidth}
+			\centering
+			Ariane 5 - 1996
+			\vfill
+			\includegraphics[scale=1]{images/ariane5.jpg}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\centering
+			Schiaparelli - 2016
+			\vfill
+			\includegraphics[scale=0.2]{images/mars.jpg}
+		\end{column}
+	\end{columns}    
+\end{frame}
+
+\begin{frame}
+	\frametitle{Redundancia en el software}
+	\begin{itemize}
+		\item Técnicas single version
+		\item Técnicas multi-version
+		\item Técnicas de detección de fallas
+		\item Técnicas de recuperación de fallas
+	\end{itemize}
+\end{frame}

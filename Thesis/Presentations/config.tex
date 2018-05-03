@@ -1,0 +1,45 @@
+\title[MDIAE]{Diseño de una arquitectura tolerante a fallas basada en componentes COTS para vehículos satelitales de nueva generación}
+\author{Arias Emmanuel}
+\institute[UNLAM]{Universidad Nacional de la Matanza}
+\date{\today}
+\newcommand{\director}{Director: Ing. Gustavo Wiman}
+
+% re-definition of the title page
+\setbeamertemplate{title page}{
+	\centering
+	{\fontsize{18}{20}\selectfont
+	\begin{beamercolorbox}[rounded=true,shadow=true,sep=8pt,center, dp=1cm]{title}
+		\inserttitle \par
+	\end{beamercolorbox}
+    }
+	\vfill
+	\begin{columns}[T]
+		\begin{column}{.23\textwidth}
+			\centering
+			\includegraphics[scale=0.1]{images/logo-conae.png}
+		\end{column}
+		\begin{column}{.43\textwidth}
+			\vbox to .3\textheight{%
+				\centering
+				Tesista: \insertauthor
+				\vfill
+				\director
+				\vfill
+				\vfill
+				\usebeamerfont{institute}\insertinstitute \par
+				\vfill
+				\centering
+				\insertdate\par
+		    }
+		\end{column}
+		\begin{column}{.23\textwidth}
+			\centering
+			\includegraphics[scale=0.2]{images/logo-invap.png}
+			\vfill
+			\centering
+			\includegraphics[scale=0.2]{images/logo-unlam.jpg}
+		\end{column}
+	\end{columns}
+	
+	\vfill
+}

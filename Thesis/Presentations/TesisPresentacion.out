@@ -1,0 +1,28 @@
+\BOOKMARK [2][]{Outline0.1}{Motivacion}{}% 1
+\BOOKMARK [3][]{Outline0.1.1.5}{Componentes COTS}{Outline0.1}% 2
+\BOOKMARK [2][]{Outline0.2}{Objetivos}{}% 3
+\BOOKMARK [3][]{Outline0.2.1.8}{Objetivos del trabajo}{Outline0.2}% 4
+\BOOKMARK [3][]{Outline0.2.2.10}{Objetivos espec\355fico}{Outline0.2}% 5
+\BOOKMARK [3][]{Outline0.2.3.13}{Preguntas de investigaci\363n}{Outline0.2}% 6
+\BOOKMARK [2][]{Outline0.3}{Marco Te\363rico}{}% 7
+\BOOKMARK [3][]{Outline0.3.1.16}{Definiciones}{Outline0.3}% 8
+\BOOKMARK [3][]{Outline0.3.2.20}{Medios y atributos de fiabilidad}{Outline0.3}% 9
+\BOOKMARK [3][]{Outline0.3.3.23}{Atributos de la fiabildad}{Outline0.3}% 10
+\BOOKMARK [3][]{Outline0.3.4.27}{Medidas usadas en fiabilidad}{Outline0.3}% 11
+\BOOKMARK [3][]{Outline0.3.5.31}{Tolerancia a fallas}{Outline0.3}% 12
+\BOOKMARK [2][]{Outline0.4}{Bus CAN}{}% 13
+\BOOKMARK [3][]{Outline0.4.1.35}{Definici\363n}{Outline0.4}% 14
+\BOOKMARK [3][]{Outline0.4.2.38}{Protocolo CAN}{Outline0.4}% 15
+\BOOKMARK [2][]{Outline0.5}{Estado del arte}{}% 16
+\BOOKMARK [3][]{Outline0.5.1.41}{\301rboles binarios}{Outline0.5}% 17
+\BOOKMARK [3][]{Outline0.5.2.43}{Redes Hypercube}{Outline0.5}% 18
+\BOOKMARK [3][]{Outline0.5.3.45}{Redes distribuidas}{Outline0.5}% 19
+\BOOKMARK [3][]{Outline0.5.4.47}{Redes TTEthernet en avi\363nica}{Outline0.5}% 20
+\BOOKMARK [2][]{Outline0.6}{An\341lisis de arquitectura tolerante a fallas}{}% 21
+\BOOKMARK [2][]{Outline0.7}{CANae}{}% 22
+\BOOKMARK [3][]{Outline0.7.1.54}{Introducci\363n}{Outline0.7}% 23
+\BOOKMARK [3][]{Outline0.7.2.56}{Capa de aplicaci\363n}{Outline0.7}% 24
+\BOOKMARK [3][]{Outline0.7.3.58}{CANae Application Layer}{Outline0.7}% 25
+\BOOKMARK [3][]{Outline0.7.4.64}{High Application Layer CANae}{Outline0.7}% 26
+\BOOKMARK [2][]{Outline0.8}{Arquitectura propuesta}{}% 27
+\BOOKMARK [2][]{Outline0.9}{Conclusiones}{}% 28

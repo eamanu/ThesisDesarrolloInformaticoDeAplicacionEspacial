@@ -1,0 +1,25 @@
+\begin{frame}%[allowframebreaks]
+    \frametitle{Agenda}
+    \begin{multicols}{2}
+	    \tableofcontents
+	\end{multicols}
+\end{frame}
+
+\AtBeginSection[]
+{
+	\begin{frame}%[allowframebreaks]
+		\frametitle{Agenda}
+		\begin{multicols}{2}
+		\tableofcontents[currentsection]
+		\end{multicols}
+	\end{frame}
+}
+\AtBeginSubsection[]
+{
+	\begin{frame}%[allowframebreaks]
+		\frametitle{Agenda}
+		\begin{multicols}{2}
+			\tableofcontents[currentsubsection]	
+		\end{multicols}
+	\end{frame}
+}
