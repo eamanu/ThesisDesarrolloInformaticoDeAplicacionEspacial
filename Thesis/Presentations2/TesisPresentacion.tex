@@ -1,0 +1,57 @@
+\documentclass[spanish]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usetheme{Boadilla}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{textcomp}	
+% Title, author, director, configurations
+\input{config.tex}
+
+\begin{document}
+\begin{frame}
+	\titlepage
+\end{frame}
+
+% Table of content
+\input{toc.tex}
+
+% Motivacion
+\input{motivacion.tex}
+
+% Objetivos
+\input{objetivos.tex}
+
+% que es la tolerancia a fallas
+\input{tolerancia.tex}
+
+% Marco teórico
+%\input{marcoteorico.tex}
+
+% CAN bus
+\input{canbus.tex}
+
+% Estado del arte
+\input{artstate.tex}
+
+% Análisis de arquitectura tolerante a fallas
+\input{arq_tolerante_a_fallas.tex}
+
+% CANae
+\input{canae.tex}
+
+% Arquitectura propuesta
+\input{arqprop.tex}
+
+% Conclusiones
+\input{conclusiones.tex}
+
+\begin{frame}[c]
+	\LARGE\centering
+	\textbf{Muchas gracias por su atención}
+\end{frame}
+
+\appendix
+\input{backup.tex}
+	
+\end{document}
