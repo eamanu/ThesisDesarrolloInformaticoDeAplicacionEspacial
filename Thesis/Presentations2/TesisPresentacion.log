@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.1)  29 MAY 2018 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.1)  18 OCT 2018 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1425,10 +1425,9 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <18> not available
 (Font)              size <17.28> substituted on input line 14.
 
-<images/logo-conae.png, id=110, 803.0pt x 546.04pt>
+<images/logo-conae.png, id=90, 803.0pt x 546.04pt>
 File: images/logo-conae.png Graphic file (type png)
-
-<use images/logo-conae.png>
+ <use images/logo-conae.png>
 Package pdftex.def Info: images/logo-conae.png used on input line 14.
 (pdftex.def)             Requested size: 80.3047pt x 54.6072pt.
 
@@ -1436,14 +1435,14 @@ Overfull \hbox (1.57825pt too wide) in paragraph at lines 14--14
  [][] 
  []
 
-<images/logo-invap.png, id=112, 374.8404pt x 220.4235pt>
+<images/logo-invap.png, id=92, 374.8404pt x 220.4235pt>
 File: images/logo-invap.png Graphic file (type png)
 
 <use images/logo-invap.png>
 Package pdftex.def Info: images/logo-invap.png used on input line 14.
 (pdftex.def)             Requested size: 74.96675pt x 44.08391pt.
 
-<images/logo-unlam.jpg, id=113, 341.275pt x 195.73125pt>
+<images/logo-unlam.jpg, id=93, 341.275pt x 195.73125pt>
 File: images/logo-unlam.jpg Graphic file (type jpg)
 
 <use images/logo-unlam.jpg>
@@ -1517,13 +1516,13 @@ LaTeX Info: Redefining \% on input line 1.
 ) [11
 
 ]
-<images/ariane5.jpg, id=611, 144.54pt x 95.1555pt>
+<images/ariane5.jpg, id=555, 144.54pt x 95.1555pt>
 File: images/ariane5.jpg Graphic file (type jpg)
  <use images/ariane5.jpg>
 Package pdftex.def Info: images/ariane5.jpg used on input line 18.
 (pdftex.def)             Requested size: 144.53963pt x 95.15524pt.
 
-<images/mars.jpg, id=612, 642.4pt x 361.35pt>
+<images/mars.jpg, id=556, 642.4pt x 361.35pt>
 File: images/mars.jpg Graphic file (type jpg)
  <use images/mars.jpg>
 Package pdftex.def Info: images/mars.jpg used on input line 18.
@@ -1567,7 +1566,7 @@ LaTeX Info: Redefining \% on input line 1.
 ) [20
 
 ]
-<images/ProtocoloCANAuto.png, id=972, 454.69875pt x 466.74374pt>
+<images/ProtocoloCANAuto.png, id=896, 454.69875pt x 466.74374pt>
 File: images/ProtocoloCANAuto.png Graphic file (type png)
 
 <use images/ProtocoloCANAuto.png>
@@ -1581,13 +1580,13 @@ Overfull \hbox (10.72862pt too wide) in paragraph at lines 20--20
 [21
 
  <./images/ProtocoloCANAuto.png>]
-<images/bus_can.png, id=1001, 501.875pt x 501.875pt>
+<images/bus_can.png, id=926, 501.875pt x 501.875pt>
 File: images/bus_can.png Graphic file (type png)
  <use images/bus_can.png>
 Package pdftex.def Info: images/bus_can.png used on input line 42.
 (pdftex.def)             Requested size: 150.56366pt x 150.56366pt.
 
-<images/1553.png, id=1002, 1284.8pt x 963.6pt>
+<images/1553.png, id=927, 1284.8pt x 963.6pt>
 File: images/1553.png Graphic file (type png)
  <use images/1553.png>
 Package pdftex.def Info: images/1553.png used on input line 42.
@@ -1600,7 +1599,7 @@ LaTeX Info: Redefining \% on input line 1.
 ) [23
 
 ]
-<images/ISO11898_Arquitectura_Standar.jpg, id=1084, 379.4175pt x 315.1775pt>
+<images/ISO11898_Arquitectura_Standar.jpg, id=1003, 379.4175pt x 315.1775pt>
 File: images/ISO11898_Arquitectura_Standar.jpg Graphic file (type jpg)
 
 <use images/ISO11898_Arquitectura_Standar.jpg>
@@ -1608,21 +1607,21 @@ Package pdftex.def Info: images/ISO11898_Arquitectura_Standar.jpg used on input
  line 66.
 (pdftex.def)             Requested size: 151.7643pt x 126.06876pt.
 
-<images/CAN_BUS_Traffic.jpg, id=1085, 417.56pt x 266.9975pt>
+<images/CAN_BUS_Traffic.jpg, id=1004, 417.56pt x 266.9975pt>
 File: images/CAN_BUS_Traffic.jpg Graphic file (type jpg)
 
 <use images/CAN_BUS_Traffic.jpg>
 Package pdftex.def Info: images/CAN_BUS_Traffic.jpg used on input line 66.
 (pdftex.def)             Requested size: 125.26895pt x 80.09985pt.
 
-<images/StandarCAN.png, id=1086, 1161.33875pt x 166.6225pt>
+<images/StandarCAN.png, id=1005, 1161.33875pt x 166.6225pt>
 File: images/StandarCAN.png Graphic file (type png)
 
 <use images/StandarCAN.png>
 Package pdftex.def Info: images/StandarCAN.png used on input line 66.
 (pdftex.def)             Requested size: 116.14067pt x 16.66322pt.
 
-<images/ExtendedCAN.png, id=1087, 1251.67625pt x 161.60374pt>
+<images/ExtendedCAN.png, id=1006, 1251.67625pt x 161.60374pt>
 File: images/ExtendedCAN.png Graphic file (type png)
 
 <use images/ExtendedCAN.png>
@@ -1631,96 +1630,16 @@ Package pdftex.def Info: images/ExtendedCAN.png used on input line 66.
  [24
 
  <./images/ISO11898_Arquitectura_Standar.jpg> <./images/CAN_BUS_Traffic.jpg> <.
-/images/StandarCAN.png> <./images/ExtendedCAN.png>]) (./artstate.tex (./TesisPr
-esentacion.toc
+/images/StandarCAN.png> <./images/ExtendedCAN.png>]) (./arq_tolerante_a_fallas.
+tex (./TesisPresentacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 ) [25
 
-] (./TesisPresentacion.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-)
-[26
+] [26
 
-] <images/binary_tree.jpg, id=1221, 292.09125pt x 193.22716pt>
-File: images/binary_tree.jpg Graphic file (type jpg)
-
-<use images/binary_tree.jpg>
-Package pdftex.def Info: images/binary_tree.jpg used on input line 20.
-(pdftex.def)             Requested size: 175.25609pt x 115.93718pt.
-
-Overfull \hbox (4.10844pt too wide) in paragraph at lines 20--20
-[][]  
- []
-
+]
 [27
-
- <./images/binary_tree.jpg>] (./TesisPresentacion.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-) [28
-
-]
-<images/cube.png, id=1302, 598.235pt x 340.27126pt>
-File: images/cube.png Graphic file (type png)
- <use images/cube.png>
-Package pdftex.def Info: images/cube.png used on input line 39.
-(pdftex.def)             Requested size: 179.47188pt x 102.08215pt.
-
-Overfull \hbox (8.32423pt too wide) in paragraph at lines 39--39
-[][]  
- []
-
-[29
-
- <./images/cube.png>] (./TesisPresentacion.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-) [30
-
-]
-<images/distribuida.png, id=1384, 780.9175pt x 420.57124pt>
-File: images/distribuida.png Graphic file (type png)
-
-<use images/distribuida.png>
-Package pdftex.def Info: images/distribuida.png used on input line 58.
-(pdftex.def)             Requested size: 195.2289pt x 105.14255pt.
-
-Overfull \hbox (24.08125pt too wide) in paragraph at lines 58--58
-[][]  
- []
-
-[31
-
- <./images/distribuida.png>] (./TesisPresentacion.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-) [32
-
-]
-<images/ttethernet.png, id=1466, 501.875pt x 337.26pt>
-File: images/ttethernet.png Graphic file (type png)
-
-<use images/ttethernet.png>
-Package pdftex.def Info: images/ttethernet.png used on input line 77.
-(pdftex.def)             Requested size: 200.74643pt x 134.9016pt.
-
-Overfull \hbox (29.59879pt too wide) in paragraph at lines 77--77
-[][]  
- []
-
-[33
-
- <./images/ttethernet.png>]) (./arq_tolerante_a_fallas.tex
-(./TesisPresentacion.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-) [34
-
-] [35
-
-] [36
 
 ]
 Overfull \hbox (21.62332pt too wide) detected at line 38
@@ -1733,7 +1652,7 @@ Overfull \hbox (22.12885pt too wide) detected at line 38
 \OT1/mathkerncmss/m/sl/10.95 R[]ys \OT1/cmss/m/n/10.95 = [] []
  []
 
-<images/comparative_reliablities.png, id=1614, 612.2875pt x 461.725pt>
+<images/comparative_reliablities.png, id=1150, 612.2875pt x 461.725pt>
 File: images/comparative_reliablities.png Graphic file (type png)
 
 <use images/comparative_reliablities.png>
@@ -1745,202 +1664,202 @@ Overfull \hbox (12.54002pt too wide) in paragraph at lines 38--38
 [][]  
  []
 
-[37
+[28
 
  <./images/comparative_reliablities.png (PNG copy)>]) (./canae.tex
 (./TesisPresentacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [38
+) [29
 
 ] (./TesisPresentacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [39
+) [30
 
-] [40
+] [31
 
 ]
 (./TesisPresentacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [41
+) [32
 
 ]
-<images/CANAE.JPG, id=1833, 754.82pt x 480.79625pt>
+<images/CANAE.JPG, id=1354, 754.82pt x 480.79625pt>
 File: images/CANAE.JPG Graphic file (type jpg)
  <use images/CANAE.JPG>
 Package pdftex.def Info: images/CANAE.JPG used on input line 25.
 (pdftex.def)             Requested size: 301.92265pt x 192.31508pt.
 
-[42
+[33
 
  <./images/CANAE.JPG>] (./TesisPresentacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [43
+) [34
 
 ]
-<images/CAN_Application_Layer_CANAE.jpg, id=1916, 720.6925pt x 491.8375pt>
+<images/CAN_Application_Layer_CANAE.jpg, id=1430, 720.6925pt x 491.8375pt>
 File: images/CAN_Application_Layer_CANAE.jpg Graphic file (type jpg)
 
 <use images/CAN_Application_Layer_CANAE.jpg>
 Package pdftex.def Info: images/CAN_Application_Layer_CANAE.jpg used on input l
 ine 32.
 (pdftex.def)             Requested size: 288.2719pt x 196.7315pt.
- [44
+ [35
 
- <./images/CAN_Application_Layer_CANAE.jpg>] <images/CMS.JPG, id=1945, 1055.945
+ <./images/CAN_Application_Layer_CANAE.jpg>] <images/CMS.JPG, id=1460, 1055.945
 pt x 536.0025pt>
 File: images/CMS.JPG Graphic file (type jpg)
 
 <use images/CMS.JPG>
 Package pdftex.def Info: images/CMS.JPG used on input line 39.
 (pdftex.def)             Requested size: 316.78595pt x 160.80199pt.
- [45
+ [36
 
  <./images/CMS.JPG>]
-<images/NMT.JPG, id=1974, 999.735pt x 823.075pt>
+<images/NMT.JPG, id=1489, 999.735pt x 823.075pt>
 File: images/NMT.JPG Graphic file (type jpg)
  <use images/NMT.JPG>
 Package pdftex.def Info: images/NMT.JPG used on input line 46.
 (pdftex.def)             Requested size: 249.93314pt x 205.76823pt.
- [46
+ [37
 
- <./images/NMT.JPG>] <images/DBT.JPG, id=2004, 1096.095pt x 559.08875pt>
+ <./images/NMT.JPG>] <images/DBT.JPG, id=1519, 1096.095pt x 559.08875pt>
 File: images/DBT.JPG Graphic file (type jpg)
 
 <use images/DBT.JPG>
 Package pdftex.def Info: images/DBT.JPG used on input line 53.
 (pdftex.def)             Requested size: 328.83104pt x 167.7279pt.
- [47
+ [38
 
  <./images/DBT.JPG>]
-<images/MessageManagement.JPG, id=2033, 1021.8175pt x 745.78625pt>
+<images/MessageManagement.JPG, id=1548, 1021.8175pt x 745.78625pt>
 File: images/MessageManagement.JPG Graphic file (type jpg)
 
 <use images/MessageManagement.JPG>
 Package pdftex.def Info: images/MessageManagement.JPG used on input line 60.
 (pdftex.def)             Requested size: 306.54762pt x 223.7376pt.
- [48
+ [39
 
  <./images/MessageManagement.JPG>]
-<images/NodeManagement.JPG, id=2062, 787.94376pt x 528.97626pt>
+<images/NodeManagement.JPG, id=1578, 787.94376pt x 528.97626pt>
 File: images/NodeManagement.JPG Graphic file (type jpg)
 
 <use images/NodeManagement.JPG>
 Package pdftex.def Info: images/NodeManagement.JPG used on input line 66.
 (pdftex.def)             Requested size: 236.38495pt x 158.69409pt.
- [49
+ [40
 
  <./images/NodeManagement.JPG>]
-<images/Data_Frame.jpg, id=2092, 791.95876pt x 102.3825pt>
+<images/Data_Frame.jpg, id=1606, 791.95876pt x 102.3825pt>
 File: images/Data_Frame.jpg Graphic file (type jpg)
 
 <use images/Data_Frame.jpg>
 Package pdftex.def Info: images/Data_Frame.jpg used on input line 73.
 (pdftex.def)             Requested size: 316.7779pt x 40.95227pt.
- [50
+ [41
 
  <./images/Data_Frame.jpg>]
 (./TesisPresentacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [51
+) [42
 
 ]
-<images/CANae_High_App_Layer.JPG, id=2171, 1052.93375pt x 749.80125pt>
+<images/CANae_High_App_Layer.JPG, id=1681, 1052.93375pt x 749.80125pt>
 File: images/CANae_High_App_Layer.JPG Graphic file (type jpg)
 
 <use images/CANae_High_App_Layer.JPG>
 Package pdftex.def Info: images/CANae_High_App_Layer.JPG used on input line 80.
 
 (pdftex.def)             Requested size: 315.88255pt x 224.94211pt.
- [52
+ [43
 
  <./images/CANae_High_App_Layer.JPG>]) (./arqprop.tex (./TesisPresentacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [53
+) [44
 
-] [54
+] [45
 
-] [55
+] [46
 
 ]
-<images/Arq_General.JPG, id=2311, 1195.46625pt x 583.17876pt>
+<images/Arq_General.JPG, id=1815, 1195.46625pt x 583.17876pt>
 File: images/Arq_General.JPG Graphic file (type jpg)
 
 <use images/Arq_General.JPG>
 Package pdftex.def Info: images/Arq_General.JPG used on input line 20.
 (pdftex.def)             Requested size: 334.72827pt x 163.28894pt.
- [56
+ [47
 
  <./images/Arq_General.JPG>]
-<images/Caso_de_Uso_Arquitectura.JPG, id=2340, 817.0525pt x 628.3475pt>
+<images/Caso_de_Uso_Arquitectura.JPG, id=1844, 817.0525pt x 628.3475pt>
 File: images/Caso_de_Uso_Arquitectura.JPG Graphic file (type jpg)
 
 <use images/Caso_de_Uso_Arquitectura.JPG>
 Package pdftex.def Info: images/Caso_de_Uso_Arquitectura.JPG used on input line
  25.
 (pdftex.def)             Requested size: 326.81522pt x 251.33455pt.
- [57
+ [48
 
- <./images/Caso_de_Uso_Arquitectura.JPG>] [58
+ <./images/Caso_de_Uso_Arquitectura.JPG>] [49
 
-] [59
+] [50
 
-] [60
+] [51
 
-] <images/Bridge1.jpg, id=2455, 523.9575pt x 575.14874pt>
+] <images/Bridge1.jpg, id=1960, 523.9575pt x 575.14874pt>
 File: images/Bridge1.jpg Graphic file (type jpg)
 
 <use images/Bridge1.jpg>
 Package pdftex.def Info: images/Bridge1.jpg used on input line 51.
 (pdftex.def)             Requested size: 209.57928pt x 230.05542pt.
- [61
+ [52
 
  <./images/Bridge1.jpg>]
-<images/Bridge2.jpg, id=2485, 664.4825pt x 398.48875pt>
+<images/Bridge2.jpg, id=1990, 664.4825pt x 398.48875pt>
 File: images/Bridge2.jpg Graphic file (type jpg)
 
 <use images/Bridge2.jpg>
 Package pdftex.def Info: images/Bridge2.jpg used on input line 56.
 (pdftex.def)             Requested size: 265.78828pt x 159.39267pt.
- [62
+ [53
 
  <./images/Bridge2.jpg>]
-<images/com_nodo.jpg, id=2515, 603.25375pt x 417.56pt>
+<images/com_nodo.jpg, id=2019, 603.25375pt x 417.56pt>
 File: images/com_nodo.jpg Graphic file (type jpg)
 
 <use images/com_nodo.jpg>
 Package pdftex.def Info: images/com_nodo.jpg used on input line 61.
 (pdftex.def)             Requested size: 241.29723pt x 167.02103pt.
- [63
+ [54
 
  <./images/com_nodo.jpg>]
-<images/ArqCompletaBlockDiagram.JPG, id=2544, 1175.39125pt x 935.495pt>
+<images/ArqCompletaBlockDiagram.JPG, id=2048, 1175.39125pt x 935.495pt>
 File: images/ArqCompletaBlockDiagram.JPG Graphic file (type jpg)
 
 <use images/ArqCompletaBlockDiagram.JPG>
 Package pdftex.def Info: images/ArqCompletaBlockDiagram.JPG used on input line 
 67.
 (pdftex.def)             Requested size: 293.84709pt x 233.87317pt.
- [64
+ [55
 
- <./images/ArqCompletaBlockDiagram.JPG>] <images/NodeInternalDiagram.JPG, id=25
-73, 926.46124pt x 1348.03625pt>
+ <./images/ArqCompletaBlockDiagram.JPG>] <images/NodeInternalDiagram.JPG, id=20
+78, 926.46124pt x 1348.03625pt>
 File: images/NodeInternalDiagram.JPG Graphic file (type jpg)
 
 <use images/NodeInternalDiagram.JPG>
 Package pdftex.def Info: images/NodeInternalDiagram.JPG used on input line 73.
 (pdftex.def)             Requested size: 138.96318pt x 202.19672pt.
- [65
+ [56
 
  <./images/NodeInternalDiagram.JPG>]
-[66
+[57
 
-] <images/StateMachineArqCompleta.JPG, id=2631, 735.74875pt x 953.5625pt>
+] <images/StateMachineArqCompleta.JPG, id=2136, 735.74875pt x 953.5625pt>
 File: images/StateMachineArqCompleta.JPG Graphic file (type jpg)
 
 <use images/StateMachineArqCompleta.JPG>
@@ -1951,42 +1870,62 @@ Package pdftex.def Info: images/StateMachineArqCompleta.JPG used on input line
 Overfull \vbox (1.78355pt too high) detected at line 84
  []
 
-[67
+[58
 
  <./images/StateMachineArqCompleta.JPG>]
-<images/InitializeNodes.JPG, id=2661, 652.4375pt x 533.995pt>
+<images/InitializeNodes.JPG, id=2165, 652.4375pt x 533.995pt>
 File: images/InitializeNodes.JPG Graphic file (type jpg)
 
 <use images/InitializeNodes.JPG>
 Package pdftex.def Info: images/InitializeNodes.JPG used on input line 90.
 (pdftex.def)             Requested size: 195.73276pt x 160.19974pt.
- [68
+ [59
 
- <./images/InitializeNodes.JPG>] [69
+ <./images/InitializeNodes.JPG>] [60
 
 ]
-<images/initNodes.JPG, id=2718, 1027.84pt x 974.64125pt>
+<images/initNodes.JPG, id=2223, 1027.84pt x 974.64125pt>
 File: images/initNodes.JPG Graphic file (type jpg)
 
 <use images/initNodes.JPG>
 Package pdftex.def Info: images/initNodes.JPG used on input line 101.
 (pdftex.def)             Requested size: 226.12549pt x 214.42174pt.
- [70
+ [61
 
  <./images/initNodes.JPG>]
-<images/NodeMonitor.JPG, id=2747, 881.2925pt x 1392.20125pt>
+<images/NodeMonitor.JPG, id=2252, 881.2925pt x 1392.20125pt>
 File: images/NodeMonitor.JPG Graphic file (type jpg)
 
 <use images/NodeMonitor.JPG>
 Package pdftex.def Info: images/NodeMonitor.JPG used on input line 107.
 (pdftex.def)             Requested size: 132.18817pt x 208.82117pt.
- [71
+ [62
 
  <./images/NodeMonitor.JPG>])
 (./conclusiones.tex (./TesisPresentacion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-) [72
+) [63
+
+] [64
+
+] [65
+
+] [66
+
+]) [67
+
+]
+(./backup.tex [68
+
+] [69
+
+
+] [70
+
+] [71
+
+] [72
 
 ] [73
 
@@ -1994,48 +1933,28 @@ LaTeX Info: Redefining \% on input line 1.
 
 ] [75
 
-]) [76
+] [76
 
 ]
-(./backup.tex [77
-
-] [78
-
-
-] [79
-
-] [80
-
-] [81
-
-] [82
-
-] [83
-
-] [84
-
-] [85
-
-]
-<images/bathtub_curve.png, id=3196, 425.59pt x 275.0275pt>
+<images/bathtub_curve.png, id=2695, 425.59pt x 275.0275pt>
 File: images/bathtub_curve.png Graphic file (type png)
 
 <use images/bathtub_curve.png>
 Package pdftex.def Info: images/bathtub_curve.png used on input line 93.
 (pdftex.def)             Requested size: 170.23297pt x 110.00905pt.
 
-<images/Failure_rate_software.png, id=3197, 419.5675pt x 268.00125pt>
+<images/Failure_rate_software.png, id=2696, 419.5675pt x 268.00125pt>
 File: images/Failure_rate_software.png Graphic file (type png)
 
 <use images/Failure_rate_software.png>
 Package pdftex.def Info: images/Failure_rate_software.png used on input line 93
 .
 (pdftex.def)             Requested size: 167.82402pt x 107.1986pt.
- [86
+ [77
 
- <./images/bathtub_curve.png> <./images/Failure_rate_software.png>] [87
+ <./images/bathtub_curve.png> <./images/Failure_rate_software.png>] [78
 
-] [88
+] [79
 
 ])
 \tf@nav=\write6
@@ -2056,7 +1975,7 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `TesisPresentacion.out' has not changed.
-(rerunfilecheck)             Checksum: 113B4E3F4CEE94A5B486C829A2E5DC5A;1533.
+(rerunfilecheck)             Checksum: 537C6F645C2FABFC8AD10EABA003D33A;1195.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2064,10 +1983,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 19895 strings out of 493013
- 371245 string characters out of 6135682
- 450883 words of memory out of 5000000
- 22643 multiletter control sequences out of 15000+600000
+ 19805 strings out of 493013
+ 369961 string characters out of 6135682
+ 444879 words of memory out of 5000000
+ 22593 multiletter control sequences out of 15000+600000
  18122 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,68p,810b,954s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2090,10 +2009,10 @@ dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfsi1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
 x1728.pfb>
-Output written on TesisPresentacion.pdf (88 pages, 5929809 bytes).
+Output written on TesisPresentacion.pdf (79 pages, 5621267 bytes).
 PDF statistics:
- 3390 PDF objects out of 3580 (max. 8388607)
- 3186 compressed objects within 32 object streams
- 201 named destinations out of 1000 (max. 500000)
- 484 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2886 PDF objects out of 2984 (max. 8388607)
+ 2702 compressed objects within 28 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 424 words of extra memory for PDF output out of 10000 (max. 10000000)
 
