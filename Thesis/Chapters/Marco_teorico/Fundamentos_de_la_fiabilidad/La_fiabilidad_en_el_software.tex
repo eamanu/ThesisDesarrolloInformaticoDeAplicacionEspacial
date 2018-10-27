@@ -26,7 +26,7 @@ la relación entre la evitación de fallos y la reducción de fallos, así como 
 Según \cite{Pullum01} la fiabilidad puede ser clasificada en:
 \begin{itemize}
  \item Impedimentos: son aquellas cosas que se interponen en el camino de la fiabilidad. Son las
-fallas, errores y fracasos.
+fallas, errores y averías.
  \item Medios: los medios para lograr la fiabilidad, según el autor, se pueden dividir en dos
 grupos:
   \begin{enumerate}
@@ -42,21 +42,21 @@ logro de esas propiedades.
 
 % TODO: deteriodo de la confiabilidad
 \section{Impedimentos de la confiabilidad}\label{sec:impedimentos}
-El impedimiento de la confiabilidad o deterioro de la confiabilidad es definido en términos de
-fallas, errores, y fracaso \citep{FTDesign}. Los mismos fueron desarrollados en la sección
+El impedimento de la confiabilidad o deterioro de la confiabilidad es definido en términos de
+fallas, errores, y avería \citep{FTDesign}. Los mismos fueron desarrollados en la sección
 \ref{sec:terminologia}. Lo que tienen en común estos tres conceptos, es que avisan, o dan alerta
 cuando algo está mal \citep{FTDesign}. La diferencia radica, en que las fallas son a nivel físico;
-los errores se dan a nivel computacional; mientras que los fracaso se dan a nivel de sistema
+los errores se dan a nivel computacional; mientras que las averías se dan a nivel de sistema
 \citep{FTDesign}.
 
 \subsection{Orígenes de la falla}
 Existen diversos orígenes de fallas. Estas pueden provenir desde terceros, en el caso de productos
 comprados, pueden deberse a una falta del conocimiento del problema, falta de tiempo, etc.
-\cite{FTDesign} clasifica el orígen de las fallas en cuatro grupos: \textit{especificación
+\cite{FTDesign} clasifica el origen de las fallas en cuatro grupos: \textit{especificación
 incorrecta, implementación incorrecta, defectos de fabricación y factores externos}
 
 Las \textit{especificaciones incorrectas} son aquellas que surgen debidas a una incorrecta
-especificación de requerimiento o un mal diseño de una arquitectura o de un algoritmo
+especificación de requerimientos o un mal diseño de una arquitectura o de un algoritmo
 \citep{FTDesign}. Estos orígenes de fallas son bastante comúnes en el desarrollo de sistemas. Un
 ejemplo típico citado por \cite{FTDesign}, es el caso de requerimientos que ignoran aspectos del
 medio ambiente en el que opera el sistema. Una mala redacción de un requerimiento o el olvido de
@@ -112,7 +112,7 @@ Los medios de confiabilidad son métodos y técnicas que permiten el desarrollo 
 confiable \citep{FTDesign}. Los medios se pueden dividir en dos grandes grupos \citep{Pullum01}:
 \begin{enumerate}
  \item Aquellos que son empleados durante el proceso de construcción del \ac{SW},
- \item y a quellos que ayudan en la validación del \ac{SW} después que fue desarrollado.
+ \item y aquellos que ayudan en la validación del \ac{SW} después que fue desarrollado.
 \end{enumerate}
 
 Dentro del primer grupo se tiene:
@@ -149,18 +149,18 @@ la validación y verificación del \ac{SW} \citep{Pullum01}. Estas técnicas mej
 \ac{SW} mediante la detección de fallas, usando métodos de verificación y la validación, y
 eliminando las fallas que se van detectando \citep{Pullum01}.
 
-Por otro lado \cite{FTDesign} indica que el \ac{FR} se lleva a cabo durante fases de desarollo de
+Por otro lado \cite{FTDesign} indica que el \ac{FR} se lleva a cabo durante fases de desarrollo de
 \ac{SW} tanto como durante el ciclo de vida de un sistema. Durante la fase de desarrollo, \ac{FR}
-consiste en tres pasos: \textit{verificación, diagnóstico y correción} \citep{FTDesign}. \ac{FR}
+consiste en tres pasos: \textit{verificación, diagnóstico y corrección} \citep{FTDesign}. \ac{FR}
 durante la vida operacional de un sistema, consiste en el mantenimiento preventivo y correctivo del
 mismo \citep{FTDesign}.
 
 \subsection{\acl{FF}}
 La \ac{FF} se realiza mediante la realización de una evaluación del comportamiento del sistema con
-respecto a la ocurrencia o la activación de una falla Según \cite{FTDesign} esta evaluación puede ser:
+respecto a la ocurrencia o la activación de una falla. Según \cite{FTDesign} esta evaluación puede ser:
 \begin{itemize}
  \item Cualitativa: que tiene como objetivo clasificar los modos de fallas o combinaciones de
-eventos que llevan al sistema al fracaso,
+eventos que llevan a la avería del sistema,
  \item Cuantitativa: que tiene como objetivo evaluar en término de probabilidad, el grado en el
 cual los atributos de fiabilidad son satisfechos.
 \end{itemize}
@@ -181,7 +181,7 @@ La confiabilidad es la probabilidad de que un sistema continúe operando correct
 intervalo de tiempo dado \citep{SoftwareFaultToleranceATutorial}.
 
 \cite{FTDesign} coincide que la confiabilidad \textit{R(t)}\footnote{En inlgés, Reliability} de un
-sistema es la probabilidad de que el sistema opere sin fracasos en el intervalo de tiempo
+sistema es la probabilidad de que el sistema opere sin averías en el intervalo de tiempo
 \textit{[0,t]}.
 
 La confiabilidad es una medida de la entrega correcta del servicio que brinda un sistema
@@ -206,7 +206,7 @@ tiempo \citep{SoftwareFaultToleranceATutorial}. La disponibilidad \textit{A(t)} 
 instante de tiempo \textit{t} es la probabilidad que el sistema esté funcionando correctamente en
 el instante \textit{t} \citep{FTDesign}.
 
-\cite{FTDesign} realiza un definción matemática de \textit{A(t)}, llamandola también como
+\cite{FTDesign} realiza un definición matemática de \textit{A(t)}, llamándola también como
 \textit{punto de disponibilidad} o \textit{disponibilidad instantánea}. Y la define como:
 
 $$A(T) = \frac{1}{T} \int_0^T \! A(t) \, \mathrm{d}x $$
@@ -262,7 +262,7 @@ llevará a cabo sus tareas de una manera no peligrosa. Un peligro se lo puede de
 estado o condición de un sistema, que juntos con otras condiciones ambientales del sistema,
 conducirá inevitablemente a un accidente'' \citep{SoftwareFaultToleranceATutorial}.
 
-La seguridad es requerida para aquellas aplicaciones de seguridad crítica donde un fracaso puede
+La seguridad es requerida para aquellas aplicaciones de seguridad crítica donde una avería puede
 resultar en lesiones humanas, pérdidas de vida o desastres ambientales \citep{FTDesign}.
 
 En el caso de los satélites, es importante asegurar altos niveles de seguridad, ya que

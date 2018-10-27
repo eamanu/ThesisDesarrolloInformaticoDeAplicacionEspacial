@@ -64,7 +64,7 @@ A lo largo de la vida del sistema se supone que el failure rate $\lambda$ es con
 
 La confiabilidad del sistema varía exponencialmente con respecto al tiempo \citep{FTDesign}: $$R(t) = e^{- \lambda t}$$
 
-Esto se conoce como \textit{ley de la falla exponencial} \citep{FTDesign}. El gráfico de confiabilidad $R(t)$ vs tiempo se muestra en la Figura \ref{fig:failure_rate}. Esta ley es utilizada para analizar la confiabilidad de de componentes y sistemas de hardware. En este trabajo de tesis se asume su extensión al software. Esta ley solo puede ser utilizada en casos dónde, se asume que la tasa de falla es constante. \citep{FTDesign}
+Esto se conoce como \textit{ley de la falla exponencial} \citep{FTDesign}. El gráfico de confiabilidad $R(t)$ vs tiempo se muestra en la Figura \ref{fig:failure_rate}. Esta ley es utilizada para analizar la confiabilidad de componentes y sistemas de hardware. En este trabajo de tesis se asume su extensión al software. Esta ley solo puede ser utilizada en casos dónde, se asume que la tasa de falla es constante. \citep{FTDesign}
 
 \begin{figure}[h]
  \centering
@@ -107,24 +107,24 @@ de las partes. La confiabilidad del sistema estará compuesta por la confiabilid
 $$R(t) = \left \{
 \begin{matrix}
   \prod_{i=1}^{n} R_{i}(t) & \text{para estructuras en serie}\\
-  1 - \prod_{i=1}^{n}(1-R_{i}(t)) & \text{para estructuras en paralelo}
+  1 - \prod_{i=1}^{n}(R_{i}(t)) & \text{para estructuras en paralelo}
 \end{matrix} $$
 Esto nos indica que un sistema paralelo, es más confiable que uno en serie, aún así si sus componentes son menos confiables. Tal como ejemplifica \cite{FTDesign}, si se diseña un sistema en serie de 100 componentes, con una confiabilidad de 0.999, el sistema completo tendrá una confiabilidad de:
 $0.999^{100} = 0.905$. Mientras que, para un sistema paralelo, con solo cuatro componentes, con una confiabilidad menor (0.95) la confiabilidad del sistema
-será $1-(0.95)^4 = 0.99999375$. El punto en contra de los sistemas paralelos, es que representan un costo mayor que las estrucuturas en serie \citep{FTDesign}.
+será $1-(0.95)^4 = 0.99999375$. El punto en contra de los sistemas paralelos, es que representan un costo mayor que las estructuras en serie \citep{FTDesign}.
 
 \subsubsection{Cálculo de disponibilidad}
 Si se asume que el tiempo de falla y de recuperación son independientes, entonces se puede utilizar diagramas de bloques para calcular la disponibilidad
-del sistema  \citep{FTDesign}.  Se puede observar que el cálculo es similiar al calculo de confiabilidad.
+del sistema  \citep{FTDesign}.  Se puede observar que el cálculo es similar al cálculo de confiabilidad.
  $$A(t) = \left \{
  \begin{matrix}
    \prod_{i=1}^{n} A_{i}(t) & \text{para estructuras en serie}\\
-   1 - \prod_{i=1}^{n}(1-A_{i}(t)) & \text{para estructuras en paralelo}
+   1 - \prod_{i=1}^{n}(A_{i}(t)) & \text{para estructuras en paralelo}
  \end{matrix} $$
 
 \subsection{Utilización de procesos de Markov}
 El principal objetivo del análisis de los procesos de Markov es calcular $P_i(t)$ la probabilidad de que el sistema se encuentre en el estado $i$
-en el tiempo $t$. Con esto se puede calcular facilmente la confiabilidad, disponibilidad o seguridad del sistema \citep{FTDesign}.
+en el tiempo $t$. Con esto se puede calcular fácilmente la confiabilidad, disponibilidad o seguridad del sistema \citep{FTDesign}.
 
 Para determinar $P_i(t)$ se debe derivar una serie de ecuaciones diferenciales, una por cada estado del sistema. Estas ecuaciones se denominan ecuaciones de estado de transición. Las ecuaciones de los estados de transición se representan en una matriz $M$ denominada \textit{matriz de transición}. Cada elemento $m_{ij}$ de la matriz $M$ es un rate de transición entre los estados $i$ y $j$
 $$M = \left [

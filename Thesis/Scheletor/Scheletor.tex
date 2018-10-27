@@ -35,6 +35,9 @@
 % \usetikzlibrary{arrows,positioning}
 % \usetikzlibrary{babel}
 
+%pagina en blanco
+\usepackage{afterpage}
+
 %Para agregar notas
 \usepackage{todonotes}
 
@@ -98,6 +101,14 @@ satelitales de nueva generación}{Arias Emmanuel}{UNIVERSIDAD NACIONAL DE LA MAT
 %    \href{http://creativecommons.org/licenses/by-sa/2.5/ar/}{Licencia
 %    Creative Commons Atribución-CompartirIgual 2.5
 %    Argentina.}  \end{center}
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+
+\afterpage{\blankpage}
 
 \newpage
 Parte de los resultados obtenidos en el presente trabajo

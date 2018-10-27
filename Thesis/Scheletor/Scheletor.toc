@@ -59,13 +59,13 @@
 \contentsline {subsection}{\numberline {2.12.1}Sistemas de tiempo real}{29}{subsection.2.12.1}
 \contentsline {section}{\numberline {2.13}Estrategia de acceso al medio}{30}{section.2.13}
 \contentsline {subsection}{\numberline {2.13.1}CSMA}{30}{subsection.2.13.1}
-\contentsline {subsection}{\numberline {2.13.2}TDMA}{31}{subsection.2.13.2}
+\contentsline {subsection}{\numberline {2.13.2}TDMA}{30}{subsection.2.13.2}
 \contentsline {subsection}{\numberline {2.13.3}Minislotting}{31}{subsection.2.13.3}
 \contentsline {section}{\numberline {2.14}Revisi\IeC {\'o}n de protocolos}{31}{section.2.14}
 \contentsline {subsection}{\numberline {2.14.1}CAN}{31}{subsection.2.14.1}
 \contentsline {subsection}{\numberline {2.14.2}byteflight}{31}{subsection.2.14.2}
 \contentsline {subsection}{\numberline {2.14.3}ARINC 659 o SAFEbus}{31}{subsection.2.14.3}
-\contentsline {subsection}{\numberline {2.14.4}TTP/C}{32}{subsection.2.14.4}
+\contentsline {subsection}{\numberline {2.14.4}TTP/C}{31}{subsection.2.14.4}
 \contentsline {section}{\numberline {2.15}Posibles fallas en una red}{32}{section.2.15}
 \contentsline {section}{\numberline {2.16}Protocolo CAN}{32}{section.2.16}
 \contentsline {subsection}{\numberline {2.16.1}Consideraciones previas}{32}{subsection.2.16.1}
@@ -76,15 +76,15 @@
 \contentsline {subsubsection}{\numberline {2.16.4.2}Bit timing}{35}{subsubsection.2.16.4.2}
 \contentsline {subsubsection}{\numberline {2.16.4.3}Asignaci\IeC {\'o}n eficiente del bus}{35}{subsubsection.2.16.4.3}
 \contentsline {subsection}{\numberline {2.16.5}Capa de Enlace}{35}{subsection.2.16.5}
-\contentsline {subsection}{\numberline {2.16.6}Formato del mensaje}{36}{subsection.2.16.6}
+\contentsline {subsection}{\numberline {2.16.6}Formato del mensaje}{35}{subsection.2.16.6}
 \contentsline {subsubsection}{\numberline {2.16.6.1}Data Frame}{36}{subsubsection.2.16.6.1}
 \contentsline {subsubsection}{\numberline {2.16.6.2}Remote Frame}{36}{subsubsection.2.16.6.2}
 \contentsline {subsubsection}{\numberline {2.16.6.3}Error Frame}{36}{subsubsection.2.16.6.3}
 \contentsline {subsubsection}{\numberline {2.16.6.4}Overload Frame}{36}{subsubsection.2.16.6.4}
-\contentsline {subsubsection}{\numberline {2.16.6.5}CAN est\IeC {\'a}ndar y CAN extendido}{37}{subsubsection.2.16.6.5}
+\contentsline {subsubsection}{\numberline {2.16.6.5}CAN est\IeC {\'a}ndar y CAN extendido}{36}{subsubsection.2.16.6.5}
 \contentsline {subsubsection}{\numberline {2.16.6.6}Arbitraje}{38}{subsubsection.2.16.6.6}
 \contentsline {subsection}{\numberline {2.16.7}CANAerospace}{38}{subsection.2.16.7}
-\contentsline {subsubsection}{\numberline {2.16.7.1}Formato del mensaje CANAerospace}{39}{subsubsection.2.16.7.1}
+\contentsline {subsubsection}{\numberline {2.16.7.1}Formato del mensaje CANAerospace}{38}{subsubsection.2.16.7.1}
 \contentsline {chapter}{\numberline {3}Estado del arte}{41}{chapter.3}
 \contentsline {section}{\numberline {3.1}\IeC {\'A}rboles binarios}{41}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Esquema de \IeC {\'a}rbol binario con backups}{42}{subsection.3.1.1}

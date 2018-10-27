@@ -270,7 +270,7 @@ producirse el error. Este estado anterior se encuentra almacenado en una memoria
 \end{figure} 
 
 
-Existe dos tipos de checkpoints, estáticos y dinámicos. Los checkpoints dinámicos toman una 
+Existe dos tipos de checkpoints, estáticos y dinámicos. Los checkpoints estáticos toman una 
 ``fotografía'' del estado del sistema antes de comenzar la ejecución del \ac{SW} y lo guarda en la
 memoria \citep{FTDesign}. Si se detecta una falla, el sistema regresa a ese estado y 
 comienza de nuevo su ejecución \citep{FTDesign}. Los checkpoints estáticos se basan en regresar el 
@@ -384,7 +384,7 @@ Las
 versiones son diferentes implementaciones de un mismo programa. Solo una de estas versiones provee 
 la salida del sistema. Si un error es detectado por el test de aceptación, se vuelve hacia atrás, 
 se retoma el último checkpoint, y se vuelve a ejecutar el módulo de \ac{SW} pero con una 
-versión diferente a la que se ejecutó anteriomente \citep{FTDesign}.  	
+versión diferente a la que se ejecutó anteriormente \citep{FTDesign}.  	
 
 Los checks del test de aceptación deben mantenerse simples para mantener la velocidad de la 
 ejecución \citep{FTDesign}.
